@@ -1,0 +1,49 @@
+.page {
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+.topBar {
+  background: #ffffff;
+  border-bottom: 0.5px solid rgba(0,0,0,0.1);
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.searchInput {
+  flex: 1;
+  max-width: 480px;
+  background: #f5f5f5;
+  border: 0.5px solid rgba(0,0,0,0.15);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.searchInput::placeholder {
+  color: #888;
+}
+
+.count {
+  font-size: 13px;
+  color: #888;
+  white-space: nowrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  padding: 28px 32px;
+}
+
+.empty {
+  padding: 64px 32px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}

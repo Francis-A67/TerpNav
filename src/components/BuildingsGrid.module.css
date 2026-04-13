@@ -1,0 +1,30 @@
+.section {
+  padding: 32px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.viewAll {
+  font-size: 13px;
+  color: #E03A3E;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "acronym": "IRB",
+    "full_name": "Iribe Center for Computer Science & Engineering",
+    "department": "Computer Science",
+    "description": "Home of UMD's CS department, featuring modern labs, study spaces, and lecture halls.",
+    "address": "8125 Paint Branch Dr, College Park, MD 20742",
+    "latitude": 38.8892,
+    "longitude": -76.9373,
+    "hours": "Mon–Fri 7am–10pm, Sat–Sun 9am–6pm"
+  },
+  {
+    "acronym": "ESJ",
+    "full_name": "Edward St. John Learning & Teaching Center",
+    "department": "General Classrooms",
+    "description": "Large multi-purpose learning center with lecture halls and collaborative spaces.",
+    "address": "College Park, MD 20742",
+    "latitude": 38.9869,
+    "longitude": -76.9426,
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  {
+    "acronym": "HBK",
+    "full_name": "Hornbake Library",
+    "department": "iSchool & Library",
+    "description": "Home of UMD's Information Science program and non-print media collections.",
+    "address": "4130 Campus Dr, College Park, MD 20742",
+    "latitude": 38.9856,
+    "longitude": -76.9441,
+    "hours": "Mon–Thu 8am–midnight, Fri 8am–8pm"
+  },
+  {
+    "acronym": "McKK",
+    "full_name": "McKeldin Library",
+    "department": "Main Library",
+    "description": "UMD's main library with study rooms, research support, and print collections.",
+    "address": "7649 Library Ln, College Park, MD 20742",
+    "latitude": 38.9858,
+    "longitude": -76.9452,
+    "hours": "Mon–Thu 7:30am–midnight"
+  },
+  {
+    "acronym": "STAMP",
+    "full_name": "Stamp Student Union",
+    "department": "Student Life",
+    "description": "Central hub for student services, dining, events, and campus organizations.",
+    "address": "3972 Campus Dr, College Park, MD 20742",
+    "latitude": 38.9872,
+    "longitude": -76.9446,
+    "hours": "Mon–Fri 7am–11pm, Sat–Sun 9am–11pm"
+  },
+  {
+    "acronym": "CHM",
+    "full_name": "Chemistry Building",
+    "department": "Chemistry & Biochemistry",
+    "description": "Houses chemistry labs, lecture halls, and research facilities.",
+    "address": "8051 Regents Dr, College Park, MD 20742",
+    "latitude": 38.9881,
+    "longitude": -76.9421,
+    "hours": "Mon–Fri 7am–9pm"
+  },
+  {
+    "acronym": "VMH",
+    "full_name": "Van Munching Hall",
+    "department": "Robert H. Smith School of Business",
+    "description": "Home of UMD's business school with classrooms, labs, and career services.",
+    "address": "7699 Mowatt Ln, College Park, MD 20742",
+    "latitude": 38.9834,
+    "longitude": -76.9456,
+    "hours": "Mon–Fri 7am–10pm"
+  }
+]
