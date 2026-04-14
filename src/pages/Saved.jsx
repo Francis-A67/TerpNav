@@ -3,7 +3,7 @@ import styles from './saved.module.css'
 
 export default function Saved() { 
     return (
-    <div>
+    <div className={styles.page}>
         <Navbar />
     </div>
     )
