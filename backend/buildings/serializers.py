@@ -9,3 +9,8 @@ class BuildingSerializer(serializers.Serializer):
     latitude = serializers.FloatField()
     longitude = serializers.FloatField()
     hours = serializers.CharField()
+
+class TipSerializer(serializers.Serializer):
+    building = serializers.CharField()
+    text = serializers.CharField()
+    helpful = serializers.IntegerField()
