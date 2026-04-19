@@ -1,7 +1,8 @@
 import {useNavigate} from 'react-router-dom'
 import BuildingCard from './BuildingCard'
-import buildings from '../data/buildings.json'
 import styles from './BuildingsGrid.module.css'
+import { useState, useEffect } from 'react'
+import api from '../api/axios'
 
 function BuildingsGrid() {
   const navigate = useNavigate()

@@ -1,5 +1,6 @@
+import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import buildings from '../data/buildings.json'
+import api from '../api/axios'
 import Navbar from '../components/Navbar'
 import styles from './BuildingDetail.module.css'
 
@@ -20,27 +21,24 @@ export default function BuildingDetail() {
   const { acronym } = useParams()
   const navigate = useNavigate()
 
-  const building = buildings.find(
-    (b) => b.acronym.toLowerCase() === acronym.toLowerCase()
-  )
+  const [building, setBuilding] = useState(null)
+  const [notFound, setNotFound] = useState(false)
 
-  if (!building) {
-    return (
-      <div className={styles.page}>
-        <Navbar />
-        <div className={styles.notFound}>
-          Building "{acronym}" not found. <button className={styles.backBtn} onClick={() => navigate('/')}>Go back home</button>
-        </div>
-      </div>
-    )
-  }
+  useEffect(() => {
+    api.get(`/api/buildings/${acronym}/`)
+      .then(res => setBuilding(res.data))
+      .catch(() => setNotFound(true))
+  }, [acronym])
 
   function handleDirections() {
     const query = encodeURIComponent(building.address)
     window.open(`https://www.google.com/maps/search/?api=1&query=${query}`, '_blank')
   }
 
-  const buildingTips = tips[building.acronym] || []
+  if (notFound) return <div>Building not found.</div>
+  if (!building) return <div>Loading...</div>
+
+  const buildingTips = tips[acronym] || []
 
   return (
     <div className={styles.page}>
