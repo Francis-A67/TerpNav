@@ -6,6 +6,11 @@ import api from '../api/axios'
 
 function BuildingsGrid() {
   const navigate = useNavigate()
+  const [buildings, setBuildings] = useState([])
+
+  useEffect(() => {
+    api.get('/api/buildings/').then(res => (setBuildings(res.data)))
+  }, [])
 
   return (
     <div className={styles.section}>
