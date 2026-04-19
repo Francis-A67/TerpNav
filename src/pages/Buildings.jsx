@@ -1,16 +1,21 @@
 import { useLocation } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import BuildingCard from '../components/BuildingCard'
-import buildings from '../data/buildings.json'
 import styles from './Buildings.module.css'
+import api from '../api/axios'
 
 export default function Buildings() {
   const location = useLocation()
   const params = new URLSearchParams(location.search)
   const query = params.get('search') || ''
   const [searchTerm, setSearchTerm] = useState(query)
+  const [buildings, setBuildings] = useState([])
 
+  useEffect(() => {
+    api.get('/api/buildings/').then(res => setBuildings(res.data))
+  }, [])
+  
   const filtered = buildings.filter((building) => {
     return (
       building.acronym.toLowerCase().includes(searchTerm.toLowerCase()) ||
