@@ -11,6 +11,12 @@ export default function BuildingDetail() {
 
   const [building, setBuilding] = useState(null)
   const [notFound, setNotFound] = useState(false)
+  const [buildingTips, setTips] = useState([])
+
+  useEffect(() => {
+    api.get(`/api/tips/${acronym}/`)
+    .then(res => setTips(res.data))
+  }, [])
 
   useEffect(() => {
     api.get(`/api/buildings/${acronym}/`)
@@ -25,8 +31,6 @@ export default function BuildingDetail() {
 
   if (notFound) return <div>Building not found.</div>
   if (!building) return <div>Loading...</div>
-
-  const buildingTips = tips[acronym] || []
 
   return (
     <div className={styles.page}>
