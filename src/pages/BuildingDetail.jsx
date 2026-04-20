@@ -4,18 +4,6 @@ import api from '../api/axios'
 import Navbar from '../components/Navbar'
 import styles from './BuildingDetail.module.css'
 
-const tips = {
-  IRB: [
-    { text: 'Use the side entrance off Paint Branch for fastest access to CS classrooms.', helpful: 24 },
-    { text: 'Study rooms on floor 3 require booking through the CS department portal.', helpful: 18 },
-  ],
-  HBK: [
-    { text: 'iSchool rooms are on floors 2 and 3. Elevator is near the main entrance.', helpful: 15 },
-  ],
-  ESJ: [
-    { text: 'Large lecture halls are on the ground floor. Study rooms require booking.', helpful: 12 },
-  ],
-}
 
 export default function BuildingDetail() {
   const { acronym } = useParams()
@@ -23,6 +11,12 @@ export default function BuildingDetail() {
 
   const [building, setBuilding] = useState(null)
   const [notFound, setNotFound] = useState(false)
+  const [buildingTips, setTips] = useState([])
+
+  useEffect(() => {
+    api.get(`/api/tips/${acronym}/`)
+    .then(res => setTips(res.data))
+  }, [])
 
   useEffect(() => {
     api.get(`/api/buildings/${acronym}/`)
@@ -37,8 +31,6 @@ export default function BuildingDetail() {
 
   if (notFound) return <div>Building not found.</div>
   if (!building) return <div>Loading...</div>
-
-  const buildingTips = tips[acronym] || []
 
   return (
     <div className={styles.page}>

@@ -1,8 +1,22 @@
 import { useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 import styles from './BuildingCard.module.css'
+import { getSaved, saveBuilding, unsaveBuilding } from '../utils/saved'
 
 function BuildingCard({ building }) {
   const navigate = useNavigate()
+  const [isSaved, setSavedBuilding] = useState(getSaved().includes(building.acronym))
+
+  function handleSave(e) {
+    e.stopPropagation()
+    if (isSaved) {
+      unsaveBuilding(building.acronym)
+      setSavedBuilding(false)
+    } else {
+      saveBuilding(building.acronym)
+      setSavedBuilding(true)
+    }
+  }
 
   function handleDirections(e) {
     e.stopPropagation()
@@ -26,6 +40,9 @@ function BuildingCard({ building }) {
         <div className={styles.address}>{building.address}</div>
         <button className={styles.dirBtn} onClick={handleDirections}>
           Directions
+        </button>
+        <button className={`${styles.starBtn} ${isSaved ? styles.starSaved : ''}`} onClick={handleSave}>
+          ★
         </button>
       </div>
     </div>
