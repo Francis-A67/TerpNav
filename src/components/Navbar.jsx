@@ -8,6 +8,7 @@ function Navbar() {
   const links = [
     { label: 'Home', path: '/' },
     { label: 'Buildings', path: '/buildings' },
+    { label: 'Map', path: '/map' },
     { label: 'Saved', path: '/saved' },
   ]
 
@@ -30,11 +31,6 @@ function Navbar() {
             {link.label}
           </button>
         ))}
-      </div>
-
-      <div className={styles.right}>
-        <button className={styles.signInBtn}>Sign in</button>
-        <div className={styles.avatar}><img src= "/profileIcon.png" alt="profileIcon" /></div>
       </div>
     </nav>
   )

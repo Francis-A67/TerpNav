@@ -1,0 +1,3082 @@
+[
+  {
+    "acronym": "B800",
+    "full_name": "4-H Headquarters",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.001958,
+    "longitude": -76.944667,
+    "hours": ""
+  },
+  {
+    "acronym": "B429",
+    "full_name": "A. James Clark Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991965,
+    "longitude": -76.937715,
+    "hours": ""
+  },
+  {
+    "acronym": "B115",
+    "full_name": "A.V. Williams Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990613,
+    "longitude": -76.936488,
+    "hours": ""
+  },
+  {
+    "acronym": "B102",
+    "full_name": "Agriculture Shed",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991972,
+    "longitude": -76.9407,
+    "hours": ""
+  },
+  {
+    "acronym": "B024",
+    "full_name": "Allegany Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981578,
+    "longitude": -76.941458,
+    "hours": ""
+  },
+  {
+    "acronym": "B057",
+    "full_name": "Animal Care Storage Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991941,
+    "longitude": -76.938311,
+    "hours": ""
+  },
+  {
+    "acronym": "B103",
+    "full_name": "Animal Science Service Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992024,
+    "longitude": -76.941063,
+    "hours": ""
+  },
+  {
+    "acronym": "B142",
+    "full_name": "Animal Sciences/Agricultural Engineering Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991632,
+    "longitude": -76.939638,
+    "hours": ""
+  },
+  {
+    "acronym": "B008",
+    "full_name": "Annapolis Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982258,
+    "longitude": -76.940066,
+    "hours": ""
+  },
+  {
+    "acronym": "B060",
+    "full_name": "Anne Arundel Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985984,
+    "longitude": -76.946737,
+    "hours": ""
+  },
+  {
+    "acronym": "B399",
+    "full_name": "Aquatic Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.993348,
+    "longitude": -76.946517,
+    "hours": ""
+  },
+  {
+    "acronym": "B156",
+    "full_name": "Arboretum Outreach Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991938,
+    "longitude": -76.948756,
+    "hours": ""
+  },
+  {
+    "acronym": "B145",
+    "full_name": "Architecture Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984336,
+    "longitude": -76.947624,
+    "hours": ""
+  },
+  {
+    "acronym": "B813",
+    "full_name": "Artemesia Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.993742,
+    "longitude": -76.933216,
+    "hours": ""
+  },
+  {
+    "acronym": "B221",
+    "full_name": "Astronomical Observatory",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.001971,
+    "longitude": -76.95609,
+    "hours": ""
+  },
+  {
+    "acronym": "B219",
+    "full_name": "Astronomy Lecture Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.002005,
+    "longitude": -76.955642,
+    "hours": ""
+  },
+  {
+    "acronym": "B220",
+    "full_name": "Astronomy Trailer",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.001851,
+    "longitude": -76.956003,
+    "hours": ""
+  },
+  {
+    "acronym": "B224",
+    "full_name": "Atlantic Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991025,
+    "longitude": -76.942475,
+    "hours": ""
+  },
+  {
+    "acronym": "B795",
+    "full_name": "Avrum Gudelsky",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.004256,
+    "longitude": -76.941698,
+    "hours": ""
+  },
+  {
+    "acronym": "B016",
+    "full_name": "Baltimore Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982271,
+    "longitude": -76.94217,
+    "hours": ""
+  },
+  {
+    "acronym": "B099",
+    "full_name": "Bel Air Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992779,
+    "longitude": -76.942634,
+    "hours": ""
+  },
+  {
+    "acronym": "B143",
+    "full_name": "Benjamin Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986627,
+    "longitude": -76.947386,
+    "hours": ""
+  },
+  {
+    "acronym": "B144",
+    "full_name": "Biology-Psychology Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988898,
+    "longitude": -76.94255,
+    "hours": ""
+  },
+  {
+    "acronym": "B296",
+    "full_name": "Biomolecular Sciences Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992886,
+    "longitude": -76.937781,
+    "hours": ""
+  },
+  {
+    "acronym": "B413",
+    "full_name": "Bioscience Research Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989001,
+    "longitude": -76.942993,
+    "hours": ""
+  },
+  {
+    "acronym": "B169",
+    "full_name": "Boat House",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.994327,
+    "longitude": -76.954365,
+    "hours": ""
+  },
+  {
+    "acronym": "B159",
+    "full_name": "Bob \"Turtle\" Smith Stadium at Shipley Field",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988783,
+    "longitude": -76.944599,
+    "hours": ""
+  },
+  {
+    "acronym": "B432",
+    "full_name": "Brendan Iribe Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989413,
+    "longitude": -76.936166,
+    "hours": ""
+  },
+  {
+    "acronym": "B006",
+    "full_name": "Building 006",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985798,
+    "longitude": -76.934466,
+    "hours": ""
+  },
+  {
+    "acronym": "B011",
+    "full_name": "Building 011",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986246,
+    "longitude": -76.933615,
+    "hours": ""
+  },
+  {
+    "acronym": "B422",
+    "full_name": "CSPAC Grounds Storage Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990333,
+    "longitude": -76.951872,
+    "hours": ""
+  },
+  {
+    "acronym": "B015",
+    "full_name": "Calvert Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982959,
+    "longitude": -76.942289,
+    "hours": ""
+  },
+  {
+    "acronym": "B097",
+    "full_name": "Cambridge Community Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.99221,
+    "longitude": -76.943006,
+    "hours": ""
+  },
+  {
+    "acronym": "B096",
+    "full_name": "Cambridge Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991716,
+    "longitude": -76.943071,
+    "hours": ""
+  },
+  {
+    "acronym": "B070",
+    "full_name": "Caroline Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983518,
+    "longitude": -76.945748,
+    "hours": ""
+  },
+  {
+    "acronym": "B065",
+    "full_name": "Carroll Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984008,
+    "longitude": -76.945717,
+    "hours": ""
+  },
+  {
+    "acronym": "B110",
+    "full_name": "Cattle Barn",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992427,
+    "longitude": -76.940459,
+    "hours": ""
+  },
+  {
+    "acronym": "B017",
+    "full_name": "Cecil Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982931,
+    "longitude": -76.941652,
+    "hours": ""
+  },
+  {
+    "acronym": "B381",
+    "full_name": "Center for Young Children",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.993486,
+    "longitude": -76.948508,
+    "hours": ""
+  },
+  {
+    "acronym": "B087",
+    "full_name": "Central Animal Resources Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991673,
+    "longitude": -76.938343,
+    "hours": ""
+  },
+  {
+    "acronym": "B098",
+    "full_name": "Centreville Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992239,
+    "longitude": -76.942113,
+    "hours": ""
+  },
+  {
+    "acronym": "B025",
+    "full_name": "Charles Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981594,
+    "longitude": -76.940507,
+    "hours": ""
+  },
+  {
+    "acronym": "B090",
+    "full_name": "Chemical & Nuclear Engineering Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990674,
+    "longitude": -76.939212,
+    "hours": ""
+  },
+  {
+    "acronym": "B091",
+    "full_name": "Chemistry Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989565,
+    "longitude": -76.939837,
+    "hours": ""
+  },
+  {
+    "acronym": "B338",
+    "full_name": "Chesapeake Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.998185,
+    "longitude": -76.942135,
+    "hours": ""
+  },
+  {
+    "acronym": "B121",
+    "full_name": "Chestertown Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992796,
+    "longitude": -76.943456,
+    "hours": ""
+  },
+  {
+    "acronym": "B059",
+    "full_name": "Chincoteague Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985259,
+    "longitude": -76.944493,
+    "hours": ""
+  },
+  {
+    "acronym": "B052",
+    "full_name": "Clarence M. Mitchell, Jr. Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986703,
+    "longitude": -76.939554,
+    "hours": ""
+  },
+  {
+    "acronym": "B386",
+    "full_name": "Clarice Smith Performing Arts Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990583,
+    "longitude": -76.950363,
+    "hours": ""
+  },
+  {
+    "acronym": "B162",
+    "full_name": "Cole Student Activities Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.987869,
+    "longitude": -76.946404,
+    "hours": ""
+  },
+  {
+    "acronym": "B802",
+    "full_name": "College Park Fire Station",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990405,
+    "longitude": -76.933722,
+    "hours": ""
+  },
+  {
+    "acronym": "B345",
+    "full_name": "College Park Marriott Hotel & Conference Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986093,
+    "longitude": -76.953804,
+    "hours": ""
+  },
+  {
+    "acronym": "B348",
+    "full_name": "College Park Marriott Hotel & Conference Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986055,
+    "longitude": -76.955082,
+    "hours": ""
+  },
+  {
+    "acronym": "B406",
+    "full_name": "Computer Science Instructional Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990006,
+    "longitude": -76.936141,
+    "hours": ""
+  },
+  {
+    "acronym": "B987",
+    "full_name": "Courtyard 100",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.002114,
+    "longitude": -76.941462,
+    "hours": ""
+  },
+  {
+    "acronym": "B988",
+    "full_name": "Courtyard 200",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.001782,
+    "longitude": -76.942172,
+    "hours": ""
+  },
+  {
+    "acronym": "B989",
+    "full_name": "Courtyard 300",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.001058,
+    "longitude": -76.942197,
+    "hours": ""
+  },
+  {
+    "acronym": "B990",
+    "full_name": "Courtyard 400",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.002155,
+    "longitude": -76.942976,
+    "hours": ""
+  },
+  {
+    "acronym": "B991",
+    "full_name": "Courtyard 500",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.002906,
+    "longitude": -76.942316,
+    "hours": ""
+  },
+  {
+    "acronym": "B992",
+    "full_name": "Courtyard 600",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.002809,
+    "longitude": -76.94184,
+    "hours": ""
+  },
+  {
+    "acronym": "B993",
+    "full_name": "Courtyard 700",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.003309,
+    "longitude": -76.941959,
+    "hours": ""
+  },
+  {
+    "acronym": "B994",
+    "full_name": "Courtyard Clubhouse",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.001617,
+    "longitude": -76.941388,
+    "hours": ""
+  },
+  {
+    "acronym": "B995",
+    "full_name": "Courtyard Maintenance Shed",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.003742,
+    "longitude": -76.942514,
+    "hours": ""
+  },
+  {
+    "acronym": "B886",
+    "full_name": "Crane Aquaculture Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.00432,
+    "longitude": -76.940343,
+    "hours": ""
+  },
+  {
+    "acronym": "B888",
+    "full_name": "Crane Aquaculture Support Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.004171,
+    "longitude": -76.940134,
+    "hours": ""
+  },
+  {
+    "acronym": "B122",
+    "full_name": "Cumberland Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992228,
+    "longitude": -76.943999,
+    "hours": ""
+  },
+  {
+    "acronym": "B814",
+    "full_name": "Cypress Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.993203,
+    "longitude": -76.933305,
+    "hours": ""
+  },
+  {
+    "acronym": "B251",
+    "full_name": "Denton Area Dining Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992708,
+    "longitude": -76.949634,
+    "hours": ""
+  },
+  {
+    "acronym": "B252",
+    "full_name": "Denton Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992277,
+    "longitude": -76.950024,
+    "hours": ""
+  },
+  {
+    "acronym": "B064",
+    "full_name": "Dorchester Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986777,
+    "longitude": -76.946157,
+    "hours": ""
+  },
+  {
+    "acronym": "B253",
+    "full_name": "Easton Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992992,
+    "longitude": -76.950242,
+    "hours": ""
+  },
+  {
+    "acronym": "B226",
+    "full_name": "Edward St. John Learning & Teaching Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986968,
+    "longitude": -76.941796,
+    "hours": ""
+  },
+  {
+    "acronym": "B311",
+    "full_name": "Elkins Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.004655,
+    "longitude": -76.954066,
+    "hours": ""
+  },
+  {
+    "acronym": "B254",
+    "full_name": "Elkton Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992499,
+    "longitude": -76.94902,
+    "hours": ""
+  },
+  {
+    "acronym": "B257",
+    "full_name": "Ellicott Area Dining Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992427,
+    "longitude": -76.946509,
+    "hours": ""
+  },
+  {
+    "acronym": "B256",
+    "full_name": "Ellicott Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991809,
+    "longitude": -76.946707,
+    "hours": ""
+  },
+  {
+    "acronym": "B001",
+    "full_name": "Energy Plant",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985888,
+    "longitude": -76.935618,
+    "hours": ""
+  },
+  {
+    "acronym": "B223",
+    "full_name": "Energy Research Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991929,
+    "longitude": -76.936875,
+    "hours": ""
+  },
+  {
+    "acronym": "B093",
+    "full_name": "Engineering Annex",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990717,
+    "longitude": -76.936927,
+    "hours": ""
+  },
+  {
+    "acronym": "B089",
+    "full_name": "Engineering Laboratory Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989326,
+    "longitude": -76.937919,
+    "hours": ""
+  },
+  {
+    "acronym": "B344",
+    "full_name": "Environmental Service Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.996493,
+    "longitude": -76.943728,
+    "hours": ""
+  },
+  {
+    "acronym": "B068",
+    "full_name": "Eppley Recreation Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.993543,
+    "longitude": -76.94517,
+    "hours": ""
+  },
+  {
+    "acronym": "B396",
+    "full_name": "Equipment Storage Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.007013,
+    "longitude": -76.940425,
+    "hours": ""
+  },
+  {
+    "acronym": "B414",
+    "full_name": "Field Hockey & Lacrosse Complex",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.994746,
+    "longitude": -76.936927,
+    "hours": ""
+  },
+  {
+    "acronym": "B427",
+    "full_name": "Fleet Services Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.976133,
+    "longitude": -76.924676,
+    "hours": ""
+  },
+  {
+    "acronym": "B048",
+    "full_name": "Francis Scott Key Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985098,
+    "longitude": -76.943041,
+    "hours": ""
+  },
+  {
+    "acronym": "B029",
+    "full_name": "Frederick Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98205,
+    "longitude": -76.940763,
+    "hours": ""
+  },
+  {
+    "acronym": "B031",
+    "full_name": "Garrett Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983259,
+    "longitude": -76.942653,
+    "hours": ""
+  },
+  {
+    "acronym": "B299",
+    "full_name": "Gate House",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988651,
+    "longitude": -76.935764,
+    "hours": ""
+  },
+  {
+    "acronym": "B237",
+    "full_name": "Geology Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988175,
+    "longitude": -76.940935,
+    "hours": ""
+  },
+  {
+    "acronym": "B166",
+    "full_name": "Golf Course Club House",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991137,
+    "longitude": -76.954635,
+    "hours": ""
+  },
+  {
+    "acronym": "B165",
+    "full_name": "Golf Course Driving Range Control Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990802,
+    "longitude": -76.955011,
+    "hours": ""
+  },
+  {
+    "acronym": "B167",
+    "full_name": "Golf Course Maintenance Office",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.997691,
+    "longitude": -76.95309,
+    "hours": ""
+  },
+  {
+    "acronym": "B314",
+    "full_name": "Golf Course Repair Shop",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.997304,
+    "longitude": -76.953172,
+    "hours": ""
+  },
+  {
+    "acronym": "B319",
+    "full_name": "Golf Course Storage Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.997572,
+    "longitude": -76.953395,
+    "hours": ""
+  },
+  {
+    "acronym": "B313",
+    "full_name": "Golf Course Storage Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.997339,
+    "longitude": -76.95285,
+    "hours": ""
+  },
+  {
+    "acronym": "B318",
+    "full_name": "Golf Course Toilet Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.997501,
+    "longitude": -76.953242,
+    "hours": ""
+  },
+  {
+    "acronym": "B379",
+    "full_name": "Gossett Football Team House",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989696,
+    "longitude": -76.946305,
+    "hours": ""
+  },
+  {
+    "acronym": "B260",
+    "full_name": "Graduate Gardens Apartment 4301",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.979345,
+    "longitude": -76.942422,
+    "hours": ""
+  },
+  {
+    "acronym": "B261",
+    "full_name": "Graduate Gardens Apartment 4303",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.979204,
+    "longitude": -76.942505,
+    "hours": ""
+  },
+  {
+    "acronym": "B262",
+    "full_name": "Graduate Gardens Apartment 4305",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.979108,
+    "longitude": -76.942349,
+    "hours": ""
+  },
+  {
+    "acronym": "B263",
+    "full_name": "Graduate Gardens Apartment 4307",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.979019,
+    "longitude": -76.942146,
+    "hours": ""
+  },
+  {
+    "acronym": "B264",
+    "full_name": "Graduate Gardens Apartment 4309",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.979177,
+    "longitude": -76.942035,
+    "hours": ""
+  },
+  {
+    "acronym": "B265",
+    "full_name": "Graduate Gardens Apartment 4311",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978907,
+    "longitude": -76.941863,
+    "hours": ""
+  },
+  {
+    "acronym": "B266",
+    "full_name": "Graduate Gardens Apartment 4312",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.979027,
+    "longitude": -76.941331,
+    "hours": ""
+  },
+  {
+    "acronym": "B267",
+    "full_name": "Graduate Gardens Apartment 4313",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978793,
+    "longitude": -76.941678,
+    "hours": ""
+  },
+  {
+    "acronym": "B268",
+    "full_name": "Graduate Gardens Apartment 4314",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978986,
+    "longitude": -76.94105,
+    "hours": ""
+  },
+  {
+    "acronym": "B269",
+    "full_name": "Graduate Gardens Apartment 4315",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978708,
+    "longitude": -76.941475,
+    "hours": ""
+  },
+  {
+    "acronym": "B270",
+    "full_name": "Graduate Gardens Apartment 4316",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978908,
+    "longitude": -76.940827,
+    "hours": ""
+  },
+  {
+    "acronym": "B271",
+    "full_name": "Graduate Gardens Apartment 4317",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978598,
+    "longitude": -76.941212,
+    "hours": ""
+  },
+  {
+    "acronym": "B272",
+    "full_name": "Graduate Gardens Apartment 4318",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978926,
+    "longitude": -76.940616,
+    "hours": ""
+  },
+  {
+    "acronym": "B273",
+    "full_name": "Graduate Gardens Apartment 4319",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978553,
+    "longitude": -76.94105,
+    "hours": ""
+  },
+  {
+    "acronym": "B274",
+    "full_name": "Graduate Gardens Apartment 4320",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978798,
+    "longitude": -76.940367,
+    "hours": ""
+  },
+  {
+    "acronym": "B275",
+    "full_name": "Graduate Gardens Apartment 4321",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978461,
+    "longitude": -76.940784,
+    "hours": ""
+  },
+  {
+    "acronym": "B276",
+    "full_name": "Graduate Gardens Apartment 4322",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978633,
+    "longitude": -76.94028,
+    "hours": ""
+  },
+  {
+    "acronym": "B277",
+    "full_name": "Graduate Gardens Apartment 4323",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978382,
+    "longitude": -76.940574,
+    "hours": ""
+  },
+  {
+    "acronym": "B278",
+    "full_name": "Graduate Gardens Apartment 4324",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978531,
+    "longitude": -76.940041,
+    "hours": ""
+  },
+  {
+    "acronym": "B279",
+    "full_name": "Graduate Gardens Apartment 4325",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978224,
+    "longitude": -76.940408,
+    "hours": ""
+  },
+  {
+    "acronym": "B280",
+    "full_name": "Graduate Gardens Apartment 4326",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978398,
+    "longitude": -76.939901,
+    "hours": ""
+  },
+  {
+    "acronym": "B281",
+    "full_name": "Graduate Gardens Apartment 4327",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.978139,
+    "longitude": -76.940238,
+    "hours": ""
+  },
+  {
+    "acronym": "B282",
+    "full_name": "Graduate Gardens Apartment 4329",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.97804,
+    "longitude": -76.94001,
+    "hours": ""
+  },
+  {
+    "acronym": "B283",
+    "full_name": "Graduate Gardens Apartment 4331",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.977928,
+    "longitude": -76.939758,
+    "hours": ""
+  },
+  {
+    "acronym": "B284",
+    "full_name": "Graduate Gardens Apartment 4333",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.977902,
+    "longitude": -76.939593,
+    "hours": ""
+  },
+  {
+    "acronym": "B285",
+    "full_name": "Graduate Gardens Apartment 4335",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.977849,
+    "longitude": -76.939348,
+    "hours": ""
+  },
+  {
+    "acronym": "B289",
+    "full_name": "Graduate Hills  Apartment",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984452,
+    "longitude": -76.955782,
+    "hours": ""
+  },
+  {
+    "acronym": "B286",
+    "full_name": "Graduate Hills Apartment",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984915,
+    "longitude": -76.958283,
+    "hours": ""
+  },
+  {
+    "acronym": "B292",
+    "full_name": "Graduate Hills Apartment",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984418,
+    "longitude": -76.958404,
+    "hours": ""
+  },
+  {
+    "acronym": "B288",
+    "full_name": "Graduate Hills Apartment",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985133,
+    "longitude": -76.956236,
+    "hours": ""
+  },
+  {
+    "acronym": "B290",
+    "full_name": "Graduate Hills Apartment",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984358,
+    "longitude": -76.95633,
+    "hours": ""
+  },
+  {
+    "acronym": "B287",
+    "full_name": "Graduate Hills Apartment",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98502,
+    "longitude": -76.957217,
+    "hours": ""
+  },
+  {
+    "acronym": "B291",
+    "full_name": "Graduate Hills Apartment",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984465,
+    "longitude": -76.957224,
+    "hours": ""
+  },
+  {
+    "acronym": "B124",
+    "full_name": "Grounds Material & Equipment Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.995659,
+    "longitude": -76.943333,
+    "hours": ""
+  },
+  {
+    "acronym": "B328",
+    "full_name": "Grounds Operations & Maintenance Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.995535,
+    "longitude": -76.942959,
+    "hours": ""
+  },
+  {
+    "acronym": "B423",
+    "full_name": "Grounds Storage Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98443,
+    "longitude": -76.946359,
+    "hours": ""
+  },
+  {
+    "acronym": "B073",
+    "full_name": "H.J. Patterson Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986955,
+    "longitude": -76.943518,
+    "hours": ""
+  },
+  {
+    "acronym": "B056",
+    "full_name": "HVAC & PM Storage Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.9883,
+    "longitude": -76.943736,
+    "hours": ""
+  },
+  {
+    "acronym": "B258",
+    "full_name": "Hagerstown Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992415,
+    "longitude": -76.947427,
+    "hours": ""
+  },
+  {
+    "acronym": "B014",
+    "full_name": "Harford Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982522,
+    "longitude": -76.940938,
+    "hours": ""
+  },
+  {
+    "acronym": "B140",
+    "full_name": "Health Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98719,
+    "longitude": -76.94468,
+    "hours": ""
+  },
+  {
+    "acronym": "B426",
+    "full_name": "Heavy Equipment Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.996059,
+    "longitude": -76.94283,
+    "hours": ""
+  },
+  {
+    "acronym": "B147",
+    "full_name": "Hornbake Library",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988196,
+    "longitude": -76.94155,
+    "hours": ""
+  },
+  {
+    "acronym": "B108",
+    "full_name": "Horse Barn",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991713,
+    "longitude": -76.94078,
+    "hours": ""
+  },
+  {
+    "acronym": "B126",
+    "full_name": "House 1",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984699,
+    "longitude": -76.936699,
+    "hours": ""
+  },
+  {
+    "acronym": "B135",
+    "full_name": "House 10",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983273,
+    "longitude": -76.935166,
+    "hours": ""
+  },
+  {
+    "acronym": "B136",
+    "full_name": "House 11",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983278,
+    "longitude": -76.935649,
+    "hours": ""
+  },
+  {
+    "acronym": "B137",
+    "full_name": "House 12",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983278,
+    "longitude": -76.936213,
+    "hours": ""
+  },
+  {
+    "acronym": "B138",
+    "full_name": "House 13",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983276,
+    "longitude": -76.936684,
+    "hours": ""
+  },
+  {
+    "acronym": "B139",
+    "full_name": "House 14",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983208,
+    "longitude": -76.937224,
+    "hours": ""
+  },
+  {
+    "acronym": "B170",
+    "full_name": "House 170",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981305,
+    "longitude": -76.935192,
+    "hours": ""
+  },
+  {
+    "acronym": "B171",
+    "full_name": "House 171",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981369,
+    "longitude": -76.935633,
+    "hours": ""
+  },
+  {
+    "acronym": "B172",
+    "full_name": "House 172",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98143,
+    "longitude": -76.936096,
+    "hours": ""
+  },
+  {
+    "acronym": "B173",
+    "full_name": "House 173",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.980783,
+    "longitude": -76.936322,
+    "hours": ""
+  },
+  {
+    "acronym": "B174",
+    "full_name": "House 174",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.980672,
+    "longitude": -76.935885,
+    "hours": ""
+  },
+  {
+    "acronym": "B175",
+    "full_name": "House 175",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.980588,
+    "longitude": -76.93542,
+    "hours": ""
+  },
+  {
+    "acronym": "B176",
+    "full_name": "House 176",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.980887,
+    "longitude": -76.935271,
+    "hours": ""
+  },
+  {
+    "acronym": "B127",
+    "full_name": "House 2",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984632,
+    "longitude": -76.936213,
+    "hours": ""
+  },
+  {
+    "acronym": "B128",
+    "full_name": "House 3",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984635,
+    "longitude": -76.935626,
+    "hours": ""
+  },
+  {
+    "acronym": "B129",
+    "full_name": "House 4",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984626,
+    "longitude": -76.935146,
+    "hours": ""
+  },
+  {
+    "acronym": "B130",
+    "full_name": "House 5",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984603,
+    "longitude": -76.934637,
+    "hours": ""
+  },
+  {
+    "acronym": "B131",
+    "full_name": "House 6",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98433,
+    "longitude": -76.934182,
+    "hours": ""
+  },
+  {
+    "acronym": "B132",
+    "full_name": "House 7",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983938,
+    "longitude": -76.934041,
+    "hours": ""
+  },
+  {
+    "acronym": "B133",
+    "full_name": "House 8",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983572,
+    "longitude": -76.934204,
+    "hours": ""
+  },
+  {
+    "acronym": "B134",
+    "full_name": "House 9",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983313,
+    "longitude": -76.934648,
+    "hours": ""
+  },
+  {
+    "acronym": "B028",
+    "full_name": "Howard Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981956,
+    "longitude": -76.941977,
+    "hours": ""
+  },
+  {
+    "acronym": "B309",
+    "full_name": "Indoor Practice Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989808,
+    "longitude": -76.954216,
+    "hours": ""
+  },
+  {
+    "acronym": "B085",
+    "full_name": "Institute for Physical Science & Technology",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990961,
+    "longitude": -76.94099,
+    "hours": ""
+  },
+  {
+    "acronym": "B045",
+    "full_name": "Instructional Television Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989573,
+    "longitude": -76.938311,
+    "hours": ""
+  },
+  {
+    "acronym": "B083",
+    "full_name": "J.M. Patterson Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990496,
+    "longitude": -76.94021,
+    "hours": ""
+  },
+  {
+    "acronym": "B034",
+    "full_name": "Jimenez Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986878,
+    "longitude": -76.944603,
+    "hours": ""
+  },
+  {
+    "acronym": "B082",
+    "full_name": "John S. Toll Physics Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988667,
+    "longitude": -76.940055,
+    "hours": ""
+  },
+  {
+    "acronym": "B227",
+    "full_name": "Jull Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990885,
+    "longitude": -76.943594,
+    "hours": ""
+  },
+  {
+    "acronym": "B388",
+    "full_name": "Kehoe Track at Ludwig Field",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.987607,
+    "longitude": -76.951325,
+    "hours": ""
+  },
+  {
+    "acronym": "B022",
+    "full_name": "Kent Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983281,
+    "longitude": -76.941823,
+    "hours": ""
+  },
+  {
+    "acronym": "B225",
+    "full_name": "Kim Engineering Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.99094,
+    "longitude": -76.938015,
+    "hours": ""
+  },
+  {
+    "acronym": "B417",
+    "full_name": "Knight Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98686,
+    "longitude": -76.948552,
+    "hours": ""
+  },
+  {
+    "acronym": "B799",
+    "full_name": "LEAFHouse",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.999644,
+    "longitude": -76.941376,
+    "hours": ""
+  },
+  {
+    "acronym": "B259",
+    "full_name": "La Plata Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992445,
+    "longitude": -76.945915,
+    "hours": ""
+  },
+  {
+    "acronym": "B796",
+    "full_name": "Laboratory for Physical Sciences",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.003532,
+    "longitude": -76.944009,
+    "hours": ""
+  },
+  {
+    "acronym": "B797",
+    "full_name": "Laboratory for Telecommunication Sciences",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.005054,
+    "longitude": -76.943554,
+    "hours": ""
+  },
+  {
+    "acronym": "B038",
+    "full_name": "LeFrak Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98365,
+    "longitude": -76.943824,
+    "hours": ""
+  },
+  {
+    "acronym": "B904",
+    "full_name": "Leased Facility 904",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.968706,
+    "longitude": -76.922853,
+    "hours": ""
+  },
+  {
+    "acronym": "B071",
+    "full_name": "Lee Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98537,
+    "longitude": -76.939543,
+    "hours": ""
+  },
+  {
+    "acronym": "B238",
+    "full_name": "Leonardtown 238",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982878,
+    "longitude": -76.933023,
+    "hours": ""
+  },
+  {
+    "acronym": "B239",
+    "full_name": "Leonardtown 239",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982589,
+    "longitude": -76.93289,
+    "hours": ""
+  },
+  {
+    "acronym": "B240",
+    "full_name": "Leonardtown 240",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982717,
+    "longitude": -76.932535,
+    "hours": ""
+  },
+  {
+    "acronym": "B241",
+    "full_name": "Leonardtown 241",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982595,
+    "longitude": -76.932287,
+    "hours": ""
+  },
+  {
+    "acronym": "B242",
+    "full_name": "Leonardtown 242",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982733,
+    "longitude": -76.932032,
+    "hours": ""
+  },
+  {
+    "acronym": "B243",
+    "full_name": "Leonardtown 243",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98295,
+    "longitude": -76.932054,
+    "hours": ""
+  },
+  {
+    "acronym": "B244",
+    "full_name": "Leonardtown 244",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984833,
+    "longitude": -76.933768,
+    "hours": ""
+  },
+  {
+    "acronym": "B245",
+    "full_name": "Leonardtown 245",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984605,
+    "longitude": -76.933403,
+    "hours": ""
+  },
+  {
+    "acronym": "B246",
+    "full_name": "Leonardtown 246",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984323,
+    "longitude": -76.933561,
+    "hours": ""
+  },
+  {
+    "acronym": "B247",
+    "full_name": "Leonardtown 247",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984264,
+    "longitude": -76.933114,
+    "hours": ""
+  },
+  {
+    "acronym": "B248",
+    "full_name": "Leonardtown 248",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983943,
+    "longitude": -76.933417,
+    "hours": ""
+  },
+  {
+    "acronym": "B249",
+    "full_name": "Leonardtown 249",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983692,
+    "longitude": -76.933236,
+    "hours": ""
+  },
+  {
+    "acronym": "B250",
+    "full_name": "Leonardtown Community Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983378,
+    "longitude": -76.933541,
+    "hours": ""
+  },
+  {
+    "acronym": "B201",
+    "full_name": "Leonardtown Office Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983752,
+    "longitude": -76.93242,
+    "hours": ""
+  },
+  {
+    "acronym": "B195",
+    "full_name": "MFRI Drill Tower",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983575,
+    "longitude": -76.929889,
+    "hours": ""
+  },
+  {
+    "acronym": "B197",
+    "full_name": "MFRI Fire Extinguisher Training Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984062,
+    "longitude": -76.927784,
+    "hours": ""
+  },
+  {
+    "acronym": "B199",
+    "full_name": "MFRI Office/Classroom Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983293,
+    "longitude": -76.928883,
+    "hours": ""
+  },
+  {
+    "acronym": "B198",
+    "full_name": "MFRI Shop Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984033,
+    "longitude": -76.928844,
+    "hours": ""
+  },
+  {
+    "acronym": "B196",
+    "full_name": "MFRI Structural Firefighting Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98363,
+    "longitude": -76.928248,
+    "hours": ""
+  },
+  {
+    "acronym": "B077",
+    "full_name": "Main Administration Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985998,
+    "longitude": -76.939802,
+    "hours": ""
+  },
+  {
+    "acronym": "B148",
+    "full_name": "Manufacturing Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992896,
+    "longitude": -76.939383,
+    "hours": ""
+  },
+  {
+    "acronym": "B046",
+    "full_name": "Marie Mount Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985012,
+    "longitude": -76.940794,
+    "hours": ""
+  },
+  {
+    "acronym": "B088",
+    "full_name": "Martin Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988928,
+    "longitude": -76.937974,
+    "hours": ""
+  },
+  {
+    "acronym": "B420",
+    "full_name": "Maryland Baseball Annex",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989937,
+    "longitude": -76.945511,
+    "hours": ""
+  },
+  {
+    "acronym": "B409",
+    "full_name": "Maryland Softball Stadium",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.996292,
+    "longitude": -76.939924,
+    "hours": ""
+  },
+  {
+    "acronym": "B368",
+    "full_name": "Maryland Stadium Building Upper Deck",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990827,
+    "longitude": -76.946689,
+    "hours": ""
+  },
+  {
+    "acronym": "B370",
+    "full_name": "Maryland Stadium Concessions",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990441,
+    "longitude": -76.946116,
+    "hours": ""
+  },
+  {
+    "acronym": "B367",
+    "full_name": "Maryland Stadium Concessions",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991196,
+    "longitude": -76.948069,
+    "hours": ""
+  },
+  {
+    "acronym": "B363",
+    "full_name": "Maryland Stadium Concessions",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989442,
+    "longitude": -76.947682,
+    "hours": ""
+  },
+  {
+    "acronym": "B362",
+    "full_name": "Maryland Stadium Concessions",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989437,
+    "longitude": -76.94715,
+    "hours": ""
+  },
+  {
+    "acronym": "B364",
+    "full_name": "Maryland Stadium Concessions",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989724,
+    "longitude": -76.948201,
+    "hours": ""
+  },
+  {
+    "acronym": "B365",
+    "full_name": "Maryland Stadium Concessions",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990509,
+    "longitude": -76.948608,
+    "hours": ""
+  },
+  {
+    "acronym": "B369",
+    "full_name": "Maryland Stadium Maintenance Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990226,
+    "longitude": -76.945908,
+    "hours": ""
+  },
+  {
+    "acronym": "B366",
+    "full_name": "Maryland Stadium Ticket Booth",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990978,
+    "longitude": -76.94845,
+    "hours": ""
+  },
+  {
+    "acronym": "B035",
+    "full_name": "McKeldin Library",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985987,
+    "longitude": -76.945139,
+    "hours": ""
+  },
+  {
+    "acronym": "B009",
+    "full_name": "Memorial Chapel",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984167,
+    "longitude": -76.94092,
+    "hours": ""
+  },
+  {
+    "acronym": "B430",
+    "full_name": "Metzerott House (4103)",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.999583,
+    "longitude": -76.938236,
+    "hours": ""
+  },
+  {
+    "acronym": "B231",
+    "full_name": "Microbiology Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988114,
+    "longitude": -76.943461,
+    "hours": ""
+  },
+  {
+    "acronym": "B032",
+    "full_name": "Montgomery Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98205,
+    "longitude": -76.939423,
+    "hours": ""
+  },
+  {
+    "acronym": "B040",
+    "full_name": "Morrill Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984314,
+    "longitude": -76.944149,
+    "hours": ""
+  },
+  {
+    "acronym": "B798",
+    "full_name": "Mosquito Control Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.005768,
+    "longitude": -76.941863,
+    "hours": ""
+  },
+  {
+    "acronym": "B020",
+    "full_name": "Motorcycle Storage Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98571,
+    "longitude": -76.936198,
+    "hours": ""
+  },
+  {
+    "acronym": "B404",
+    "full_name": "Mowatt Lane Parking Garage",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981924,
+    "longitude": -76.945499,
+    "hours": ""
+  },
+  {
+    "acronym": "B382",
+    "full_name": "Neutral Buoyancy Research Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.99291,
+    "longitude": -76.938994,
+    "hours": ""
+  },
+  {
+    "acronym": "B295",
+    "full_name": "North Gate",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988581,
+    "longitude": -76.936498,
+    "hours": ""
+  },
+  {
+    "acronym": "B232",
+    "full_name": "Nyumburu Cultural Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988169,
+    "longitude": -76.943924,
+    "hours": ""
+  },
+  {
+    "acronym": "B419",
+    "full_name": "Oakland Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.993856,
+    "longitude": -76.94952,
+    "hours": ""
+  },
+  {
+    "acronym": "B383",
+    "full_name": "Paint Branch Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981901,
+    "longitude": -76.928999,
+    "hours": ""
+  },
+  {
+    "acronym": "B298",
+    "full_name": "Paint Branch Gate",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.999629,
+    "longitude": -76.94217,
+    "hours": ""
+  },
+  {
+    "acronym": "B146",
+    "full_name": "Parren J. Mitchell Art-Sociology Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985256,
+    "longitude": -76.947628,
+    "hours": ""
+  },
+  {
+    "acronym": "B805",
+    "full_name": "Patapsco Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.976668,
+    "longitude": -76.924949,
+    "hours": ""
+  },
+  {
+    "acronym": "B010",
+    "full_name": "Patuxent Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988666,
+    "longitude": -76.943493,
+    "hours": ""
+  },
+  {
+    "acronym": "B415",
+    "full_name": "Physical Sciences Complex",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990949,
+    "longitude": -76.941514,
+    "hours": ""
+  },
+  {
+    "acronym": "B111",
+    "full_name": "Physics Welding Shop",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989144,
+    "longitude": -76.939885,
+    "hours": ""
+  },
+  {
+    "acronym": "B213",
+    "full_name": "Plant Operations & Maintenance Storage Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.997463,
+    "longitude": -76.953674,
+    "hours": ""
+  },
+  {
+    "acronym": "B214",
+    "full_name": "Plant Operations & Maintenance Storage Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.997417,
+    "longitude": -76.953741,
+    "hours": ""
+  },
+  {
+    "acronym": "B036",
+    "full_name": "Plant Sciences Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988713,
+    "longitude": -76.941526,
+    "hours": ""
+  },
+  {
+    "acronym": "B007",
+    "full_name": "Pocomoke Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982973,
+    "longitude": -76.937123,
+    "hours": ""
+  },
+  {
+    "acronym": "B809",
+    "full_name": "Police Services & Training Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.97608,
+    "longitude": -76.925365,
+    "hours": ""
+  },
+  {
+    "acronym": "B119",
+    "full_name": "Poultry Barn",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992301,
+    "longitude": -76.940894,
+    "hours": ""
+  },
+  {
+    "acronym": "B054",
+    "full_name": "Preinkert Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984467,
+    "longitude": -76.946279,
+    "hours": ""
+  },
+  {
+    "acronym": "B425",
+    "full_name": "Prince Frederick Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983116,
+    "longitude": -76.945784,
+    "hours": ""
+  },
+  {
+    "acronym": "B021",
+    "full_name": "Prince George's Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982616,
+    "longitude": -76.941756,
+    "hours": ""
+  },
+  {
+    "acronym": "B061",
+    "full_name": "Queen Anne's Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985222,
+    "longitude": -76.946184,
+    "hours": ""
+  },
+  {
+    "acronym": "B078",
+    "full_name": "Reckord Armory",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986054,
+    "longitude": -76.939002,
+    "hours": ""
+  },
+  {
+    "acronym": "B202",
+    "full_name": "Regents Drive Parking Garage",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989774,
+    "longitude": -76.94144,
+    "hours": ""
+  },
+  {
+    "acronym": "B398",
+    "full_name": "Research Greenhouse",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.997296,
+    "longitude": -76.942973,
+    "hours": ""
+  },
+  {
+    "acronym": "B807",
+    "full_name": "Research Park Building 1",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.974203,
+    "longitude": -76.925479,
+    "hours": ""
+  },
+  {
+    "acronym": "B407",
+    "full_name": "Riggs Alumni Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989352,
+    "longitude": -76.948745,
+    "hours": ""
+  },
+  {
+    "acronym": "B004",
+    "full_name": "Ritchie Coliseum",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985033,
+    "longitude": -76.936413,
+    "hours": ""
+  },
+  {
+    "acronym": "B080",
+    "full_name": "Rossborough Inn",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985308,
+    "longitude": -76.93764,
+    "hours": ""
+  },
+  {
+    "acronym": "B394",
+    "full_name": "Sample Preparation Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.00696,
+    "longitude": -76.94078,
+    "hours": ""
+  },
+  {
+    "acronym": "B255",
+    "full_name": "School of Public Health Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.993411,
+    "longitude": -76.943216,
+    "hours": ""
+  },
+  {
+    "acronym": "B812",
+    "full_name": "Seneca Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.994281,
+    "longitude": -76.931329,
+    "hours": ""
+  },
+  {
+    "acronym": "B003",
+    "full_name": "Service Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985987,
+    "longitude": -76.935829,
+    "hours": ""
+  },
+  {
+    "acronym": "B810",
+    "full_name": "Severn Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.996104,
+    "longitude": -76.922506,
+    "hours": ""
+  },
+  {
+    "acronym": "B109",
+    "full_name": "Sheep Barn",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991702,
+    "longitude": -76.941472,
+    "hours": ""
+  },
+  {
+    "acronym": "B037",
+    "full_name": "Shoemaker Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983947,
+    "longitude": -76.94277,
+    "hours": ""
+  },
+  {
+    "acronym": "B424",
+    "full_name": "Shuttle Bus Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.995522,
+    "longitude": -76.93708,
+    "hours": ""
+  },
+  {
+    "acronym": "B044",
+    "full_name": "Skinner Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984868,
+    "longitude": -76.941843,
+    "hours": ""
+  },
+  {
+    "acronym": "B063",
+    "full_name": "Somerset Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985018,
+    "longitude": -76.945545,
+    "hours": ""
+  },
+  {
+    "acronym": "B996",
+    "full_name": "South Campus Commons 1",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982149,
+    "longitude": -76.942961,
+    "hours": ""
+  },
+  {
+    "acronym": "B997",
+    "full_name": "South Campus Commons 2",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982742,
+    "longitude": -76.942983,
+    "hours": ""
+  },
+  {
+    "acronym": "B998",
+    "full_name": "South Campus Commons 3",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981415,
+    "longitude": -76.940086,
+    "hours": ""
+  },
+  {
+    "acronym": "B999",
+    "full_name": "South Campus Commons 4",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981311,
+    "longitude": -76.941382,
+    "hours": ""
+  },
+  {
+    "acronym": "B974",
+    "full_name": "South Campus Commons 5",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982761,
+    "longitude": -76.944536,
+    "hours": ""
+  },
+  {
+    "acronym": "B975",
+    "full_name": "South Campus Commons 6",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982183,
+    "longitude": -76.944511,
+    "hours": ""
+  },
+  {
+    "acronym": "B981",
+    "full_name": "South Campus Commons 7",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.9816,
+    "longitude": -76.944508,
+    "hours": ""
+  },
+  {
+    "acronym": "B026",
+    "full_name": "South Campus Dining Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983077,
+    "longitude": -76.943688,
+    "hours": ""
+  },
+  {
+    "acronym": "B401",
+    "full_name": "South Gate",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982396,
+    "longitude": -76.938865,
+    "hours": ""
+  },
+  {
+    "acronym": "B062",
+    "full_name": "St. Mary's Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986992,
+    "longitude": -76.945619,
+    "hours": ""
+  },
+  {
+    "acronym": "B218",
+    "full_name": "Stadium Drive Parking Garage",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991143,
+    "longitude": -76.948673,
+    "hours": ""
+  },
+  {
+    "acronym": "B163",
+    "full_name": "Stamp Student Union",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988109,
+    "longitude": -76.944742,
+    "hours": ""
+  },
+  {
+    "acronym": "B233",
+    "full_name": "Susquehanna Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.982121,
+    "longitude": -76.943741,
+    "hours": ""
+  },
+  {
+    "acronym": "B076",
+    "full_name": "Symons Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.987108,
+    "longitude": -76.940836,
+    "hours": ""
+  },
+  {
+    "acronym": "B030",
+    "full_name": "Talbot Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983365,
+    "longitude": -76.942275,
+    "hours": ""
+  },
+  {
+    "acronym": "B043",
+    "full_name": "Taliaferro Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984823,
+    "longitude": -76.943101,
+    "hours": ""
+  },
+  {
+    "acronym": "B141",
+    "full_name": "Tawes Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986009,
+    "longitude": -76.948152,
+    "hours": ""
+  },
+  {
+    "acronym": "B387",
+    "full_name": "Technology Advancement Program Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.992494,
+    "longitude": -76.938506,
+    "hours": ""
+  },
+  {
+    "acronym": "B806",
+    "full_name": "Technology Ventures Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.979598,
+    "longitude": -76.92549,
+    "hours": ""
+  },
+  {
+    "acronym": "B116",
+    "full_name": "Temporary Building (South of 201)",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983456,
+    "longitude": -76.932689,
+    "hours": ""
+  },
+  {
+    "acronym": "B207",
+    "full_name": "Temporary Building (West of 201)",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983685,
+    "longitude": -76.932815,
+    "hours": ""
+  },
+  {
+    "acronym": "B204",
+    "full_name": "Temporary Building (West of 201)",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983792,
+    "longitude": -76.932922,
+    "hours": ""
+  },
+  {
+    "acronym": "B403",
+    "full_name": "Terrapin Trail Parking Garage",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.995031,
+    "longitude": -76.943407,
+    "hours": ""
+  },
+  {
+    "acronym": "B389",
+    "full_name": "Track & Soccer Field Ticket Booth",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.987463,
+    "longitude": -76.949876,
+    "hours": ""
+  },
+  {
+    "acronym": "B395",
+    "full_name": "Turfgrass Research Facility",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.007013,
+    "longitude": -76.941157,
+    "hours": ""
+  },
+  {
+    "acronym": "B079",
+    "full_name": "Turner Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986162,
+    "longitude": -76.937298,
+    "hours": ""
+  },
+  {
+    "acronym": "B042",
+    "full_name": "Tydings Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984875,
+    "longitude": -76.944056,
+    "hours": ""
+  },
+  {
+    "acronym": "B361",
+    "full_name": "Tyser Tower",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989778,
+    "longitude": -76.947939,
+    "hours": ""
+  },
+  {
+    "acronym": "B346",
+    "full_name": "UMUC Administration Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.987018,
+    "longitude": -76.953671,
+    "hours": ""
+  },
+  {
+    "acronym": "B347",
+    "full_name": "UMUC/Marriott Garage",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.986981,
+    "longitude": -76.954347,
+    "hours": ""
+  },
+  {
+    "acronym": "B179",
+    "full_name": "Union Lane Parking Garage",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988546,
+    "longitude": -76.945931,
+    "hours": ""
+  },
+  {
+    "acronym": "B164",
+    "full_name": "University House",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989037,
+    "longitude": -76.952765,
+    "hours": ""
+  },
+  {
+    "acronym": "B039",
+    "full_name": "Van Munching Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.98313,
+    "longitude": -76.947389,
+    "hours": ""
+  },
+  {
+    "acronym": "B158",
+    "full_name": "Varsity Sports Teamhouse",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.990064,
+    "longitude": -76.945164,
+    "hours": ""
+  },
+  {
+    "acronym": "B885",
+    "full_name": "Veterinary Science Barn",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.004036,
+    "longitude": -76.940366,
+    "hours": ""
+  },
+  {
+    "acronym": "B887",
+    "full_name": "Veterinary Science Equipment Storage Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 39.003995,
+    "longitude": -76.940023,
+    "hours": ""
+  },
+  {
+    "acronym": "B023",
+    "full_name": "Washington Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.981854,
+    "longitude": -76.941327,
+    "hours": ""
+  },
+  {
+    "acronym": "B297",
+    "full_name": "West Gate",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.991989,
+    "longitude": -76.950457,
+    "hours": ""
+  },
+  {
+    "acronym": "B069",
+    "full_name": "Wicomico Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.983726,
+    "longitude": -76.945824,
+    "hours": ""
+  },
+  {
+    "acronym": "B084",
+    "full_name": "William E. Kirwan Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.988611,
+    "longitude": -76.939226,
+    "hours": ""
+  },
+  {
+    "acronym": "B081",
+    "full_name": "Wind Tunnel Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.989816,
+    "longitude": -76.936827,
+    "hours": ""
+  },
+  {
+    "acronym": "B047",
+    "full_name": "Woods Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.985198,
+    "longitude": -76.941874,
+    "hours": ""
+  },
+  {
+    "acronym": "B051",
+    "full_name": "Worcester Hall",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.984679,
+    "longitude": -76.945006,
+    "hours": ""
+  },
+  {
+    "acronym": "B428",
+    "full_name": "Wye Oak Building",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.995947,
+    "longitude": -76.943686,
+    "hours": ""
+  },
+  {
+    "acronym": "B360",
+    "full_name": "Xfinity Center",
+    "department": "",
+    "description": "",
+    "address": "",
+    "latitude": 38.995496,
+    "longitude": -76.940887,
+    "hours": ""
+  }
+]

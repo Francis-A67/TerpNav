@@ -122,3 +122,74 @@
   color: #666;
   font-size: 15px;
 }
+
+.commentForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.commentInput {
+  width: 100%;
+  border: 0.5px solid rgba(0,0,0,0.15);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-family: inherit;
+  resize: none;
+  outline: none;
+  color: #1a1a1a;
+  box-sizing: border-box;
+}
+
+.commentInput:focus {
+  border-color: #E03A3E;
+}
+
+.commentBtn {
+  align-self: flex-end;
+  background: #E03A3E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.commentBtn:hover:not(:disabled) {
+  background: #B02E31;
+}
+
+.commentBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.commentCard {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+}
+
+.commentText {
+  font-size: 13px;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.commentMeta {
+  font-size: 11px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.noComments {
+  font-size: 13px;
+  color: #888;
+  text-align: center;
+  padding: 20px 0;
+}

@@ -1,0 +1,5 @@
+# Normalize line endings to LF in the repo for all text files
+* text=auto eol=lf
+
+# Procfile must be LF on Render's Linux servers
+backend/Procfile text eol=lf

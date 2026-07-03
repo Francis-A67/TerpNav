@@ -1,37 +1,83 @@
 import json
 from pathlib import Path
+from django.db.models import Q
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .serializers import BuildingSerializer, TipSerializer
+from rest_framework.throttling import ScopedRateThrottle
+from .models import Building, Comment
+from .serializers import BuildingSerializer, TipSerializer, CommentSerializer
 
-DATA_FILE = Path(__file__).parent / 'data' / 'buildings.json'
 TIPS_FILE = Path(__file__).parent / 'data' / 'tips.json'
+_TIPS = None
 
-with open(DATA_FILE) as f:
-    BUILDINGS = json.load(f)
 
-with open(TIPS_FILE) as f:
-    TIPS = json.load(f)
+def get_tips():
+    global _TIPS
+    if _TIPS is None:
+        try:
+            with open(TIPS_FILE) as f:
+                _TIPS = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            _TIPS = []
+    return _TIPS
+
 
 class BuildingListView(APIView):
     def get(self, request):
-        serializer = BuildingSerializer(BUILDINGS, many=True)
+        search = request.query_params.get('search', '').strip()
+        queryset = Building.objects.all()
+        if search:
+            queryset = queryset.filter(
+                Q(code__icontains=search) |
+                Q(name__icontains=search) |
+                Q(department__icontains=search)
+            )
+        serializer = BuildingSerializer(queryset, many=True)
         return Response(serializer.data)
+
 
 class BuildingDetailView(APIView):
     def get(self, request, acronym):
-        building = next(
-            (b for b in BUILDINGS if b['acronym'].lower() == acronym.lower()),
-            None
-        )
-        if not building:
+        try:
+            building = Building.objects.get(code__iexact=acronym)
+        except Building.DoesNotExist:
             return Response({'error': 'Not found'}, status=status.HTTP_404_NOT_FOUND)
         serializer = BuildingSerializer(building)
         return Response(serializer.data)
 
+
 class TipListView(APIView):
     def get(self, request, acronym):
-        tips = [t for t in TIPS if t['building'].lower() == acronym.lower()]
+        tips = [t for t in get_tips() if t['building'].lower() == acronym.lower()]
         serializer = TipSerializer(tips, many=True)
         return Response(serializer.data)
+
+
+class CommentView(APIView):
+    throttle_scope = 'comments'
+
+    def get_throttles(self):
+        if self.request.method == 'POST':
+            return [ScopedRateThrottle()]
+        return []
+
+    def get(self, request, acronym):
+        try:
+            building = Building.objects.get(code__iexact=acronym)
+        except Building.DoesNotExist:
+            return Response({'error': 'Not found'}, status=status.HTTP_404_NOT_FOUND)
+        comments = building.comments.order_by('-created_at')
+        serializer = CommentSerializer(comments, many=True)
+        return Response(serializer.data)
+
+    def post(self, request, acronym):
+        try:
+            building = Building.objects.get(code__iexact=acronym)
+        except Building.DoesNotExist:
+            return Response({'error': 'Not found'}, status=status.HTTP_404_NOT_FOUND)
+        serializer = CommentSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save(building=building)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

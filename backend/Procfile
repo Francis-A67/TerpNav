@@ -1,0 +1,1 @@
+web: gunicorn terp_nav.wsgi --log-file -

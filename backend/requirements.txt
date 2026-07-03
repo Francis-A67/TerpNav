@@ -1,4 +1,8 @@
-django
-djangorestframework
-django-cors-headers
-python-dotenv
+django==6.0.4
+djangorestframework==3.17.1
+django-cors-headers==4.9.0
+python-dotenv==1.1.0
+gunicorn==23.0.0
+psycopg2-binary==2.9.10
+dj-database-url==2.3.0
+whitenoise==6.9.0
