@@ -1,0 +1,22 @@
+# Pings the Render backend every 10 minutes so the free-tier instance never
+# spins down (it sleeps after 15 idle minutes, and waking takes ~1 minute).
+# One always-on service uses ~720 of Render's 750 free instance-hours/month.
+#
+# Note: GitHub pauses scheduled workflows if the repo has no activity for
+# 60 days — push a commit (or re-enable in the Actions tab) to resume.
+name: Keep backend awake
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Render backend
+        run: |
+          curl -sS --max-time 90 -o /dev/null \
+            -w "HTTP %{http_code} in %{time_total}s\n" \
+            https://terpnav.onrender.com/api/buildings/IRB/
