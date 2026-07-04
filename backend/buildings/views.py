@@ -16,7 +16,7 @@ def get_tips():
     global _TIPS
     if _TIPS is None:
         try:
-            with open(TIPS_FILE) as f:
+            with open(TIPS_FILE, encoding='utf-8') as f:
                 _TIPS = json.load(f)
         except (OSError, json.JSONDecodeError):
             _TIPS = []

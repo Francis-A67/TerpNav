@@ -25,7 +25,7 @@ class Command(BaseCommand):
                 self.stdout.write(f'Skipping {source.name} (not found)')
                 continue
 
-            with open(source) as f:
+            with open(source, encoding='utf-8') as f:
                 buildings = json.load(f)
 
             self.stdout.write(f'Loading {len(buildings)} buildings from {source.name}...')
