@@ -168,6 +168,15 @@ The frontend auto-deploys from the `main` branch on Vercel.
 
 ## Recent Changes (last session)
 
+- Every building now has info: `scripts/building_info.json` (gis_id → department/
+  description/hours) merged by `transform_gis.py` — hand-written entries for ~40
+  notable buildings (Wind Tunnel, Observatory, IPST, USM/Elkins, NBRF, etc.),
+  category templates for dorms/apartments/Greek/garages/athletics/farm/facilities,
+  standard UMD hours (Mon–Fri 7am–10pm) as fallback
+- Building descriptions now render on the detail page (they never did before)
+- Mobile responsive pass: grids collapse 3→2→1 columns (768px/520px breakpoints),
+  hero search stacks, navbar compresses, detail rows stack on phones
+
 - Live filtering on the home hero: typing filters the grid below in real time
   (query state lifted to Home; grid searches acronym/name/department across all 308)
 - Street addresses for 209 buildings, matched from OpenStreetMap (Overpass API) by

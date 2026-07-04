@@ -2,12 +2,12 @@
   {
     "acronym": "B800",
     "full_name": "4-H Headquarters",
-    "department": "",
-    "description": "",
+    "department": "UMD Extension",
+    "description": "Offices for the Maryland 4-H youth development program, part of University of Maryland Extension.",
     "address": "8020 Greenmead Dr, College Park, MD 20740",
     "latitude": 39.001958,
     "longitude": -76.944667,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B429",
@@ -32,92 +32,92 @@
   {
     "acronym": "B102",
     "full_name": "Agriculture Shed",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Agriculture Shed \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "4294 Farm Dr, College Park, MD 20742",
     "latitude": 38.991972,
     "longitude": -76.9407,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B024",
     "full_name": "Allegany Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Allegany Hall \u2014 a university residence hall.",
     "address": "4299 Lehigh Rd, College Park, MD 20742",
     "latitude": 38.981578,
     "longitude": -76.941458,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B057",
     "full_name": "Animal Care Storage Facility",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Animal Care Storage Facility \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "8182 Engineering Dr, College Park, MD 20742",
     "latitude": 38.991941,
     "longitude": -76.938311,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B103",
     "full_name": "Animal Science Service Building",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Animal Science Service Building \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "4290 Farm Dr, College Park, MD 20742",
     "latitude": 38.992024,
     "longitude": -76.941063,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B142",
     "full_name": "Animal Sciences/Agricultural Engineering Building",
-    "department": "",
-    "description": "",
+    "department": "Animal & Avian Sciences",
+    "description": "The Animal Sciences/Agricultural Engineering Building \u2014 classrooms, labs, and offices for animal science and agricultural engineering programs.",
     "address": "",
     "latitude": 38.991632,
     "longitude": -76.939638,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B008",
     "full_name": "Annapolis Hall",
-    "department": "",
-    "description": "",
+    "department": "Residential Facilities",
+    "description": "Annapolis Hall \u2014 the Residential Facilities service center for on-campus housing maintenance.",
     "address": "7626 Regents Dr, College Park, MD 20742",
     "latitude": 38.982258,
     "longitude": -76.940066,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B060",
     "full_name": "Anne Arundel Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Anne Arundel Hall \u2014 a university residence hall.",
     "address": "3915 Campus Dr, College Park, MD 20742",
     "latitude": 38.985984,
     "longitude": -76.946737,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B399",
     "full_name": "Aquatic Center",
-    "department": "",
-    "description": "",
+    "department": "University Recreation & Wellness",
+    "description": "The Aquatic Center \u2014 pools and aquatics programs adjacent to the Eppley Recreation Center.",
     "address": "",
     "latitude": 38.993348,
     "longitude": -76.946517,
-    "hours": ""
+    "hours": "Mon\u2013Fri 6am\u201310pm, Sat\u2013Sun 8am\u20138pm"
   },
   {
     "acronym": "B156",
     "full_name": "Arboretum Outreach Center",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Arboretum Outreach Center \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "",
     "latitude": 38.991938,
     "longitude": -76.948756,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B145",
@@ -132,82 +132,82 @@
   {
     "acronym": "B813",
     "full_name": "Artemesia Building",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Artemesia Building \u2014 university research and administrative space.",
     "address": "",
     "latitude": 38.993742,
     "longitude": -76.933216,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B221",
     "full_name": "Astronomical Observatory",
-    "department": "",
-    "description": "",
+    "department": "Astronomy",
+    "description": "The UMD Astronomical Observatory \u2014 hosts free public open-house nights with telescope viewing twice a month.",
     "address": "3255 Metzerott Rd, College Park, MD 20742",
     "latitude": 39.001971,
     "longitude": -76.95609,
-    "hours": ""
+    "hours": "Open house evenings (see astro.umd.edu)"
   },
   {
     "acronym": "B219",
     "full_name": "Astronomy Lecture Building",
-    "department": "",
-    "description": "",
+    "department": "Astronomy",
+    "description": "Lecture hall next to the UMD Observatory, used for astronomy courses and public open-house talks.",
     "address": "3271 Metzerott Rd, College Park, MD 20742",
     "latitude": 39.002005,
     "longitude": -76.955642,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B220",
     "full_name": "Astronomy Trailer",
-    "department": "",
-    "description": "",
+    "department": "Astronomy",
+    "description": "Support space for the UMD Astronomical Observatory next door.",
     "address": "3271 Metzerott Rd, College Park, MD 20742",
     "latitude": 39.001851,
     "longitude": -76.956003,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B224",
     "full_name": "Atlantic Building",
-    "department": "",
-    "description": "",
+    "department": "Astronomy & Physics",
+    "description": "The Atlantic Building \u2014 research space for astronomy, physics, and the Joint Space-Science Institute.",
     "address": "4254 Stadium Dr, College Park, MD 20742",
     "latitude": 38.991025,
     "longitude": -76.942475,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B795",
     "full_name": "Avrum Gudelsky",
-    "department": "",
-    "description": "",
+    "department": "Veterinary Medicine",
+    "description": "The Avrum Gudelsky Veterinary Center \u2014 College Park campus of the Virginia-Maryland College of Veterinary Medicine.",
     "address": "8075-77 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.004256,
     "longitude": -76.941698,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B016",
     "full_name": "Baltimore Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Baltimore Hall \u2014 a university residence hall.",
     "address": "7497 Calvert Service Ln, College Park, MD 20740",
     "latitude": 38.982271,
     "longitude": -76.94217,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B099",
     "full_name": "Bel Air Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Bel Air Hall \u2014 a university residence hall.",
     "address": "4213 Valley Dr, College Park, MD 20742",
     "latitude": 38.992779,
     "longitude": -76.942634,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B143",
@@ -252,22 +252,22 @@
   {
     "acronym": "B169",
     "full_name": "Boat House",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Boat House \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.994327,
     "longitude": -76.954365,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B159",
     "full_name": "Bob \"Turtle\" Smith Stadium at Shipley Field",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Bob \"Turtle\" Smith Stadium at Shipley Field \u2014 Maryland Terrapins athletics facility.",
     "address": "4122 Fieldhouse Dr, College Park, MD 20742",
     "latitude": 38.988783,
     "longitude": -76.944599,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B432",
@@ -283,141 +283,141 @@
     "acronym": "B006",
     "full_name": "Building 006",
     "department": "",
-    "description": "",
+    "description": "Building 006 on the University of Maryland campus.",
     "address": "4425 Campus Dr, College Park, MD 20742",
     "latitude": 38.985798,
     "longitude": -76.934466,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B011",
     "full_name": "Building 011",
     "department": "",
-    "description": "",
+    "description": "Building 011 on the University of Maryland campus.",
     "address": "4425 Campus Dr, College Park, MD 20742",
     "latitude": 38.986246,
     "longitude": -76.933615,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B422",
     "full_name": "CSPAC Grounds Storage Facility",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "CSPAC Grounds Storage Facility \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.990333,
     "longitude": -76.951872,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B015",
     "full_name": "Calvert Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Calvert Hall \u2014 a university residence hall.",
     "address": "7551 Calvert Service Ln, College Park, MD 20742",
     "latitude": 38.982959,
     "longitude": -76.942289,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B097",
     "full_name": "Cambridge Community Center",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "The Cambridge Community Center \u2014 classrooms, offices, and study space serving the Cambridge residence community.",
     "address": "4232 Farm Dr, College Park, MD 20742",
     "latitude": 38.99221,
     "longitude": -76.943006,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B096",
     "full_name": "Cambridge Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Cambridge Hall \u2014 a university residence hall.",
     "address": "4230 Farm Dr, College Park, MD 20742",
     "latitude": 38.991716,
     "longitude": -76.943071,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B070",
     "full_name": "Caroline Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Caroline Hall \u2014 a university residence hall.",
     "address": "7154 Preinkert Dr, College Park, MD 20742",
     "latitude": 38.983518,
     "longitude": -76.945748,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B065",
     "full_name": "Carroll Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Carroll Hall \u2014 a university residence hall.",
     "address": "7284 Preinkert Dr, College Park, MD 20742",
     "latitude": 38.984008,
     "longitude": -76.945717,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B110",
     "full_name": "Cattle Barn",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Cattle Barn \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "",
     "latitude": 38.992427,
     "longitude": -76.940459,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B017",
     "full_name": "Cecil Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Cecil Hall \u2014 a university residence hall.",
     "address": "7549 Calvert Service Ln, College Park, MD 20742",
     "latitude": 38.982931,
     "longitude": -76.941652,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B381",
     "full_name": "Center for Young Children",
-    "department": "",
-    "description": "",
+    "department": "Education",
+    "description": "The Center for Young Children \u2014 a laboratory preschool run by the College of Education for teaching and child-development research.",
     "address": "4028 Valley Dr, College Park, MD 20742",
     "latitude": 38.993486,
     "longitude": -76.948508,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20134pm"
   },
   {
     "acronym": "B087",
     "full_name": "Central Animal Resources Facility",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Central Animal Resources Facility \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "8180 Engineering Dr, College Park, MD 20742",
     "latitude": 38.991673,
     "longitude": -76.938343,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B098",
     "full_name": "Centreville Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Centreville Hall \u2014 a university residence hall.",
     "address": "4243 Valley Dr, College Park, MD 20742",
     "latitude": 38.992239,
     "longitude": -76.942113,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B025",
     "full_name": "Charles Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Charles Hall \u2014 a university residence hall.",
     "address": "4405 Lehigh Rd, College Park, MD 20742",
     "latitude": 38.981594,
     "longitude": -76.940507,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B090",
@@ -442,32 +442,32 @@
   {
     "acronym": "B338",
     "full_name": "Chesapeake Building",
-    "department": "",
-    "description": "",
+    "department": "Administration",
+    "description": "The Chesapeake Building \u2014 administrative offices including university human resources and business services.",
     "address": "4300 Terrapin Trail, College Park, MD 20742",
     "latitude": 38.998185,
     "longitude": -76.942135,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B121",
     "full_name": "Chestertown Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Chestertown Hall \u2014 a university residence hall.",
     "address": "4201 Valley Dr, College Park, MD 20742",
     "latitude": 38.992796,
     "longitude": -76.943456,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B059",
     "full_name": "Chincoteague Hall",
-    "department": "",
-    "description": "",
+    "department": "Administration",
+    "description": "Chincoteague Hall \u2014 office and program space on north campus.",
     "address": "7401 Prenkert Dr, College Park, MD 20742",
     "latitude": 38.985259,
     "longitude": -76.944493,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B052",
@@ -502,32 +502,32 @@
   {
     "acronym": "B802",
     "full_name": "College Park Fire Station",
-    "department": "",
-    "description": "",
+    "department": "Public Safety",
+    "description": "College Park Fire Station \u2014 serving the campus and city of College Park.",
     "address": "8115 Baltimore Ave, College Park, MD 20740",
     "latitude": 38.990405,
     "longitude": -76.933722,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B345",
     "full_name": "College Park Marriott Hotel & Conference Center",
-    "department": "",
-    "description": "",
+    "department": "Hospitality",
+    "description": "The College Park Marriott Hotel & Conference Center at UMGC.",
     "address": "3501 University Blvd, College Park, MD 20783",
     "latitude": 38.986093,
     "longitude": -76.953804,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B348",
     "full_name": "College Park Marriott Hotel & Conference Center",
-    "department": "",
-    "description": "",
+    "department": "Hospitality",
+    "description": "The College Park Marriott Hotel & Conference Center at UMGC.",
     "address": "3501 University Blvd East, College Park, MD 20783",
     "latitude": 38.986055,
     "longitude": -76.955082,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B406",
@@ -542,132 +542,132 @@
   {
     "acronym": "B987",
     "full_name": "Courtyard 100",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Courtyard 100 \u2014 university apartment-style student housing.",
     "address": "8100 Boteler Ln, College Park, MD 20740",
     "latitude": 39.002114,
     "longitude": -76.941462,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B988",
     "full_name": "Courtyard 200",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Courtyard 200 \u2014 university apartment-style student housing.",
     "address": "8200 Boteler Ln, College Park, MD 20740",
     "latitude": 39.001782,
     "longitude": -76.942172,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B989",
     "full_name": "Courtyard 300",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Courtyard 300 \u2014 university apartment-style student housing.",
     "address": "8300 Boteler Ln, College Park, MD 20740",
     "latitude": 39.001058,
     "longitude": -76.942197,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B990",
     "full_name": "Courtyard 400",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Courtyard 400 \u2014 university apartment-style student housing.",
     "address": "8400 Boteler Ln, College Park, MD 20740",
     "latitude": 39.002155,
     "longitude": -76.942976,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B991",
     "full_name": "Courtyard 500",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Courtyard 500 \u2014 university apartment-style student housing.",
     "address": "8500 Boteler Ln, College Park, MD 20740",
     "latitude": 39.002906,
     "longitude": -76.942316,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B992",
     "full_name": "Courtyard 600",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Courtyard 600 \u2014 university apartment-style student housing.",
     "address": "8600 Boteler Ln, College Park, MD 20740",
     "latitude": 39.002809,
     "longitude": -76.94184,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B993",
     "full_name": "Courtyard 700",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Courtyard 700 \u2014 university apartment-style student housing.",
     "address": "8700 Boteler Ln, College Park, MD 20740",
     "latitude": 39.003309,
     "longitude": -76.941959,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B994",
     "full_name": "Courtyard Clubhouse",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "Courtyard Clubhouse \u2014 chapter housing on the university's Greek Life rows.",
     "address": "8000 Boteler Ln, College Park, MD 20740",
     "latitude": 39.001617,
     "longitude": -76.941388,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B995",
     "full_name": "Courtyard Maintenance Shed",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Courtyard Maintenance Shed \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 39.003742,
     "longitude": -76.942514,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B886",
     "full_name": "Crane Aquaculture Building",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Crane Aquaculture Building \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "8111 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.00432,
     "longitude": -76.940343,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B888",
     "full_name": "Crane Aquaculture Support Building",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Crane Aquaculture Support Building \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "8109 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.004171,
     "longitude": -76.940134,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B122",
     "full_name": "Cumberland Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Cumberland Hall \u2014 a university residence hall.",
     "address": "4250 Farm Dr, College Park, MD 20742",
     "latitude": 38.992228,
     "longitude": -76.943999,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B814",
     "full_name": "Cypress Building",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Cypress Building \u2014 university research and administrative space.",
     "address": "",
     "latitude": 38.993203,
     "longitude": -76.933305,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B251",
@@ -682,32 +682,32 @@
   {
     "acronym": "B252",
     "full_name": "Denton Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Denton Hall \u2014 a university residence hall.",
     "address": "3854 Stadium Dr, College Park, MD 20742",
     "latitude": 38.992277,
     "longitude": -76.950024,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B064",
     "full_name": "Dorchester Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Dorchester Hall \u2014 a university residence hall.",
     "address": "3947 Campus Dr, College Park, MD 20742",
     "latitude": 38.986777,
     "longitude": -76.946157,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B253",
     "full_name": "Easton Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Easton Hall \u2014 a university residence hall.",
     "address": "3917 Denton Service Ln, College Park, MD 20742",
     "latitude": 38.992992,
     "longitude": -76.950242,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B226",
@@ -722,92 +722,92 @@
   {
     "acronym": "B311",
     "full_name": "Elkins Building",
-    "department": "",
-    "description": "",
+    "department": "University System of Maryland",
+    "description": "The Elkins Building \u2014 headquarters of the University System of Maryland, the state's public higher-education system office.",
     "address": "3300 Metzerott Rd, College Park, MD 20742",
     "latitude": 39.004655,
     "longitude": -76.954066,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B254",
     "full_name": "Elkton Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Elkton Hall \u2014 a university residence hall.",
     "address": "3981 Denton Service Ln, College Park, MD 20742",
     "latitude": 38.992499,
     "longitude": -76.94902,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B257",
     "full_name": "Ellicott Area Dining Hall",
-    "department": "",
-    "description": "",
+    "department": "Dining Services",
+    "description": "The Ellicott-area dining hall serving north campus residents.",
     "address": "",
     "latitude": 38.992427,
     "longitude": -76.946509,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20139pm, Sat\u2013Sun 10am\u20139pm"
   },
   {
     "acronym": "B256",
     "full_name": "Ellicott Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Ellicott Hall \u2014 a university residence hall.",
     "address": "4052 Stadium Dr, College Park, MD 20742",
     "latitude": 38.991809,
     "longitude": -76.946707,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B001",
     "full_name": "Energy Plant",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "The campus Energy Plant \u2014 combined heat and power generation for the university.",
     "address": "7743 Baltimore Ave, College Park, MD 20742",
     "latitude": 38.985888,
     "longitude": -76.935618,
-    "hours": ""
+    "hours": "24/7 (staff only)"
   },
   {
     "acronym": "B223",
     "full_name": "Energy Research Facility",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Energy Research Facility \u2014 campus operations and support facility.",
     "address": "8279 Paint Branch Dr, College Park, MD 20742",
     "latitude": 38.991929,
     "longitude": -76.936875,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B093",
     "full_name": "Engineering Annex",
-    "department": "",
-    "description": "",
+    "department": "Engineering",
+    "description": "Engineering Annex \u2014 auxiliary labs and shop space for the Clark School of Engineering.",
     "address": "8221 Paint Branch Dr, College Park, MD 20742",
     "latitude": 38.990717,
     "longitude": -76.936927,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B089",
     "full_name": "Engineering Laboratory Building",
-    "department": "",
-    "description": "",
+    "department": "Engineering",
+    "description": "The Engineering Laboratory Building \u2014 teaching and research labs for the A. James Clark School of Engineering.",
     "address": "8136 Paint Branch Dr, College Park, MD 20742",
     "latitude": 38.989326,
     "longitude": -76.937919,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B344",
     "full_name": "Environmental Service Facility",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Environmental Service Facility \u2014 campus operations and support facility.",
     "address": "4200 Landscape Ln, College Park, MD 20742",
     "latitude": 38.996493,
     "longitude": -76.943728,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B068",
@@ -822,32 +822,32 @@
   {
     "acronym": "B396",
     "full_name": "Equipment Storage Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Equipment Storage Building \u2014 campus operations and support facility.",
     "address": "8149 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.007013,
     "longitude": -76.940425,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B414",
     "full_name": "Field Hockey & Lacrosse Complex",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Field Hockey & Lacrosse Complex \u2014 Maryland Terrapins athletics facility.",
     "address": "8483 Paint Branch Dr, College Park, MD 20742",
     "latitude": 38.994746,
     "longitude": -76.936927,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B427",
     "full_name": "Fleet Services Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Fleet Services Building \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.976133,
     "longitude": -76.924676,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B048",
@@ -862,32 +862,32 @@
   {
     "acronym": "B029",
     "full_name": "Frederick Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Frederick Hall \u2014 a university residence hall.",
     "address": "4402 Lehigh Rd, College Park, MD 20742",
     "latitude": 38.98205,
     "longitude": -76.940763,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B031",
     "full_name": "Garrett Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Garrett Hall \u2014 a university residence hall.",
     "address": "7570 Calvert Service Ln, College Park, MD 20742",
     "latitude": 38.983259,
     "longitude": -76.942653,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B299",
     "full_name": "Gate House",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Gate House \u2014 campus operations and support facility.",
     "address": "4360 Campus Dr, College Park, MD 20742",
     "latitude": 38.988651,
     "longitude": -76.935764,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B237",
@@ -902,442 +902,442 @@
   {
     "acronym": "B166",
     "full_name": "Golf Course Club House",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Golf Course Club House \u2014 Maryland Terrapins athletics facility.",
     "address": "3800 Golf Course Rd, College Park, MD 20742",
     "latitude": 38.991137,
     "longitude": -76.954635,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B165",
     "full_name": "Golf Course Driving Range Control Building",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Golf Course Driving Range Control Building \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.990802,
     "longitude": -76.955011,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B167",
     "full_name": "Golf Course Maintenance Office",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Golf Course Maintenance Office \u2014 Maryland Terrapins athletics facility.",
     "address": "3293 Metzerott Rd, College Park, MD 20742",
     "latitude": 38.997691,
     "longitude": -76.95309,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B314",
     "full_name": "Golf Course Repair Shop",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Golf Course Repair Shop \u2014 Maryland Terrapins athletics facility.",
     "address": "3293 Metzerott Rd, College Park, MD 20742",
     "latitude": 38.997304,
     "longitude": -76.953172,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B319",
     "full_name": "Golf Course Storage Building",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Golf Course Storage Building \u2014 Maryland Terrapins athletics facility.",
     "address": "3293 Metzerott Rd, College Park, MD 20742",
     "latitude": 38.997572,
     "longitude": -76.953395,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B313",
     "full_name": "Golf Course Storage Building",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Golf Course Storage Building \u2014 Maryland Terrapins athletics facility.",
     "address": "3297 Metzerott Rd, College Park, MD 20742",
     "latitude": 38.997339,
     "longitude": -76.95285,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B318",
     "full_name": "Golf Course Toilet Facility",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Golf Course Toilet Facility \u2014 Maryland Terrapins athletics facility.",
     "address": "3293 Metzerott Rd, College Park, MD 20742",
     "latitude": 38.997501,
     "longitude": -76.953242,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B379",
     "full_name": "Gossett Football Team House",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Gossett Football Team House \u2014 Maryland Terrapins athletics facility.",
     "address": "4068 Fieldhouse Dr, College Park, MD 20742",
     "latitude": 38.989696,
     "longitude": -76.946305,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B260",
     "full_name": "Graduate Gardens Apartment 4301",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4301 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.979345,
     "longitude": -76.942422,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B261",
     "full_name": "Graduate Gardens Apartment 4303",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4303 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.979204,
     "longitude": -76.942505,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B262",
     "full_name": "Graduate Gardens Apartment 4305",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4305 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.979108,
     "longitude": -76.942349,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B263",
     "full_name": "Graduate Gardens Apartment 4307",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4307 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.979019,
     "longitude": -76.942146,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B264",
     "full_name": "Graduate Gardens Apartment 4309",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4309 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.979177,
     "longitude": -76.942035,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B265",
     "full_name": "Graduate Gardens Apartment 4311",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4311 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978907,
     "longitude": -76.941863,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B266",
     "full_name": "Graduate Gardens Apartment 4312",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4312 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.979027,
     "longitude": -76.941331,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B267",
     "full_name": "Graduate Gardens Apartment 4313",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4313 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978793,
     "longitude": -76.941678,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B268",
     "full_name": "Graduate Gardens Apartment 4314",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4314 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978986,
     "longitude": -76.94105,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B269",
     "full_name": "Graduate Gardens Apartment 4315",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4315 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978708,
     "longitude": -76.941475,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B270",
     "full_name": "Graduate Gardens Apartment 4316",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4316 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978908,
     "longitude": -76.940827,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B271",
     "full_name": "Graduate Gardens Apartment 4317",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4317 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978598,
     "longitude": -76.941212,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B272",
     "full_name": "Graduate Gardens Apartment 4318",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4318 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978926,
     "longitude": -76.940616,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B273",
     "full_name": "Graduate Gardens Apartment 4319",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4319 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978553,
     "longitude": -76.94105,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B274",
     "full_name": "Graduate Gardens Apartment 4320",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4320 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978798,
     "longitude": -76.940367,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B275",
     "full_name": "Graduate Gardens Apartment 4321",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4321 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978461,
     "longitude": -76.940784,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B276",
     "full_name": "Graduate Gardens Apartment 4322",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4322 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978633,
     "longitude": -76.94028,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B277",
     "full_name": "Graduate Gardens Apartment 4323",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4323 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978382,
     "longitude": -76.940574,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B278",
     "full_name": "Graduate Gardens Apartment 4324",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4324 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978531,
     "longitude": -76.940041,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B279",
     "full_name": "Graduate Gardens Apartment 4325",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4325 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978224,
     "longitude": -76.940408,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B280",
     "full_name": "Graduate Gardens Apartment 4326",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4326 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978398,
     "longitude": -76.939901,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B281",
     "full_name": "Graduate Gardens Apartment 4327",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4327 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.978139,
     "longitude": -76.940238,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B282",
     "full_name": "Graduate Gardens Apartment 4329",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4329 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.97804,
     "longitude": -76.94001,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B283",
     "full_name": "Graduate Gardens Apartment 4331",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4331 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.977928,
     "longitude": -76.939758,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B284",
     "full_name": "Graduate Gardens Apartment 4333",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4333 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.977902,
     "longitude": -76.939593,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B285",
     "full_name": "Graduate Gardens Apartment 4335",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4335 \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.977849,
     "longitude": -76.939348,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B289",
     "full_name": "Graduate Hills  Apartment",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Hills  Apartment \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.984452,
     "longitude": -76.955782,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B286",
     "full_name": "Graduate Hills Apartment",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.984915,
     "longitude": -76.958283,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B292",
     "full_name": "Graduate Hills Apartment",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.984418,
     "longitude": -76.958404,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B288",
     "full_name": "Graduate Hills Apartment",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.985133,
     "longitude": -76.956236,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B290",
     "full_name": "Graduate Hills Apartment",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.984358,
     "longitude": -76.95633,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B287",
     "full_name": "Graduate Hills Apartment",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.98502,
     "longitude": -76.957217,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B291",
     "full_name": "Graduate Hills Apartment",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment \u2014 university apartment housing for graduate students and families.",
     "address": "",
     "latitude": 38.984465,
     "longitude": -76.957224,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B124",
     "full_name": "Grounds Material & Equipment Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Grounds Material & Equipment Building \u2014 campus operations and support facility.",
     "address": "4205 Landscape Ln, College Park, MD 20742",
     "latitude": 38.995659,
     "longitude": -76.943333,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B328",
     "full_name": "Grounds Operations & Maintenance Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Grounds Operations & Maintenance Building \u2014 campus operations and support facility.",
     "address": "4207 Landscape Ln, College Park, MD 20742",
     "latitude": 38.995535,
     "longitude": -76.942959,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B423",
     "full_name": "Grounds Storage Facility",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Grounds Storage Facility \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.98443,
     "longitude": -76.946359,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B073",
@@ -1352,32 +1352,32 @@
   {
     "acronym": "B056",
     "full_name": "HVAC & PM Storage Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "HVAC & PM Storage Building \u2014 campus operations and support facility.",
     "address": "4149 Fieldhouse Dr, College Park, MD 20742",
     "latitude": 38.9883,
     "longitude": -76.943736,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B258",
     "full_name": "Hagerstown Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Hagerstown Hall \u2014 a university residence hall.",
     "address": "4000 Stadium Dr, College Park, MD 20742",
     "latitude": 38.992415,
     "longitude": -76.947427,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B014",
     "full_name": "Harford Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Harford Hall \u2014 a university residence hall.",
     "address": "7660 Regents Dr, College Park, MD 20742",
     "latitude": 38.982522,
     "longitude": -76.940938,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B140",
@@ -1392,12 +1392,12 @@
   {
     "acronym": "B426",
     "full_name": "Heavy Equipment Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Heavy Equipment Building \u2014 campus operations and support facility.",
     "address": "4209 Landscape Ln, College Park, MD 20742",
     "latitude": 38.996059,
     "longitude": -76.94283,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B147",
@@ -1412,262 +1412,262 @@
   {
     "acronym": "B108",
     "full_name": "Horse Barn",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Horse Barn \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "4298 Farm Dr, College Park, MD 20742",
     "latitude": 38.991713,
     "longitude": -76.94078,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B126",
     "full_name": "House 1",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 1 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.984699,
     "longitude": -76.936699,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B135",
     "full_name": "House 10",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 10 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.983273,
     "longitude": -76.935166,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B136",
     "full_name": "House 11",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 11 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.983278,
     "longitude": -76.935649,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B137",
     "full_name": "House 12",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 12 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.983278,
     "longitude": -76.936213,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B138",
     "full_name": "House 13",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 13 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.983276,
     "longitude": -76.936684,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B139",
     "full_name": "House 14",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 14 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.983208,
     "longitude": -76.937224,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B170",
     "full_name": "House 170",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 170 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.981305,
     "longitude": -76.935192,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B171",
     "full_name": "House 171",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 171 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.981369,
     "longitude": -76.935633,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B172",
     "full_name": "House 172",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 172 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.98143,
     "longitude": -76.936096,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B173",
     "full_name": "House 173",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 173 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.980783,
     "longitude": -76.936322,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B174",
     "full_name": "House 174",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 174 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.980672,
     "longitude": -76.935885,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B175",
     "full_name": "House 175",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 175 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.980588,
     "longitude": -76.93542,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B176",
     "full_name": "House 176",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 176 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.980887,
     "longitude": -76.935271,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B127",
     "full_name": "House 2",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 2 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.984632,
     "longitude": -76.936213,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B128",
     "full_name": "House 3",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 3 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.984635,
     "longitude": -76.935626,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B129",
     "full_name": "House 4",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 4 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.984626,
     "longitude": -76.935146,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B130",
     "full_name": "House 5",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 5 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.984603,
     "longitude": -76.934637,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B131",
     "full_name": "House 6",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 6 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.98433,
     "longitude": -76.934182,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B132",
     "full_name": "House 7",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 7 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.983938,
     "longitude": -76.934041,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B133",
     "full_name": "House 8",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 8 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.983572,
     "longitude": -76.934204,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B134",
     "full_name": "House 9",
-    "department": "",
-    "description": "",
+    "department": "Greek Life",
+    "description": "House 9 \u2014 chapter housing on the university's Greek Life rows.",
     "address": "",
     "latitude": 38.983313,
     "longitude": -76.934648,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B028",
     "full_name": "Howard Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Howard Hall \u2014 a university residence hall.",
     "address": "4296 Lehigh Dr, College Park, MD 20742",
     "latitude": 38.981956,
     "longitude": -76.941977,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B309",
     "full_name": "Indoor Practice Facility",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Indoor Practice Facility \u2014 Maryland Terrapins athletics facility.",
     "address": "3809 Golf Course Rd, College Park, MD 20742",
     "latitude": 38.989808,
     "longitude": -76.954216,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B085",
     "full_name": "Institute for Physical Science & Technology",
-    "department": "",
-    "description": "",
+    "department": "Physical Science & Technology",
+    "description": "The Institute for Physical Science & Technology (IPST) \u2014 interdisciplinary research in applied math, physics, and scientific computation.",
     "address": "8108 Regents Dr, College Park, MD 20742",
     "latitude": 38.990961,
     "longitude": -76.94099,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B045",
     "full_name": "Instructional Television Facility",
-    "department": "",
-    "description": "",
+    "department": "Engineering",
+    "description": "The Instructional Television Facility \u2014 distance-education studios for the Clark School of Engineering's online programs.",
     "address": "8141 Chemistry Ln, College Park, MD 20742",
     "latitude": 38.989573,
     "longitude": -76.938311,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B083",
@@ -1702,32 +1702,32 @@
   {
     "acronym": "B227",
     "full_name": "Jull Hall",
-    "department": "",
-    "description": "",
+    "department": "Institute of Applied Agriculture",
+    "description": "Jull Hall \u2014 home of the Institute of Applied Agriculture's two-year applied agriculture programs.",
     "address": "4196 Stadium Dr, College Park, MD 20742",
     "latitude": 38.990885,
     "longitude": -76.943594,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B388",
     "full_name": "Kehoe Track at Ludwig Field",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Kehoe Track at Ludwig Field \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.987607,
     "longitude": -76.951325,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B022",
     "full_name": "Kent Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Kent Hall \u2014 a university residence hall.",
     "address": "7565 Calvert Service Ln, College Park, MD 20742",
     "latitude": 38.983281,
     "longitude": -76.941823,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B225",
@@ -1752,42 +1752,42 @@
   {
     "acronym": "B799",
     "full_name": "LEAFHouse",
-    "department": "",
-    "description": "",
+    "department": "Engineering",
+    "description": "LEAFHouse \u2014 UMD's award-winning solar house from the 2007 Solar Decathlon, kept as a sustainability demonstration.",
     "address": "3911 Metzerott Rd, College Park, MD 20740",
     "latitude": 38.999644,
     "longitude": -76.941376,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B259",
     "full_name": "La Plata Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "La Plata Hall \u2014 a university residence hall.",
     "address": "4121 Farm Dr, College Park, MD 20742",
     "latitude": 38.992445,
     "longitude": -76.945915,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B796",
     "full_name": "Laboratory for Physical Sciences",
-    "department": "",
-    "description": "",
+    "department": "Research",
+    "description": "The Laboratory for Physical Sciences \u2014 a university research lab advancing physical sciences and high-performance computing.",
     "address": "8050 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.003532,
     "longitude": -76.944009,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B797",
     "full_name": "Laboratory for Telecommunication Sciences",
-    "department": "",
-    "description": "",
+    "department": "Research",
+    "description": "The Laboratory for Telecommunication Sciences \u2014 a federal\u2013university research partnership in telecommunications.",
     "address": "8118 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.005054,
     "longitude": -76.943554,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B038",
@@ -1802,12 +1802,12 @@
   {
     "acronym": "B904",
     "full_name": "Leased Facility 904",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Leased Facility 904 \u2014 university research and administrative space.",
     "address": "",
     "latitude": 38.968706,
     "longitude": -76.922853,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B071",
@@ -1822,192 +1822,192 @@
   {
     "acronym": "B238",
     "full_name": "Leonardtown 238",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 238 \u2014 university apartment-style student housing.",
     "address": "7563 Yale Ave, College Park, MD 20742",
     "latitude": 38.982878,
     "longitude": -76.933023,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B239",
     "full_name": "Leonardtown 239",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 239 \u2014 university apartment-style student housing.",
     "address": "",
     "latitude": 38.982589,
     "longitude": -76.93289,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B240",
     "full_name": "Leonardtown 240",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 240 \u2014 university apartment-style student housing.",
     "address": "",
     "latitude": 38.982717,
     "longitude": -76.932535,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B241",
     "full_name": "Leonardtown 241",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 241 \u2014 university apartment-style student housing.",
     "address": "",
     "latitude": 38.982595,
     "longitude": -76.932287,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B242",
     "full_name": "Leonardtown 242",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 242 \u2014 university apartment-style student housing.",
     "address": "",
     "latitude": 38.982733,
     "longitude": -76.932032,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B243",
     "full_name": "Leonardtown 243",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 243 \u2014 university apartment-style student housing.",
     "address": "",
     "latitude": 38.98295,
     "longitude": -76.932054,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B244",
     "full_name": "Leonardtown 244",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 244 \u2014 university apartment-style student housing.",
     "address": "4673 Rossborough Ln, College Park, MD 20742",
     "latitude": 38.984833,
     "longitude": -76.933768,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B245",
     "full_name": "Leonardtown 245",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 245 \u2014 university apartment-style student housing.",
     "address": "4689 Rossborough Ln, College Park, MD 20742",
     "latitude": 38.984605,
     "longitude": -76.933403,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B246",
     "full_name": "Leonardtown 246",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 246 \u2014 university apartment-style student housing.",
     "address": "7575 Yale Ave, College Park, MD 20742",
     "latitude": 38.984323,
     "longitude": -76.933561,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B247",
     "full_name": "Leonardtown 247",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 247 \u2014 university apartment-style student housing.",
     "address": "4713 Rossborough Ln, College Park, MD 20742",
     "latitude": 38.984264,
     "longitude": -76.933114,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B248",
     "full_name": "Leonardtown 248",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 248 \u2014 university apartment-style student housing.",
     "address": "7567 Yale Ave, College Park, MD 20742",
     "latitude": 38.983943,
     "longitude": -76.933417,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B249",
     "full_name": "Leonardtown 249",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Leonardtown 249 \u2014 university apartment-style student housing.",
     "address": "7563 Yale Ave, College Park, MD 20742",
     "latitude": 38.983692,
     "longitude": -76.933236,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B250",
     "full_name": "Leonardtown Community Center",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "The Leonardtown Community Center \u2014 community space and offices for the Leonardtown apartment area.",
     "address": "7559 Yale Ave, College Park, MD 20742",
     "latitude": 38.983378,
     "longitude": -76.933541,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u201310pm"
   },
   {
     "acronym": "B201",
     "full_name": "Leonardtown Office Building",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "The Leonardtown Office Building \u2014 Department of Resident Life offices for the Leonardtown community.",
     "address": "7563 Yale Ave, College Park, MD 20742",
     "latitude": 38.983752,
     "longitude": -76.93242,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B195",
     "full_name": "MFRI Drill Tower",
-    "department": "",
-    "description": "",
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Drill Tower \u2014 emergency-responder training facility of the Maryland Fire and Rescue Institute.",
     "address": "4466 Campus Dr, College Park, MD 20742",
     "latitude": 38.983575,
     "longitude": -76.929889,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B197",
     "full_name": "MFRI Fire Extinguisher Training Facility",
-    "department": "",
-    "description": "",
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Fire Extinguisher Training Facility \u2014 emergency-responder training facility of the Maryland Fire and Rescue Institute.",
     "address": "4504 Campus Dr, College Park, MD 20742",
     "latitude": 38.984062,
     "longitude": -76.927784,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B199",
     "full_name": "MFRI Office/Classroom Building",
-    "department": "",
-    "description": "",
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Office/Classroom Building \u2014 emergency-responder training facility of the Maryland Fire and Rescue Institute.",
     "address": "4500 Campus Dr, College Park, MD 20742",
     "latitude": 38.983293,
     "longitude": -76.928883,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B198",
     "full_name": "MFRI Shop Facility",
-    "department": "",
-    "description": "",
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Shop Facility \u2014 emergency-responder training facility of the Maryland Fire and Rescue Institute.",
     "address": "4490 Campus Dr, College Park, MD 20742",
     "latitude": 38.984033,
     "longitude": -76.928844,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B196",
     "full_name": "MFRI Structural Firefighting Building",
-    "department": "",
-    "description": "",
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Structural Firefighting Building \u2014 emergency-responder training facility of the Maryland Fire and Rescue Institute.",
     "address": "4502 Campus Dr, College Park, MD 20742",
     "latitude": 38.98363,
     "longitude": -76.928248,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B077",
@@ -2022,12 +2022,12 @@
   {
     "acronym": "B148",
     "full_name": "Manufacturing Building",
-    "department": "",
-    "description": "",
+    "department": "Engineering",
+    "description": "The Manufacturing Building \u2014 machine shops and fabrication space supporting engineering research.",
     "address": "8197 Regents Dr, College Park, MD 20742",
     "latitude": 38.992896,
     "longitude": -76.939383,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B046",
@@ -2052,112 +2052,112 @@
   {
     "acronym": "B420",
     "full_name": "Maryland Baseball Annex",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Baseball Annex \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.989937,
     "longitude": -76.945511,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B409",
     "full_name": "Maryland Softball Stadium",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Softball Stadium \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.996292,
     "longitude": -76.939924,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B368",
     "full_name": "Maryland Stadium Building Upper Deck",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Stadium Building Upper Deck \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.990827,
     "longitude": -76.946689,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B370",
     "full_name": "Maryland Stadium Concessions",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.990441,
     "longitude": -76.946116,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B367",
     "full_name": "Maryland Stadium Concessions",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.991196,
     "longitude": -76.948069,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B363",
     "full_name": "Maryland Stadium Concessions",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.989442,
     "longitude": -76.947682,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B362",
     "full_name": "Maryland Stadium Concessions",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.989437,
     "longitude": -76.94715,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B364",
     "full_name": "Maryland Stadium Concessions",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.989724,
     "longitude": -76.948201,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B365",
     "full_name": "Maryland Stadium Concessions",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.990509,
     "longitude": -76.948608,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B369",
     "full_name": "Maryland Stadium Maintenance Building",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Stadium Maintenance Building \u2014 Maryland Terrapins athletics facility.",
     "address": "4089 Stadium Dr, College Park, MD 20742",
     "latitude": 38.990226,
     "longitude": -76.945908,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B366",
     "full_name": "Maryland Stadium Ticket Booth",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Maryland Stadium Ticket Booth \u2014 Maryland Terrapins athletics facility.",
     "address": "",
     "latitude": 38.990978,
     "longitude": -76.94845,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B035",
@@ -2182,12 +2182,12 @@
   {
     "acronym": "B430",
     "full_name": "Metzerott House (4103)",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Metzerott House (4103) \u2014 university research and administrative space.",
     "address": "",
     "latitude": 38.999583,
     "longitude": -76.938236,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B231",
@@ -2202,12 +2202,12 @@
   {
     "acronym": "B032",
     "full_name": "Montgomery Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Montgomery Hall \u2014 a university residence hall.",
     "address": "7570 Regents Dr, College Park, MD 20742",
     "latitude": 38.98205,
     "longitude": -76.939423,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B040",
@@ -2222,52 +2222,52 @@
   {
     "acronym": "B798",
     "full_name": "Mosquito Control Building",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Mosquito Control Building \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "8133 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.005768,
     "longitude": -76.941863,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B020",
     "full_name": "Motorcycle Storage Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Motorcycle Storage Building \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.98571,
     "longitude": -76.936198,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B404",
     "full_name": "Mowatt Lane Parking Garage",
-    "department": "",
-    "description": "",
+    "department": "Transportation Services (DOTS)",
+    "description": "Mowatt Lane Parking Garage \u2014 multi-level campus parking; permits or visitor payment required.",
     "address": "7591 Mowatt Ln, College Park, MD 20742",
     "latitude": 38.981924,
     "longitude": -76.945499,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B382",
     "full_name": "Neutral Buoyancy Research Facility",
-    "department": "",
-    "description": "",
+    "department": "Aerospace Engineering",
+    "description": "The Neutral Buoyancy Research Facility \u2014 a 50-foot water tank used by the Space Systems Laboratory to simulate weightlessness for space robotics research; one of the few of its kind in the country.",
     "address": "4436 Technology Dr, College Park, MD 20742",
     "latitude": 38.99291,
     "longitude": -76.938994,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B295",
     "full_name": "North Gate",
     "department": "",
-    "description": "",
+    "description": "North Gate \u2014 one of the landmark entrance gates to the College Park campus.",
     "address": "4306 Campus Dr, College Park, MD 20742",
     "latitude": 38.988581,
     "longitude": -76.936498,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B232",
@@ -2282,32 +2282,32 @@
   {
     "acronym": "B419",
     "full_name": "Oakland Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Oakland Hall \u2014 a university residence hall.",
     "address": "3912 Denton Service Ln, College Park, MD 20742",
     "latitude": 38.993856,
     "longitude": -76.94952,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B383",
     "full_name": "Paint Branch Building",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Paint Branch Building \u2014 university research and administrative space.",
     "address": "4505 Campus Dr, College Park, MD 20742",
     "latitude": 38.981901,
     "longitude": -76.928999,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B298",
     "full_name": "Paint Branch Gate",
     "department": "",
-    "description": "",
+    "description": "Paint Branch Gate \u2014 one of the landmark entrance gates to the College Park campus.",
     "address": "8966 Paint Branch Dr, College Park, MD 20740",
     "latitude": 38.999629,
     "longitude": -76.94217,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B146",
@@ -2322,22 +2322,22 @@
   {
     "acronym": "B805",
     "full_name": "Patapsco Building",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Patapsco Building \u2014 university research and administrative space.",
     "address": "",
     "latitude": 38.976668,
     "longitude": -76.924949,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B010",
     "full_name": "Patuxent Building",
-    "department": "",
-    "description": "",
+    "department": "Administration",
+    "description": "The Patuxent Building \u2014 university administrative and support offices.",
     "address": "4161 Fieldhouse Dr, College Park, MD 20742",
     "latitude": 38.988666,
     "longitude": -76.943493,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B415",
@@ -2352,32 +2352,32 @@
   {
     "acronym": "B111",
     "full_name": "Physics Welding Shop",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Physics Welding Shop \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.989144,
     "longitude": -76.939885,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B213",
     "full_name": "Plant Operations & Maintenance Storage Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Plant Operations & Maintenance Storage Building \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.997463,
     "longitude": -76.953674,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B214",
     "full_name": "Plant Operations & Maintenance Storage Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Plant Operations & Maintenance Storage Building \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.997417,
     "longitude": -76.953741,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B036",
@@ -2392,72 +2392,72 @@
   {
     "acronym": "B007",
     "full_name": "Pocomoke Building",
-    "department": "",
-    "description": "",
+    "department": "Public Safety",
+    "description": "The Pocomoke Building \u2014 home of the University of Maryland Department of Public Safety and UMD Police.",
     "address": "",
     "latitude": 38.982973,
     "longitude": -76.937123,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B809",
     "full_name": "Police Services & Training Facility",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Police Services & Training Facility \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.97608,
     "longitude": -76.925365,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B119",
     "full_name": "Poultry Barn",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Poultry Barn \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "4292 Farm Dr, College Park, MD 20742",
     "latitude": 38.992301,
     "longitude": -76.940894,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B054",
     "full_name": "Preinkert Hall",
-    "department": "",
-    "description": "",
+    "department": "Administration",
+    "description": "Preinkert Hall \u2014 a historic former dormitory on south campus, now university offices.",
     "address": "7480 Preinkert Dr, College Park, MD 20742",
     "latitude": 38.984467,
     "longitude": -76.946279,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B425",
     "full_name": "Prince Frederick Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Prince Frederick Hall \u2014 a university residence hall.",
     "address": "7030 Preinkert Dr, College Park, MD 20742",
     "latitude": 38.983116,
     "longitude": -76.945784,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B021",
     "full_name": "Prince George's Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Prince George's Hall \u2014 a university residence hall.",
     "address": "7527 Calvert Service Ln, College Park, MD 20742",
     "latitude": 38.982616,
     "longitude": -76.941756,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B061",
     "full_name": "Queen Anne's Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Queen Anne's Hall \u2014 a university residence hall.",
     "address": "7645 Preinkert Dr, College Park, MD 20742",
     "latitude": 38.985222,
     "longitude": -76.946184,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B078",
@@ -2472,32 +2472,32 @@
   {
     "acronym": "B202",
     "full_name": "Regents Drive Parking Garage",
-    "department": "",
-    "description": "",
+    "department": "Transportation Services (DOTS)",
+    "description": "Regents Drive Parking Garage \u2014 multi-level campus parking; permits or visitor payment required.",
     "address": "8056 Regents Dr, College Park, MD 20742",
     "latitude": 38.989774,
     "longitude": -76.94144,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B398",
     "full_name": "Research Greenhouse",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Research Greenhouse \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "4252 Terrapin Trail, College Park, MD 20742",
     "latitude": 38.997296,
     "longitude": -76.942973,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B807",
     "full_name": "Research Park Building 1",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Research Park Building 1 \u2014 university research and administrative space.",
     "address": "",
     "latitude": 38.974203,
     "longitude": -76.925479,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B407",
@@ -2532,12 +2532,12 @@
   {
     "acronym": "B394",
     "full_name": "Sample Preparation Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Sample Preparation Building \u2014 campus operations and support facility.",
     "address": "8145 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.00696,
     "longitude": -76.94078,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B255",
@@ -2552,42 +2552,42 @@
   {
     "acronym": "B812",
     "full_name": "Seneca Building",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Seneca Building \u2014 university research and administrative space.",
     "address": "4716 Pontiac Street, College Park, MD 20740",
     "latitude": 38.994281,
     "longitude": -76.931329,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B003",
     "full_name": "Service Building",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Service Building \u2014 campus operations and support facility.",
     "address": "7757 Baltimore Ave, College Park, MD 20742",
     "latitude": 38.985987,
     "longitude": -76.935829,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B810",
     "full_name": "Severn Building",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Severn Building \u2014 university research and administrative space.",
     "address": "",
     "latitude": 38.996104,
     "longitude": -76.922506,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B109",
     "full_name": "Sheep Barn",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Sheep Barn \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "4280 Farm Dr, College Park, MD 20742",
     "latitude": 38.991702,
     "longitude": -76.941472,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B037",
@@ -2602,12 +2602,12 @@
   {
     "acronym": "B424",
     "full_name": "Shuttle Bus Facility",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Shuttle Bus Facility \u2014 campus operations and support facility.",
     "address": "8537 Paint Branch Dr, College Park, MD 20742",
     "latitude": 38.995522,
     "longitude": -76.93708,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B044",
@@ -2622,82 +2622,82 @@
   {
     "acronym": "B063",
     "full_name": "Somerset Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Somerset Hall \u2014 a university residence hall.",
     "address": "7567 Preinkert Dr, College Park, MD 20742",
     "latitude": 38.985018,
     "longitude": -76.945545,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B996",
     "full_name": "South Campus Commons 1",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "South Campus Commons 1 \u2014 university apartment-style student housing.",
     "address": "4250 Lehigh Dr, College Park, MD 20740",
     "latitude": 38.982149,
     "longitude": -76.942961,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B997",
     "full_name": "South Campus Commons 2",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "South Campus Commons 2 \u2014 university apartment-style student housing.",
     "address": "7524 Calvert Service Ln, College Park, MD 20740",
     "latitude": 38.982742,
     "longitude": -76.942983,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B998",
     "full_name": "South Campus Commons 3",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "South Campus Commons 3 \u2014 university apartment-style student housing.",
     "address": "4318 Knox Rd, College Park, MD 20740",
     "latitude": 38.981415,
     "longitude": -76.940086,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B999",
     "full_name": "South Campus Commons 4",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "South Campus Commons 4 \u2014 university apartment-style student housing.",
     "address": "4310 Knox Rd, College Park, MD 20740",
     "latitude": 38.981311,
     "longitude": -76.941382,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B974",
     "full_name": "South Campus Commons 5",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "South Campus Commons 5 \u2014 university apartment-style student housing.",
     "address": "6903 Preinkert Dr, College Park, MD 20740",
     "latitude": 38.982761,
     "longitude": -76.944536,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B975",
     "full_name": "South Campus Commons 6",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "South Campus Commons 6 \u2014 university apartment-style student housing.",
     "address": "6901 Preinkert Dr, College Park, MD 20740",
     "latitude": 38.982183,
     "longitude": -76.944511,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B981",
     "full_name": "South Campus Commons 7",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "South Campus Commons 7 \u2014 university apartment-style student housing.",
     "address": "6801 Preinkert Dr, College Park, MD 20740",
     "latitude": 38.9816,
     "longitude": -76.944508,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B026",
@@ -2713,31 +2713,31 @@
     "acronym": "B401",
     "full_name": "South Gate",
     "department": "",
-    "description": "",
+    "description": "South Gate \u2014 one of the landmark entrance gates to the College Park campus.",
     "address": "401 Regents Dr, College Park, MD 20742",
     "latitude": 38.982396,
     "longitude": -76.938865,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B062",
     "full_name": "St. Mary's Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "St. Mary's Hall \u2014 a university residence hall.",
     "address": "3949 Campus Dr, College Park, MD 20742",
     "latitude": 38.986992,
     "longitude": -76.945619,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B218",
     "full_name": "Stadium Drive Parking Garage",
-    "department": "",
-    "description": "",
+    "department": "Transportation Services (DOTS)",
+    "description": "Stadium Drive Parking Garage \u2014 multi-level campus parking; permits or visitor payment required.",
     "address": "4025 Stadium Dr, College Park, MD 20742",
     "latitude": 38.991143,
     "longitude": -76.948673,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B163",
@@ -2772,12 +2772,12 @@
   {
     "acronym": "B030",
     "full_name": "Talbot Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Talbot Hall \u2014 a university residence hall.",
     "address": "7569 Calvert Service Ln, College Park, MD 20742",
     "latitude": 38.983365,
     "longitude": -76.942275,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B043",
@@ -2802,82 +2802,82 @@
   {
     "acronym": "B387",
     "full_name": "Technology Advancement Program Building",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Technology Advancement Program Building \u2014 university research and administrative space.",
     "address": "4467 Technology Dr, College Park, MD 20742",
     "latitude": 38.992494,
     "longitude": -76.938506,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B806",
     "full_name": "Technology Ventures Building",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Technology Ventures Building \u2014 university research and administrative space.",
     "address": "5000 College Ave, College Park, MD 20740",
     "latitude": 38.979598,
     "longitude": -76.92549,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B116",
     "full_name": "Temporary Building (South of 201)",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Temporary Building (South of 201) \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.983456,
     "longitude": -76.932689,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B207",
     "full_name": "Temporary Building (West of 201)",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Temporary Building (West of 201) \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.983685,
     "longitude": -76.932815,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B204",
     "full_name": "Temporary Building (West of 201)",
-    "department": "",
-    "description": "",
+    "department": "Facilities Management",
+    "description": "Temporary Building (West of 201) \u2014 campus operations and support facility.",
     "address": "",
     "latitude": 38.983792,
     "longitude": -76.932922,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B403",
     "full_name": "Terrapin Trail Parking Garage",
-    "department": "",
-    "description": "",
+    "department": "Transportation Services (DOTS)",
+    "description": "Terrapin Trail Parking Garage \u2014 multi-level campus parking; permits or visitor payment required.",
     "address": "4155 Terrapin Trail, College Park, MD 20742",
     "latitude": 38.995031,
     "longitude": -76.943407,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B389",
     "full_name": "Track & Soccer Field Ticket Booth",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Track & Soccer Field Ticket Booth \u2014 Maryland Terrapins athletics facility.",
     "address": "7896 Championship Ln, College Park, MD 20742",
     "latitude": 38.987463,
     "longitude": -76.949876,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B395",
     "full_name": "Turfgrass Research Facility",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Turfgrass Research Facility \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "8143 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.007013,
     "longitude": -76.941157,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B079",
@@ -2902,52 +2902,52 @@
   {
     "acronym": "B361",
     "full_name": "Tyser Tower",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Tyser Tower \u2014 Maryland Terrapins athletics facility.",
     "address": "8197 Fieldhouse Dr, College Park, MD 20742",
     "latitude": 38.989778,
     "longitude": -76.947939,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B346",
     "full_name": "UMUC Administration Building",
-    "department": "",
-    "description": "",
+    "department": "UMGC",
+    "description": "Administration building for the University of Maryland Global Campus.",
     "address": "",
     "latitude": 38.987018,
     "longitude": -76.953671,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B347",
     "full_name": "UMUC/Marriott Garage",
-    "department": "",
-    "description": "",
+    "department": "Transportation Services (DOTS)",
+    "description": "UMUC/Marriott Garage \u2014 multi-level campus parking; permits or visitor payment required.",
     "address": "7951 Ehrensberger Dr, College Park, MD 20783",
     "latitude": 38.986981,
     "longitude": -76.954347,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B179",
     "full_name": "Union Lane Parking Garage",
-    "department": "",
-    "description": "",
+    "department": "Transportation Services (DOTS)",
+    "description": "Union Lane Parking Garage \u2014 multi-level campus parking; permits or visitor payment required.",
     "address": "4071 Fieldhouse Dr, College Park, MD 20742",
     "latitude": 38.988546,
     "longitude": -76.945931,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B164",
     "full_name": "University House",
-    "department": "",
-    "description": "",
+    "department": "Office of the President",
+    "description": "University House \u2014 the official residence of the University of Maryland president, used for university events and receptions.",
     "address": "",
     "latitude": 38.989037,
     "longitude": -76.952765,
-    "hours": ""
+    "hours": "Private residence"
   },
   {
     "acronym": "B039",
@@ -2962,62 +2962,62 @@
   {
     "acronym": "B158",
     "full_name": "Varsity Sports Teamhouse",
-    "department": "",
-    "description": "",
+    "department": "Athletics",
+    "description": "Varsity Sports Teamhouse \u2014 Maryland Terrapins athletics facility.",
     "address": "4117 Stadium Dr, College Park, MD 20742",
     "latitude": 38.990064,
     "longitude": -76.945164,
-    "hours": ""
+    "hours": "Varies by event and season"
   },
   {
     "acronym": "B885",
     "full_name": "Veterinary Science Barn",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Veterinary Science Barn \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "8107 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.004036,
     "longitude": -76.940366,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B887",
     "full_name": "Veterinary Science Equipment Storage Building",
-    "department": "",
-    "description": "",
+    "department": "AGNR Research",
+    "description": "Veterinary Science Equipment Storage Building \u2014 agricultural research and support facility for the College of Agriculture & Natural Resources.",
     "address": "8105 Greenmead Dr, College Park, MD 20742",
     "latitude": 39.003995,
     "longitude": -76.940023,
-    "hours": ""
+    "hours": "Mon\u2013Fri 7am\u20134pm (staff only)"
   },
   {
     "acronym": "B023",
     "full_name": "Washington Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Washington Hall \u2014 a university residence hall.",
     "address": "4298 Lehigh Dr, College Park, MD 20742",
     "latitude": 38.981854,
     "longitude": -76.941327,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B297",
     "full_name": "West Gate",
     "department": "",
-    "description": "",
+    "description": "West Gate \u2014 one of the landmark entrance gates to the College Park campus.",
     "address": "3841 Stadium Dr, College Park, MD 20742",
     "latitude": 38.991989,
     "longitude": -76.950457,
-    "hours": ""
+    "hours": "24/7"
   },
   {
     "acronym": "B069",
     "full_name": "Wicomico Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Wicomico Hall \u2014 a university residence hall.",
     "address": "7218 Preinkert Dr, College Park, MD 20742",
     "latitude": 38.983726,
     "longitude": -76.945824,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B084",
@@ -3032,12 +3032,12 @@
   {
     "acronym": "B081",
     "full_name": "Wind Tunnel Building",
-    "department": "",
-    "description": "",
+    "department": "Aerospace Engineering",
+    "description": "Home of the Glenn L. Martin Wind Tunnel, a working subsonic wind tunnel used for aerospace, automotive, and architectural testing since 1949.",
     "address": "8167 Paint Branch Dr, College Park, MD 20742",
     "latitude": 38.989816,
     "longitude": -76.936827,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B047",
@@ -3052,22 +3052,22 @@
   {
     "acronym": "B051",
     "full_name": "Worcester Hall",
-    "department": "",
-    "description": "",
+    "department": "Resident Life",
+    "description": "Worcester Hall \u2014 a university residence hall.",
     "address": "7405 Preinkert Dr, College Park, MD 20742",
     "latitude": 38.984679,
     "longitude": -76.945006,
-    "hours": ""
+    "hours": "24/7 (residents only)"
   },
   {
     "acronym": "B428",
     "full_name": "Wye Oak Building",
-    "department": "",
-    "description": "",
+    "department": "Research & Administration",
+    "description": "Wye Oak Building \u2014 university research and administrative space.",
     "address": "4201 Landscape Ln, College Park, MD 20742",
     "latitude": 38.995947,
     "longitude": -76.943686,
-    "hours": ""
+    "hours": "Mon\u2013Fri 8am\u20135pm"
   },
   {
     "acronym": "B360",
