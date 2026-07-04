@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import styles from './Hero.module.css'
 
@@ -7,8 +6,7 @@ function sanitize(input) {
     .replace(/[<>'"]/g, '')
 }
 
-function Hero() {
-  const [query, setQuery] = useState('')
+function Hero({ query, onQueryChange }) {
   const navigate = useNavigate()
 
   function handleSearch() {
@@ -38,7 +36,7 @@ function Hero() {
           className={styles.searchInput}
           placeholder='Search "IRB", "Iribe Center", or "Computer Science"...'
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => onQueryChange(sanitize(e.target.value))}
           onKeyDown={handleKeyDown}
           autoComplete="off"
           spellCheck="false"
@@ -47,6 +45,14 @@ function Hero() {
           Search
         </button>
       </div>
+      <a
+        className={styles.heroCredit}
+        href="https://commons.wikimedia.org/wiki/File:McKeldin_Library,_front_view,_mid-afternoon_light,_August_21,_2006.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Photo: McKeldin Library by Tomf688, Wikimedia Commons (CC BY-SA 2.5)
+      </a>
     </div>
   )
 }

@@ -9,6 +9,7 @@ class Building(models.Model):
     latitude = models.FloatField(null=True, blank=True)
     longitude = models.FloatField(null=True, blank=True)
     hours = models.CharField(max_length=200, blank=True)
+    image_url = models.URLField(max_length=500, blank=True)
 
     def __str__(self):
         return f"{self.code} - {self.name}"
