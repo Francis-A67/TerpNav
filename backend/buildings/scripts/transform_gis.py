@@ -15,6 +15,7 @@ from pathlib import Path
 
 INPUT = Path(__file__).parent / 'buildings.json'
 ADDRESSES = Path(__file__).parent / 'osm_addresses.json'  # gis_id -> street address, from OpenStreetMap
+INFO = Path(__file__).parent / 'building_info.json'       # gis_id -> department/description/hours
 OUTPUT = Path(__file__).parent.parent / 'data' / 'buildings_gis.json'
 
 # Earth radius used by the Web Mercator projection
@@ -43,6 +44,11 @@ def main():
         with open(ADDRESSES, encoding='utf-8') as f:
             addresses = json.load(f)
 
+    info = {}
+    if INFO.exists():
+        with open(INFO, encoding='utf-8') as f:
+            info = json.load(f)
+
     features = data.get('features', [])
     buildings = []
 
@@ -62,15 +68,16 @@ def main():
         lat, lon = to_latlng(cx, cy)
 
         code = f'B{building_id}'
+        extra = info.get(code, {})
         buildings.append({
             'acronym': code,   # e.g. B164 — no acronyms in GIS data
             'full_name': name,
-            'department': '',
-            'description': '',
+            'department': extra.get('department', ''),
+            'description': extra.get('description', ''),
             'address': addresses.get(code, ''),
             'latitude': lat,
             'longitude': lon,
-            'hours': '',
+            'hours': extra.get('hours', ''),
         })
 
     buildings.sort(key=lambda b: b['full_name'])

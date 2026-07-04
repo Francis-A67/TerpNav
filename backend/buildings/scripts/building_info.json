@@ -1,0 +1,1247 @@
+{
+  "B001": {
+    "department": "Facilities Management",
+    "description": "The campus Energy Plant — combined heat and power generation for the university.",
+    "hours": "24/7 (staff only)"
+  },
+  "B003": {
+    "department": "Facilities Management",
+    "description": "Service Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B006": {
+    "department": "",
+    "description": "Building 006 on the University of Maryland campus.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B007": {
+    "department": "Public Safety",
+    "description": "The Pocomoke Building — home of the University of Maryland Department of Public Safety and UMD Police.",
+    "hours": "24/7"
+  },
+  "B008": {
+    "department": "Residential Facilities",
+    "description": "Annapolis Hall — the Residential Facilities service center for on-campus housing maintenance.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B010": {
+    "department": "Administration",
+    "description": "The Patuxent Building — university administrative and support offices.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B011": {
+    "department": "",
+    "description": "Building 011 on the University of Maryland campus.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B014": {
+    "department": "Resident Life",
+    "description": "Harford Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B015": {
+    "department": "Resident Life",
+    "description": "Calvert Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B016": {
+    "department": "Resident Life",
+    "description": "Baltimore Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B017": {
+    "department": "Resident Life",
+    "description": "Cecil Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B020": {
+    "department": "Facilities Management",
+    "description": "Motorcycle Storage Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B021": {
+    "department": "Resident Life",
+    "description": "Prince George's Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B022": {
+    "department": "Resident Life",
+    "description": "Kent Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B023": {
+    "department": "Resident Life",
+    "description": "Washington Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B024": {
+    "department": "Resident Life",
+    "description": "Allegany Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B025": {
+    "department": "Resident Life",
+    "description": "Charles Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B028": {
+    "department": "Resident Life",
+    "description": "Howard Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B029": {
+    "department": "Resident Life",
+    "description": "Frederick Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B030": {
+    "department": "Resident Life",
+    "description": "Talbot Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B031": {
+    "department": "Resident Life",
+    "description": "Garrett Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B032": {
+    "department": "Resident Life",
+    "description": "Montgomery Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B045": {
+    "department": "Engineering",
+    "description": "The Instructional Television Facility — distance-education studios for the Clark School of Engineering's online programs.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B051": {
+    "department": "Resident Life",
+    "description": "Worcester Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B054": {
+    "department": "Administration",
+    "description": "Preinkert Hall — a historic former dormitory on south campus, now university offices.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B056": {
+    "department": "Facilities Management",
+    "description": "HVAC & PM Storage Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B057": {
+    "department": "AGNR Research",
+    "description": "Animal Care Storage Facility — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B059": {
+    "department": "Administration",
+    "description": "Chincoteague Hall — office and program space on north campus.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B060": {
+    "department": "Resident Life",
+    "description": "Anne Arundel Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B061": {
+    "department": "Resident Life",
+    "description": "Queen Anne's Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B062": {
+    "department": "Resident Life",
+    "description": "St. Mary's Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B063": {
+    "department": "Resident Life",
+    "description": "Somerset Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B064": {
+    "department": "Resident Life",
+    "description": "Dorchester Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B065": {
+    "department": "Resident Life",
+    "description": "Carroll Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B069": {
+    "department": "Resident Life",
+    "description": "Wicomico Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B070": {
+    "department": "Resident Life",
+    "description": "Caroline Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B081": {
+    "department": "Aerospace Engineering",
+    "description": "Home of the Glenn L. Martin Wind Tunnel, a working subsonic wind tunnel used for aerospace, automotive, and architectural testing since 1949.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B085": {
+    "department": "Physical Science & Technology",
+    "description": "The Institute for Physical Science & Technology (IPST) — interdisciplinary research in applied math, physics, and scientific computation.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B087": {
+    "department": "AGNR Research",
+    "description": "Central Animal Resources Facility — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B089": {
+    "department": "Engineering",
+    "description": "The Engineering Laboratory Building — teaching and research labs for the A. James Clark School of Engineering.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B093": {
+    "department": "Engineering",
+    "description": "Engineering Annex — auxiliary labs and shop space for the Clark School of Engineering.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B096": {
+    "department": "Resident Life",
+    "description": "Cambridge Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B097": {
+    "department": "Resident Life",
+    "description": "The Cambridge Community Center — classrooms, offices, and study space serving the Cambridge residence community.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B098": {
+    "department": "Resident Life",
+    "description": "Centreville Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B099": {
+    "department": "Resident Life",
+    "description": "Bel Air Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B102": {
+    "department": "AGNR Research",
+    "description": "Agriculture Shed — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B103": {
+    "department": "AGNR Research",
+    "description": "Animal Science Service Building — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B108": {
+    "department": "AGNR Research",
+    "description": "Horse Barn — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B109": {
+    "department": "AGNR Research",
+    "description": "Sheep Barn — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B110": {
+    "department": "AGNR Research",
+    "description": "Cattle Barn — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B111": {
+    "department": "Facilities Management",
+    "description": "Physics Welding Shop — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B116": {
+    "department": "Facilities Management",
+    "description": "Temporary Building (South of 201) — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B119": {
+    "department": "AGNR Research",
+    "description": "Poultry Barn — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B121": {
+    "department": "Resident Life",
+    "description": "Chestertown Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B122": {
+    "department": "Resident Life",
+    "description": "Cumberland Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B124": {
+    "department": "Facilities Management",
+    "description": "Grounds Material & Equipment Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B126": {
+    "department": "Greek Life",
+    "description": "House 1 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B127": {
+    "department": "Greek Life",
+    "description": "House 2 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B128": {
+    "department": "Greek Life",
+    "description": "House 3 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B129": {
+    "department": "Greek Life",
+    "description": "House 4 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B130": {
+    "department": "Greek Life",
+    "description": "House 5 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B131": {
+    "department": "Greek Life",
+    "description": "House 6 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B132": {
+    "department": "Greek Life",
+    "description": "House 7 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B133": {
+    "department": "Greek Life",
+    "description": "House 8 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B134": {
+    "department": "Greek Life",
+    "description": "House 9 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B135": {
+    "department": "Greek Life",
+    "description": "House 10 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B136": {
+    "department": "Greek Life",
+    "description": "House 11 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B137": {
+    "department": "Greek Life",
+    "description": "House 12 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B138": {
+    "department": "Greek Life",
+    "description": "House 13 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B139": {
+    "department": "Greek Life",
+    "description": "House 14 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B142": {
+    "department": "Animal & Avian Sciences",
+    "description": "The Animal Sciences/Agricultural Engineering Building — classrooms, labs, and offices for animal science and agricultural engineering programs.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B148": {
+    "department": "Engineering",
+    "description": "The Manufacturing Building — machine shops and fabrication space supporting engineering research.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B156": {
+    "department": "AGNR Research",
+    "description": "Arboretum Outreach Center — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B158": {
+    "department": "Athletics",
+    "description": "Varsity Sports Teamhouse — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B159": {
+    "department": "Athletics",
+    "description": "Bob \"Turtle\" Smith Stadium at Shipley Field — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B164": {
+    "department": "Office of the President",
+    "description": "University House — the official residence of the University of Maryland president, used for university events and receptions.",
+    "hours": "Private residence"
+  },
+  "B165": {
+    "department": "Athletics",
+    "description": "Golf Course Driving Range Control Building — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B166": {
+    "department": "Athletics",
+    "description": "Golf Course Club House — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B167": {
+    "department": "Athletics",
+    "description": "Golf Course Maintenance Office — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B169": {
+    "department": "Athletics",
+    "description": "Boat House — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B170": {
+    "department": "Greek Life",
+    "description": "House 170 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B171": {
+    "department": "Greek Life",
+    "description": "House 171 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B172": {
+    "department": "Greek Life",
+    "description": "House 172 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B173": {
+    "department": "Greek Life",
+    "description": "House 173 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B174": {
+    "department": "Greek Life",
+    "description": "House 174 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B175": {
+    "department": "Greek Life",
+    "description": "House 175 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B176": {
+    "department": "Greek Life",
+    "description": "House 176 — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B179": {
+    "department": "Transportation Services (DOTS)",
+    "description": "Union Lane Parking Garage — multi-level campus parking; permits or visitor payment required.",
+    "hours": "24/7"
+  },
+  "B195": {
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Drill Tower — emergency-responder training facility of the Maryland Fire and Rescue Institute.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B196": {
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Structural Firefighting Building — emergency-responder training facility of the Maryland Fire and Rescue Institute.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B197": {
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Fire Extinguisher Training Facility — emergency-responder training facility of the Maryland Fire and Rescue Institute.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B198": {
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Shop Facility — emergency-responder training facility of the Maryland Fire and Rescue Institute.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B199": {
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Office/Classroom Building — emergency-responder training facility of the Maryland Fire and Rescue Institute.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B201": {
+    "department": "Resident Life",
+    "description": "The Leonardtown Office Building — Department of Resident Life offices for the Leonardtown community.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B202": {
+    "department": "Transportation Services (DOTS)",
+    "description": "Regents Drive Parking Garage — multi-level campus parking; permits or visitor payment required.",
+    "hours": "24/7"
+  },
+  "B204": {
+    "department": "Facilities Management",
+    "description": "Temporary Building (West of 201) — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B207": {
+    "department": "Facilities Management",
+    "description": "Temporary Building (West of 201) — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B213": {
+    "department": "Facilities Management",
+    "description": "Plant Operations & Maintenance Storage Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B214": {
+    "department": "Facilities Management",
+    "description": "Plant Operations & Maintenance Storage Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B218": {
+    "department": "Transportation Services (DOTS)",
+    "description": "Stadium Drive Parking Garage — multi-level campus parking; permits or visitor payment required.",
+    "hours": "24/7"
+  },
+  "B219": {
+    "department": "Astronomy",
+    "description": "Lecture hall next to the UMD Observatory, used for astronomy courses and public open-house talks.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B220": {
+    "department": "Astronomy",
+    "description": "Support space for the UMD Astronomical Observatory next door.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B221": {
+    "department": "Astronomy",
+    "description": "The UMD Astronomical Observatory — hosts free public open-house nights with telescope viewing twice a month.",
+    "hours": "Open house evenings (see astro.umd.edu)"
+  },
+  "B223": {
+    "department": "Facilities Management",
+    "description": "Energy Research Facility — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B224": {
+    "department": "Astronomy & Physics",
+    "description": "The Atlantic Building — research space for astronomy, physics, and the Joint Space-Science Institute.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B227": {
+    "department": "Institute of Applied Agriculture",
+    "description": "Jull Hall — home of the Institute of Applied Agriculture's two-year applied agriculture programs.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B238": {
+    "department": "Resident Life",
+    "description": "Leonardtown 238 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B239": {
+    "department": "Resident Life",
+    "description": "Leonardtown 239 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B240": {
+    "department": "Resident Life",
+    "description": "Leonardtown 240 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B241": {
+    "department": "Resident Life",
+    "description": "Leonardtown 241 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B242": {
+    "department": "Resident Life",
+    "description": "Leonardtown 242 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B243": {
+    "department": "Resident Life",
+    "description": "Leonardtown 243 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B244": {
+    "department": "Resident Life",
+    "description": "Leonardtown 244 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B245": {
+    "department": "Resident Life",
+    "description": "Leonardtown 245 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B246": {
+    "department": "Resident Life",
+    "description": "Leonardtown 246 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B247": {
+    "department": "Resident Life",
+    "description": "Leonardtown 247 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B248": {
+    "department": "Resident Life",
+    "description": "Leonardtown 248 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B249": {
+    "department": "Resident Life",
+    "description": "Leonardtown 249 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B250": {
+    "department": "Resident Life",
+    "description": "The Leonardtown Community Center — community space and offices for the Leonardtown apartment area.",
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  "B252": {
+    "department": "Resident Life",
+    "description": "Denton Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B253": {
+    "department": "Resident Life",
+    "description": "Easton Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B254": {
+    "department": "Resident Life",
+    "description": "Elkton Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B256": {
+    "department": "Resident Life",
+    "description": "Ellicott Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B257": {
+    "department": "Dining Services",
+    "description": "The Ellicott-area dining hall serving north campus residents.",
+    "hours": "Mon–Fri 7am–9pm, Sat–Sun 10am–9pm"
+  },
+  "B258": {
+    "department": "Resident Life",
+    "description": "Hagerstown Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B259": {
+    "department": "Resident Life",
+    "description": "La Plata Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B260": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4301 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B261": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4303 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B262": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4305 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B263": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4307 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B264": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4309 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B265": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4311 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B266": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4312 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B267": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4313 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B268": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4314 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B269": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4315 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B270": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4316 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B271": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4317 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B272": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4318 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B273": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4319 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B274": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4320 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B275": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4321 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B276": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4322 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B277": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4323 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B278": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4324 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B279": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4325 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B280": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4326 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B281": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4327 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B282": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4329 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B283": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4331 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B284": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4333 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B285": {
+    "department": "Resident Life",
+    "description": "Graduate Gardens Apartment 4335 — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B286": {
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B287": {
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B288": {
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B289": {
+    "department": "Resident Life",
+    "description": "Graduate Hills  Apartment — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B290": {
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B291": {
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B292": {
+    "department": "Resident Life",
+    "description": "Graduate Hills Apartment — university apartment housing for graduate students and families.",
+    "hours": "24/7 (residents only)"
+  },
+  "B295": {
+    "department": "",
+    "description": "North Gate — one of the landmark entrance gates to the College Park campus.",
+    "hours": "24/7"
+  },
+  "B297": {
+    "department": "",
+    "description": "West Gate — one of the landmark entrance gates to the College Park campus.",
+    "hours": "24/7"
+  },
+  "B298": {
+    "department": "",
+    "description": "Paint Branch Gate — one of the landmark entrance gates to the College Park campus.",
+    "hours": "24/7"
+  },
+  "B299": {
+    "department": "Facilities Management",
+    "description": "Gate House — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B309": {
+    "department": "Athletics",
+    "description": "Indoor Practice Facility — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B311": {
+    "department": "University System of Maryland",
+    "description": "The Elkins Building — headquarters of the University System of Maryland, the state's public higher-education system office.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B313": {
+    "department": "Athletics",
+    "description": "Golf Course Storage Building — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B314": {
+    "department": "Athletics",
+    "description": "Golf Course Repair Shop — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B318": {
+    "department": "Athletics",
+    "description": "Golf Course Toilet Facility — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B319": {
+    "department": "Athletics",
+    "description": "Golf Course Storage Building — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B328": {
+    "department": "Facilities Management",
+    "description": "Grounds Operations & Maintenance Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B338": {
+    "department": "Administration",
+    "description": "The Chesapeake Building — administrative offices including university human resources and business services.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B344": {
+    "department": "Facilities Management",
+    "description": "Environmental Service Facility — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B345": {
+    "department": "Hospitality",
+    "description": "The College Park Marriott Hotel & Conference Center at UMGC.",
+    "hours": "24/7"
+  },
+  "B346": {
+    "department": "UMGC",
+    "description": "Administration building for the University of Maryland Global Campus.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B347": {
+    "department": "Transportation Services (DOTS)",
+    "description": "UMUC/Marriott Garage — multi-level campus parking; permits or visitor payment required.",
+    "hours": "24/7"
+  },
+  "B348": {
+    "department": "Hospitality",
+    "description": "The College Park Marriott Hotel & Conference Center at UMGC.",
+    "hours": "24/7"
+  },
+  "B361": {
+    "department": "Athletics",
+    "description": "Tyser Tower — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B362": {
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B363": {
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B364": {
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B365": {
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B366": {
+    "department": "Athletics",
+    "description": "Maryland Stadium Ticket Booth — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B367": {
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B368": {
+    "department": "Athletics",
+    "description": "Maryland Stadium Building Upper Deck — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B369": {
+    "department": "Athletics",
+    "description": "Maryland Stadium Maintenance Building — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B370": {
+    "department": "Athletics",
+    "description": "Maryland Stadium Concessions — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B379": {
+    "department": "Athletics",
+    "description": "Gossett Football Team House — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B381": {
+    "department": "Education",
+    "description": "The Center for Young Children — a laboratory preschool run by the College of Education for teaching and child-development research.",
+    "hours": "Mon–Fri 8am–4pm"
+  },
+  "B382": {
+    "department": "Aerospace Engineering",
+    "description": "The Neutral Buoyancy Research Facility — a 50-foot water tank used by the Space Systems Laboratory to simulate weightlessness for space robotics research; one of the few of its kind in the country.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B383": {
+    "department": "Research & Administration",
+    "description": "Paint Branch Building — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B387": {
+    "department": "Research & Administration",
+    "description": "Technology Advancement Program Building — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B388": {
+    "department": "Athletics",
+    "description": "Kehoe Track at Ludwig Field — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B389": {
+    "department": "Athletics",
+    "description": "Track & Soccer Field Ticket Booth — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B394": {
+    "department": "Facilities Management",
+    "description": "Sample Preparation Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B395": {
+    "department": "AGNR Research",
+    "description": "Turfgrass Research Facility — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B396": {
+    "department": "Facilities Management",
+    "description": "Equipment Storage Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B398": {
+    "department": "AGNR Research",
+    "description": "Research Greenhouse — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B399": {
+    "department": "University Recreation & Wellness",
+    "description": "The Aquatic Center — pools and aquatics programs adjacent to the Eppley Recreation Center.",
+    "hours": "Mon–Fri 6am–10pm, Sat–Sun 8am–8pm"
+  },
+  "B401": {
+    "department": "",
+    "description": "South Gate — one of the landmark entrance gates to the College Park campus.",
+    "hours": "24/7"
+  },
+  "B403": {
+    "department": "Transportation Services (DOTS)",
+    "description": "Terrapin Trail Parking Garage — multi-level campus parking; permits or visitor payment required.",
+    "hours": "24/7"
+  },
+  "B404": {
+    "department": "Transportation Services (DOTS)",
+    "description": "Mowatt Lane Parking Garage — multi-level campus parking; permits or visitor payment required.",
+    "hours": "24/7"
+  },
+  "B409": {
+    "department": "Athletics",
+    "description": "Maryland Softball Stadium — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B414": {
+    "department": "Athletics",
+    "description": "Field Hockey & Lacrosse Complex — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B419": {
+    "department": "Resident Life",
+    "description": "Oakland Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B420": {
+    "department": "Athletics",
+    "description": "Maryland Baseball Annex — Maryland Terrapins athletics facility.",
+    "hours": "Varies by event and season"
+  },
+  "B422": {
+    "department": "Facilities Management",
+    "description": "CSPAC Grounds Storage Facility — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B423": {
+    "department": "Facilities Management",
+    "description": "Grounds Storage Facility — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B424": {
+    "department": "Facilities Management",
+    "description": "Shuttle Bus Facility — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B425": {
+    "department": "Resident Life",
+    "description": "Prince Frederick Hall — a university residence hall.",
+    "hours": "24/7 (residents only)"
+  },
+  "B426": {
+    "department": "Facilities Management",
+    "description": "Heavy Equipment Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B427": {
+    "department": "Facilities Management",
+    "description": "Fleet Services Building — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B428": {
+    "department": "Research & Administration",
+    "description": "Wye Oak Building — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B430": {
+    "department": "Research & Administration",
+    "description": "Metzerott House (4103) — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B795": {
+    "department": "Veterinary Medicine",
+    "description": "The Avrum Gudelsky Veterinary Center — College Park campus of the Virginia-Maryland College of Veterinary Medicine.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B796": {
+    "department": "Research",
+    "description": "The Laboratory for Physical Sciences — a university research lab advancing physical sciences and high-performance computing.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B797": {
+    "department": "Research",
+    "description": "The Laboratory for Telecommunication Sciences — a federal–university research partnership in telecommunications.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B798": {
+    "department": "AGNR Research",
+    "description": "Mosquito Control Building — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B799": {
+    "department": "Engineering",
+    "description": "LEAFHouse — UMD's award-winning solar house from the 2007 Solar Decathlon, kept as a sustainability demonstration.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B800": {
+    "department": "UMD Extension",
+    "description": "Offices for the Maryland 4-H youth development program, part of University of Maryland Extension.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B802": {
+    "department": "Public Safety",
+    "description": "College Park Fire Station — serving the campus and city of College Park.",
+    "hours": "24/7"
+  },
+  "B805": {
+    "department": "Research & Administration",
+    "description": "Patapsco Building — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B806": {
+    "department": "Research & Administration",
+    "description": "Technology Ventures Building — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B807": {
+    "department": "Research & Administration",
+    "description": "Research Park Building 1 — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B809": {
+    "department": "Facilities Management",
+    "description": "Police Services & Training Facility — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B810": {
+    "department": "Research & Administration",
+    "description": "Severn Building — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B812": {
+    "department": "Research & Administration",
+    "description": "Seneca Building — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B813": {
+    "department": "Research & Administration",
+    "description": "Artemesia Building — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B814": {
+    "department": "Research & Administration",
+    "description": "Cypress Building — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B885": {
+    "department": "AGNR Research",
+    "description": "Veterinary Science Barn — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B886": {
+    "department": "AGNR Research",
+    "description": "Crane Aquaculture Building — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B887": {
+    "department": "AGNR Research",
+    "description": "Veterinary Science Equipment Storage Building — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B888": {
+    "department": "AGNR Research",
+    "description": "Crane Aquaculture Support Building — agricultural research and support facility for the College of Agriculture & Natural Resources.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B904": {
+    "department": "Research & Administration",
+    "description": "Leased Facility 904 — university research and administrative space.",
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  "B974": {
+    "department": "Resident Life",
+    "description": "South Campus Commons 5 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B975": {
+    "department": "Resident Life",
+    "description": "South Campus Commons 6 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B981": {
+    "department": "Resident Life",
+    "description": "South Campus Commons 7 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B987": {
+    "department": "Resident Life",
+    "description": "Courtyard 100 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B988": {
+    "department": "Resident Life",
+    "description": "Courtyard 200 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B989": {
+    "department": "Resident Life",
+    "description": "Courtyard 300 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B990": {
+    "department": "Resident Life",
+    "description": "Courtyard 400 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B991": {
+    "department": "Resident Life",
+    "description": "Courtyard 500 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B992": {
+    "department": "Resident Life",
+    "description": "Courtyard 600 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B993": {
+    "department": "Resident Life",
+    "description": "Courtyard 700 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B994": {
+    "department": "Greek Life",
+    "description": "Courtyard Clubhouse — chapter housing on the university's Greek Life rows.",
+    "hours": "24/7 (residents only)"
+  },
+  "B995": {
+    "department": "Facilities Management",
+    "description": "Courtyard Maintenance Shed — campus operations and support facility.",
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  "B996": {
+    "department": "Resident Life",
+    "description": "South Campus Commons 1 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B997": {
+    "department": "Resident Life",
+    "description": "South Campus Commons 2 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B998": {
+    "department": "Resident Life",
+    "description": "South Campus Commons 3 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  },
+  "B999": {
+    "department": "Resident Life",
+    "description": "South Campus Commons 4 — university apartment-style student housing.",
+    "hours": "24/7 (residents only)"
+  }
+}

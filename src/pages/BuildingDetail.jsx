@@ -98,6 +98,9 @@ export default function BuildingDetail() {
 
         <div className={styles.card}>
           <div className={styles.cardTitle}>Building info</div>
+          {building.description && (
+            <p className={styles.description}>{building.description}</p>
+          )}
           <div className={styles.detailRow}>
             <span className={styles.detailKey}>Department</span>
             <span className={styles.detailVal}>{building.department}</span>

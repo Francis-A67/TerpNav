@@ -52,3 +52,21 @@
   font-weight: 500;
 }
 
+@media (max-width: 520px) {
+  .navbar {
+    padding: 0 16px;
+  }
+
+  .logoSub {
+    display: none;
+  }
+
+  .navLinks {
+    gap: 14px;
+  }
+
+  .navLink {
+    font-size: 12px;
+  }
+}
+
