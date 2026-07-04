@@ -2,6 +2,7 @@ import { useLocation } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import BuildingCard from '../components/BuildingCard'
+import Footer from '../components/Footer'
 import styles from './Buildings.module.css'
 import api from '../api/axios'
 
@@ -51,6 +52,7 @@ export default function Buildings() {
           ))}
         </div>
       )}
+      <Footer />
     </div>
   )
 }

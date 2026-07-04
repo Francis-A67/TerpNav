@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import BuildingCard from '../components/BuildingCard'
+import Footer from '../components/Footer'
 import { getSaved } from '../utils/saved'
 import api from '../api/axios'
 import styles from './saved.module.css'
@@ -31,6 +32,7 @@ export default function Saved() {
           ))}
         </div>
       )}
+      <Footer />
     </div>
   )
 }
