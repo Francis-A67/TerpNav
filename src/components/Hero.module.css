@@ -1,7 +1,24 @@
 .hero {
-  background: #ffffff;
+  position: relative;
+  background:
+    linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.82)),
+    url('/hero-campus.jpg') center 35% / cover no-repeat;
   border-bottom: 0.5px solid rgba(0,0,0,0.1);
   padding: 48px 32px 36px;
+}
+
+.heroCredit {
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+  font-size: 10px;
+  color: #999;
+  text-decoration: none;
+}
+
+.heroCredit:hover {
+  color: #666;
+  text-decoration: underline;
 }
 
 .tag {

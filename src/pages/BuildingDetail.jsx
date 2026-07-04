@@ -76,6 +76,26 @@ export default function BuildingDetail() {
           ← Back
         </button>
 
+        {building.image_url && (
+          <div className={styles.photoWrap}>
+            <img
+              className={styles.photo}
+              src={building.image_url}
+              alt={building.full_name}
+              loading="lazy"
+              onError={(e) => { e.currentTarget.parentElement.style.display = 'none' }}
+            />
+            <a
+              className={styles.photoCredit}
+              href={building.image_url.split('?')[0].replace('Special:FilePath/', 'File:')}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Photo: Wikimedia Commons
+            </a>
+          </div>
+        )}
+
         <div className={styles.card}>
           <div className={styles.cardTitle}>Building info</div>
           <div className={styles.detailRow}>

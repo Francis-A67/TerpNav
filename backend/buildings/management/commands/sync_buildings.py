@@ -41,6 +41,7 @@ class Command(BaseCommand):
                         'latitude': b.get('latitude'),
                         'longitude': b.get('longitude'),
                         'hours': b.get('hours', ''),
+                        'image_url': b.get('image_url', ''),
                     },
                 )
                 if was_created:

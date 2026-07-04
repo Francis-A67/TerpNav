@@ -4,7 +4,7 @@ import styles from './BuildingsGrid.module.css'
 import { useState, useEffect } from 'react'
 import api from '../api/axios'
 
-function BuildingsGrid() {
+function BuildingsGrid({ filter = '' }) {
   const navigate = useNavigate()
   const [buildings, setBuildings] = useState([])
 
@@ -12,25 +12,39 @@ function BuildingsGrid() {
     api.get('/api/buildings/').then(res => (setBuildings(res.data)))
   }, [])
 
+  const term = filter.trim().toLowerCase()
+  const isSearching = term.length > 0
+
+  const shown = isSearching
+    ? buildings.filter(b =>
+        b.acronym.toLowerCase().includes(term) ||
+        b.full_name.toLowerCase().includes(term) ||
+        b.department.toLowerCase().includes(term)
+      )
+    : buildings.filter(b => !/^B\d+$/.test(b.acronym))
+
   return (
     <div className={styles.section}>
       <div className={styles.header}>
-        <div className={styles.title}>Popular buildings</div>
+        <div className={styles.title}>
+          {isSearching ? `${shown.length} ${shown.length === 1 ? 'match' : 'matches'}` : 'Popular buildings'}
+        </div>
         <button
           className={styles.viewAll}
-          onClick={() => navigate('/buildings')}
+          onClick={() => navigate(isSearching ? `/buildings?search=${encodeURIComponent(filter.trim())}` : '/buildings')}
         >
-          View all buildings →
+          {isSearching ? 'See all results →' : 'View all buildings →'}
         </button>
       </div>
-      <div className={styles.grid}>
-        {buildings
-          .filter(b => !/^B\d+$/.test(b.acronym))
-          .slice(0, 6)
-          .map((building) => (
+      {isSearching && shown.length === 0 ? (
+        <div className={styles.empty}>No buildings found for "{filter.trim()}"</div>
+      ) : (
+        <div className={styles.grid}>
+          {shown.slice(0, 6).map((building) => (
             <BuildingCard key={building.acronym} building={building} />
           ))}
-      </div>
+        </div>
+      )}
     </div>
   )
 }
