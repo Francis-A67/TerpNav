@@ -16,6 +16,7 @@ from pathlib import Path
 INPUT = Path(__file__).parent / 'buildings.json'
 ADDRESSES = Path(__file__).parent / 'osm_addresses.json'  # gis_id -> street address, from OpenStreetMap
 INFO = Path(__file__).parent / 'building_info.json'       # gis_id -> department/description/hours
+IMAGES = Path(__file__).parent / 'building_images.json'   # gis_id -> Wikimedia Commons photo URL
 OUTPUT = Path(__file__).parent.parent / 'data' / 'buildings_gis.json'
 
 # Earth radius used by the Web Mercator projection
@@ -49,6 +50,11 @@ def main():
         with open(INFO, encoding='utf-8') as f:
             info = json.load(f)
 
+    images = {}
+    if IMAGES.exists():
+        with open(IMAGES, encoding='utf-8') as f:
+            images = json.load(f)
+
     features = data.get('features', [])
     buildings = []
 
@@ -78,6 +84,7 @@ def main():
             'latitude': lat,
             'longitude': lon,
             'hours': extra.get('hours', ''),
+            'image_url': images.get(code, ''),
         })
 
     buildings.sort(key=lambda b: b['full_name'])

@@ -73,7 +73,7 @@ npm run dev                                 # http://localhost:5173
 | 249 GIS buildings (name + location) | Done — show full name where no acronym |
 | Street addresses (214 of 344) | Done — matched from OpenStreetMap + umd.io |
 | Live search on home hero | Done — grid filters as you type |
-| Building photos (13 landmarks) | Done — Wikimedia Commons, `image_url` field |
+| Building images (all 344) | Done — 16 Commons photos + aerial fallback (Esri) |
 | Hero background photo | Done — `public/hero-campus.jpg`, CC BY-SA credit |
 | Deployment config | Done — Procfile, whitenoise, dj-database-url |
 
@@ -167,6 +167,11 @@ The frontend auto-deploys from the `main` branch on Vercel.
 ---
 
 ## Recent Changes (last session)
+
+- Every building detail page now shows an image: 16 verified Wikimedia Commons
+  photos (13 via Wikidata P18 + 3 via coordinate geosearch with strict name-token
+  matching) and a keyless Esri World Imagery aerial view as the fallback for the
+  rest, with attribution. GIS-building photos live in scripts/building_images.json.
 
 - Added 36 buildings missing from the state GIS data, cross-checked against umd.io's
   official building list (421 entries): Pyon-Chen (PCH), Johnson-Whittle (JWH),

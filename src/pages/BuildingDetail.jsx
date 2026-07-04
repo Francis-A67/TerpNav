@@ -9,6 +9,15 @@ import styles from './BuildingDetail.module.css'
 
 const GIS_CODE = /^B\d+$/
 
+// Keyless Esri World Imagery export — aerial view centered on the building,
+// used when we have no real photo. Spans ≈220m x 110m at true aspect.
+function aerialUrl(lat, lon) {
+  const dLat = 0.00055
+  const dLon = 0.00142
+  const bbox = `${lon - dLon},${lat - dLat},${lon + dLon},${lat + dLat}`
+  return `https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=${bbox}&bboxSR=4326&size=800,400&format=jpg&f=image`
+}
+
 export default function BuildingDetail() {
   const { acronym } = useParams()
   const navigate = useNavigate()
@@ -106,23 +115,31 @@ export default function BuildingDetail() {
           ← Back
         </button>
 
-        {building.image_url && (
+        {(building.image_url || (building.latitude && building.longitude)) && (
           <div className={styles.photoWrap}>
             <img
               className={styles.photo}
-              src={building.image_url}
-              alt={building.full_name}
+              src={building.image_url || aerialUrl(building.latitude, building.longitude)}
+              alt={building.image_url ? building.full_name : `Aerial view of ${building.full_name}`}
               loading="lazy"
               onError={(e) => { e.currentTarget.parentElement.style.display = 'none' }}
             />
-            <a
-              className={styles.photoCredit}
-              href={building.image_url.split('?')[0].replace('Special:FilePath/', 'File:')}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Photo: Wikimedia Commons
-            </a>
+            {building.image_url ? (
+              <a
+                className={styles.photoCredit}
+                href={
+                  building.image_url.includes('Special:FilePath/')
+                    ? building.image_url.split('?')[0].replace('Special:FilePath/', 'File:')
+                    : 'https://commons.wikimedia.org/'
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Photo: Wikimedia Commons
+              </a>
+            ) : (
+              <span className={styles.photoCredit}>Aerial imagery © Esri &amp; partners</span>
+            )}
           </div>
         )}
 
