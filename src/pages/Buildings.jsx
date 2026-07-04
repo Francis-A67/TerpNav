@@ -1,22 +1,19 @@
 import { useLocation } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Navbar from '../components/Navbar'
 import BuildingCard from '../components/BuildingCard'
 import Footer from '../components/Footer'
+import LoadingNotice from '../components/LoadingNotice'
 import styles from './Buildings.module.css'
-import api from '../api/axios'
+import useBuildings from '../hooks/useBuildings'
 
 export default function Buildings() {
   const location = useLocation()
   const params = new URLSearchParams(location.search)
   const query = params.get('search') || ''
   const [searchTerm, setSearchTerm] = useState(query)
-  const [buildings, setBuildings] = useState([])
+  const { buildings, loading, error, retry } = useBuildings()
 
-  useEffect(() => {
-    api.get('/api/buildings/').then(res => setBuildings(res.data))
-  }, [])
-  
   const filtered = buildings.filter((building) => {
     return (
       building.acronym.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -43,7 +40,9 @@ export default function Buildings() {
         </div>
       </div>
 
-      {filtered.length === 0 ? (
+      {loading || error ? (
+        <LoadingNotice error={error} onRetry={retry} />
+      ) : filtered.length === 0 ? (
         <div className={styles.empty}>No buildings found for "{searchTerm}"</div>
       ) : (
         <div className={styles.grid}>

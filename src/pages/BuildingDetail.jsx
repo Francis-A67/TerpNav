@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import api from '../api/axios'
+import api, { getWithRetry } from '../api/axios'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import LoadingNotice from '../components/LoadingNotice'
 import styles from './BuildingDetail.module.css'
 
 
@@ -14,25 +15,31 @@ export default function BuildingDetail() {
 
   const [building, setBuilding] = useState(null)
   const [notFound, setNotFound] = useState(false)
+  const [loadError, setLoadError] = useState(false)
   const [buildingTips, setTips] = useState([])
   const [comments, setComments] = useState([])
   const [commentText, setCommentText] = useState('')
   const [submitting, setSubmitting] = useState(false)
 
   useEffect(() => {
-    api.get(`/api/buildings/${acronym}/`)
+    getWithRetry(`/api/buildings/${acronym}/`)
       .then(res => setBuilding(res.data))
-      .catch(() => setNotFound(true))
+      .catch(err => {
+        if (err.response?.status === 404) setNotFound(true)
+        else setLoadError(true)
+      })
   }, [acronym])
 
   useEffect(() => {
-    api.get(`/api/buildings/tips/${acronym}/`)
+    getWithRetry(`/api/buildings/tips/${acronym}/`)
       .then(res => setTips(res.data))
+      .catch(() => {})
   }, [acronym])
 
   useEffect(() => {
-    api.get(`/api/buildings/${acronym}/comments/`)
+    getWithRetry(`/api/buildings/${acronym}/comments/`)
       .then(res => setComments(res.data))
+      .catch(() => {})
   }, [acronym])
 
   async function handleCommentSubmit(e) {
@@ -53,8 +60,30 @@ export default function BuildingDetail() {
     window.open(`https://www.google.com/maps/search/?api=1&query=${query}`, '_blank')
   }
 
-  if (notFound) return <div>Building not found.</div>
-  if (!building) return <div>Loading...</div>
+  if (notFound) {
+    return (
+      <div className={styles.page}>
+        <Navbar />
+        <div className={styles.body}>Building not found.</div>
+      </div>
+    )
+  }
+  if (loadError) {
+    return (
+      <div className={styles.page}>
+        <Navbar />
+        <LoadingNotice error onRetry={() => window.location.reload()} />
+      </div>
+    )
+  }
+  if (!building) {
+    return (
+      <div className={styles.page}>
+        <Navbar />
+        <LoadingNotice />
+      </div>
+    )
+  }
 
   const hasRealAcronym = !GIS_CODE.test(building.acronym)
 

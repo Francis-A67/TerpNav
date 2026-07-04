@@ -1,16 +1,12 @@
 import {useNavigate} from 'react-router-dom'
 import BuildingCard from './BuildingCard'
+import LoadingNotice from './LoadingNotice'
 import styles from './BuildingsGrid.module.css'
-import { useState, useEffect } from 'react'
-import api from '../api/axios'
+import useBuildings from '../hooks/useBuildings'
 
 function BuildingsGrid({ filter = '' }) {
   const navigate = useNavigate()
-  const [buildings, setBuildings] = useState([])
-
-  useEffect(() => {
-    api.get('/api/buildings/').then(res => (setBuildings(res.data)))
-  }, [])
+  const { buildings, loading, error, retry } = useBuildings()
 
   const term = filter.trim().toLowerCase()
   const isSearching = term.length > 0
@@ -22,6 +18,14 @@ function BuildingsGrid({ filter = '' }) {
         b.department.toLowerCase().includes(term)
       )
     : buildings.filter(b => !/^B\d+$/.test(b.acronym))
+
+  if (loading || error) {
+    return (
+      <div className={styles.section}>
+        <LoadingNotice error={error} onRetry={retry} />
+      </div>
+    )
+  }
 
   return (
     <div className={styles.section}>
