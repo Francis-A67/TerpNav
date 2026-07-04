@@ -24,9 +24,12 @@ function BuildingsGrid() {
         </button>
       </div>
       <div className={styles.grid}>
-        {buildings.slice(0, 6).map((building) => (
-          <BuildingCard key={building.acronym} building={building} />
-        ))}
+        {buildings
+          .filter(b => !/^B\d+$/.test(b.acronym))
+          .slice(0, 6)
+          .map((building) => (
+            <BuildingCard key={building.acronym} building={building} />
+          ))}
       </div>
     </div>
   )
