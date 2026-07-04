@@ -67,11 +67,11 @@ npm run dev                                 # http://localhost:5173
 | Saved buildings (localStorage) | Done |
 | Student tips (read-only from JSON) | Done |
 | Anonymous comments (stored in DB) | Done — rate-limited 10/hr per IP |
-| Interactive map (Leaflet, all 308 buildings) | Done — markers across full campus |
+| Interactive map (Leaflet, all 344 buildings) | Done — markers across full campus |
 | Navbar (Home / Buildings / Map / Saved) | Done — no accounts |
-| 59 curated buildings (full detail) | Done — acronyms, descriptions, hours |
+| 95 curated buildings (full detail) | Done — acronyms, descriptions, hours |
 | 249 GIS buildings (name + location) | Done — show full name where no acronym |
-| Street addresses (209 of 308) | Done — matched from OpenStreetMap |
+| Street addresses (214 of 344) | Done — matched from OpenStreetMap + umd.io |
 | Live search on home hero | Done — grid filters as you type |
 | Building photos (13 landmarks) | Done — Wikimedia Commons, `image_url` field |
 | Hero background photo | Done — `public/hero-campus.jpg`, CC BY-SA credit |
@@ -109,7 +109,7 @@ filtering — scales as building count grows.
 so the frontend doesn't need to change when the ORM schema changes.
 
 **GIS building display** — cards and detail pages detect `B\d+` codes and show the full
-building name instead of the code, so all 308 buildings look correct in the UI.
+building name instead of the code, so all 344 buildings look correct in the UI.
 
 **Whitenoise** — serves Django static files without needing a separate CDN or nginx.
 Added to MIDDLEWARE right after SecurityMiddleware.
@@ -168,6 +168,11 @@ The frontend auto-deploys from the `main` branch on Vercel.
 
 ## Recent Changes (last session)
 
+- Added 36 buildings missing from the state GIS data, cross-checked against umd.io's
+  official building list (421 entries): Pyon-Chen (PCH), Johnson-Whittle (JWH),
+  Yahentamitsi (Y), Thurgood Marshall Hall (TMH), IDEA Factory (IDEA), Holzapfel (HZF),
+  Shriver (SHR), Harrison (HAR) + 28 utility buildings as B-codes. DB now 344 buildings.
+
 - Every building now has info: `scripts/building_info.json` (gis_id → department/
   description/hours) merged by `transform_gis.py` — hand-written entries for ~40
   notable buildings (Wind Tunnel, Observatory, IPST, USM/Elkins, NBRF, etc.),
@@ -193,7 +198,7 @@ The frontend auto-deploys from the `main` branch on Vercel.
 
 ## Planned / Future Work
 
-- [ ] Add more curated buildings (currently 59 of 308 have full detail)
+- [ ] Add more curated buildings (currently 95 of 344 have full detail)
 - [ ] Mobile-responsive improvements
 - [ ] Map marker clustering for dense areas
 - [ ] Building search by room number
