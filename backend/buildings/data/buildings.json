@@ -660,5 +660,373 @@
     "latitude": 38.992708,
     "longitude": -76.949634,
     "hours": "Mon–Thu 8am–10pm, Fri–Sun 8am–7pm"
+  },
+  {
+    "acronym": "PCH",
+    "gis_id": "B434",
+    "full_name": "Pyon-Chen Hall",
+    "department": "Resident Life",
+    "description": "Heritage Community residence hall, opened 2021. Named for Pyon Su, the first Korean student to earn a degree from any American university (1891), and Chunjen Constant Chen, the first Chinese student at the Maryland Agricultural College (1915).",
+    "address": "8097 La Plata Dr, College Park, MD 20742",
+    "latitude": 38.992006,
+    "longitude": -76.945013,
+    "hours": "24/7 (residents only)"
+  },
+  {
+    "acronym": "IDEA",
+    "gis_id": "B228",
+    "full_name": "E.A. Fernandez IDEA Factory",
+    "department": "Engineering",
+    "description": "The Clark School's innovation hub, opened 2022 — makerspaces, rapid-prototyping labs, and startup space, attached to the Kim Engineering Building.",
+    "address": "4462 Stadium Dr, College Park, MD 20742",
+    "latitude": 38.990348,
+    "longitude": -76.938037,
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  {
+    "acronym": "JWH",
+    "gis_id": "B435",
+    "full_name": "Johnson-Whittle Hall",
+    "department": "Resident Life",
+    "description": "Heritage Community residence hall, opened 2022. Named for Elaine Johnson Coates, the first African American woman to earn a UMD degree (1959), and Hiram Whittle, the first African American man admitted to the university (1951).",
+    "address": "La Plata Dr, College Park, MD 20742",
+    "latitude": 38.991044,
+    "longitude": -76.945566,
+    "hours": "24/7 (residents only)"
+  },
+  {
+    "acronym": "Y",
+    "gis_id": "B436",
+    "full_name": "Yahentamitsi Dining Hall",
+    "department": "Dining Services",
+    "description": "North campus dining hall opened 2022 — known to students as “The Y.” The name, from the Piscataway people on whose ancestral land the campus sits, means “a place to go to eat.”",
+    "address": "4136 Stadium Dr, College Park, MD 20742",
+    "latitude": 38.991074,
+    "longitude": -76.944615,
+    "hours": "Mon–Fri 7am–9pm, Sat–Sun 10am–9pm"
+  },
+  {
+    "acronym": "TMH",
+    "gis_id": "B433",
+    "full_name": "Thurgood Marshall Hall",
+    "department": "Public Policy",
+    "description": "Home of the School of Public Policy, opened fall 2022. Named for U.S. Supreme Court Justice Thurgood Marshall, whose legal victories desegregated American universities — including this one.",
+    "address": "7805 Regents Dr, College Park, MD 20742",
+    "latitude": 38.985207,
+    "longitude": -76.938516,
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  {
+    "acronym": "B215",
+    "full_name": "Building Services Operations Building",
+    "department": "Facilities Management",
+    "description": "Building Services Operations Building — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.986261,
+    "longitude": -76.934604,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B808",
+    "full_name": "Golub Property",
+    "department": "Facilities Management",
+    "description": "Golub Property — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.969543,
+    "longitude": -76.93016,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B327",
+    "full_name": "Ground Herbicide/Pesticide Storage Building",
+    "department": "Facilities Management",
+    "description": "Ground Herbicide/Pesticide Storage Building — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.995604,
+    "longitude": -76.943809,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B050",
+    "full_name": "Grounds Office Building",
+    "department": "Facilities Management",
+    "description": "Grounds Office Building — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.995869,
+    "longitude": -76.943712,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "HAR",
+    "gis_id": "B002",
+    "full_name": "Harrison Laboratory",
+    "department": "AGNR Research",
+    "description": "Harrison Laboratory — agricultural and plant research facility.",
+    "address": "College Park, MD 20742",
+    "latitude": 38.987032,
+    "longitude": -76.935639,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B216",
+    "full_name": "Heavy Equipment Building",
+    "department": "Facilities Management",
+    "description": "Heavy Equipment Building — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.985917,
+    "longitude": -76.933825,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "HZF",
+    "gis_id": "B074",
+    "full_name": "Holzapfel Hall",
+    "department": "Agriculture & Natural Resources",
+    "description": "Historic 1930s hall next to Symons, home to horticulture and applied agriculture programs.",
+    "address": "Regents Dr, College Park, MD 20742",
+    "latitude": 38.986878,
+    "longitude": -76.941889,
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  {
+    "acronym": "B086",
+    "full_name": "Institute for Physical Science and Technology Storage",
+    "department": "Facilities Management",
+    "description": "Institute for Physical Science and Technology Storage — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.990828,
+    "longitude": -76.941283,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B194",
+    "full_name": "MFRI Fire Extinguisher Training Facility",
+    "department": "Maryland Fire & Rescue Institute",
+    "description": "MFRI Fire Extinguisher Training Facility — emergency-responder training facility of the Maryland Fire and Rescue Institute.",
+    "address": "",
+    "latitude": 38.984012,
+    "longitude": -76.928774,
+    "hours": "Mon–Fri 8am–5pm"
+  },
+  {
+    "acronym": "B400",
+    "full_name": "Mowatt Lane Substation",
+    "department": "Facilities Management",
+    "description": "Mowatt Lane Substation — campus utilities infrastructure.",
+    "address": "",
+    "latitude": 38.983713,
+    "longitude": -76.947737,
+    "hours": "24/7 (staff only)"
+  },
+  {
+    "acronym": "B385",
+    "full_name": "Pest Control Trailer",
+    "department": "Facilities Management",
+    "description": "Pest Control Trailer — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.985154,
+    "longitude": -76.933592,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B217",
+    "full_name": "Plant Operations and Maintenance",
+    "department": "Facilities Management",
+    "description": "Plant Operations and Maintenance — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.986005,
+    "longitude": -76.934003,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B055",
+    "full_name": "Plant Operations and Maintenance Shop Building",
+    "department": "Facilities Management",
+    "description": "Plant Operations and Maintenance Shop Building — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.985039,
+    "longitude": -76.933459,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B101",
+    "full_name": "Plant Operations and Maintenance Shop2",
+    "department": "Facilities Management",
+    "description": "Plant Operations and Maintenance Shop2 — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.986573,
+    "longitude": -76.934404,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B212",
+    "full_name": "Plant Operations and Maintenance Shop3",
+    "department": "Facilities Management",
+    "description": "Plant Operations and Maintenance Shop3 — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.986787,
+    "longitude": -76.934227,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B012",
+    "full_name": "Plant Operations and Maintenance Warehouse",
+    "department": "Facilities Management",
+    "description": "Plant Operations and Maintenance Warehouse — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.986369,
+    "longitude": -76.933985,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B018",
+    "full_name": "Police Substation",
+    "department": "Public Safety",
+    "description": "Police Substation — University of Maryland police facility.",
+    "address": "",
+    "latitude": 38.98254,
+    "longitude": -76.935584,
+    "hours": "24/7"
+  },
+  {
+    "acronym": "B092",
+    "full_name": "Potomac Building",
+    "department": "Facilities Management",
+    "description": "Potomac Building — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.990392,
+    "longitude": -76.938302,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B200",
+    "full_name": "Pump House",
+    "department": "Facilities Management",
+    "description": "Pump House — campus utilities infrastructure.",
+    "address": "",
+    "latitude": 38.988643,
+    "longitude": -76.946512,
+    "hours": "24/7 (staff only)"
+  },
+  {
+    "acronym": "B107",
+    "full_name": "Recycling Center",
+    "department": "Facilities Management",
+    "description": "Recycling Center — campus recycling operations.",
+    "address": "",
+    "latitude": 38.995663,
+    "longitude": -76.937214,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B019",
+    "full_name": "Satellite Central Utilities Building 1",
+    "department": "Facilities Management",
+    "description": "Satellite Central Utilities Building 1 — part of the campus utilities network supplying heating and cooling.",
+    "address": "",
+    "latitude": 38.982025,
+    "longitude": -76.940448,
+    "hours": "24/7 (staff only)"
+  },
+  {
+    "acronym": "B067",
+    "full_name": "Satellite Central Utilities Building 2",
+    "department": "Facilities Management",
+    "description": "Satellite Central Utilities Building 2 — part of the campus utilities network supplying heating and cooling.",
+    "address": "",
+    "latitude": 38.983538,
+    "longitude": -76.944655,
+    "hours": "24/7 (staff only)"
+  },
+  {
+    "acronym": "B392",
+    "full_name": "Satellite Central Utilities Building 3",
+    "department": "Facilities Management",
+    "description": "Satellite Central Utilities Building 3 — part of the campus utilities network supplying heating and cooling.",
+    "address": "",
+    "latitude": 38.989097,
+    "longitude": -76.945951,
+    "hours": "24/7 (staff only)"
+  },
+  {
+    "acronym": "B405",
+    "full_name": "Satellite Central Utilities Building 4",
+    "department": "Facilities Management",
+    "description": "Satellite Central Utilities Building 4 — part of the campus utilities network supplying heating and cooling.",
+    "address": "",
+    "latitude": 38.989793,
+    "longitude": -76.938318,
+    "hours": "24/7 (staff only)"
+  },
+  {
+    "acronym": "SHR",
+    "gis_id": "B075",
+    "full_name": "Shriver Laboratory",
+    "department": "Research",
+    "description": "Shriver Laboratory — teaching and research lab space on the north side of McKeldin Mall.",
+    "address": "College Park, MD 20742",
+    "latitude": 38.987275,
+    "longitude": -76.941917,
+    "hours": "Mon–Fri 7am–10pm"
+  },
+  {
+    "acronym": "B013",
+    "full_name": "Shuttle Bus Facility",
+    "department": "Transportation Services (DOTS)",
+    "description": "Shuttle Bus Facility — Shuttle-UM operations facility.",
+    "address": "",
+    "latitude": 38.986928,
+    "longitude": -76.933889,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B410",
+    "full_name": "Shuttle Bus Trailer 2",
+    "department": "Transportation Services (DOTS)",
+    "description": "Shuttle Bus Trailer 2 — Shuttle-UM operations facility.",
+    "address": "",
+    "latitude": 38.987079,
+    "longitude": -76.934073,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B104",
+    "full_name": "Special Education Trailer One",
+    "department": "Facilities Management",
+    "description": "Special Education Trailer One — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.986919,
+    "longitude": -76.947953,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B105",
+    "full_name": "Special Education Trailer Two",
+    "department": "Facilities Management",
+    "description": "Special Education Trailer Two — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.986748,
+    "longitude": -76.947953,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B100",
+    "full_name": "Special Services Office Building",
+    "department": "Facilities Management",
+    "description": "Special Services Office Building — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.986518,
+    "longitude": -76.93444,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
+  },
+  {
+    "acronym": "B208",
+    "full_name": "Temporary Building",
+    "department": "Facilities Management",
+    "description": "Temporary Building — campus operations and support facility.",
+    "address": "",
+    "latitude": 38.985261,
+    "longitude": -76.93373,
+    "hours": "Mon–Fri 7am–4pm (staff only)"
   }
 ]
