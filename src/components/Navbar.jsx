@@ -15,12 +15,12 @@ function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.left}>
+      <button className={styles.left} onClick={() => navigate('/')} aria-label="TerpNav home">
         <div className={styles.logo}>
           <span>Terp</span>Nav
         </div>
         <div className={styles.logoSub}>UMD Building Navigator</div>
-      </div>
+      </button>
 
       <div className={styles.navLinks}>
         {links.map((link) => (
