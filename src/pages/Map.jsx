@@ -10,6 +10,7 @@ import Navbar from '../components/Navbar'
 import LoadingNotice from '../components/LoadingNotice'
 import useBuildings from '../hooks/useBuildings'
 import { getWithRetry } from '../api/axios'
+import { isFreePeriod } from '../utils/parking'
 import styles from './Map.module.css'
 
 delete L.Icon.Default.prototype._getIconUrl
@@ -20,15 +21,6 @@ L.Icon.Default.mergeOptions({
 })
 
 const UMD_CENTER = [38.9869, -76.9426]
-
-// DOTS rule of thumb: most surface lots are permit-only Mon–Fri 7am–4pm and
-// unrestricted evenings + weekends (posted signs and event days override).
-function isFreePeriod(d = new Date()) {
-  const day = d.getDay()
-  if (day === 0 || day === 6) return true
-  const h = d.getHours()
-  return h >= 16 || h < 7
-}
 
 function parkingIcon(variantClass) {
   return L.divIcon({
@@ -46,13 +38,13 @@ const ICONS = {
   garage: parkingIcon(styles.pGarage),
 }
 
-export default function Map({ parkingFocus = false }) {
+export default function Map() {
   const { buildings: allBuildings, loading, error, retry } = useBuildings()
   const buildings = allBuildings.filter(b => b.latitude && b.longitude)
 
   const [parking, setParking] = useState([])
   const [showParking, setShowParking] = useState(true)
-  const [showBuildings, setShowBuildings] = useState(!parkingFocus)
+  const [showBuildings, setShowBuildings] = useState(true)
 
   useEffect(() => {
     getWithRetry('/api/parking/')
