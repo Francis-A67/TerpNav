@@ -131,11 +131,20 @@ REST_FRAMEWORK = {
         'anon': '60/minute',
         'comments': '10/hour',
     },
+    # Render sits one proxy in front of us. Without this, DRF identifies
+    # clients by the full X-Forwarded-For header, which callers control —
+    # letting them dodge rate limits with a random fake IP per request.
+    'NUM_PROXIES': 1,
 }
 
 if not DEBUG:
+    # Render terminates TLS at its proxy; trust its forwarded-proto header
+    # so Django knows requests are secure (cookies, redirects, is_secure()).
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
     SECURE_SSL_REDIRECT = env_bool('SECURE_SSL_REDIRECT', default=True)
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
     SECURE_HSTS_SECONDS = 31536000
     SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_CONTENT_TYPE_NOSNIFF = True
+    SECURE_REFERRER_POLICY = 'same-origin'

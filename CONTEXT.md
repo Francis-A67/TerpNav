@@ -154,19 +154,34 @@ python buildings/scripts/transform_gis.py && python manage.py sync_buildings
 
 | Service | URL |
 |---------|-----|
-| Frontend (Vercel) | https://terp-nav.vercel.app (stable production URL) |
-| Backend (Render) | https://<your-app>.onrender.com |
+| Frontend (Vercel) | https://terpnav.com (custom domain) + https://terp-nav.vercel.app |
+| Backend (Render) | https://terpnav.onrender.com |
 
 Both are live. The backend is Python 3 on Render with Root Directory set to `backend`.
 The frontend auto-deploys from the `main` branch on Vercel.
 
 **Key env vars on Render:**
-- `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS`, `CORS_ALLOWED_ORIGINS` (no trailing slash), `SECURE_SSL_REDIRECT=True`
+- `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS=terpnav.onrender.com`, `SECURE_SSL_REDIRECT=True`
+- `CORS_ALLOWED_ORIGINS=https://terp-nav.vercel.app,https://terpnav.com,https://www.terpnav.com`
+  (frontend origins: https://, no trailing slash, exact host — a mismatch blanks the whole site)
 - `DATABASE_URL` is set automatically by Render when you attach a PostgreSQL database
 
 ---
 
 ## Recent Changes (last session)
+
+- Security audit + hardening: npm audit fix (8 vulns -> 0), Django 6.0.4 -> 6.0.6,
+  DRF NUM_PROXIES=1 (X-Forwarded-For spoofing could bypass rate limits),
+  SECURE_PROXY_SSL_HEADER + nosniff/referrer policy, security headers in
+  vercel.json (nosniff, XFO DENY, referrer, permissions policy). check --deploy
+  clean. Future: CSP header once it can be visually verified against the map/images
+
+- Moved to custom domain https://terpnav.com (Vercel). Outage post-mortem: editing
+  CORS_ALLOWED_ORIGINS on Render to the new domain initially removed the working
+  origin — symptom was "database not loading" but the DB was fine; the browser was
+  blocked by CORS. Backend verified serving access-control-allow-origin for
+  terpnav.com. TODO: in Vercel Domains, redirect terp-nav.vercel.app and
+  www.terpnav.com -> terpnav.com (old links currently show "can't reach server")
 
 - Every building detail page now shows an image: 16 verified Wikimedia Commons
   photos (13 via Wikidata P18 + 3 via coordinate geosearch with strict name-token
