@@ -170,6 +170,12 @@ The frontend auto-deploys from the `main` branch on Vercel.
 
 ## Recent Changes (last session)
 
+- Security audit + hardening: npm audit fix (8 vulns -> 0), Django 6.0.4 -> 6.0.6,
+  DRF NUM_PROXIES=1 (X-Forwarded-For spoofing could bypass rate limits),
+  SECURE_PROXY_SSL_HEADER + nosniff/referrer policy, security headers in
+  vercel.json (nosniff, XFO DENY, referrer, permissions policy). check --deploy
+  clean. Future: CSP header once it can be visually verified against the map/images
+
 - Moved to custom domain https://terpnav.com (Vercel). Outage post-mortem: editing
   CORS_ALLOWED_ORIGINS on Render to the new domain initially removed the working
   origin — symptom was "database not loading" but the DB was fine; the browser was
