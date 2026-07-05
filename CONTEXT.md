@@ -154,14 +154,16 @@ python buildings/scripts/transform_gis.py && python manage.py sync_buildings
 
 | Service | URL |
 |---------|-----|
-| Frontend (Vercel) | https://terp-nav.vercel.app (stable production URL) |
-| Backend (Render) | https://<your-app>.onrender.com |
+| Frontend (Vercel) | https://terpnav.com (custom domain) + https://terp-nav.vercel.app |
+| Backend (Render) | https://terpnav.onrender.com |
 
 Both are live. The backend is Python 3 on Render with Root Directory set to `backend`.
 The frontend auto-deploys from the `main` branch on Vercel.
 
 **Key env vars on Render:**
-- `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS`, `CORS_ALLOWED_ORIGINS` (no trailing slash), `SECURE_SSL_REDIRECT=True`
+- `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS=terpnav.onrender.com`, `SECURE_SSL_REDIRECT=True`
+- `CORS_ALLOWED_ORIGINS=https://terp-nav.vercel.app,https://terpnav.com,https://www.terpnav.com`
+  (frontend origins: https://, no trailing slash, exact host — a mismatch blanks the whole site)
 - `DATABASE_URL` is set automatically by Render when you attach a PostgreSQL database
 
 ---
