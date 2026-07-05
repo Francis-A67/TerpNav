@@ -14,6 +14,7 @@ function App() {
         <Route path="/building/:acronym" element={<BuildingDetail />} />
         <Route path="/saved" element={<Saved />} />
         <Route path="/map" element={<Map />} />
+        <Route path="/parking" element={<Map parkingFocus />} />
       </Routes>
     </BrowserRouter>
   )

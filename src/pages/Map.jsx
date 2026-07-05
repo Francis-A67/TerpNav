@@ -46,12 +46,13 @@ const ICONS = {
   garage: parkingIcon(styles.pGarage),
 }
 
-export default function Map() {
+export default function Map({ parkingFocus = false }) {
   const { buildings: allBuildings, loading, error, retry } = useBuildings()
   const buildings = allBuildings.filter(b => b.latitude && b.longitude)
 
   const [parking, setParking] = useState([])
   const [showParking, setShowParking] = useState(true)
+  const [showBuildings, setShowBuildings] = useState(!parkingFocus)
 
   useEffect(() => {
     getWithRetry('/api/parking/')
@@ -69,6 +70,14 @@ export default function Map() {
       )}
       <div className={styles.mapWrap}>
         <div className={styles.controls}>
+          <label className={styles.toggle}>
+            <input
+              type="checkbox"
+              checked={showBuildings}
+              onChange={(e) => setShowBuildings(e.target.checked)}
+            />
+            Buildings ({buildings.length})
+          </label>
           <label className={styles.toggle}>
             <input
               type="checkbox"
@@ -90,7 +99,7 @@ export default function Map() {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          {buildings.map(b => (
+          {showBuildings && buildings.map(b => (
             <Marker key={b.acronym} position={[b.latitude, b.longitude]}>
               <Popup>
                 <strong>{b.acronym}</strong> — {b.full_name}
