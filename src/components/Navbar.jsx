@@ -9,6 +9,7 @@ function Navbar() {
     { label: 'Home', path: '/' },
     { label: 'Buildings', path: '/buildings' },
     { label: 'Map', path: '/map' },
+    { label: 'Parking', path: '/parking' },
     { label: 'Saved', path: '/saved' },
   ]
 

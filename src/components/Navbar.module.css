@@ -39,7 +39,7 @@
 }
 
 .navLink {
-  font-size: 13px;
+  font-size: 15px;
   color: #666;
   cursor: pointer;
   background: none;
@@ -62,11 +62,11 @@
   }
 
   .navLinks {
-    gap: 14px;
+    gap: 12px;
   }
 
   .navLink {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
