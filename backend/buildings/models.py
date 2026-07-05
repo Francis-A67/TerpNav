@@ -15,6 +15,19 @@ class Building(models.Model):
         return f"{self.code} - {self.name}"
 
 
+class ParkingLot(models.Model):
+    code = models.CharField(max_length=20, unique=True)
+    name = models.CharField(max_length=200)
+    kind = models.CharField(max_length=20, default='lot')  # 'lot' or 'garage'
+    latitude = models.FloatField()
+    longitude = models.FloatField()
+    note = models.CharField(max_length=300, blank=True)
+    free_after_hours = models.BooleanField(default=True)
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+
 class Comment(models.Model):
     building = models.ForeignKey(Building, on_delete=models.CASCADE, related_name='comments')
     text = models.CharField(max_length=500)

@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from django.core.management.base import BaseCommand
-from buildings.models import Building
+from buildings.models import Building, ParkingLot
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / 'data'
 
@@ -55,6 +55,24 @@ class Command(BaseCommand):
         if gis_ids_to_remove:
             deleted, _ = Building.objects.filter(code__in=gis_ids_to_remove).delete()
             self.stdout.write(f'Removed {deleted} duplicate GIS entries replaced by curated data.')
+
+        parking_file = DATA_DIR / 'parking.json'
+        if parking_file.exists():
+            with open(parking_file, encoding='utf-8') as f:
+                lots = json.load(f)
+            for p in lots:
+                ParkingLot.objects.update_or_create(
+                    code=p['code'],
+                    defaults={
+                        'name': p['name'],
+                        'kind': p.get('kind', 'lot'),
+                        'latitude': p['latitude'],
+                        'longitude': p['longitude'],
+                        'note': p.get('note', ''),
+                        'free_after_hours': p.get('free_after_hours', True),
+                    },
+                )
+            self.stdout.write(f'Synced {len(lots)} parking locations.')
 
         self.stdout.write(
             self.style.SUCCESS(

@@ -54,6 +54,7 @@ npm run dev                                 # http://localhost:5173
 | GET | `/api/buildings/<acronym>/` | Single building detail |
 | GET | `/api/buildings/tips/<acronym>/` | Read-only tips for a building |
 | GET | `/api/buildings/<acronym>/comments/` | Anonymous comments |
+| GET | `/api/parking/` | All 137 parking lots & garages |
 | POST | `/api/buildings/<acronym>/comments/` | Post a comment (10/hr per IP) |
 
 ---
@@ -75,6 +76,7 @@ npm run dev                                 # http://localhost:5173
 | Live search on home hero | Done — grid filters as you type |
 | Building images (all 344) | Done — 16 Commons photos + aerial fallback (Esri) |
 | Hero background photo | Done — `public/hero-campus.jpg`, CC BY-SA credit |
+| Parking layer (137 lots/garages) | Done — map toggle, free-now indicator, legend |
 | Deployment config | Done — Procfile, whitenoise, dj-database-url |
 
 ---
@@ -169,6 +171,12 @@ The frontend auto-deploys from the `main` branch on Vercel.
 ---
 
 ## Recent Changes (last session)
+
+- Parking: ParkingLot model (migration 0005), data/parking.json (131 lots from
+  umd.io + 6 garages), /api/parking/ endpoint, map layer with toggle + legend.
+  Free-now indicator: green P = likely free (DOTS rule: lots unrestricted 4pm–7am
+  weekdays + weekends), gray P = permit hours, blue P = paid garage. Popups carry
+  the "check posted signs / event restrictions" disclaimer
 
 - Security audit + hardening: npm audit fix (8 vulns -> 0), Django 6.0.4 -> 6.0.6,
   DRF NUM_PROXIES=1 (X-Forwarded-For spoofing could bypass rate limits),
