@@ -170,6 +170,13 @@ The frontend auto-deploys from the `main` branch on Vercel.
 
 ## Recent Changes (last session)
 
+- Moved to custom domain https://terpnav.com (Vercel). Outage post-mortem: editing
+  CORS_ALLOWED_ORIGINS on Render to the new domain initially removed the working
+  origin — symptom was "database not loading" but the DB was fine; the browser was
+  blocked by CORS. Backend verified serving access-control-allow-origin for
+  terpnav.com. TODO: in Vercel Domains, redirect terp-nav.vercel.app and
+  www.terpnav.com -> terpnav.com (old links currently show "can't reach server")
+
 - Every building detail page now shows an image: 16 verified Wikimedia Commons
   photos (13 via Wikidata P18 + 3 via coordinate geosearch with strict name-token
   matching) and a keyless Esri World Imagery aerial view as the fallback for the
