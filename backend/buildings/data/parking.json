@@ -1,0 +1,1235 @@
+[
+  {
+    "code": "G179",
+    "name": "Union Lane Parking Garage",
+    "kind": "garage",
+    "latitude": 38.988546,
+    "longitude": -76.945931,
+    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "free_after_hours": false
+  },
+  {
+    "code": "G202",
+    "name": "Regents Drive Parking Garage",
+    "kind": "garage",
+    "latitude": 38.989774,
+    "longitude": -76.94144,
+    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "free_after_hours": false
+  },
+  {
+    "code": "G218",
+    "name": "Stadium Drive Parking Garage",
+    "kind": "garage",
+    "latitude": 38.991143,
+    "longitude": -76.948673,
+    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "free_after_hours": false
+  },
+  {
+    "code": "G347",
+    "name": "UMUC/Marriott Garage",
+    "kind": "garage",
+    "latitude": 38.986981,
+    "longitude": -76.954347,
+    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "free_after_hours": false
+  },
+  {
+    "code": "G403",
+    "name": "Terrapin Trail Parking Garage",
+    "kind": "garage",
+    "latitude": 38.995031,
+    "longitude": -76.943407,
+    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "free_after_hours": false
+  },
+  {
+    "code": "G404",
+    "name": "Mowatt Lane Parking Garage",
+    "kind": "garage",
+    "latitude": 38.981924,
+    "longitude": -76.945499,
+    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "free_after_hours": false
+  },
+  {
+    "code": "P100",
+    "name": "Parking Lot 11b",
+    "kind": "lot",
+    "latitude": 38.993783,
+    "longitude": -76.93622,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P101",
+    "name": "Parking Lot 11c",
+    "kind": "lot",
+    "latitude": 38.993897,
+    "longitude": -76.937933,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P102",
+    "name": "Parking Lot 11h",
+    "kind": "lot",
+    "latitude": 38.982545,
+    "longitude": -76.935355,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P103",
+    "name": "Parking Lot 15",
+    "kind": "lot",
+    "latitude": 38.981005,
+    "longitude": -76.935756,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P104",
+    "name": "Parking Lot 16a",
+    "kind": "lot",
+    "latitude": 38.98353,
+    "longitude": -76.93613,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P105",
+    "name": "Parking Lot 16b",
+    "kind": "lot",
+    "latitude": 38.983032,
+    "longitude": -76.936464,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P106",
+    "name": "Parking Lot 16c",
+    "kind": "lot",
+    "latitude": 38.983234,
+    "longitude": -76.931985,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P107",
+    "name": "Parking Lot 16d",
+    "kind": "lot",
+    "latitude": 38.982341,
+    "longitude": -76.932368,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P108",
+    "name": "Parking Lot 16e",
+    "kind": "lot",
+    "latitude": 38.982799,
+    "longitude": -76.933294,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P109",
+    "name": "Parking Lot 16f",
+    "kind": "lot",
+    "latitude": 38.983173,
+    "longitude": -76.933905,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P110",
+    "name": "Parking Lot 16h",
+    "kind": "lot",
+    "latitude": 38.983141,
+    "longitude": -76.931537,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P111",
+    "name": "Parking Lot 1b",
+    "kind": "lot",
+    "latitude": 38.987083,
+    "longitude": -76.949441,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P112",
+    "name": "Parking Lot 1d",
+    "kind": "lot",
+    "latitude": 38.986101,
+    "longitude": -76.950652,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P113",
+    "name": "Parking Lot 2a",
+    "kind": "lot",
+    "latitude": 38.994203,
+    "longitude": -76.948159,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P114",
+    "name": "Parking Lot 2b",
+    "kind": "lot",
+    "latitude": 38.993188,
+    "longitude": -76.950546,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P115",
+    "name": "Parking Lot 2c",
+    "kind": "lot",
+    "latitude": 38.992303,
+    "longitude": -76.947776,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P116",
+    "name": "Parking Lot 2d",
+    "kind": "lot",
+    "latitude": 38.992388,
+    "longitude": -76.945538,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P117",
+    "name": "Parking Lot",
+    "kind": "lot",
+    "latitude": 38.991334,
+    "longitude": -76.946637,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P118",
+    "name": "Parking Lot 2f",
+    "kind": "lot",
+    "latitude": 38.992574,
+    "longitude": -76.941499,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P121",
+    "name": "Parking Lot 4b",
+    "kind": "lot",
+    "latitude": 38.997055,
+    "longitude": -76.941182,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P124",
+    "name": "Parking Lot 4j",
+    "kind": "lot",
+    "latitude": 38.997215,
+    "longitude": -76.939228,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P125",
+    "name": "Parking Lot E",
+    "kind": "lot",
+    "latitude": 38.989276,
+    "longitude": -76.937185,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P126",
+    "name": "Parking Lot 5",
+    "kind": "lot",
+    "latitude": 38.989745,
+    "longitude": -76.940961,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P127",
+    "name": "Parking Lot 6",
+    "kind": "lot",
+    "latitude": 38.994884,
+    "longitude": -76.944122,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P128",
+    "name": "Parking Lot 9b",
+    "kind": "lot",
+    "latitude": 38.994434,
+    "longitude": -76.937948,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P129",
+    "name": "Parking Lot 9c",
+    "kind": "lot",
+    "latitude": 38.994263,
+    "longitude": -76.939203,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P130",
+    "name": "Parking Lot A",
+    "kind": "lot",
+    "latitude": 38.984304,
+    "longitude": -76.944555,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P131",
+    "name": "Parking Lot A*1",
+    "kind": "lot",
+    "latitude": 38.986272,
+    "longitude": -76.948123,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P135",
+    "name": "Parking Lot B",
+    "kind": "lot",
+    "latitude": 38.989615,
+    "longitude": -76.94096,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P136",
+    "name": "Parking Lot BB",
+    "kind": "lot",
+    "latitude": 38.988689,
+    "longitude": -76.943743,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P137",
+    "name": "Parking Lot C1",
+    "kind": "lot",
+    "latitude": 38.986626,
+    "longitude": -76.937308,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P138",
+    "name": "Parking Lot C2",
+    "kind": "lot",
+    "latitude": 38.985256,
+    "longitude": -76.938647,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P140",
+    "name": "Parking Lot CC1",
+    "kind": "lot",
+    "latitude": 38.992366,
+    "longitude": -76.939535,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P141",
+    "name": "Parking Lot CC2",
+    "kind": "lot",
+    "latitude": 38.991621,
+    "longitude": -76.940687,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P143",
+    "name": "Parking Lot D",
+    "kind": "lot",
+    "latitude": 38.985126,
+    "longitude": -76.945037,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P146",
+    "name": "Parking Lot E*1",
+    "kind": "lot",
+    "latitude": 38.988953,
+    "longitude": -76.939506,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P147",
+    "name": "Parking Lot E*2",
+    "kind": "lot",
+    "latitude": 38.989362,
+    "longitude": -76.938747,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P148",
+    "name": "Parking Lot EE",
+    "kind": "lot",
+    "latitude": 38.989567,
+    "longitude": -76.937773,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P149",
+    "name": "Parking Lot F",
+    "kind": "lot",
+    "latitude": 38.982803,
+    "longitude": -76.936219,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P150",
+    "name": "Parking Lot FF",
+    "kind": "lot",
+    "latitude": 38.994311,
+    "longitude": -76.939911,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P151",
+    "name": "Parking Lot FF2",
+    "kind": "lot",
+    "latitude": 38.99313,
+    "longitude": -76.939219,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P152",
+    "name": "Parking Lot H1",
+    "kind": "lot",
+    "latitude": 38.987144,
+    "longitude": -76.94089,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P155",
+    "name": "Parking Lot HH1",
+    "kind": "lot",
+    "latitude": 38.987196,
+    "longitude": -76.943771,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P156",
+    "name": "Parking Lot HH2",
+    "kind": "lot",
+    "latitude": 38.991794,
+    "longitude": -76.948722,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P158",
+    "name": "Parking Lot I*",
+    "kind": "lot",
+    "latitude": 38.992438,
+    "longitude": -76.936921,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P159",
+    "name": "Parking Lot JJ1",
+    "kind": "lot",
+    "latitude": 38.985394,
+    "longitude": -76.948333,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P160",
+    "name": "Parking Lot JJ2",
+    "kind": "lot",
+    "latitude": 38.985064,
+    "longitude": -76.949305,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P162",
+    "name": "Parking Lot K*2",
+    "kind": "lot",
+    "latitude": 38.986647,
+    "longitude": -76.936079,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P163",
+    "name": "Parking Lot K*4",
+    "kind": "lot",
+    "latitude": 38.986413,
+    "longitude": -76.934833,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P164",
+    "name": "Parking Lot K1",
+    "kind": "lot",
+    "latitude": 4719533.97406,
+    "longitude": -8564367.45346,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P165",
+    "name": "Parking Lot K2",
+    "kind": "lot",
+    "latitude": 38.985544,
+    "longitude": -76.934616,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P167",
+    "name": "Parking Lot K5",
+    "kind": "lot",
+    "latitude": 38.982965,
+    "longitude": -76.936303,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P168",
+    "name": "Parking Lot K6",
+    "kind": "lot",
+    "latitude": 38.990832,
+    "longitude": -76.954886,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P169",
+    "name": "Parking Lot KK",
+    "kind": "lot",
+    "latitude": 38.990746,
+    "longitude": -76.939127,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P170",
+    "name": "Parking Lot L",
+    "kind": "lot",
+    "latitude": 38.985601,
+    "longitude": -76.939044,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P171",
+    "name": "Parking Lot L*",
+    "kind": "lot",
+    "latitude": 38.986024,
+    "longitude": -76.939573,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P172",
+    "name": "Parking Lot MM1",
+    "kind": "lot",
+    "latitude": 38.992085,
+    "longitude": -76.944282,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P173",
+    "name": "Parking Lot MM2",
+    "kind": "lot",
+    "latitude": 38.992427,
+    "longitude": -76.941658,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P174",
+    "name": "Parking Lot MM3",
+    "kind": "lot",
+    "latitude": 38.991343,
+    "longitude": -76.943071,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P175",
+    "name": "Parking Lot N*2",
+    "kind": "lot",
+    "latitude": 38.982433,
+    "longitude": -76.938844,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P176",
+    "name": "Parking Lot N*3",
+    "kind": "lot",
+    "latitude": 38.982691,
+    "longitude": -76.943424,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P177",
+    "name": "Parking Lot N*",
+    "kind": "lot",
+    "latitude": 38.993153,
+    "longitude": -76.949621,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P178",
+    "name": "Parking Lot N",
+    "kind": "lot",
+    "latitude": 38.992758,
+    "longitude": -76.948326,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P179",
+    "name": "Parking Lot N3",
+    "kind": "lot",
+    "latitude": 38.992753,
+    "longitude": -76.945546,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P180",
+    "name": "Parking Lot N4",
+    "kind": "lot",
+    "latitude": 38.992513,
+    "longitude": -76.944285,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P181",
+    "name": "Parking Lot N5",
+    "kind": "lot",
+    "latitude": 38.983515,
+    "longitude": -76.932156,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P182",
+    "name": "Parking Lot N7",
+    "kind": "lot",
+    "latitude": 38.992587,
+    "longitude": -76.947774,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P183",
+    "name": "Parking Lot N*",
+    "kind": "lot",
+    "latitude": 38.993065,
+    "longitude": -76.948871,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P184",
+    "name": "Parking Lot N9",
+    "kind": "lot",
+    "latitude": 38.99307,
+    "longitude": -76.946957,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P185",
+    "name": "Parking Lot O1",
+    "kind": "lot",
+    "latitude": 38.983995,
+    "longitude": -76.947917,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P187",
+    "name": "Parking Lot O3",
+    "kind": "lot",
+    "latitude": 38.984422,
+    "longitude": -76.9483,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P188",
+    "name": "Parking Lot O4",
+    "kind": "lot",
+    "latitude": 38.984305,
+    "longitude": -76.946297,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P189",
+    "name": "Parking Lot O5",
+    "kind": "lot",
+    "latitude": 38.983552,
+    "longitude": -76.947783,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P191",
+    "name": "Parking Lot P*",
+    "kind": "lot",
+    "latitude": 38.998194,
+    "longitude": -76.942706,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P192",
+    "name": "Parking Lot P1",
+    "kind": "lot",
+    "latitude": 38.998125,
+    "longitude": -76.94319,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P193",
+    "name": "Parking Lot P2",
+    "kind": "lot",
+    "latitude": 38.998987,
+    "longitude": -76.942102,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P194",
+    "name": "Paint Branch Drive Visitors Lot",
+    "kind": "lot",
+    "latitude": 38.99197,
+    "longitude": -76.937665,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P195",
+    "name": "Parking Lot PP*",
+    "kind": "lot",
+    "latitude": 38.993857,
+    "longitude": -76.940372,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P196",
+    "name": "Parking Lot PP1",
+    "kind": "lot",
+    "latitude": 38.993382,
+    "longitude": -76.942085,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P197",
+    "name": "Parking Lot PP2",
+    "kind": "lot",
+    "latitude": 38.993857,
+    "longitude": -76.940699,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P198",
+    "name": "Parking Lot Q",
+    "kind": "lot",
+    "latitude": 38.991169,
+    "longitude": -76.943876,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P199",
+    "name": "Parking Lot R*",
+    "kind": "lot",
+    "latitude": 38.989394,
+    "longitude": -76.945694,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P200",
+    "name": "Parking Lot R3",
+    "kind": "lot",
+    "latitude": 38.990225,
+    "longitude": -76.945531,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P201",
+    "name": "Parking Lot R4",
+    "kind": "lot",
+    "latitude": 38.990625,
+    "longitude": -76.954704,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P203",
+    "name": "Parking Lot RR",
+    "kind": "lot",
+    "latitude": 38.989484,
+    "longitude": -76.94096,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P204",
+    "name": "Parking Lot S3",
+    "kind": "lot",
+    "latitude": 38.992514,
+    "longitude": -76.943023,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P205",
+    "name": "Parking Lot S4",
+    "kind": "lot",
+    "latitude": 38.982467,
+    "longitude": -76.943739,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P206",
+    "name": "Parking Lot S5",
+    "kind": "lot",
+    "latitude": 38.993302,
+    "longitude": -76.949432,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P207",
+    "name": "Parking Lot S7",
+    "kind": "lot",
+    "latitude": 38.992833,
+    "longitude": -76.947773,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P208",
+    "name": "Parking Lot S8",
+    "kind": "lot",
+    "latitude": 38.992883,
+    "longitude": -76.946704,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P209",
+    "name": "Parking Lot SD*",
+    "kind": "lot",
+    "latitude": 38.990244,
+    "longitude": -76.948919,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P211",
+    "name": "Parking Lot SS1",
+    "kind": "lot",
+    "latitude": 38.993761,
+    "longitude": -76.944155,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P212",
+    "name": "Parking Lot SS2",
+    "kind": "lot",
+    "latitude": 38.993972,
+    "longitude": -76.946336,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P213",
+    "name": "Parking Lot SS3",
+    "kind": "lot",
+    "latitude": 38.994264,
+    "longitude": -76.946676,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P215",
+    "name": "Parking Lot T",
+    "kind": "lot",
+    "latitude": 38.989867,
+    "longitude": -76.93773,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P217",
+    "name": "Parking Lot TT",
+    "kind": "lot",
+    "latitude": 38.988526,
+    "longitude": -76.940369,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P218",
+    "name": "Parking Lot U1",
+    "kind": "lot",
+    "latitude": 38.982691,
+    "longitude": -76.943739,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P224",
+    "name": "Parking Lot UU",
+    "kind": "lot",
+    "latitude": 38.990549,
+    "longitude": -76.93983,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P225",
+    "name": "Parking Lot W",
+    "kind": "lot",
+    "latitude": 38.984863,
+    "longitude": -76.941386,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P226",
+    "name": "Parking Lot XX1",
+    "kind": "lot",
+    "latitude": 38.99004,
+    "longitude": -76.935617,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P227",
+    "name": "Parking Lot XX2",
+    "kind": "lot",
+    "latitude": 38.991476,
+    "longitude": -76.936797,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P229",
+    "name": "Parking Lot XX4",
+    "kind": "lot",
+    "latitude": 38.993167,
+    "longitude": -76.937826,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P230",
+    "name": "Parking Lot Y",
+    "kind": "lot",
+    "latitude": 38.984029,
+    "longitude": -76.941998,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P231",
+    "name": "Parking Lot YC",
+    "kind": "lot",
+    "latitude": 38.993677,
+    "longitude": -76.948039,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P232",
+    "name": "Parking Lot Z*",
+    "kind": "lot",
+    "latitude": 38.988747,
+    "longitude": -76.946758,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P233",
+    "name": "Parking Lot XX5",
+    "kind": "lot",
+    "latitude": 38.990966,
+    "longitude": -76.936921,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P234",
+    "name": "Parking Lot 4n",
+    "kind": "lot",
+    "latitude": 38.997599,
+    "longitude": -76.943249,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P235",
+    "name": "Parking Lot K4",
+    "kind": "lot",
+    "latitude": 38.996406,
+    "longitude": -76.942921,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P236",
+    "name": "Parking Lot 2g",
+    "kind": "lot",
+    "latitude": 38.994404,
+    "longitude": -76.947289,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P237",
+    "name": "Parking Lot KK1",
+    "kind": "lot",
+    "latitude": 38.991036,
+    "longitude": -76.939071,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P238",
+    "name": "Parking Lot Z1",
+    "kind": "lot",
+    "latitude": 38.989016,
+    "longitude": -76.947515,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P239",
+    "name": "Parking Lot II1",
+    "kind": "lot",
+    "latitude": 38.989681,
+    "longitude": -76.939167,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P240",
+    "name": "Parking Lot Z",
+    "kind": "lot",
+    "latitude": 38.988137,
+    "longitude": -76.948551,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P241",
+    "name": "Parking Lot JJ3",
+    "kind": "lot",
+    "latitude": 38.986145,
+    "longitude": -76.949104,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P244",
+    "name": "Parking Lot W1",
+    "kind": "lot",
+    "latitude": 38.984946,
+    "longitude": -76.942485,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P246",
+    "name": "Parking Lot N*1",
+    "kind": "lot",
+    "latitude": 38.982763,
+    "longitude": -76.939941,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P247",
+    "name": "Parking Lot U6",
+    "kind": "lot",
+    "latitude": 38.982806,
+    "longitude": -76.944976,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P248",
+    "name": "DOTS Impound",
+    "kind": "lot",
+    "latitude": 38.982914,
+    "longitude": -76.931626,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P249",
+    "name": "Police Impound",
+    "kind": "lot",
+    "latitude": 38.98301,
+    "longitude": -76.931255,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P250",
+    "name": "Parking Lot K*5",
+    "kind": "lot",
+    "latitude": 38.985211,
+    "longitude": -76.934932,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P251",
+    "name": "Parking Lot RR1",
+    "kind": "lot",
+    "latitude": 38.986968,
+    "longitude": -76.93449,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P252",
+    "name": "Parking Lot RR2",
+    "kind": "lot",
+    "latitude": 38.987613,
+    "longitude": -76.934332,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P253",
+    "name": "Parking Lot 19",
+    "kind": "lot",
+    "latitude": 38.98196,
+    "longitude": -76.945045,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P254",
+    "name": "Parking Lot ML*",
+    "kind": "lot",
+    "latitude": 38.98205,
+    "longitude": -76.945045,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P255",
+    "name": "Metro Parking Garage",
+    "kind": "lot",
+    "latitude": 38.979015,
+    "longitude": -76.927538,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P256",
+    "name": "College Park Metro Station",
+    "kind": "lot",
+    "latitude": 38.978251,
+    "longitude": -76.928007,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P257",
+    "name": "Parking Lot D",
+    "kind": "lot",
+    "latitude": 38.985523,
+    "longitude": -76.945319,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P258",
+    "name": "Parking Lot G",
+    "kind": "lot",
+    "latitude": 38.99193,
+    "longitude": -76.938544,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P260",
+    "name": "Parking Lot U6",
+    "kind": "lot",
+    "latitude": 38.982824,
+    "longitude": -76.945024,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P262",
+    "name": "Parking Lot Q1",
+    "kind": "lot",
+    "latitude": 38.991173,
+    "longitude": -76.94348,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  },
+  {
+    "code": "P265",
+    "name": "Parking Lot RR2",
+    "kind": "lot",
+    "latitude": 38.994844,
+    "longitude": -76.937911,
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "free_after_hours": true
+  }
+]

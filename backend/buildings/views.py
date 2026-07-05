@@ -5,8 +5,8 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.throttling import ScopedRateThrottle
-from .models import Building, Comment
-from .serializers import BuildingSerializer, TipSerializer, CommentSerializer
+from .models import Building, Comment, ParkingLot
+from .serializers import BuildingSerializer, TipSerializer, CommentSerializer, ParkingLotSerializer
 
 TIPS_FILE = Path(__file__).parent / 'data' / 'tips.json'
 _TIPS = None
@@ -44,6 +44,13 @@ class BuildingDetailView(APIView):
         except Building.DoesNotExist:
             return Response({'error': 'Not found'}, status=status.HTTP_404_NOT_FOUND)
         serializer = BuildingSerializer(building)
+        return Response(serializer.data)
+
+
+class ParkingListView(APIView):
+    def get(self, request):
+        lots = ParkingLot.objects.all().order_by('code')
+        serializer = ParkingLotSerializer(lots, many=True)
         return Response(serializer.data)
 
 

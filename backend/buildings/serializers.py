@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Building, Comment
+from .models import Building, Comment, ParkingLot
 
 
 class BuildingSerializer(serializers.ModelSerializer):
@@ -10,6 +10,12 @@ class BuildingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Building
         fields = ['acronym', 'full_name', 'department', 'description', 'address', 'latitude', 'longitude', 'hours', 'image_url']
+
+
+class ParkingLotSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ParkingLot
+        fields = ['code', 'name', 'kind', 'latitude', 'longitude', 'note', 'free_after_hours']
 
 
 class TipSerializer(serializers.Serializer):
