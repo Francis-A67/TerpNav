@@ -68,6 +68,7 @@ export default function Map() {
   const [showBuildings, setShowBuildings] = useState(true)
   const geo = useGeolocation({ watch: true })
   const [locateNonce, setLocateNonce] = useState(0)
+  const [query, setQuery] = useState('')
 
   function handleLocate() {
     geo.request()
@@ -82,6 +83,20 @@ export default function Map() {
 
   const freeNow = isFreePeriod()
 
+  const q = query.trim().toLowerCase()
+  const shownBuildings = q
+    ? buildings.filter(b =>
+        b.acronym.toLowerCase().includes(q) ||
+        b.full_name.toLowerCase().includes(q) ||
+        b.department.toLowerCase().includes(q)
+      )
+    : buildings
+  const shownParking = q
+    ? parking.filter(p =>
+        p.name.toLowerCase().includes(q) || p.code.toLowerCase().includes(q)
+      )
+    : parking
+
   return (
     <div className={styles.page}>
       <Navbar />
@@ -89,6 +104,29 @@ export default function Map() {
         <LoadingNotice compact error={error} onRetry={retry} />
       )}
       <div className={styles.mapWrap}>
+        <div className={styles.searchBox}>
+          <input
+            className={styles.searchInput}
+            placeholder="Search buildings or parking..."
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            autoComplete="off"
+            spellCheck="false"
+            maxLength={100}
+          />
+          {query && (
+            <button className={styles.searchClear} onClick={() => setQuery('')} aria-label="Clear search">
+              ×
+            </button>
+          )}
+          {q && (
+            <div className={styles.searchCount}>
+              {shownBuildings.length} {shownBuildings.length === 1 ? 'building' : 'buildings'}
+              {' · '}
+              {shownParking.length} parking
+            </div>
+          )}
+        </div>
         <div className={styles.controls}>
           <button className={styles.locateBtn} onClick={handleLocate} disabled={geo.loading}>
             {geo.loading ? 'Locating…' : geo.position ? 'Re-center on me' : 'My location'}
@@ -136,7 +174,7 @@ export default function Map() {
               </Marker>
             </>
           )}
-          {showBuildings && buildings.map(b => (
+          {showBuildings && shownBuildings.map(b => (
             <Marker key={b.acronym} position={[b.latitude, b.longitude]}>
               <Popup>
                 <strong>{b.acronym}</strong> — {b.full_name}
@@ -145,7 +183,7 @@ export default function Map() {
               </Popup>
             </Marker>
           ))}
-          {showParking && parking.map(p => {
+          {showParking && shownParking.map(p => {
             const lotIsFree = p.kind !== 'garage' && p.free_after_hours && freeNow
             const icon = p.kind === 'garage' ? ICONS.garage : lotIsFree ? ICONS.free : ICONS.permit
             return (
