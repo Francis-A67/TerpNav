@@ -91,7 +91,7 @@ export default function Map() {
       <div className={styles.mapWrap}>
         <div className={styles.controls}>
           <button className={styles.locateBtn} onClick={handleLocate} disabled={geo.loading}>
-            📍 {geo.loading ? 'Locating…' : geo.position ? 'Re-center on me' : 'My location'}
+            {geo.loading ? 'Locating…' : geo.position ? 'Re-center on me' : 'My location'}
           </button>
           {geo.error && <div className={styles.locateError}>{geo.error}</div>}
           <label className={styles.toggle}>
