@@ -36,6 +36,50 @@
   cursor: pointer;
 }
 
+.locateBtn {
+  width: 100%;
+  margin-bottom: 8px;
+  background: #E03A3E;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.locateBtn:hover:not(:disabled) {
+  background: #B02E31;
+}
+
+.locateBtn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.locateError {
+  margin-bottom: 8px;
+  max-width: 200px;
+  font-size: 11px;
+  color: #C62828;
+  line-height: 1.4;
+}
+
+.userDot {
+  background: #1a73e8;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(26,115,232,0.4), 0 1px 4px rgba(0,0,0,0.4);
+  animation: userPulse 2s ease-out infinite;
+}
+
+@keyframes userPulse {
+  0% { box-shadow: 0 0 0 2px rgba(26,115,232,0.4), 0 1px 4px rgba(0,0,0,0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(26,115,232,0.15), 0 1px 4px rgba(0,0,0,0.4); }
+  100% { box-shadow: 0 0 0 2px rgba(26,115,232,0.4), 0 1px 4px rgba(0,0,0,0.4); }
+}
+
 .legend {
   margin-top: 8px;
   display: flex;
