@@ -34,6 +34,51 @@
   white-space: nowrap;
 }
 
+.nearBtn {
+  background: #fff;
+  border: 1px solid #E03A3E;
+  color: #E03A3E;
+  border-radius: 8px;
+  padding: 9px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.nearBtn:hover:not(:disabled) {
+  background: #FDEAEA;
+}
+
+.nearBtnActive {
+  background: #E03A3E;
+  color: #fff;
+}
+
+.nearBtnActive:hover:not(:disabled) {
+  background: #B02E31;
+}
+
+.nearBtn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.geoError {
+  margin: 12px 32px 0;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: #FDEAEA;
+  color: #C62828;
+  font-size: 13px;
+}
+
+.distance {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1a73e8;
+}
+
 .statusBanner {
   margin: 20px 32px 0;
   padding: 12px 16px;

@@ -1,6 +1,6 @@
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Circle, useMap } from 'react-leaflet'
 import { Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import markerIcon from 'leaflet/dist/images/marker-icon.png'
@@ -11,6 +11,7 @@ import LoadingNotice from '../components/LoadingNotice'
 import useBuildings from '../hooks/useBuildings'
 import { getWithRetry } from '../api/axios'
 import { isFreePeriod } from '../utils/parking'
+import useGeolocation from '../hooks/useGeolocation'
 import styles from './Map.module.css'
 
 delete L.Icon.Default.prototype._getIconUrl
@@ -38,6 +39,26 @@ const ICONS = {
   garage: parkingIcon(styles.pGarage),
 }
 
+const USER_ICON = L.divIcon({
+  className: styles.userDot,
+  iconSize: [16, 16],
+  iconAnchor: [8, 8],
+})
+
+// Flies the map to the user's position each time the locate button is pressed
+// (nonce), once the position is actually available.
+function FlyToUser({ position, nonce }) {
+  const map = useMap()
+  const flownFor = useRef(0)
+  useEffect(() => {
+    if (position && nonce > 0 && flownFor.current !== nonce) {
+      flownFor.current = nonce
+      map.flyTo([position.lat, position.lon], 17)
+    }
+  }, [position, nonce, map])
+  return null
+}
+
 export default function Map() {
   const { buildings: allBuildings, loading, error, retry } = useBuildings()
   const buildings = allBuildings.filter(b => b.latitude && b.longitude)
@@ -45,6 +66,13 @@ export default function Map() {
   const [parking, setParking] = useState([])
   const [showParking, setShowParking] = useState(true)
   const [showBuildings, setShowBuildings] = useState(true)
+  const geo = useGeolocation({ watch: true })
+  const [locateNonce, setLocateNonce] = useState(0)
+
+  function handleLocate() {
+    geo.request()
+    setLocateNonce(n => n + 1)
+  }
 
   useEffect(() => {
     getWithRetry('/api/parking/')
@@ -62,6 +90,10 @@ export default function Map() {
       )}
       <div className={styles.mapWrap}>
         <div className={styles.controls}>
+          <button className={styles.locateBtn} onClick={handleLocate} disabled={geo.loading}>
+            📍 {geo.loading ? 'Locating…' : geo.position ? 'Re-center on me' : 'My location'}
+          </button>
+          {geo.error && <div className={styles.locateError}>{geo.error}</div>}
           <label className={styles.toggle}>
             <input
               type="checkbox"
@@ -91,6 +123,19 @@ export default function Map() {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
+          <FlyToUser position={geo.position} nonce={locateNonce} />
+          {geo.position && (
+            <>
+              <Circle
+                center={[geo.position.lat, geo.position.lon]}
+                radius={geo.position.accuracy}
+                pathOptions={{ color: '#1a73e8', weight: 1, fillOpacity: 0.1 }}
+              />
+              <Marker position={[geo.position.lat, geo.position.lon]} icon={USER_ICON}>
+                <Popup>You are here</Popup>
+              </Marker>
+            </>
+          )}
           {showBuildings && buildings.map(b => (
             <Marker key={b.acronym} position={[b.latitude, b.longitude]}>
               <Popup>
