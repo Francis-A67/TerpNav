@@ -26,7 +26,7 @@ function ParkingCard({ lot, freeNow, distance }) {
         <div className={styles.code}>{lot.code}</div>
       </div>
       {distance != null && (
-        <div className={styles.distance}>📍 {formatDistance(distance)} away</div>
+        <div className={styles.distance}>{formatDistance(distance)} away</div>
       )}
       {lot.kind === 'garage' ? (
         <span className={`${styles.badge} ${styles.badgeGarage}`}>Paid visitor parking — 24/7</span>
@@ -121,7 +121,7 @@ export default function Parking() {
           onClick={handleNearMe}
           disabled={geo.loading}
         >
-          📍 {geo.loading ? 'Locating…' : nearActive ? 'Nearest first ✓' : 'Near me'}
+          {geo.loading ? 'Locating…' : nearActive ? 'Nearest first ✓' : 'Near me'}
         </button>
         <div className={styles.count}>
           {filtered.length} {filtered.length === 1 ? 'location' : 'locations'}
