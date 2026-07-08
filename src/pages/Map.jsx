@@ -152,7 +152,7 @@ export default function Map() {
             <div className={styles.legend}>
               <div><span className={`${styles.dot} ${styles.dotFree}`} /> Free now (after 4pm &amp; weekends)</div>
               <div><span className={`${styles.dot} ${styles.dotPermit}`} /> Permit hours (Mon–Fri 7am–4pm)</div>
-              <div><span className={`${styles.dot} ${styles.dotGarage}`} /> Garage — paid visitor parking</div>
+              <div><span className={`${styles.dot} ${styles.dotGarage}`} /> Garage / restricted — see marker</div>
             </div>
           )}
         </div>
@@ -192,7 +192,9 @@ export default function Map() {
                   <strong>{p.name}</strong>
                   <br />
                   {p.kind === 'garage' ? (
-                    <span className={styles.badgeGarage}>Paid visitor parking — open 24/7</span>
+                    <span className={styles.badgeGarage}>Garage — paid parking</span>
+                  ) : !p.free_after_hours ? (
+                    <span className={styles.badgeGarage}>Restricted — see note</span>
                   ) : lotIsFree ? (
                     <span className={styles.badgeFree}>Likely FREE right now</span>
                   ) : (

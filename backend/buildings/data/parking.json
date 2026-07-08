@@ -5,7 +5,7 @@
     "kind": "garage",
     "latitude": 38.988546,
     "longitude": -76.945931,
-    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "note": "Visitor parking $4/hr ($20 daily max) — pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
     "free_after_hours": false
   },
   {
@@ -14,7 +14,7 @@
     "kind": "garage",
     "latitude": 38.989774,
     "longitude": -76.94144,
-    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "note": "Visitor parking $4/hr ($20 daily max) — pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
     "free_after_hours": false
   },
   {
@@ -23,7 +23,7 @@
     "kind": "garage",
     "latitude": 38.991143,
     "longitude": -76.948673,
-    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "note": "Visitor parking $4/hr ($20 daily max) — pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
     "free_after_hours": false
   },
   {
@@ -32,7 +32,7 @@
     "kind": "garage",
     "latitude": 38.986981,
     "longitude": -76.954347,
-    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "note": "Garage serving The Hotel at UMD and UMGC conference center — hotel/event rates, not a DOTS visitor garage.",
     "free_after_hours": false
   },
   {
@@ -41,7 +41,7 @@
     "kind": "garage",
     "latitude": 38.995031,
     "longitude": -76.943407,
-    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "note": "Resident-permit garage — no hourly visitor parking (paid event parking only on game days).",
     "free_after_hours": false
   },
   {
@@ -50,7 +50,7 @@
     "kind": "garage",
     "latitude": 38.981924,
     "longitude": -76.945499,
-    "note": "Paid visitor parking (hourly — pay station or Parkmobile app). Open 24/7.",
+    "note": "Visitor parking $4/hr ($20 daily max) — pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
     "free_after_hours": false
   },
   {
@@ -248,8 +248,8 @@
     "kind": "lot",
     "latitude": 38.989276,
     "longitude": -76.937185,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
-    "free_after_hours": true
+    "note": "Faculty/staff lot — permit or payment required at all times. Check posted signs.",
+    "free_after_hours": false
   },
   {
     "code": "P126",
@@ -257,7 +257,7 @@
     "kind": "lot",
     "latitude": 38.989745,
     "longitude": -76.940961,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Surface lot at the Regents Drive Garage. Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -311,8 +311,8 @@
     "kind": "lot",
     "latitude": 38.989615,
     "longitude": -76.94096,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
-    "free_after_hours": true
+    "note": "Visitor parking on the Regents Drive Garage roof — $4/hr via pay station or Parkmobile.",
+    "free_after_hours": false
   },
   {
     "code": "P136",
@@ -320,8 +320,8 @@
     "kind": "lot",
     "latitude": 38.988689,
     "longitude": -76.943743,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
-    "free_after_hours": true
+    "note": "Faculty/staff lot — restrictions continue after 4pm; NOT free in the evening. Check posted signs.",
+    "free_after_hours": false
   },
   {
     "code": "P137",
@@ -365,8 +365,8 @@
     "kind": "lot",
     "latitude": 38.985126,
     "longitude": -76.945037,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
-    "free_after_hours": true
+    "note": "Faculty/staff lot — permit or payment may be required at all times. Check posted signs.",
+    "free_after_hours": false
   },
   {
     "code": "P146",
@@ -392,8 +392,8 @@
     "kind": "lot",
     "latitude": 38.989567,
     "longitude": -76.937773,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
-    "free_after_hours": true
+    "note": "Faculty/staff only 7am–8pm; open to all 8pm–7am. Check posted signs.",
+    "free_after_hours": false
   },
   {
     "code": "P149",
@@ -815,7 +815,7 @@
     "kind": "lot",
     "latitude": 38.989484,
     "longitude": -76.94096,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Surface lot at the Regents Drive Garage. Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -914,8 +914,8 @@
     "kind": "lot",
     "latitude": 38.988526,
     "longitude": -76.940369,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
-    "free_after_hours": true
+    "note": "Red-sign lot with unique restrictions — not simply free after 4pm. Check posted signs.",
+    "free_after_hours": false
   },
   {
     "code": "P218",
@@ -1157,8 +1157,8 @@
     "kind": "lot",
     "latitude": 38.98196,
     "longitude": -76.945045,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
-    "free_after_hours": true
+    "note": "Restricted 24 hours a day — permit required at all times.",
+    "free_after_hours": false
   },
   {
     "code": "P254",
@@ -1193,8 +1193,8 @@
     "kind": "lot",
     "latitude": 38.985523,
     "longitude": -76.945319,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
-    "free_after_hours": true
+    "note": "Faculty/staff lot — permit or payment may be required at all times. Check posted signs.",
+    "free_after_hours": false
   },
   {
     "code": "P258",
@@ -1211,15 +1211,6 @@
     "kind": "lot",
     "latitude": 38.991173,
     "longitude": -76.94348,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
-    "free_after_hours": true
-  },
-  {
-    "code": "P265",
-    "name": "Parking Lot RR2",
-    "kind": "lot",
-    "latitude": 38.994844,
-    "longitude": -76.937911,
     "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
     "free_after_hours": true
   }
