@@ -30,6 +30,8 @@ function ParkingCard({ lot, freeNow, distance }) {
       )}
       {lot.kind === 'garage' ? (
         <span className={`${styles.badge} ${styles.badgeGarage}`}>Paid visitor parking — 24/7</span>
+      ) : !lot.free_after_hours ? (
+        <span className={`${styles.badge} ${styles.badgeGarage}`}>Not public parking</span>
       ) : lotIsFree ? (
         <span className={`${styles.badge} ${styles.badgeFree}`}>Likely FREE right now</span>
       ) : (
