@@ -29,9 +29,9 @@ function ParkingCard({ lot, freeNow, distance }) {
         <div className={styles.distance}>{formatDistance(distance)} away</div>
       )}
       {lot.kind === 'garage' ? (
-        <span className={`${styles.badge} ${styles.badgeGarage}`}>Paid visitor parking — 24/7</span>
+        <span className={`${styles.badge} ${styles.badgeGarage}`}>Garage — paid parking</span>
       ) : !lot.free_after_hours ? (
-        <span className={`${styles.badge} ${styles.badgeGarage}`}>Not public parking</span>
+        <span className={`${styles.badge} ${styles.badgeGarage}`}>Restricted — see note</span>
       ) : lotIsFree ? (
         <span className={`${styles.badge} ${styles.badgeFree}`}>Likely FREE right now</span>
       ) : (
@@ -137,7 +137,7 @@ export default function Parking() {
       <div className={`${styles.statusBanner} ${freeNow ? styles.statusFree : styles.statusPermit}`}>
         {freeNow
           ? 'Right now most surface lots are FREE (evenings after 4pm & weekends) — check posted signs; event restrictions apply.'
-          : 'Right now it’s permit hours (Mon–Fri 7am–4pm) — surface lots are free after 4pm and on weekends. Garages take visitor payment anytime.'}
+          : 'Right now it’s permit hours (Mon–Fri 7am–4pm) — most surface lots are free after 4pm and on weekends. Visitor garages charge $4/hr, 7am–midnight daily.'}
         {' '}
         <Link to="/map" className={styles.mapLink}>View on map →</Link>
       </div>
@@ -159,7 +159,7 @@ export default function Parking() {
         <>
           {garages.length > 0 && (
             <>
-              <div className={styles.sectionTitle}>Garages — paid visitor parking</div>
+              <div className={styles.sectionTitle}>Garages — paid parking</div>
               <div className={styles.grid}>
                 {garages.map(p => <ParkingCard key={p.code} lot={p} freeNow={freeNow} />)}
               </div>
