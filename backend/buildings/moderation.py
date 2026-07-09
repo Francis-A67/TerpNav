@@ -1,18 +1,31 @@
 """Server-side comment moderation.
 
+Policy: casual swearing about buildings/classes is allowed; slurs and
+harassment aimed at people are blocked.
+
 Uses better-profanity's wordlist (handles l33t-speak substitutions like
 "sh1t") plus a spacing-collapse pass to catch "f u c k"-style evasion.
 """
 import re
 from better_profanity import profanity
 
-# Mild words students use constantly — not worth rejecting a comment over.
-MILD_WHITELIST = ['hell', 'damn', 'crap', 'god', 'suck', 'sucks', 'piss', 'pissed']
+# Casual swearing students use constantly — not worth rejecting a comment over.
+# 'fvck' is the default-list variant that also matches 'fuck' via letter
+# substitution, so it has to be whitelisted alongside the plain forms.
+MILD_WHITELIST = [
+    'hell', 'damn', 'crap', 'god', 'suck', 'sucks', 'piss', 'pissed',
+    'fuck', 'fucked', 'fucking', 'fucks', 'fvck',
+    'shit', 'shits', 'shitting', 'shitted', 'bullshit',
+]
 profanity.load_censor_words(whitelist_words=MILD_WHITELIST)
 
-# Extra terms not in the default list — slurs/harassment aimed at people.
+# Slurs/harassment aimed at people — always blocked. better-profanity
+# auto-generates l33t-substitution variants for these too.
 EXTRA_WORDS = [
     'kys', 'kill yourself', 'neck yourself',
+    'nigger', 'niggers', 'nigga', 'niggas',
+    'faggot', 'faggots', 'fag', 'fags', 'fagging', 'fagot', 'fagots',
+    'monkey',
 ]
 profanity.add_censor_words(EXTRA_WORDS)
 
@@ -23,7 +36,7 @@ def is_clean(text):
     lowered = text.lower()
     if profanity.contains_profanity(lowered):
         return False
-    # Collapse separators so "f.u-c k" is checked as "fuck"
+    # Collapse separators so "f.a-g g o t" is checked as "faggot"
     collapsed = _NON_ALNUM.sub('', lowered)
     if collapsed and profanity.contains_profanity(collapsed):
         return False
