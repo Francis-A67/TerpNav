@@ -1,11 +1,13 @@
 import json
 from pathlib import Path
+from django.conf import settings
 from django.db.models import Q
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.throttling import ScopedRateThrottle
 from .models import Building, Comment, ParkingLot
+from .moderation import is_clean
 from .serializers import BuildingSerializer, TipSerializer, CommentSerializer, ParkingLotSerializer
 
 TIPS_FILE = Path(__file__).parent / 'data' / 'tips.json'
@@ -79,12 +81,22 @@ class CommentView(APIView):
         return Response(serializer.data)
 
     def post(self, request, acronym):
+        if not settings.COMMENTS_ENABLED:
+            return Response(
+                {'error': 'Comments are currently disabled.'},
+                status=status.HTTP_403_FORBIDDEN,
+            )
         try:
             building = Building.objects.get(code__iexact=acronym)
         except Building.DoesNotExist:
             return Response({'error': 'Not found'}, status=status.HTTP_404_NOT_FOUND)
         serializer = CommentSerializer(data=request.data)
         if serializer.is_valid():
+            if not is_clean(serializer.validated_data['text']):
+                return Response(
+                    {'error': 'Comment rejected: please keep it respectful.'},
+                    status=status.HTTP_400_BAD_REQUEST,
+                )
             serializer.save(building=building)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

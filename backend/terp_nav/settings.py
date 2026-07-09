@@ -23,6 +23,9 @@ def env_bool(name, default=False):
 
 DEBUG = env_bool('DEBUG', default=True)
 
+# Kill switch for anonymous comments (set COMMENTS_ENABLED=false to disable posting)
+COMMENTS_ENABLED = env_bool('COMMENTS_ENABLED', default=True)
+
 SECRET_KEY = os.environ.get('SECRET_KEY')
 if not SECRET_KEY:
     if DEBUG:
