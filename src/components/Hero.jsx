@@ -24,12 +24,11 @@ function Hero({ query, onQueryChange }) {
 
   return (
     <div className={styles.hero}>
-      <div className={styles.tag}>University of Maryland</div>
       <h1 className={styles.title}>
-        Find any UMD building <span>instantly</span>
+        Find any UMD building
       </h1>
       <p className={styles.subtitle}>
-        Search by acronym, department, or building name. Get directions from your location in one click.
+        Search by acronym, department, or building name.
       </p>
       <div className={styles.searchRow}>
         <input
