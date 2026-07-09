@@ -147,6 +147,14 @@
   border-color: #E03A3E;
 }
 
+.commentError {
+  font-size: 12px;
+  color: #B02E31;
+  background: #FDEAEA;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
 .commentBtn {
   align-self: flex-end;
   background: #E03A3E;

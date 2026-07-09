@@ -29,6 +29,7 @@ export default function BuildingDetail() {
   const [comments, setComments] = useState([])
   const [commentText, setCommentText] = useState('')
   const [submitting, setSubmitting] = useState(false)
+  const [commentError, setCommentError] = useState('')
 
   useEffect(() => {
     getWithRetry(`/api/buildings/${acronym}/`)
@@ -55,10 +56,17 @@ export default function BuildingDetail() {
     e.preventDefault()
     if (!commentText.trim()) return
     setSubmitting(true)
+    setCommentError('')
     try {
       const res = await api.post(`/api/buildings/${acronym}/comments/`, { text: commentText.trim() })
       setComments(prev => [res.data, ...prev])
       setCommentText('')
+    } catch (err) {
+      if (err.response?.status === 429) {
+        setCommentError('Too many comments — try again later.')
+      } else {
+        setCommentError(err.response?.data?.error || 'Could not post your comment.')
+      }
     } finally {
       setSubmitting(false)
     }
@@ -189,6 +197,9 @@ export default function BuildingDetail() {
               maxLength={500}
               rows={3}
             />
+            {commentError && (
+              <div className={styles.commentError}>{commentError}</div>
+            )}
             <button
               className={styles.commentBtn}
               type="submit"
