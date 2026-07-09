@@ -21,26 +21,11 @@
   text-decoration: underline;
 }
 
-.tag {
-  font-size: 11px;
-  background: #FDEAEA;
-  color: #B02E31;
-  padding: 4px 10px;
-  border-radius: 99px;
-  display: inline-block;
-  margin-bottom: 14px;
-  font-weight: 500;
-}
-
 .title {
   font-size: 36px;
   font-weight: 500;
   color: #1a1a1a;
   margin-bottom: 8px;
-}
-
-.title span {
-  color: #E03A3E;
 }
 
 .subtitle {
