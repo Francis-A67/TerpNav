@@ -23,8 +23,10 @@ function BuildingCard({ building }) {
 
   function handleDirections(e) {
     e.stopPropagation()
-    const query = encodeURIComponent(building.address || building.full_name + ' College Park MD')
-    window.open(`https://www.google.com/maps/search/?api=1&query=${query}`, '_blank')
+    const dest = building.latitude != null && building.longitude != null
+      ? `${building.latitude},${building.longitude}`
+      : building.address || building.full_name + ' College Park MD'
+    window.open(`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(dest)}`, '_blank')
   }
 
   function handleClick() {
