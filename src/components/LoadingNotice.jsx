@@ -13,7 +13,7 @@ function LoadingNotice({ error, onRetry, compact }) {
     <div className={compact ? styles.compact : styles.wrap}>
       <div className={styles.spinner} />
       <div className={styles.text}>
-        Waking up the server — this can take up to a minute after a quiet period…
+        Waking up the server. This can take up to a minute after a quiet period.
       </div>
     </div>
   )

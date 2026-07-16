@@ -14,7 +14,7 @@ export async function getWithRetry(url, { retries = 10, delayMs = 5000 } = {}) {
         try {
             return await api.get(url)
         } catch (err) {
-            // 4xx means the server is awake and told us no — don't retry those
+            // no retry on 4xx: the server is awake and rejected the request
             const status = err.response?.status
             if (status && status < 500) throw err
             lastError = err

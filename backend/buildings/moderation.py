@@ -9,7 +9,7 @@ Uses better-profanity's wordlist (handles l33t-speak substitutions like
 import re
 from better_profanity import profanity
 
-# Casual swearing students use constantly — not worth rejecting a comment over.
+# Casual swearing is allowed.
 # 'fvck' is the default-list variant that also matches 'fuck' via letter
 # substitution, so it has to be whitelisted alongside the plain forms.
 MILD_WHITELIST = [
@@ -19,8 +19,8 @@ MILD_WHITELIST = [
 ]
 profanity.load_censor_words(whitelist_words=MILD_WHITELIST)
 
-# Slurs/harassment aimed at people — always blocked. better-profanity
-# auto-generates l33t-substitution variants for these too.
+# Slurs and harassment are always blocked. better-profanity also
+# matches l33t-substitution variants of these.
 EXTRA_WORDS = [
     'kys', 'kill yourself', 'neck yourself',
     'nigger', 'niggers', 'nigga', 'niggas',

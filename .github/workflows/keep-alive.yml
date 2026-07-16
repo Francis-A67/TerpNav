@@ -3,7 +3,7 @@
 # One always-on service uses ~720 of Render's 750 free instance-hours/month.
 #
 # Note: GitHub pauses scheduled workflows if the repo has no activity for
-# 60 days — push a commit (or re-enable in the Actions tab) to resume.
+# 60 days; push a commit (or re-enable in the Actions tab) to resume.
 name: Keep backend awake
 
 on:

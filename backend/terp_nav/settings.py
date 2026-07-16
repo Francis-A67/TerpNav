@@ -134,9 +134,9 @@ REST_FRAMEWORK = {
         'anon': '60/minute',
         'comments': '10/hour',
     },
-    # Render sits one proxy in front of us. Without this, DRF identifies
-    # clients by the full X-Forwarded-For header, which callers control —
-    # letting them dodge rate limits with a random fake IP per request.
+    # Render sits one proxy in front of us. Without this, DRF trusts the
+    # whole X-Forwarded-For header and rate limits can be dodged with a
+    # random fake IP per request.
     'NUM_PROXIES': 1,
 }
 

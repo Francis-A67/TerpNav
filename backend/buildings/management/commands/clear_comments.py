@@ -15,7 +15,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         gate = os.environ.get('CLEAR_COMMENTS', '').lower() in ('true', '1', 'yes')
         if not (gate or options['force']):
-            self.stdout.write('CLEAR_COMMENTS not set — skipping (no comments deleted).')
+            self.stdout.write('CLEAR_COMMENTS not set; skipping (no comments deleted).')
             return
         count, _ = Comment.objects.all().delete()
         self.stdout.write(self.style.SUCCESS(f'Deleted {count} comments.'))
