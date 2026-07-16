@@ -2,8 +2,8 @@
 Converts the raw Maryland GIS building footprints (buildings.json, produced by
 Network.js) into the flat JSON format that sync_buildings expects.
 
-Input:  scripts/buildings.json  — GeoJSON-like, polygons in Web Mercator (EPSG:3857)
-Output: data/buildings_gis.json — one object per building with lat/lon centroid
+Input:  scripts/buildings.json (GeoJSON-like, polygons in Web Mercator EPSG:3857)
+Output: data/buildings_gis.json (one object per building with lat/lon centroid)
 
 Run from the backend/ directory:
     python buildings/scripts/transform_gis.py
@@ -76,7 +76,7 @@ def main():
         code = f'B{building_id}'
         extra = info.get(code, {})
         buildings.append({
-            'acronym': code,   # e.g. B164 — no acronyms in GIS data
+            'acronym': code,   # e.g. B164; GIS data has no acronyms
             'full_name': name,
             'department': extra.get('department', ''),
             'description': extra.get('description', ''),

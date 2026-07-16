@@ -5,7 +5,7 @@
     "kind": "garage",
     "latitude": 38.988546,
     "longitude": -76.945931,
-    "note": "Visitor parking $4/hr ($20 daily max) — pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
+    "note": "Visitor parking $4/hr ($20 daily max). Pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
     "free_after_hours": false
   },
   {
@@ -14,7 +14,7 @@
     "kind": "garage",
     "latitude": 38.989774,
     "longitude": -76.94144,
-    "note": "Visitor parking $4/hr ($20 daily max) — pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
+    "note": "Visitor parking $4/hr ($20 daily max). Pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
     "free_after_hours": false
   },
   {
@@ -23,7 +23,7 @@
     "kind": "garage",
     "latitude": 38.991143,
     "longitude": -76.948673,
-    "note": "Visitor parking $4/hr ($20 daily max) — pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
+    "note": "Visitor parking $4/hr ($20 daily max). Pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
     "free_after_hours": false
   },
   {
@@ -32,7 +32,7 @@
     "kind": "garage",
     "latitude": 38.986981,
     "longitude": -76.954347,
-    "note": "Garage serving The Hotel at UMD and UMGC conference center — hotel/event rates, not a DOTS visitor garage.",
+    "note": "Garage serving The Hotel at UMD and UMGC conference center. Hotel/event rates, not a DOTS visitor garage.",
     "free_after_hours": false
   },
   {
@@ -41,7 +41,7 @@
     "kind": "garage",
     "latitude": 38.995031,
     "longitude": -76.943407,
-    "note": "Resident-permit garage — no hourly visitor parking (paid event parking only on game days).",
+    "note": "Resident-permit garage. No hourly visitor parking (paid event parking only on game days).",
     "free_after_hours": false
   },
   {
@@ -50,7 +50,7 @@
     "kind": "garage",
     "latitude": 38.981924,
     "longitude": -76.945499,
-    "note": "Visitor parking $4/hr ($20 daily max) — pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
+    "note": "Visitor parking $4/hr ($20 daily max). Pay station or Parkmobile. Enforced 7 days a week, 7am–midnight; free midnight–7am. Event restrictions apply.",
     "free_after_hours": false
   },
   {
@@ -59,7 +59,7 @@
     "kind": "lot",
     "latitude": 38.993783,
     "longitude": -76.93622,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -68,7 +68,7 @@
     "kind": "lot",
     "latitude": 38.993897,
     "longitude": -76.937933,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -77,7 +77,7 @@
     "kind": "lot",
     "latitude": 38.982545,
     "longitude": -76.935355,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -86,7 +86,7 @@
     "kind": "lot",
     "latitude": 38.981005,
     "longitude": -76.935756,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -95,7 +95,7 @@
     "kind": "lot",
     "latitude": 38.98353,
     "longitude": -76.93613,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -104,7 +104,7 @@
     "kind": "lot",
     "latitude": 38.983032,
     "longitude": -76.936464,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -113,7 +113,7 @@
     "kind": "lot",
     "latitude": 38.983234,
     "longitude": -76.931985,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -122,7 +122,7 @@
     "kind": "lot",
     "latitude": 38.982341,
     "longitude": -76.932368,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -131,7 +131,7 @@
     "kind": "lot",
     "latitude": 38.982799,
     "longitude": -76.933294,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -140,7 +140,7 @@
     "kind": "lot",
     "latitude": 38.983173,
     "longitude": -76.933905,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -149,7 +149,7 @@
     "kind": "lot",
     "latitude": 38.983141,
     "longitude": -76.931537,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -158,7 +158,7 @@
     "kind": "lot",
     "latitude": 38.987083,
     "longitude": -76.949441,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -167,7 +167,7 @@
     "kind": "lot",
     "latitude": 38.986101,
     "longitude": -76.950652,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -176,7 +176,7 @@
     "kind": "lot",
     "latitude": 38.994203,
     "longitude": -76.948159,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -185,7 +185,7 @@
     "kind": "lot",
     "latitude": 38.993188,
     "longitude": -76.950546,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -194,7 +194,7 @@
     "kind": "lot",
     "latitude": 38.992303,
     "longitude": -76.947776,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -203,7 +203,7 @@
     "kind": "lot",
     "latitude": 38.992388,
     "longitude": -76.945538,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -212,7 +212,7 @@
     "kind": "lot",
     "latitude": 38.991334,
     "longitude": -76.946637,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -221,7 +221,7 @@
     "kind": "lot",
     "latitude": 38.992574,
     "longitude": -76.941499,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -230,7 +230,7 @@
     "kind": "lot",
     "latitude": 38.997055,
     "longitude": -76.941182,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -239,7 +239,7 @@
     "kind": "lot",
     "latitude": 38.997215,
     "longitude": -76.939228,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -248,7 +248,7 @@
     "kind": "lot",
     "latitude": 38.989276,
     "longitude": -76.937185,
-    "note": "Faculty/staff lot — permit or payment required at all times. Check posted signs.",
+    "note": "Faculty/staff lot. Permit or payment required at all times. Check posted signs.",
     "free_after_hours": false
   },
   {
@@ -257,7 +257,7 @@
     "kind": "lot",
     "latitude": 38.989745,
     "longitude": -76.940961,
-    "note": "Surface lot at the Regents Drive Garage. Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Surface lot at the Regents Drive Garage. Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -266,7 +266,7 @@
     "kind": "lot",
     "latitude": 38.994884,
     "longitude": -76.944122,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -275,7 +275,7 @@
     "kind": "lot",
     "latitude": 38.994434,
     "longitude": -76.937948,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -284,7 +284,7 @@
     "kind": "lot",
     "latitude": 38.994263,
     "longitude": -76.939203,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -293,7 +293,7 @@
     "kind": "lot",
     "latitude": 38.984304,
     "longitude": -76.944555,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -302,7 +302,7 @@
     "kind": "lot",
     "latitude": 38.986272,
     "longitude": -76.948123,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -311,7 +311,7 @@
     "kind": "lot",
     "latitude": 38.989615,
     "longitude": -76.94096,
-    "note": "Visitor parking on the Regents Drive Garage roof — $4/hr via pay station or Parkmobile.",
+    "note": "Visitor parking on the Regents Drive Garage roof. $4/hr via pay station or Parkmobile.",
     "free_after_hours": false
   },
   {
@@ -320,7 +320,7 @@
     "kind": "lot",
     "latitude": 38.988689,
     "longitude": -76.943743,
-    "note": "Faculty/staff lot — restrictions continue after 4pm; NOT free in the evening. Check posted signs.",
+    "note": "Faculty/staff lot. Restrictions continue after 4pm; NOT free in the evening. Check posted signs.",
     "free_after_hours": false
   },
   {
@@ -329,7 +329,7 @@
     "kind": "lot",
     "latitude": 38.986626,
     "longitude": -76.937308,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -338,7 +338,7 @@
     "kind": "lot",
     "latitude": 38.985256,
     "longitude": -76.938647,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -347,7 +347,7 @@
     "kind": "lot",
     "latitude": 38.992366,
     "longitude": -76.939535,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -356,7 +356,7 @@
     "kind": "lot",
     "latitude": 38.991621,
     "longitude": -76.940687,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -365,7 +365,7 @@
     "kind": "lot",
     "latitude": 38.985126,
     "longitude": -76.945037,
-    "note": "Faculty/staff lot — permit or payment may be required at all times. Check posted signs.",
+    "note": "Faculty/staff lot. Permit or payment may be required at all times. Check posted signs.",
     "free_after_hours": false
   },
   {
@@ -374,7 +374,7 @@
     "kind": "lot",
     "latitude": 38.988953,
     "longitude": -76.939506,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -383,7 +383,7 @@
     "kind": "lot",
     "latitude": 38.989362,
     "longitude": -76.938747,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -401,7 +401,7 @@
     "kind": "lot",
     "latitude": 38.982803,
     "longitude": -76.936219,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -410,7 +410,7 @@
     "kind": "lot",
     "latitude": 38.994311,
     "longitude": -76.939911,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -419,7 +419,7 @@
     "kind": "lot",
     "latitude": 38.99313,
     "longitude": -76.939219,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -428,7 +428,7 @@
     "kind": "lot",
     "latitude": 38.987144,
     "longitude": -76.94089,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -437,7 +437,7 @@
     "kind": "lot",
     "latitude": 38.987196,
     "longitude": -76.943771,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -446,7 +446,7 @@
     "kind": "lot",
     "latitude": 38.991794,
     "longitude": -76.948722,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -455,7 +455,7 @@
     "kind": "lot",
     "latitude": 38.992438,
     "longitude": -76.936921,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -464,7 +464,7 @@
     "kind": "lot",
     "latitude": 38.985394,
     "longitude": -76.948333,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -473,7 +473,7 @@
     "kind": "lot",
     "latitude": 38.985064,
     "longitude": -76.949305,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -482,7 +482,7 @@
     "kind": "lot",
     "latitude": 38.986647,
     "longitude": -76.936079,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -491,7 +491,7 @@
     "kind": "lot",
     "latitude": 38.986413,
     "longitude": -76.934833,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -500,7 +500,7 @@
     "kind": "lot",
     "latitude": 38.9861,
     "longitude": -76.9352,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -509,7 +509,7 @@
     "kind": "lot",
     "latitude": 38.985544,
     "longitude": -76.934616,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -518,7 +518,7 @@
     "kind": "lot",
     "latitude": 38.982965,
     "longitude": -76.936303,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -527,7 +527,7 @@
     "kind": "lot",
     "latitude": 38.990832,
     "longitude": -76.954886,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -536,7 +536,7 @@
     "kind": "lot",
     "latitude": 38.990746,
     "longitude": -76.939127,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -545,7 +545,7 @@
     "kind": "lot",
     "latitude": 38.985601,
     "longitude": -76.939044,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -554,7 +554,7 @@
     "kind": "lot",
     "latitude": 38.986024,
     "longitude": -76.939573,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -563,7 +563,7 @@
     "kind": "lot",
     "latitude": 38.992085,
     "longitude": -76.944282,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -572,7 +572,7 @@
     "kind": "lot",
     "latitude": 38.992427,
     "longitude": -76.941658,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -581,7 +581,7 @@
     "kind": "lot",
     "latitude": 38.991343,
     "longitude": -76.943071,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -590,7 +590,7 @@
     "kind": "lot",
     "latitude": 38.982433,
     "longitude": -76.938844,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -599,7 +599,7 @@
     "kind": "lot",
     "latitude": 38.982691,
     "longitude": -76.943424,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -608,7 +608,7 @@
     "kind": "lot",
     "latitude": 38.993153,
     "longitude": -76.949621,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -617,7 +617,7 @@
     "kind": "lot",
     "latitude": 38.992758,
     "longitude": -76.948326,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -626,7 +626,7 @@
     "kind": "lot",
     "latitude": 38.992753,
     "longitude": -76.945546,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -635,7 +635,7 @@
     "kind": "lot",
     "latitude": 38.992513,
     "longitude": -76.944285,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -644,7 +644,7 @@
     "kind": "lot",
     "latitude": 38.983515,
     "longitude": -76.932156,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -653,7 +653,7 @@
     "kind": "lot",
     "latitude": 38.992587,
     "longitude": -76.947774,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -662,7 +662,7 @@
     "kind": "lot",
     "latitude": 38.993065,
     "longitude": -76.948871,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -671,7 +671,7 @@
     "kind": "lot",
     "latitude": 38.99307,
     "longitude": -76.946957,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -680,7 +680,7 @@
     "kind": "lot",
     "latitude": 38.983995,
     "longitude": -76.947917,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -689,7 +689,7 @@
     "kind": "lot",
     "latitude": 38.984422,
     "longitude": -76.9483,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -698,7 +698,7 @@
     "kind": "lot",
     "latitude": 38.984305,
     "longitude": -76.946297,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -707,7 +707,7 @@
     "kind": "lot",
     "latitude": 38.983552,
     "longitude": -76.947783,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -716,7 +716,7 @@
     "kind": "lot",
     "latitude": 38.998194,
     "longitude": -76.942706,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -725,7 +725,7 @@
     "kind": "lot",
     "latitude": 38.998125,
     "longitude": -76.94319,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -734,7 +734,7 @@
     "kind": "lot",
     "latitude": 38.998987,
     "longitude": -76.942102,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -743,7 +743,7 @@
     "kind": "lot",
     "latitude": 38.99197,
     "longitude": -76.937665,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -752,7 +752,7 @@
     "kind": "lot",
     "latitude": 38.993857,
     "longitude": -76.940372,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -761,7 +761,7 @@
     "kind": "lot",
     "latitude": 38.993382,
     "longitude": -76.942085,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -770,7 +770,7 @@
     "kind": "lot",
     "latitude": 38.993857,
     "longitude": -76.940699,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -779,7 +779,7 @@
     "kind": "lot",
     "latitude": 38.991169,
     "longitude": -76.943876,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -788,7 +788,7 @@
     "kind": "lot",
     "latitude": 38.989394,
     "longitude": -76.945694,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -797,7 +797,7 @@
     "kind": "lot",
     "latitude": 38.990225,
     "longitude": -76.945531,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -806,7 +806,7 @@
     "kind": "lot",
     "latitude": 38.990625,
     "longitude": -76.954704,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -815,7 +815,7 @@
     "kind": "lot",
     "latitude": 38.989484,
     "longitude": -76.94096,
-    "note": "Surface lot at the Regents Drive Garage. Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Surface lot at the Regents Drive Garage. Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -824,7 +824,7 @@
     "kind": "lot",
     "latitude": 38.992514,
     "longitude": -76.943023,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -833,7 +833,7 @@
     "kind": "lot",
     "latitude": 38.982467,
     "longitude": -76.943739,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -842,7 +842,7 @@
     "kind": "lot",
     "latitude": 38.993302,
     "longitude": -76.949432,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -851,7 +851,7 @@
     "kind": "lot",
     "latitude": 38.992833,
     "longitude": -76.947773,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -860,7 +860,7 @@
     "kind": "lot",
     "latitude": 38.992883,
     "longitude": -76.946704,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -869,7 +869,7 @@
     "kind": "lot",
     "latitude": 38.990244,
     "longitude": -76.948919,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -878,7 +878,7 @@
     "kind": "lot",
     "latitude": 38.993761,
     "longitude": -76.944155,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -887,7 +887,7 @@
     "kind": "lot",
     "latitude": 38.993972,
     "longitude": -76.946336,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -896,7 +896,7 @@
     "kind": "lot",
     "latitude": 38.994264,
     "longitude": -76.946676,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -905,7 +905,7 @@
     "kind": "lot",
     "latitude": 38.989867,
     "longitude": -76.93773,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -914,7 +914,7 @@
     "kind": "lot",
     "latitude": 38.988526,
     "longitude": -76.940369,
-    "note": "Red-sign lot with unique restrictions — not simply free after 4pm. Check posted signs.",
+    "note": "Red-sign lot with unique restrictions. Not simply free after 4pm. Check posted signs.",
     "free_after_hours": false
   },
   {
@@ -923,7 +923,7 @@
     "kind": "lot",
     "latitude": 38.982691,
     "longitude": -76.943739,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -932,7 +932,7 @@
     "kind": "lot",
     "latitude": 38.990549,
     "longitude": -76.93983,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -941,7 +941,7 @@
     "kind": "lot",
     "latitude": 38.984863,
     "longitude": -76.941386,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -950,7 +950,7 @@
     "kind": "lot",
     "latitude": 38.99004,
     "longitude": -76.935617,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -959,7 +959,7 @@
     "kind": "lot",
     "latitude": 38.991476,
     "longitude": -76.936797,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -968,7 +968,7 @@
     "kind": "lot",
     "latitude": 38.993167,
     "longitude": -76.937826,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -977,7 +977,7 @@
     "kind": "lot",
     "latitude": 38.984029,
     "longitude": -76.941998,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -986,7 +986,7 @@
     "kind": "lot",
     "latitude": 38.993677,
     "longitude": -76.948039,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -995,7 +995,7 @@
     "kind": "lot",
     "latitude": 38.988747,
     "longitude": -76.946758,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1004,7 +1004,7 @@
     "kind": "lot",
     "latitude": 38.990966,
     "longitude": -76.936921,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1013,7 +1013,7 @@
     "kind": "lot",
     "latitude": 38.997599,
     "longitude": -76.943249,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1022,7 +1022,7 @@
     "kind": "lot",
     "latitude": 38.996406,
     "longitude": -76.942921,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1031,7 +1031,7 @@
     "kind": "lot",
     "latitude": 38.994404,
     "longitude": -76.947289,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1040,7 +1040,7 @@
     "kind": "lot",
     "latitude": 38.991036,
     "longitude": -76.939071,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1049,7 +1049,7 @@
     "kind": "lot",
     "latitude": 38.989016,
     "longitude": -76.947515,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1058,7 +1058,7 @@
     "kind": "lot",
     "latitude": 38.989681,
     "longitude": -76.939167,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1067,7 +1067,7 @@
     "kind": "lot",
     "latitude": 38.988137,
     "longitude": -76.948551,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1076,7 +1076,7 @@
     "kind": "lot",
     "latitude": 38.986145,
     "longitude": -76.949104,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1085,7 +1085,7 @@
     "kind": "lot",
     "latitude": 38.984946,
     "longitude": -76.942485,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1094,7 +1094,7 @@
     "kind": "lot",
     "latitude": 38.982763,
     "longitude": -76.939941,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1103,7 +1103,7 @@
     "kind": "lot",
     "latitude": 38.982806,
     "longitude": -76.944976,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1112,7 +1112,7 @@
     "kind": "lot",
     "latitude": 38.982914,
     "longitude": -76.931626,
-    "note": "DOTS vehicle impound facility — not open for public parking.",
+    "note": "DOTS vehicle impound facility. Not open for public parking.",
     "free_after_hours": false
   },
   {
@@ -1121,7 +1121,7 @@
     "kind": "lot",
     "latitude": 38.98301,
     "longitude": -76.931255,
-    "note": "UMD Police impound facility — not open for public parking.",
+    "note": "UMD Police impound facility. Not open for public parking.",
     "free_after_hours": false
   },
   {
@@ -1130,7 +1130,7 @@
     "kind": "lot",
     "latitude": 38.985211,
     "longitude": -76.934932,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1139,7 +1139,7 @@
     "kind": "lot",
     "latitude": 38.986968,
     "longitude": -76.93449,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1148,7 +1148,7 @@
     "kind": "lot",
     "latitude": 38.987613,
     "longitude": -76.934332,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1157,7 +1157,7 @@
     "kind": "lot",
     "latitude": 38.98196,
     "longitude": -76.945045,
-    "note": "Restricted 24 hours a day — permit required at all times.",
+    "note": "Restricted 24 hours a day. Permit required at all times.",
     "free_after_hours": false
   },
   {
@@ -1166,7 +1166,7 @@
     "kind": "lot",
     "latitude": 38.98205,
     "longitude": -76.945045,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1184,7 +1184,7 @@
     "kind": "garage",
     "latitude": 38.978251,
     "longitude": -76.928007,
-    "note": "College Park–U of Md Metro station (Green Line). WMATA parking available — see wmata.com for current rates. Not a DOTS permit lot.",
+    "note": "College Park–U of Md Metro station (Green Line). WMATA parking available. See wmata.com for current rates. Not a DOTS permit lot.",
     "free_after_hours": false
   },
   {
@@ -1193,7 +1193,7 @@
     "kind": "lot",
     "latitude": 38.985523,
     "longitude": -76.945319,
-    "note": "Faculty/staff lot — permit or payment may be required at all times. Check posted signs.",
+    "note": "Faculty/staff lot. Permit or payment may be required at all times. Check posted signs.",
     "free_after_hours": false
   },
   {
@@ -1202,7 +1202,7 @@
     "kind": "lot",
     "latitude": 38.99193,
     "longitude": -76.938544,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   },
   {
@@ -1211,7 +1211,7 @@
     "kind": "lot",
     "latitude": 38.991173,
     "longitude": -76.94348,
-    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend — always check posted signs; event restrictions apply.",
+    "note": "Permit required Mon–Fri 7am–4pm. Typically free 4pm–7am weekdays and all weekend. Always check posted signs; event restrictions apply.",
     "free_after_hours": true
   }
 ]

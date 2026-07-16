@@ -27,8 +27,8 @@ export default function useGeolocation({ watch = false } = {}) {
       setLoading(false)
       setError(
         e.code === 1
-          ? 'Location permission denied — allow location access in your browser to use this.'
-          : 'Could not get your location — try again.'
+          ? 'Location permission denied. Allow location access in your browser to use this.'
+          : 'Could not get your location. Try again.'
       )
     }
     const opts = { enableHighAccuracy: true, timeout: 15000, maximumAge: 30000 }

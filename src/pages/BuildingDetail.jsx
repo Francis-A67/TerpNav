@@ -9,8 +9,8 @@ import styles from './BuildingDetail.module.css'
 
 const GIS_CODE = /^B\d+$/
 
-// Keyless Esri World Imagery export — aerial view centered on the building,
-// used when we have no real photo. Spans ≈220m x 110m at true aspect.
+// Esri World Imagery export (no API key). The dLat/dLon below span
+// about 220m x 110m at true aspect.
 function aerialUrl(lat, lon) {
   const dLat = 0.00055
   const dLon = 0.00142
@@ -63,7 +63,7 @@ export default function BuildingDetail() {
       setCommentText('')
     } catch (err) {
       if (err.response?.status === 429) {
-        setCommentError('Too many comments — try again later.')
+        setCommentError('Too many comments. Try again later.')
       } else {
         setCommentError(err.response?.data?.error || 'Could not post your comment.')
       }

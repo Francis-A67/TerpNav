@@ -9,7 +9,7 @@ DATA_DIR = Path(__file__).resolve().parent.parent.parent / 'data'
 # Hand-curated data takes priority; GIS data fills in the rest
 SOURCES = [
     DATA_DIR / 'buildings_gis.json',  # loaded first so curated data can override
-    DATA_DIR / 'buildings.json',       # authoritative — wins on conflict
+    DATA_DIR / 'buildings.json',       # authoritative; wins on conflict
 ]
 
 # Structures that aren't destinations anyone navigates to: utility/ops
