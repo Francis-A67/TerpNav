@@ -2,7 +2,7 @@ import json
 import re
 from pathlib import Path
 from django.core.management.base import BaseCommand
-from buildings.models import Building, ParkingLot
+from buildings.models import Building, BUILDING_TYPES, ParkingLot
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / 'data'
 
@@ -46,6 +46,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         created = updated = skipped = 0
+        valid_types = {value for value, _label in BUILDING_TYPES}
+        bad_types = set()
 
         gis_ids_to_remove = []
 
@@ -68,6 +70,7 @@ class Command(BaseCommand):
                     code=b['acronym'],
                     defaults={
                         'name': name,
+                        'type': b.get('type', ''),
                         'department': b.get('department', ''),
                         'description': b.get('description', ''),
                         'address': b.get('address', ''),
@@ -81,6 +84,9 @@ class Command(BaseCommand):
                     created += 1
                 else:
                     updated += 1
+
+                if b.get('type') and b['type'] not in valid_types:
+                    bad_types.add((b['acronym'], b['type']))
 
                 if b.get('gis_id'):
                     gis_ids_to_remove.append(b['gis_id'])
@@ -97,6 +103,11 @@ class Command(BaseCommand):
             self.stdout.write(f'Purged {purged} non-destination structures from the DB.')
         if skipped:
             self.stdout.write(f'Skipped {skipped} non-destination structures at load.')
+
+        for code, bad in sorted(bad_types):
+            self.stdout.write(self.style.WARNING(
+                f'{code}: unrecognized type {bad!r}, it will not match any filter chip.'
+            ))
 
         parking_file = DATA_DIR / 'parking.json'
         if parking_file.exists():

@@ -34,6 +34,41 @@
   white-space: nowrap;
 }
 
+.filterBar {
+  background: #ffffff;
+  border-bottom: 0.5px solid rgba(0,0,0,0.1);
+  padding: 14px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 99px;
+  background: #f5f5f5;
+  color: #666;
+  border: 0.5px solid rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.chipActive {
+  background: #FDEAEA;
+  color: #B02E31;
+  border-color: #F5A8AA;
+  font-weight: 500;
+}
+
+.chipCount {
+  font-size: 10px;
+  opacity: 0.65;
+  font-variant-numeric: tabular-nums;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -53,6 +88,10 @@
     padding: 16px 20px;
   }
 
+  .filterBar {
+    padding: 12px 20px;
+  }
+
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     padding: 20px;
@@ -62,6 +101,11 @@
 @media (max-width: 520px) {
   .topBar {
     padding: 12px 16px;
+  }
+
+  .filterBar {
+    padding: 10px 16px;
+    gap: 6px;
   }
 
   .searchInput {

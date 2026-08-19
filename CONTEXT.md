@@ -51,11 +51,11 @@ npm run dev                                 # http://localhost:5173
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/api/buildings/` | All buildings - supports `?search=query` |
+| GET | `/api/buildings/` | All buildings - supports `?search=query`, each record carries `type` |
 | GET | `/api/buildings/<acronym>/` | Single building detail |
 | GET | `/api/buildings/tips/<acronym>/` | Read-only tips for a building |
 | GET | `/api/buildings/<acronym>/comments/` | Anonymous comments |
-| GET | `/api/parking/` | All 137 parking lots & garages |
+| GET | `/api/parking/` | All 135 parking lots & garages |
 | POST | `/api/buildings/<acronym>/comments/` | Post a comment (10/hr per IP) |
 
 ---
@@ -65,19 +65,20 @@ npm run dev                                 # http://localhost:5173
 | Feature | Status |
 |---------|--------|
 | Building search (name / acronym / dept) | Done - backend `?search=` with Q objects |
+| Building type filter chips | Done - multi-select on /buildings, composes with search |
 | Building detail page (info + directions) | Done |
 | Saved buildings (localStorage) | Done |
 | Student tips (read-only from JSON) | Done |
 | Anonymous comments (stored in DB) | Done - rate-limited 10/hr per IP |
-| Interactive map (Leaflet, all 344 buildings) | Done - markers across full campus |
+| Interactive map (Leaflet, all 199 buildings) | Done - markers across full campus |
 | Navbar (Home / Buildings / Map / Parking / Saved) | Done - logo clicks home, no accounts |
-| 95 curated buildings (full detail) | Done - acronyms, descriptions, hours |
-| 249 GIS buildings (name + location) | Done - show full name where no acronym |
-| Street addresses (214 of 344) | Done - matched from OpenStreetMap + umd.io |
+| 67 curated buildings (full detail) | Done - acronyms, descriptions, hours |
+| 132 GIS buildings (name + location) | Done - show full name where no acronym |
+| Street addresses (175 of 199) | Done - matched from OpenStreetMap + umd.io |
 | Live search on home hero | Done - grid filters as you type |
-| Building images (all 344) | Done - 16 Commons photos + aerial fallback (Esri) |
+| Building images (all 199) | Done - 16 Commons photos + aerial fallback (Esri) |
 | Hero background photo | Done - `public/hero-campus.jpg`, CC BY-SA credit |
-| Parking layer (137 lots/garages) | Done - map toggle, free-now indicator, legend |
+| Parking layer (135 lots/garages) | Done - map toggle, free-now indicator, legend |
 | Parking list page (/parking tab) | Done - searchable, garages vs lots, status banner |
 | Mobile responsive | Done - 3→2→1 grids @768/520px, stacked hero/detail |
 | Security hardening | Done - deps patched, throttle spoof fix, security headers |
@@ -109,6 +110,12 @@ no hand-edited database. Pipeline (all merged by `transform_gis.py` + `sync_buil
 3. **`data/parking.json`** - 131 surface lots (official DOTS P-codes/coords via umd.io)
    + 6 visitor garages. Free-parking logic (lots free 4pm–7am weekdays + weekends) is
    computed client-side in `src/utils/parking.js`.
+
+Both JSON sources carry a `type` (Academic / Library / Dining / Student Life / Athletics /
+Residence / Administrative) that drives the filter chips on /buildings. It was derived from
+each building's department and name, so `department` stays the fine-grained label the card
+badge shows while `type` is the coarse browse bucket. `sync_buildings` warns about any type
+it does not recognize, since such a building would not match any chip.
 
 `sync_buildings` loads GIS data first, then curated data overwrites matches and deletes
 duplicate GIS entries (via `gis_id`), then syncs parking. Buildings without a real photo
@@ -188,6 +195,23 @@ The frontend auto-deploys from the `main` branch on Vercel.
 ---
 
 ## Recent Changes (newest first)
+
+- Building type filter on /buildings: a row of multi-select chips (All + Academic,
+  Library, Dining, Student Life, Athletics, Residence, Administrative) under the search
+  box. Selecting several ORs them together; none selected means All. Each chip shows its
+  match count, scoped to the current search text, and the chips compose with search rather
+  than replacing it. New `type` field on Building (migration 0006), serialized on every
+  buildings endpoint, populated for all 199 buildings from department + name heuristics in
+  both JSON sources. Chip list is the canonical set plus any unrecognized type actually
+  present in the data, so a building can never be unreachable by every chip. Category
+  order lives in `src/utils/buildingTypes.js` and must stay in sync with the Python list
+  in `backend/buildings/building_types.py` (shared by the model and transform_gis)
+- `buildings_gis.json` regenerated: it had drifted from `building_info.json` since the
+  em-dash cleanup, so 239 descriptions still carried the old "Name - text" form that the
+  deploy would have rewritten anyway. transform_gis.py now also emits `type`, so the
+  deploy-time regeneration cannot blank it
+- Feature Status counts refreshed against the live DB after the non-destination purge
+  (199 buildings: 67 curated + 132 GIS, 135 parking locations)
 
 - Parking tab now opens a dedicated list page (/parking): searchable, garages and
   surface lots sectioned, per-lot free-now badges, status banner ("is parking free
