@@ -11,7 +11,12 @@ Run from the backend/ directory:
 
 import json
 import math
+import sys
 from pathlib import Path
+
+# backend/ on the path so this standalone script can share the classifier
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+from buildings.building_types import classify  # noqa: E402
 
 INPUT = Path(__file__).parent / 'buildings.json'
 ADDRESSES = Path(__file__).parent / 'osm_addresses.json'  # gis_id -> street address, from OpenStreetMap
@@ -78,6 +83,7 @@ def main():
         buildings.append({
             'acronym': code,   # e.g. B164; GIS data has no acronyms
             'full_name': name,
+            'type': classify(name, extra.get('department', '')),
             'department': extra.get('department', ''),
             'description': extra.get('description', ''),
             'address': addresses.get(code, ''),
