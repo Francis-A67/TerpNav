@@ -9,6 +9,16 @@
   gap: 4px;
 }
 
+.feedback {
+  color: #B02E31;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.feedback:hover {
+  text-decoration: underline;
+}
+
 .sources {
   font-size: 11px;
   color: #aaa;
