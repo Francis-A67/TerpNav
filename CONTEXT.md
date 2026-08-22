@@ -83,6 +83,7 @@ npm run dev                                 # http://localhost:5173
 | Mobile responsive | Done - 3→2→1 grids @768/520px, stacked hero/detail |
 | Security hardening | Done - deps patched, throttle spoof fix, security headers |
 | Copyright footer | Done - © Francis Ametewee + data attribution |
+| Feedback link (Google Form) | Done - in the footer, so every page except Map |
 | Deployment config | Done - Procfile, whitenoise, dj-database-url |
 
 ---
@@ -196,6 +197,13 @@ The frontend auto-deploys from the `main` branch on Vercel.
 
 ## Recent Changes (newest first)
 
+- Feedback link in the footer pointing at the Google Form
+  (https://forms.gle/1bnDxDRXm9dTZzRf9), so it shows on Home, Buildings, Saved,
+  Building detail and Parking. Opens in a new tab with rel="noopener noreferrer".
+  Map is the one page with no footer, so the link does not appear there
+- eslint now ignores `backend/staticfiles` alongside `backend/venv`: collectstatic
+  writes Django admin's bundled JS there, which added 2614 errors to `eslint .`
+
 - Building type filter on /buildings: a row of multi-select chips (All + Academic,
   Library, Dining, Student Life, Athletics, Residence, Administrative) under the search
   box. Selecting several ORs them together; none selected means All. Each chip shows its
@@ -271,6 +279,14 @@ The frontend auto-deploys from the `main` branch on Vercel.
 
 ## Planned / Future Work
 
+- [ ] Prune DB rows that are absent from both JSON sources. Production currently
+      carries 3 left over from an older sync (B092 Potomac Building, B100 Special
+      Services Office Building, B215 Building Services Operations Building, all
+      Facilities Management). `update_or_create` never touches a row that is no
+      longer in the JSON, and `EXCLUDE_NAME_RE` does not match these names, so they
+      survive every sync with a blank `type`: they appear under All but match no
+      filter chip. Local SQLite does not show this because it was rebuilt from
+      scratch (199 buildings); production Postgres is long lived (202)
 - [ ] Vercel domain redirects: terp-nav.vercel.app + www.terpnav.com → terpnav.com
 - [ ] Map marker clustering for dense areas
 - [ ] Per-lot parking restrictions (DOTS print map has partial data; model already
