@@ -1,18 +1,12 @@
 import json
 import re
-from pathlib import Path
+from django.conf import settings
 from django.core.management.base import BaseCommand
+from django.db import transaction
+from buildings.campuses import CAMPUSES, campus_data_dir
 from buildings.models import Building, BUILDING_TYPES, ParkingLot
 
-DATA_DIR = Path(__file__).resolve().parent.parent.parent / 'data'
-
-# Hand-curated data takes priority; GIS data fills in the rest
-SOURCES = [
-    DATA_DIR / 'buildings_gis.json',  # loaded first so curated data can override
-    DATA_DIR / 'buildings.json',       # authoritative; wins on conflict
-]
-
-# Structures that aren't destinations anyone navigates to: utility/ops
+# UMD structures that aren't destinations anyone navigates to: utility/ops
 # facilities, unnamed entries, stadium concessions, campus gates, and
 # housing entries with no distinguishing name. Applied at load AND as a
 # DB cleanup so previously-synced junk disappears on redeploy.
@@ -40,18 +34,65 @@ NAME_FIXES = {
     'B346': 'UMGC Administration Building',  # UMUC renamed to UMGC in 2019
 }
 
+# What sync does differently per campus. The files are read from the campus's
+# data folder (data/ for UMD, data/<slug>/ for the others). These rules were
+# written for UMD's state GIS data, so they must never touch another campus.
+CAMPUS_RULES = {
+    'umd': {
+        # Hand-curated data takes priority; GIS data fills in the rest
+        'sources': [
+            'buildings_gis.json',  # loaded first so curated data can override
+            'buildings.json',      # authoritative; wins on conflict
+        ],
+        'exclude_name_re': EXCLUDE_NAME_RE,
+        'exclude_codes': EXCLUDE_CODES,
+        'name_fixes': NAME_FIXES,
+    },
+}
+
+# A campus with no entry above is one hand-curated file with nothing excluded.
+DEFAULT_RULES = {
+    'sources': ['buildings.json'],
+    'exclude_name_re': None,
+    'exclude_codes': set(),
+    'name_fixes': {},
+}
+
 
 class Command(BaseCommand):
-    help = 'Sync buildings from JSON sources into the database'
+    help = 'Sync buildings and parking from each campus\'s JSON files into the database'
 
     def handle(self, *args, **options):
+        only = settings.SYNC_CAMPUSES
+        for campus in CAMPUSES:
+            if only and campus not in only:
+                self.stdout.write(f'[{campus}] skipped (not in SYNC_CAMPUSES)')
+                continue
+            # All or nothing per campus: a failure half-way leaves the
+            # campus exactly as it was before this run.
+            with transaction.atomic():
+                self.sync_campus(campus)
+
+    def sync_campus(self, campus):
+        rules = CAMPUS_RULES.get(campus, DEFAULT_RULES)
+        data_dir = campus_data_dir(campus)
+        exclude_name_re = rules['exclude_name_re']
+        exclude_codes = rules['exclude_codes']
+        name_fixes = rules['name_fixes']
+
+        def is_excluded(code, name):
+            return code in exclude_codes or bool(exclude_name_re and exclude_name_re.search(name))
+
+        self.stdout.write(f'[{campus}]')
+
         created = updated = skipped = 0
         valid_types = {value for value, _label in BUILDING_TYPES}
         bad_types = set()
 
         gis_ids_to_remove = []
 
-        for source in SOURCES:
+        for filename in rules['sources']:
+            source = data_dir / filename
             if not source.exists():
                 self.stdout.write(f'Skipping {source.name} (not found)')
                 continue
@@ -62,11 +103,14 @@ class Command(BaseCommand):
             self.stdout.write(f'Loading {len(buildings)} buildings from {source.name}...')
 
             for b in buildings:
-                name = NAME_FIXES.get(b['acronym'], b['full_name'])
-                if b['acronym'] in EXCLUDE_CODES or EXCLUDE_NAME_RE.search(name):
+                name = name_fixes.get(b['acronym'], b['full_name'])
+                if is_excluded(b['acronym'], name):
                     skipped += 1
                     continue
+                # Looked up by campus AND code, so one campus can never
+                # overwrite another campus's building that shares a code.
                 _, was_created = Building.objects.update_or_create(
+                    campus=campus,
                     code=b['acronym'],
                     defaults={
                         'name': name,
@@ -91,15 +135,17 @@ class Command(BaseCommand):
                 if b.get('gis_id'):
                     gis_ids_to_remove.append(b['gis_id'])
 
+        # Every delete below is limited to this campus's rows.
+        campus_buildings = Building.objects.filter(campus=campus)
+
         if gis_ids_to_remove:
-            deleted, _ = Building.objects.filter(code__in=gis_ids_to_remove).delete()
+            deleted, _ = campus_buildings.filter(code__in=gis_ids_to_remove).delete()
             self.stdout.write(f'Removed {deleted} duplicate GIS entries replaced by curated data.')
 
         # Clean previously-synced junk out of the DB (self-healing on redeploy)
-        stale = [b.pk for b in Building.objects.all()
-                 if b.code in EXCLUDE_CODES or EXCLUDE_NAME_RE.search(b.name)]
+        stale = [b.pk for b in campus_buildings if is_excluded(b.code, b.name)]
         if stale:
-            purged, _ = Building.objects.filter(pk__in=stale).delete()
+            purged, _ = campus_buildings.filter(pk__in=stale).delete()
             self.stdout.write(f'Purged {purged} non-destination structures from the DB.')
         if skipped:
             self.stdout.write(f'Skipped {skipped} non-destination structures at load.')
@@ -109,12 +155,13 @@ class Command(BaseCommand):
                 f'{code}: unrecognized type {bad!r}, it will not match any filter chip.'
             ))
 
-        parking_file = DATA_DIR / 'parking.json'
+        parking_file = data_dir / 'parking.json'
         if parking_file.exists():
             with open(parking_file, encoding='utf-8') as f:
                 lots = json.load(f)
             for p in lots:
                 ParkingLot.objects.update_or_create(
+                    campus=campus,
                     code=p['code'],
                     defaults={
                         'name': p['name'],

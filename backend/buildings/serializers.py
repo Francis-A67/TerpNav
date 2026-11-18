@@ -9,13 +9,13 @@ class BuildingSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Building
-        fields = ['acronym', 'full_name', 'type', 'department', 'description', 'address', 'latitude', 'longitude', 'hours', 'image_url']
+        fields = ['campus', 'acronym', 'full_name', 'type', 'department', 'description', 'address', 'latitude', 'longitude', 'hours', 'image_url']
 
 
 class ParkingLotSerializer(serializers.ModelSerializer):
     class Meta:
         model = ParkingLot
-        fields = ['code', 'name', 'kind', 'latitude', 'longitude', 'note', 'free_after_hours']
+        fields = ['campus', 'code', 'name', 'kind', 'latitude', 'longitude', 'note', 'free_after_hours']
 
 
 class TipSerializer(serializers.Serializer):
