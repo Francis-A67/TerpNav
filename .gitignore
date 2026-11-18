@@ -28,3 +28,6 @@ __pycache__/
 backend/db.sqlite3
 backend/staticfiles/
 backend/.env
+
+# local backups of production comments (buildings/scripts/backup_comments.py)
+backend/comments_backup_*.json
