@@ -21,8 +21,8 @@
 .spinner {
   width: 22px;
   height: 22px;
-  border: 3px solid rgba(224,58,62,0.2);
-  border-top-color: #E03A3E;
+  border: 3px solid var(--accent-ring);
+  border-top-color: var(--accent);
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
   flex-shrink: 0;
@@ -39,8 +39,8 @@
 }
 
 .btn {
-  background: #E03A3E;
-  color: #fff;
+  background: var(--accent);
+  color: var(--on-accent);
   border: none;
   border-radius: 8px;
   padding: 8px 18px;
@@ -49,5 +49,5 @@
 }
 
 .btn:hover {
-  background: #B02E31;
+  background: var(--accent-hover);
 }

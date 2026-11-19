@@ -36,8 +36,8 @@
 
 .nearBtn {
   background: #fff;
-  border: 1px solid #E03A3E;
-  color: #E03A3E;
+  border: 1px solid var(--accent-text);
+  color: var(--accent-text);
   border-radius: 8px;
   padding: 9px 14px;
   font-size: 13px;
@@ -47,16 +47,16 @@
 }
 
 .nearBtn:hover:not(:disabled) {
-  background: #FDEAEA;
+  background: var(--accent-light);
 }
 
 .nearBtnActive {
-  background: #E03A3E;
-  color: #fff;
+  background: var(--accent);
+  color: var(--on-accent);
 }
 
 .nearBtnActive:hover:not(:disabled) {
-  background: #B02E31;
+  background: var(--accent-hover);
 }
 
 .nearBtn:disabled {
@@ -68,7 +68,7 @@
   margin: 12px 32px 0;
   padding: 10px 14px;
   border-radius: 8px;
-  background: #FDEAEA;
+  background: var(--danger-bg);
   color: #C62828;
   font-size: 13px;
 }
@@ -100,9 +100,16 @@
 }
 
 .mapLink {
-  color: #E03A3E;
+  color: var(--accent-text);
   font-weight: 500;
   text-decoration: none;
+}
+
+/* When the rules were last checked, shown under the banner. */
+.verified {
+  margin: 8px 32px 0;
+  font-size: 11px;
+  color: #888;
 }
 
 .sectionTitle {
@@ -170,8 +177,8 @@
 
 .dirBtn {
   align-self: flex-start;
-  background: #E03A3E;
-  color: #fff;
+  background: var(--accent);
+  color: var(--on-accent);
   border: none;
   border-radius: 8px;
   padding: 7px 16px;
@@ -181,7 +188,7 @@
 }
 
 .dirBtn:hover {
-  background: #B02E31;
+  background: var(--accent-hover);
 }
 
 .empty {
@@ -198,6 +205,10 @@
 
   .statusBanner {
     margin: 16px 20px 0;
+  }
+
+  .verified {
+    margin: 8px 20px 0;
   }
 
   .sectionTitle {
@@ -221,6 +232,10 @@
 
   .statusBanner {
     margin: 12px 16px 0;
+  }
+
+  .verified {
+    margin: 8px 16px 0;
   }
 
   .sectionTitle {

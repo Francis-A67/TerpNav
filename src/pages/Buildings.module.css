@@ -57,9 +57,9 @@
 }
 
 .chipActive {
-  background: #FDEAEA;
-  color: #B02E31;
-  border-color: #F5A8AA;
+  background: var(--accent-light);
+  color: var(--accent-strong);
+  border-color: var(--accent-border);
   font-weight: 500;
 }
 

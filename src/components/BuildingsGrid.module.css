@@ -17,7 +17,7 @@
 
 .viewAll {
   font-size: 13px;
-  color: #E03A3E;
+  color: var(--accent-text);
   cursor: pointer;
   background: none;
   border: none;

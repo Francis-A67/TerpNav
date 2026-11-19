@@ -10,7 +10,7 @@
 }
 
 .feedback {
-  color: #B02E31;
+  color: var(--accent-strong);
   font-weight: 500;
   text-decoration: none;
 }
@@ -21,7 +21,11 @@
 
 .sources {
   font-size: 11px;
-  color: #aaa;
+  color: #767676;
+}
+
+.sourceLink {
+  color: inherit;
 }
 
 @media (max-width: 520px) {
