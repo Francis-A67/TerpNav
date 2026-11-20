@@ -1,0 +1,191 @@
+[
+  {
+    "code": "union-garage",
+    "name": "Union Garage",
+    "kind": "garage",
+    "latitude": 39.393072,
+    "longitude": -76.612529,
+    "note": "Core (commuter) and faculty/staff permit parking during enforcement hours. Visitors pay with the ParkMobile app (zone 8001, $15 a day). From 11pm to 5am entry needs a TU OneCard with an active permit, at the after-hours entrance only.",
+    "free_after_hours": true
+  },
+  {
+    "code": "towsontown-garage",
+    "name": "Towsontown Garage",
+    "kind": "garage",
+    "latitude": 39.396132,
+    "longitude": -76.609363,
+    "note": "Core (commuter) and faculty/staff permit parking during enforcement hours. Visitors pay with the ParkMobile app (zone 8001, $15 a day). From 11pm to 5am entry needs a TU OneCard with an active permit, at the after-hours entrance only.",
+    "free_after_hours": true
+  },
+  {
+    "code": "glen-garage",
+    "name": "Glen Garage",
+    "kind": "garage",
+    "latitude": 39.390948,
+    "longitude": -76.607074,
+    "note": "Core (commuter) and faculty/staff permit parking during enforcement hours. Visitors pay with the ParkMobile app (zone 8001, $15 a day). From 11pm to 5am entry needs a TU OneCard with an active permit, at the after-hours entrance only.",
+    "free_after_hours": true
+  },
+  {
+    "code": "west-village-garage",
+    "name": "West Village Garage",
+    "kind": "garage",
+    "latitude": 39.394854,
+    "longitude": -76.620915,
+    "note": "Levels 4 to 6 are for West Village resident permits at all times. Faculty/staff permits and visitors (ParkMobile zone 8002, $15 a day) use the other levels. From 11pm to 5am entry needs a TU OneCard with an active permit, at the after-hours entrance only.",
+    "free_after_hours": true
+  },
+  {
+    "code": "lot-1",
+    "name": "Lot 1",
+    "kind": "lot",
+    "latitude": 39.394221,
+    "longitude": -76.616416,
+    "note": "Visitor lot at Enrollment Services. Pay with the ParkMobile app (zone 8006, $15 a day). Check the posted signs for evenings and weekends.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-2",
+    "name": "Lot 2",
+    "kind": "lot",
+    "latitude": 39.393635,
+    "longitude": -76.616719,
+    "note": "Millennium Hall permit holders only. Privately managed, and cars without that permit are towed.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-3",
+    "name": "Lot 3",
+    "kind": "lot",
+    "latitude": 39.390492,
+    "longitude": -76.612492,
+    "note": "Visitor parking near the Center for the Arts. Pay with the ParkMobile app (zone 8001, $15 a day). Check the posted signs for evenings and weekends.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-4",
+    "name": "Lot 4",
+    "kind": "lot",
+    "latitude": 39.389254,
+    "longitude": -76.614639,
+    "note": "Stadium overflow lot: any TU permit during enforcement hours. Visitors pay with the ParkMobile app (zone 8003, $15 a day). May be restricted on game days. Staying overnight needs a $15 ParkMobile overnight permit.",
+    "free_after_hours": true
+  },
+  {
+    "code": "lot-5",
+    "name": "Lot 5",
+    "kind": "lot",
+    "latitude": 39.39027,
+    "longitude": -76.61531,
+    "note": "Stadium overflow lot: any TU permit during enforcement hours. May be restricted on game days. No overnight parking without an overnight permit.",
+    "free_after_hours": true
+  },
+  {
+    "code": "lot-6",
+    "name": "Lot 6",
+    "kind": "lot",
+    "latitude": 39.389093,
+    "longitude": -76.617863,
+    "note": "Stadium lot. The permit type is not published, so check the posted signs. A game-day permit is required on football days.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-7",
+    "name": "Lot 7",
+    "kind": "lot",
+    "latitude": 39.386698,
+    "longitude": -76.618225,
+    "note": "Stadium overflow lot: any TU permit during enforcement hours, except the Landscape Services area. Visitors pay with ParkMobile (zone 8003, $15 a day). Football days need a game-day permit and the lot closes before kickoff. Overnight needs a $15 overnight permit.",
+    "free_after_hours": true
+  },
+  {
+    "code": "lot-8",
+    "name": "Lot 8",
+    "kind": "lot",
+    "latitude": 39.385649,
+    "longitude": -76.61514,
+    "note": "Stadium overflow lot (part of the lot is excluded; follow the signs): any TU permit during enforcement hours. Visitors pay with ParkMobile (zone 8003, $15 a day). Football days need a game-day permit and the lot closes before kickoff. Overnight needs a $15 overnight permit.",
+    "free_after_hours": true
+  },
+  {
+    "code": "lot-8a",
+    "name": "Lot 8a",
+    "kind": "lot",
+    "latitude": 39.385738,
+    "longitude": -76.615889,
+    "note": "Stadium lot. The permit type is not published, so check the posted signs.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-9",
+    "name": "Lot 9",
+    "kind": "lot",
+    "latitude": 39.389464,
+    "longitude": -76.606799,
+    "note": "Visitor lot at the Administration Building. Pay with the ParkMobile app (zone 8001, $15 a day). Check the posted signs for evenings and weekends.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-10",
+    "name": "Lot 10",
+    "kind": "lot",
+    "latitude": 39.389503,
+    "longitude": -76.608711,
+    "note": "Faculty/staff permit lot behind the Administration Building. Check the posted signs for evenings and weekends.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-11",
+    "name": "Lot 11",
+    "kind": "lot",
+    "latitude": 39.39161,
+    "longitude": -76.608474,
+    "note": "Near the Glen towers. The permit type is not published, so check the posted signs.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-12",
+    "name": "Lot 12",
+    "kind": "lot",
+    "latitude": 39.396503,
+    "longitude": -76.61267,
+    "note": "Public Safety vehicles and permits only.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-13",
+    "name": "Lot 13",
+    "kind": "lot",
+    "latitude": 39.396151,
+    "longitude": -76.614095,
+    "note": "General Services permits, plus a few visitor spaces for people with business in the General Services or Public Safety buildings.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-14",
+    "name": "Lot 14",
+    "kind": "lot",
+    "latitude": 39.395963,
+    "longitude": -76.606328,
+    "note": "Visitor parking at the Health Center. Pay with the ParkMobile app (zone 8005, $15 a day). Check the posted signs for evenings and weekends.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-16",
+    "name": "Lot 16",
+    "kind": "lot",
+    "latitude": 39.39378,
+    "longitude": -76.605108,
+    "note": "The permit type is not published, so check the posted signs.",
+    "free_after_hours": false
+  },
+  {
+    "code": "lot-17",
+    "name": "Lot 17",
+    "kind": "lot",
+    "latitude": 39.392004,
+    "longitude": -76.606682,
+    "note": "Accessible parking (state plate or placard plus a TU permit) and department guests only.",
+    "free_after_hours": false
+  }
+]

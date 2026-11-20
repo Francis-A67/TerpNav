@@ -1,0 +1,654 @@
+[
+  {
+    "acronym": "CK",
+    "full_name": "Albert S. Cook Library",
+    "type": "Library",
+    "department": "Library",
+    "description": "Towson University's main library.",
+    "osm": "way/45778622",
+    "osm_name": "Albert S Cook Library",
+    "imap": "Cook Library",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "UU",
+    "full_name": "University Union",
+    "type": "Student Life",
+    "department": "Student union",
+    "description": "Towson University's student union. The Career Center is here.",
+    "osm": "way/45779180",
+    "osm_name": "University Union",
+    "imap": "University Union",
+    "sources": ["https://www.towson.edu/directories/offices.html"]
+  },
+  {
+    "acronym": "LA",
+    "full_name": "Liberal Arts Building",
+    "type": "Academic",
+    "department": "College of Liberal Arts",
+    "description": "Home of the College of Liberal Arts, including the Psychology department.",
+    "osm": "way/158085716",
+    "osm_name": "College of Liberal Arts Building",
+    "imap": "Liberal Arts Building",
+    "sources": ["https://www.towson.edu/cla/contact.html", "https://www.towson.edu/directories/offices.html"]
+  },
+  {
+    "acronym": "SC",
+    "full_name": "Science Complex",
+    "type": "Academic",
+    "department": "Fisher College of Science & Mathematics",
+    "description": "Opened in 2021.",
+    "osm": "way/717960359",
+    "osm_name": "Science Complex",
+    "sources": [
+      "https://www.towson.edu/facilities/construction/completed.html",
+      "https://www.towson.edu/directories/offices.html"
+    ]
+  },
+  {
+    "acronym": "ST",
+    "full_name": "Stephens Hall",
+    "type": "Academic",
+    "department": "College of Business & Economics",
+    "description": "One of the original campus buildings, recognizable by its clock tower.",
+    "osm": "way/158178117",
+    "osm_name": "Stephens Hall",
+    "imap": "Stephens Hall",
+    "sources": ["https://www.towson.edu/campus/landmarks/stephens.html", "https://www.towson.edu/cbe/contact.html"]
+  },
+  {
+    "acronym": "HP",
+    "full_name": "Health Professions Building",
+    "type": "Academic",
+    "department": "College of Health Professions",
+    "description": "Opened in fall 2024.",
+    "osm": "way/45778916",
+    "osm_name": "Health Professions",
+    "sources": ["https://www.towson.edu/news/articles/2024/celebrating-new-health-professions-building.html"]
+  },
+  {
+    "acronym": "CA",
+    "full_name": "Center for the Arts",
+    "type": "Academic",
+    "department": "College of Fine Arts & Communication",
+    "osm": "way/163029153",
+    "osm_name": "Center for the Arts",
+    "imap": "Center for the Arts",
+    "sources": ["https://www.towson.edu/cofac/facilities.html"]
+  },
+  {
+    "acronym": "HH",
+    "full_name": "Hawkins Hall",
+    "type": "Academic",
+    "department": "College of Education",
+    "osm": "way/45776826",
+    "osm_name": "Hawkins Hall",
+    "imap": "Hawkins Hall",
+    "sources": ["https://www.towson.edu/coe/contact.html"]
+  },
+  {
+    "acronym": "LH",
+    "full_name": "Lecture Hall",
+    "type": "Academic",
+    "department": "English Language Center",
+    "osm": "way/45776827",
+    "osm_name": "Lecture Hall",
+    "imap": "Lecture Hall",
+    "sources": ["https://www.towson.edu/directories/offices.html"]
+  },
+  {
+    "acronym": "LI",
+    "full_name": "Linthicum Hall",
+    "type": "Academic",
+    "osm": "way/159248443",
+    "osm_name": "Linthicum Hall",
+    "imap": "Linthicum Hall",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"],
+    "to_verify": ["Current occupants. The College of Health Professions and Nursing moved to the Health Professions Building, and the offices directory lists nothing in Linthicum Hall."]
+  },
+  {
+    "acronym": "LX",
+    "full_name": "Liberal Arts Annex",
+    "type": "Student Life",
+    "department": "The Hub",
+    "sources": ["https://www.towson.edu/directories/offices.html"],
+    "to_verify": ["Location: grid D8 on the campus map, not found in OpenStreetMap or the state GIS data. Take the coordinates from maps.towson.edu."]
+  },
+  {
+    "acronym": "MC",
+    "full_name": "Media Center",
+    "type": "Academic",
+    "department": "College of Fine Arts & Communication",
+    "osm": "way/45778621",
+    "osm_name": "Media Center",
+    "sources": ["https://www.towson.edu/cofac/facilities.html", "https://www.towson.edu/cofac/departments/mediafilm/"]
+  },
+  {
+    "acronym": "PY",
+    "full_name": "Psychology Building",
+    "type": "Academic",
+    "department": "Communication Studies, Education",
+    "description": "Despite the name, the Psychology department is in the Liberal Arts Building. This building houses Communication Studies, Elementary and Special Education, and the Military and Veterans Center.",
+    "osm": "way/45776828",
+    "osm_name": "Psychology Building",
+    "imap": "Psychology Building",
+    "sources": ["https://www.towson.edu/directories/offices.html", "https://www.towson.edu/cla/departments/psychology/contact.html"]
+  },
+  {
+    "acronym": "SM",
+    "full_name": "Smith Hall",
+    "type": "Academic",
+    "description": "Closed for renovation. Towson University expects it to reopen in 2027.",
+    "hours": "Closed for renovation",
+    "osm": ["way/159248442", "way/1299534546"],
+    "osm_name": "Smith Hall",
+    "imap": "Smith Hall",
+    "sources": [
+      "https://www.towson.edu/facilities/construction/smith-hall-renovation.html",
+      "https://www.towson.edu/news/articles/2026/whats-new-at-tu.html"
+    ],
+    "to_verify": ["The code SM comes from the Registrar's schedule guide and is not printed on the campus map."]
+  },
+  {
+    "acronym": "VB",
+    "full_name": "Van Bokkelen Hall",
+    "type": "Academic",
+    "department": "College of Fine Arts & Communication",
+    "osm": "way/45779569",
+    "osm_name": "Van Bokkelen Hall",
+    "imap": "Van Bokkelen Hall",
+    "sources": ["https://www.towson.edu/cofac/facilities.html"]
+  },
+  {
+    "acronym": "YR",
+    "full_name": "7800 York Road",
+    "type": "Academic",
+    "department": "Computer & Information Sciences, Mathematics",
+    "description": "Also home to the Honors College.",
+    "osm": "way/45775526",
+    "osm_name": "7800 York Road",
+    "imap": "7800 York Road",
+    "sources": [
+      "https://www.towson.edu/fcsm/departments/computerinfosci/contact.html",
+      "https://www.towson.edu/fcsm/departments/mathematics/contact.html",
+      "https://www.towson.edu/directories/offices.html"
+    ]
+  },
+  {
+    "acronym": "Y2",
+    "full_name": "7400 York Road",
+    "type": "Academic",
+    "department": "Institute for Well-Being",
+    "description": "Home of the Institute for Well-Being and its community health centers.",
+    "osm": "way/119407362",
+    "osm_name": "7400 Building",
+    "sources": ["https://www.towson.edu/iwb/location.html"]
+  },
+  {
+    "acronym": "AD",
+    "full_name": "Administration Building",
+    "type": "Administrative",
+    "department": "University administration",
+    "description": "Offices of the President and the Provost, Human Resources, and the Hearing and Balance Center.",
+    "osm": "way/159248441",
+    "osm_name": "Administration Building",
+    "imap": "Administration Building",
+    "sources": ["https://www.towson.edu/directories/offices.html", "https://www.towson.edu/iwb/centers/hearingbalance/"]
+  },
+  {
+    "acronym": "ES",
+    "full_name": "Enrollment Services",
+    "type": "Administrative",
+    "department": "Admissions and enrollment offices",
+    "description": "Undergraduate Admissions is on the second floor.",
+    "osm": "way/159252024",
+    "osm_name": "Enrollment Services",
+    "imap": "Enrollment Services",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "GS",
+    "full_name": "General Services",
+    "type": "Administrative",
+    "department": "Facilities Management",
+    "osm": "way/35457696",
+    "osm_name": "General Services",
+    "imap": "General Services",
+    "sources": ["https://www.towson.edu/directories/offices.html"]
+  },
+  {
+    "acronym": "PS",
+    "full_name": "Public Safety Building",
+    "type": "Administrative",
+    "department": "University Police",
+    "imap": "Public Safety",
+    "sources": ["https://www.towson.edu/public-safety/police/"],
+    "to_verify": ["The police page places University Police here, but the offices directory lists it in General Services, Room 109.", "Coordinates come from the older state GIS layer only."]
+  },
+  {
+    "acronym": "PP",
+    "full_name": "Power Plant",
+    "type": "Administrative",
+    "department": "Facilities",
+    "osm": "way/158178108",
+    "osm_name": "Power Plant",
+    "imap": "Power Plant",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "LS",
+    "full_name": "Landscape Services",
+    "type": "Administrative",
+    "department": "Facilities",
+    "osm": "way/165769304",
+    "osm_name": "Landscape Services",
+    "imap": "Landscape Services",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "TX",
+    "full_name": "Transportation Annex",
+    "type": "Administrative",
+    "department": "Shuttle services",
+    "hours": "Shuttle office: Mon–Fri 8am–5pm",
+    "sources": ["https://www.towson.edu/transportation/shuttle/"],
+    "to_verify": ["Location: grid F5 on the campus map, not found in OpenStreetMap or the state GIS data. Take the coordinates from maps.towson.edu."]
+  },
+  {
+    "acronym": "AH",
+    "full_name": "Auburn House",
+    "type": "Administrative",
+    "osm": "way/163033571",
+    "osm_name": "Auburn House",
+    "department": "University events",
+    "description": "Built in 1790 and the oldest building on campus. It hosts university events.",
+    "sources": ["https://www.towson.edu/campus/landmarks/auburn.html"]
+  },
+  {
+    "acronym": "AR",
+    "full_name": "Armory",
+    "type": "Administrative",
+    "department": "StarTUp at the Armory",
+    "description": "Home of StarTUp at the Armory, in uptown Towson.",
+    "osm": "way/111740402",
+    "osm_name": "StarTUp at the Armory",
+    "sources": [
+      "https://www.towson.edu/news/2023/historic-armory-purchase.html",
+      "https://thetowerlight.com/towson-purchases-armory-for-8-6-million/"
+    ]
+  },
+  {
+    "acronym": "WA",
+    "full_name": "401 Washington Avenue",
+    "type": "Administrative",
+    "osm": "way/111721390",
+    "osm_name": "First Financial Building",
+    "department": "Alumni Relations, Technology Services",
+    "description": "Towson University offices in uptown Towson, including Alumni Relations, Development and the Office of Technology Services.",
+    "sources": ["https://www.towson.edu/directories/offices.html"]
+  },
+  {
+    "acronym": "OP",
+    "full_name": "Towson City Center",
+    "type": "Administrative",
+    "description": "Leased space at One Olympic Place in uptown Towson.",
+    "osm": "way/75475528",
+    "osm_name": "Towson City Center",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"],
+    "to_verify": ["Which Towson University offices are in the leased space."]
+  },
+  {
+    "acronym": "WW",
+    "full_name": "Health & Counseling Centers at Ward & West",
+    "type": "Student Life",
+    "department": "Health Center, Counseling Center",
+    "osm": "relation/3721674",
+    "osm_name": "Ward & West",
+    "imap": "Ward West",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "CC",
+    "full_name": "Child Care Center",
+    "type": "Student Life",
+    "department": "Child care",
+    "osm": "way/163034881",
+    "osm_name": "Child Care Center",
+    "imap": "Child Care Center",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "PA",
+    "full_name": "South Campus Pavilion",
+    "type": "Student Life",
+    "osm": "way/163033573",
+    "osm_name": "Auburn Pavilion",
+    "department": "University events",
+    "description": "Event space on the south campus.",
+    "sources": ["https://www.towson.edu/news/articles/2026/how-to-vote-at-towson-university.html"],
+    "to_verify": ["Location: matched to the pavilion beside Auburn House (same map grid, G2), which OpenStreetMap calls Auburn Pavilion. Confirm on maps.towson.edu."]
+  },
+  {
+    "acronym": "GD",
+    "full_name": "Glen Dining Hall",
+    "type": "Dining",
+    "department": "Dining",
+    "osm": "way/45774841",
+    "osm_name": "Glen Dining Hall",
+    "imap": "Glen Dining",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "ND",
+    "full_name": "Newell Dining Hall",
+    "type": "Dining",
+    "department": "Dining",
+    "osm": "way/163034480",
+    "osm_name": "Newell Dining",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "WC",
+    "full_name": "West Village Commons",
+    "type": "Dining",
+    "department": "Dining",
+    "description": "Home of the West Village dining hall.",
+    "osm": "way/159252018",
+    "osm_name": "West Village Commons",
+    "imap": "West Village Commons",
+    "sources": ["https://www.towson.edu/studentlife/housing/dining.html"]
+  },
+  {
+    "acronym": "BU",
+    "full_name": "Burdick Hall",
+    "type": "Athletics",
+    "department": "Campus Recreation, Kinesiology",
+    "osm": "way/158099467",
+    "osm_name": "Burdick Hall",
+    "imap": "Burdick Hall",
+    "sources": ["https://www.towson.edu/directories/offices.html"]
+  },
+  {
+    "acronym": "TA",
+    "full_name": "SECU Arena",
+    "type": "Athletics",
+    "department": "Athletics",
+    "osm": "way/259864061",
+    "osm_name": "SECU Arena",
+    "imap": "SECU Arena",
+    "sources": ["https://www.towson.edu/news/articles/2025/secu-arena-announcement.html"]
+  },
+  {
+    "acronym": "US",
+    "full_name": "Johnny Unitas Stadium",
+    "type": "Athletics",
+    "department": "Athletics",
+    "osm": "way/165548995",
+    "osm_name": "Unitas Stadium",
+    "imap": "Johnny Unitas Stadium",
+    "sources_disagree_ok": true,
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "TC",
+    "full_name": "Towson Center",
+    "type": "Athletics",
+    "department": "Athletics",
+    "description": "Also home to Doc's South Campus Kitchen, a dining hall that opened in February 2026.",
+    "osm": "way/109493689",
+    "osm_name": "Towson Center",
+    "imap": "Towson Center",
+    "sources": ["https://www.towson.edu/news/articles/2026/south-campus-kitchen-dining.html"]
+  },
+  {
+    "acronym": "FH",
+    "full_name": "Field House",
+    "type": "Athletics",
+    "department": "Athletics",
+    "osm": "way/163033575",
+    "osm_name": "Field House",
+    "imap": "Field House",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "SP",
+    "full_name": "Schuerholz Park",
+    "type": "Athletics",
+    "department": "Athletics",
+    "description": "Baseball park.",
+    "osm": "relation/2205939",
+    "osm_name": "Schuerholz Park",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "SB",
+    "full_name": "Tiger Softball Stadium",
+    "type": "Athletics",
+    "department": "Athletics",
+    "osm": "way/862912748",
+    "osm_name": "Tiger Softball Stadium",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "SF",
+    "full_name": "Soccer Field",
+    "type": "Athletics",
+    "department": "Athletics",
+    "osm": "way/235560509",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"],
+    "to_verify": ["Location: matched to the unnamed soccer pitch west of the Field House (map grid D1). Confirm on maps.towson.edu."]
+  },
+  {
+    "acronym": "TN",
+    "full_name": "Tiger Tennis Complex",
+    "type": "Athletics",
+    "department": "Athletics",
+    "osm": [
+      "way/731544055", "way/731544056", "way/731544057", "way/731544058", "way/731544059",
+      "way/731544060", "way/731544061", "way/731544062", "way/731544063", "way/731544064"
+    ],
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"],
+    "to_verify": ["Location: the center of the ten unnamed tennis courts on the south campus (map grid F0). Confirm on maps.towson.edu."]
+  },
+  {
+    "acronym": "FF",
+    "full_name": "Field Hockey Complex",
+    "type": "Athletics",
+    "department": "Athletics",
+    "osm": "way/119407281",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"],
+    "to_verify": ["Location: matched to the only field hockey pitch on the south campus (map grid F0), which is unnamed in OpenStreetMap. Confirm on maps.towson.edu."]
+  },
+  {
+    "acronym": "YF",
+    "full_name": "Yingling Practice Field",
+    "type": "Athletics",
+    "department": "Athletics",
+    "osm": "way/161200847",
+    "osm_name": "John B. Yingling ’71 & Family Practice Field",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"]
+  },
+  {
+    "acronym": "AT",
+    "full_name": "Glen Complex Tower A",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/45774837",
+    "osm_name": "Tower A",
+    "imap": "Glen Complex A Building",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "BT",
+    "full_name": "Glen Complex Tower B",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/45774836",
+    "osm_name": "Tower B",
+    "imap": "Glen Complex B Building",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "CT",
+    "full_name": "Glen Complex Tower C",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/45774839",
+    "osm_name": "Tower C",
+    "imap": "Glen Complex C Building",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "DT",
+    "full_name": "Glen Complex Tower D",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/45774840",
+    "osm_name": "Tower D",
+    "imap": "Glen Complex D Building",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "BA",
+    "full_name": "Barton House",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/159252023",
+    "osm_name": "Barton House",
+    "imap": "Barton House",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "DO",
+    "full_name": "Douglass House",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/159252011",
+    "osm_name": "Douglass House",
+    "imap": "Douglass House",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "HA",
+    "full_name": "Harris Hall",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/159252020",
+    "osm_name": "West Village 1",
+    "imap": "Paca House",
+    "sources": [
+      "https://www.towson.edu/studentlife/housing/campus/residence/",
+      "https://thetowerlight.com/the-university-system-of-maryland-grants-tu-permission-to-name-west-village-12-after-its-first-black-graduates/"
+    ]
+  },
+  {
+    "acronym": "TH",
+    "full_name": "Tubman House",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/159252025",
+    "osm_name": "Tubman House",
+    "imap": "Tubman House",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "BH",
+    "full_name": "Barnes Hall",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/717959551",
+    "osm_name": "West Village 2",
+    "sources": [
+      "https://www.towson.edu/studentlife/housing/campus/residence/",
+      "https://thetowerlight.com/the-university-system-of-maryland-grants-tu-permission-to-name-west-village-12-after-its-first-black-graduates/"
+    ]
+  },
+  {
+    "acronym": "MA",
+    "full_name": "Marshall Hall",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/717959550",
+    "osm_name": "Marshall Hall",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "MH",
+    "full_name": "Millennium Hall",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/159252019",
+    "osm_name": "Millennium Hall",
+    "imap": "Millennium Hall",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "TR",
+    "full_name": "Towson Run Apartments",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/163032777",
+    "osm_name": "Towson Run Apartments",
+    "imap": "Towson Run Apartments",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "NE",
+    "full_name": "Newell Hall",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/163034481",
+    "osm_name": "Newell Hall",
+    "imap": "Newell Hall",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "RI",
+    "full_name": "Richmond Hall",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/163034482",
+    "osm_name": "Richmond Hall",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "PR",
+    "full_name": "Prettyman Hall",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/45776108",
+    "osm_name": "Prettyman Hall",
+    "imap": "Prettyman Hall",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "SH",
+    "full_name": "Scarborough Hall",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/45776109",
+    "osm_name": "Scarborough Hall",
+    "imap": "Scarborough Hall",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "RT",
+    "full_name": "Residence Tower",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/45775524",
+    "osm_name": "Residence Tower",
+    "imap": "Residence Tower",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  },
+  {
+    "acronym": "TM",
+    "full_name": "Residences at 10 West Burke Avenue",
+    "type": "Residence",
+    "department": "Housing & Residence Life",
+    "osm": "way/158178112",
+    "osm_name": "10 West Burke Avenue",
+    "imap": "TU Marriott Conference Hotel",
+    "sources": ["https://www.towson.edu/studentlife/housing/campus/residence/"]
+  }
+]

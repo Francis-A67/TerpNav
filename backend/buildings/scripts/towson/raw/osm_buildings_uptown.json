@@ -1,0 +1,7348 @@
+{
+ "version": 0.6,
+ "generator": "Overpass API 0.7.62.11 87bfad18",
+ "osm3s": {
+  "timestamp_osm_base": "2026-11-15T20:17:21Z",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+ },
+ "elements": [
+  {
+   "type": "node",
+   "id": 1579703094,
+   "lat": 39.404415,
+   "lon": -76.6023442,
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "716",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Dulaney Valley Road",
+    "amenity": "pharmacy",
+    "brand": "Health Mart",
+    "brand:wikidata": "Q5690597",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Health Mart"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1754993456,
+   "lat": 39.403352,
+   "lon": -76.604374,
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "700",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "amenity": "school",
+    "building": "yes",
+    "name": "Fortis Institute"
+   }
+  },
+  {
+   "type": "way",
+   "id": 35355958,
+   "bounds": {
+    "minlat": 39.4011503,
+    "minlon": -76.6021326,
+    "maxlat": 39.4018462,
+    "maxlon": -76.6009297
+   },
+   "geometry": [
+    {
+     "lat": 39.4017851,
+     "lon": -76.6020292
+    },
+    {
+     "lat": 39.4013992,
+     "lon": -76.6021326
+    },
+    {
+     "lat": 39.4013646,
+     "lon": -76.6021033
+    },
+    {
+     "lat": 39.4013389,
+     "lon": -76.6020019
+    },
+    {
+     "lat": 39.4011503,
+     "lon": -76.6013586
+    },
+    {
+     "lat": 39.4011512,
+     "lon": -76.6013249
+    },
+    {
+     "lat": 39.4011602,
+     "lon": -76.6012991
+    },
+    {
+     "lat": 39.4017891,
+     "lon": -76.6009297
+    },
+    {
+     "lat": 39.4018227,
+     "lon": -76.6009355
+    },
+    {
+     "lat": 39.4018381,
+     "lon": -76.6009496
+    },
+    {
+     "lat": 39.4018462,
+     "lon": -76.6009777
+    },
+    {
+     "lat": 39.4017897,
+     "lon": -76.6018903
+    },
+    {
+     "lat": 39.4017851,
+     "lon": -76.6020292
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "1",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "building": "retail",
+    "building:levels": "3",
+    "check_date": "2024-09-04",
+    "name": "Circle East",
+    "old_name": "Towson Circle",
+    "shop": "mall",
+    "toilets": "yes",
+    "website": "https://www.circleeast.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 60179898,
+   "bounds": {
+    "minlat": 39.403413,
+    "minlon": -76.6015574,
+    "maxlat": 39.4043207,
+    "maxlon": -76.6006436
+   },
+   "geometry": [
+    {
+     "lat": 39.4043207,
+     "lon": -76.6013375
+    },
+    {
+     "lat": 39.4042967,
+     "lon": -76.6010583
+    },
+    {
+     "lat": 39.4042611,
+     "lon": -76.6006436
+    },
+    {
+     "lat": 39.4041262,
+     "lon": -76.6006603
+    },
+    {
+     "lat": 39.403413,
+     "lon": -76.6007849
+    },
+    {
+     "lat": 39.4034544,
+     "lon": -76.6014287
+    },
+    {
+     "lat": 39.4035622,
+     "lon": -76.6015574
+    },
+    {
+     "lat": 39.403697,
+     "lon": -76.6015344
+    },
+    {
+     "lat": 39.4042544,
+     "lon": -76.6014394
+    },
+    {
+     "lat": 39.4043207,
+     "lon": -76.6013375
+    }
+   ],
+   "tags": {
+    "brand": "Macy's",
+    "brand:wikidata": "Q629269",
+    "building": "retail",
+    "name": "Macy's",
+    "shop": "department_store",
+    "website": "https://www.macys.com/stores/md/towson/towson-town-center_69.html"
+   }
+  },
+  {
+   "type": "way",
+   "id": 60179899,
+   "bounds": {
+    "minlat": 39.4024439,
+    "minlon": -76.6016701,
+    "maxlat": 39.4033798,
+    "maxlon": -76.6003862
+   },
+   "geometry": [
+    {
+     "lat": 39.4031473,
+     "lon": -76.6004056
+    },
+    {
+     "lat": 39.4031767,
+     "lon": -76.6006562
+    },
+    {
+     "lat": 39.4031522,
+     "lon": -76.6006602
+    },
+    {
+     "lat": 39.4028882,
+     "lon": -76.6007039
+    },
+    {
+     "lat": 39.4024439,
+     "lon": -76.6007761
+    },
+    {
+     "lat": 39.4024515,
+     "lon": -76.6009045
+    },
+    {
+     "lat": 39.4024697,
+     "lon": -76.6010825
+    },
+    {
+     "lat": 39.4024831,
+     "lon": -76.6013168
+    },
+    {
+     "lat": 39.4024867,
+     "lon": -76.6013482
+    },
+    {
+     "lat": 39.402502,
+     "lon": -76.6014792
+    },
+    {
+     "lat": 39.4025093,
+     "lon": -76.6016701
+    },
+    {
+     "lat": 39.4025304,
+     "lon": -76.6016665
+    },
+    {
+     "lat": 39.4032928,
+     "lon": -76.6015359
+    },
+    {
+     "lat": 39.4033798,
+     "lon": -76.6014126
+    },
+    {
+     "lat": 39.4032862,
+     "lon": -76.6003862
+    },
+    {
+     "lat": 39.4031473,
+     "lon": -76.6004056
+    }
+   ],
+   "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "building": "parking",
+    "name": "Parking B",
+    "parking": "multi-storey"
+   }
+  },
+  {
+   "type": "way",
+   "id": 60179904,
+   "bounds": {
+    "minlat": 39.4029487,
+    "minlon": -76.6004362,
+    "maxlat": 39.4036409,
+    "maxlon": -76.597856
+   },
+   "geometry": [
+    {
+     "lat": 39.4034005,
+     "lon": -76.6003665
+    },
+    {
+     "lat": 39.4032862,
+     "lon": -76.6003862
+    },
+    {
+     "lat": 39.4031473,
+     "lon": -76.6004056
+    },
+    {
+     "lat": 39.4030649,
+     "lon": -76.6004183
+    },
+    {
+     "lat": 39.4029487,
+     "lon": -76.6004362
+    },
+    {
+     "lat": 39.4029528,
+     "lon": -76.6003731
+    },
+    {
+     "lat": 39.4029765,
+     "lon": -76.5999975
+    },
+    {
+     "lat": 39.4029829,
+     "lon": -76.5998958
+    },
+    {
+     "lat": 39.4030316,
+     "lon": -76.5991273
+    },
+    {
+     "lat": 39.4030848,
+     "lon": -76.5991335
+    },
+    {
+     "lat": 39.4031228,
+     "lon": -76.599138
+    },
+    {
+     "lat": 39.4031647,
+     "lon": -76.5984905
+    },
+    {
+     "lat": 39.4032,
+     "lon": -76.5979437
+    },
+    {
+     "lat": 39.4032057,
+     "lon": -76.597856
+    },
+    {
+     "lat": 39.4032311,
+     "lon": -76.5978585
+    },
+    {
+     "lat": 39.4034416,
+     "lon": -76.5978792
+    },
+    {
+     "lat": 39.4036409,
+     "lon": -76.5978989
+    },
+    {
+     "lat": 39.4036066,
+     "lon": -76.5983588
+    },
+    {
+     "lat": 39.4035456,
+     "lon": -76.5991756
+    },
+    {
+     "lat": 39.4035,
+     "lon": -76.5991756
+    },
+    {
+     "lat": 39.4034183,
+     "lon": -76.600154
+    },
+    {
+     "lat": 39.4034005,
+     "lon": -76.6003665
+    }
+   ],
+   "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "building": "parking",
+    "name": "Parking C",
+    "parking": "multi-storey"
+   }
+  },
+  {
+   "type": "way",
+   "id": 66793148,
+   "bounds": {
+    "minlat": 39.401383,
+    "minlon": -76.5990119,
+    "maxlat": 39.4018833,
+    "maxlon": -76.5985778
+   },
+   "geometry": [
+    {
+     "lat": 39.4018621,
+     "lon": -76.5990119
+    },
+    {
+     "lat": 39.401383,
+     "lon": -76.5989304
+    },
+    {
+     "lat": 39.4013873,
+     "lon": -76.5988884
+    },
+    {
+     "lat": 39.4013919,
+     "lon": -76.5988892
+    },
+    {
+     "lat": 39.4014149,
+     "lon": -76.5986626
+    },
+    {
+     "lat": 39.4014281,
+     "lon": -76.5986649
+    },
+    {
+     "lat": 39.4014324,
+     "lon": -76.5986221
+    },
+    {
+     "lat": 39.4014369,
+     "lon": -76.5985778
+    },
+    {
+     "lat": 39.4018693,
+     "lon": -76.5986514
+    },
+    {
+     "lat": 39.4018656,
+     "lon": -76.5986877
+    },
+    {
+     "lat": 39.4018606,
+     "lon": -76.5987364
+    },
+    {
+     "lat": 39.4018833,
+     "lon": -76.5987403
+    },
+    {
+     "lat": 39.401879,
+     "lon": -76.5987823
+    },
+    {
+     "lat": 39.4018753,
+     "lon": -76.5987817
+    },
+    {
+     "lat": 39.4018564,
+     "lon": -76.5989679
+    },
+    {
+     "lat": 39.4018664,
+     "lon": -76.5989696
+    },
+    {
+     "lat": 39.4018621,
+     "lon": -76.5990119
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "203",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "building": "retail",
+    "building:colour": "grey",
+    "building:levels": "7",
+    "name": "Extra Space Storage",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 66793149,
+   "bounds": {
+    "minlat": 39.4006585,
+    "minlon": -76.5988679,
+    "maxlat": 39.4010729,
+    "maxlon": -76.5982835
+   },
+   "geometry": [
+    {
+     "lat": 39.4010729,
+     "lon": -76.5987347
+    },
+    {
+     "lat": 39.4009905,
+     "lon": -76.5985737
+    },
+    {
+     "lat": 39.4010552,
+     "lon": -76.598366
+    },
+    {
+     "lat": 39.400871,
+     "lon": -76.5982835
+    },
+    {
+     "lat": 39.4008072,
+     "lon": -76.5984572
+    },
+    {
+     "lat": 39.4006585,
+     "lon": -76.5984731
+    },
+    {
+     "lat": 39.4006768,
+     "lon": -76.5987235
+    },
+    {
+     "lat": 39.4008367,
+     "lon": -76.5987144
+    },
+    {
+     "lat": 39.4009256,
+     "lon": -76.5988679
+    },
+    {
+     "lat": 39.4010729,
+     "lon": -76.5987347
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "205",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "building": "apartments",
+    "building:levels": "27",
+    "height": "107.9",
+    "name": "Ridgely Condominium"
+   }
+  },
+  {
+   "type": "way",
+   "id": 66793150,
+   "bounds": {
+    "minlat": 39.4023045,
+    "minlon": -76.5985506,
+    "maxlat": 39.4025389,
+    "maxlon": -76.5975245
+   },
+   "geometry": [
+    {
+     "lat": 39.4025009,
+     "lon": -76.5985506
+    },
+    {
+     "lat": 39.4025389,
+     "lon": -76.5975368
+    },
+    {
+     "lat": 39.4023425,
+     "lon": -76.5975245
+    },
+    {
+     "lat": 39.4023045,
+     "lon": -76.5985383
+    },
+    {
+     "lat": 39.4025009,
+     "lon": -76.5985506
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "204",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "building": "apartments",
+    "building:colour": "grey",
+    "building:levels": "13",
+    "name": "Berkshires at Town Center",
+    "roof:shape": "flat",
+    "website": "Www.berkshireaparents.com"
+   }
+  },
+  {
+   "type": "way",
+   "id": 66793151,
+   "bounds": {
+    "minlat": 39.4021965,
+    "minlon": -76.5997657,
+    "maxlat": 39.402423,
+    "maxlon": -76.5992863
+   },
+   "geometry": [
+    {
+     "lat": 39.4023895,
+     "lon": -76.5997657
+    },
+    {
+     "lat": 39.402423,
+     "lon": -76.59931
+    },
+    {
+     "lat": 39.40223,
+     "lon": -76.5992863
+    },
+    {
+     "lat": 39.4021965,
+     "lon": -76.5997419
+    },
+    {
+     "lat": 39.4023895,
+     "lon": -76.5997657
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "200",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "building": "office",
+    "building:colour": "white",
+    "building:levels": "4",
+    "name": "Shell Building",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 72781916,
+   "bounds": {
+    "minlat": 39.4031049,
+    "minlon": -76.6051967,
+    "maxlat": 39.4036189,
+    "maxlon": -76.6042043
+   },
+   "geometry": [
+    {
+     "lat": 39.4036189,
+     "lon": -76.6050357
+    },
+    {
+     "lat": 39.4033702,
+     "lon": -76.6042043
+    },
+    {
+     "lat": 39.4031588,
+     "lon": -76.6044296
+    },
+    {
+     "lat": 39.4031049,
+     "lon": -76.6044939
+    },
+    {
+     "lat": 39.4031215,
+     "lon": -76.6045744
+    },
+    {
+     "lat": 39.4033205,
+     "lon": -76.6051967
+    },
+    {
+     "lat": 39.4036189,
+     "lon": -76.6050357
+    }
+   ],
+   "tags": {
+    "amenity": "parking",
+    "building": "parking",
+    "name": "BCRA Parking Garage #3",
+    "operator": "Baltimore County Revenue Authority",
+    "parking": "multi-storey"
+   }
+  },
+  {
+   "type": "way",
+   "id": 75475528,
+   "bounds": {
+    "minlat": 39.4025657,
+    "minlon": -76.6033361,
+    "maxlat": 39.4032201,
+    "maxlon": -76.6021053
+   },
+   "geometry": [
+    {
+     "lat": 39.4029707,
+     "lon": -76.6033361
+    },
+    {
+     "lat": 39.4025657,
+     "lon": -76.603031
+    },
+    {
+     "lat": 39.4028178,
+     "lon": -76.6024706
+    },
+    {
+     "lat": 39.4026859,
+     "lon": -76.6023712
+    },
+    {
+     "lat": 39.4028055,
+     "lon": -76.6021053
+    },
+    {
+     "lat": 39.4030126,
+     "lon": -76.6022614
+    },
+    {
+     "lat": 39.4028904,
+     "lon": -76.6025332
+    },
+    {
+     "lat": 39.4032201,
+     "lon": -76.6027817
+    },
+    {
+     "lat": 39.4031954,
+     "lon": -76.6028365
+    },
+    {
+     "lat": 39.40301,
+     "lon": -76.6032488
+    },
+    {
+     "lat": 39.4029707,
+     "lon": -76.6033361
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "1",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Olympic Place",
+    "building": "office",
+    "building:levels": "2",
+    "height": "9",
+    "name": "Towson City Center",
+    "old_name": "Investment Building"
+   }
+  },
+  {
+   "type": "way",
+   "id": 87887324,
+   "bounds": {
+    "minlat": 39.4016373,
+    "minlon": -76.5980297,
+    "maxlat": 39.4019346,
+    "maxlon": -76.5977492
+   },
+   "geometry": [
+    {
+     "lat": 39.4019346,
+     "lon": -76.5979463
+    },
+    {
+     "lat": 39.4016752,
+     "lon": -76.5980297
+    },
+    {
+     "lat": 39.4016373,
+     "lon": -76.5978326
+    },
+    {
+     "lat": 39.4018967,
+     "lon": -76.5977492
+    },
+    {
+     "lat": 39.4019346,
+     "lon": -76.5979463
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "305",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "building": "apartments",
+    "building:colour": "#ffe0a0",
+    "building:levels": "22",
+    "name": "Tabco Towers",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111721390,
+   "bounds": {
+    "minlat": 39.3997209,
+    "minlon": -76.6052539,
+    "maxlat": 39.3999658,
+    "maxlon": -76.604781
+   },
+   "geometry": [
+    {
+     "lat": 39.3999658,
+     "lon": -76.6052241
+    },
+    {
+     "lat": 39.3997598,
+     "lon": -76.6052539
+    },
+    {
+     "lat": 39.3997209,
+     "lon": -76.6048106
+    },
+    {
+     "lat": 39.3999279,
+     "lon": -76.604781
+    },
+    {
+     "lat": 39.3999658,
+     "lon": -76.6052241
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "401",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "building": "commercial",
+    "building:colour": "#ffe0a0",
+    "building:levels": "13",
+    "height": "44",
+    "name": "First Financial Building",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111721393,
+   "bounds": {
+    "minlat": 39.4002214,
+    "minlon": -76.6051746,
+    "maxlat": 39.4006097,
+    "maxlon": -76.6046107
+   },
+   "geometry": [
+    {
+     "lat": 39.4006097,
+     "lon": -76.6051137
+    },
+    {
+     "lat": 39.4002543,
+     "lon": -76.6051746
+    },
+    {
+     "lat": 39.4002228,
+     "lon": -76.6048646
+    },
+    {
+     "lat": 39.4002383,
+     "lon": -76.6048613
+    },
+    {
+     "lat": 39.4002214,
+     "lon": -76.604664
+    },
+    {
+     "lat": 39.4005594,
+     "lon": -76.6046107
+    },
+    {
+     "lat": 39.4005797,
+     "lon": -76.6048135
+    },
+    {
+     "lat": 39.4006097,
+     "lon": -76.6051137
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "409",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "building": "office",
+    "building:colour": "#ffe0a0",
+    "building:levels": "11",
+    "name": "PNC Bank Towson Building",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111721394,
+   "bounds": {
+    "minlat": 39.4000081,
+    "minlon": -76.6070364,
+    "maxlat": 39.400681,
+    "maxlon": -76.6061162
+   },
+   "geometry": [
+    {
+     "lat": 39.4006335,
+     "lon": -76.606937
+    },
+    {
+     "lat": 39.4005932,
+     "lon": -76.6069451
+    },
+    {
+     "lat": 39.4001392,
+     "lon": -76.6070364
+    },
+    {
+     "lat": 39.4001335,
+     "lon": -76.6069853
+    },
+    {
+     "lat": 39.4000821,
+     "lon": -76.6069919
+    },
+    {
+     "lat": 39.400066,
+     "lon": -76.6067332
+    },
+    {
+     "lat": 39.4001092,
+     "lon": -76.6067291
+    },
+    {
+     "lat": 39.4001991,
+     "lon": -76.6067164
+    },
+    {
+     "lat": 39.4001967,
+     "lon": -76.6066801
+    },
+    {
+     "lat": 39.4001699,
+     "lon": -76.6064126
+    },
+    {
+     "lat": 39.4000771,
+     "lon": -76.6064282
+    },
+    {
+     "lat": 39.4000249,
+     "lon": -76.6064345
+    },
+    {
+     "lat": 39.4000081,
+     "lon": -76.6062244
+    },
+    {
+     "lat": 39.4002163,
+     "lon": -76.6061872
+    },
+    {
+     "lat": 39.4002133,
+     "lon": -76.6061437
+    },
+    {
+     "lat": 39.4002973,
+     "lon": -76.6061295
+    },
+    {
+     "lat": 39.4003761,
+     "lon": -76.6061162
+    },
+    {
+     "lat": 39.4003801,
+     "lon": -76.6061624
+    },
+    {
+     "lat": 39.4005931,
+     "lon": -76.6061249
+    },
+    {
+     "lat": 39.4006112,
+     "lon": -76.6063361
+    },
+    {
+     "lat": 39.4005713,
+     "lon": -76.6063428
+    },
+    {
+     "lat": 39.4004672,
+     "lon": -76.6063619
+    },
+    {
+     "lat": 39.4004904,
+     "lon": -76.6065731
+    },
+    {
+     "lat": 39.4005023,
+     "lon": -76.6066816
+    },
+    {
+     "lat": 39.4006064,
+     "lon": -76.6066624
+    },
+    {
+     "lat": 39.4006344,
+     "lon": -76.6066565
+    },
+    {
+     "lat": 39.4006496,
+     "lon": -76.6066533
+    },
+    {
+     "lat": 39.400681,
+     "lon": -76.6068896
+    },
+    {
+     "lat": 39.4006308,
+     "lon": -76.6068953
+    },
+    {
+     "lat": 39.4006335,
+     "lon": -76.606937
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "400",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "building": "public",
+    "building:levels": "4",
+    "ele": "141",
+    "name": "Baltimore County Historic Courthouse",
+    "roof:shape": "gabled",
+    "wikidata": "Q4852837"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111721395,
+   "bounds": {
+    "minlat": 39.3995632,
+    "minlon": -76.6042518,
+    "maxlat": 39.3997578,
+    "maxlon": -76.6033357
+   },
+   "geometry": [
+    {
+     "lat": 39.3997578,
+     "lon": -76.6042383
+    },
+    {
+     "lat": 39.3996445,
+     "lon": -76.6042518
+    },
+    {
+     "lat": 39.3995632,
+     "lon": -76.6033567
+    },
+    {
+     "lat": 39.3996718,
+     "lon": -76.6033357
+    },
+    {
+     "lat": 39.3997578,
+     "lon": -76.6042383
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "40",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "building": "yes",
+    "height": "28",
+    "name": "Lafayette Building"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111721396,
+   "bounds": {
+    "minlat": 39.400731,
+    "minlon": -76.604101,
+    "maxlat": 39.4009551,
+    "maxlon": -76.603715
+   },
+   "geometry": [
+    {
+     "lat": 39.4009551,
+     "lon": -76.6040691
+    },
+    {
+     "lat": 39.4007668,
+     "lon": -76.604101
+    },
+    {
+     "lat": 39.400731,
+     "lon": -76.6037469
+    },
+    {
+     "lat": 39.4009192,
+     "lon": -76.603715
+    },
+    {
+     "lat": 39.4009551,
+     "lon": -76.6040691
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "22",
+    "addr:postcode": "21204",
+    "addr:street": "West Pennsylvania Avenue",
+    "building": "office",
+    "building:colour": "orange",
+    "building:levels": "6",
+    "name": "Howard Bank Building",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111721400,
+   "bounds": {
+    "minlat": 39.3996701,
+    "minlon": -76.6042679,
+    "maxlat": 39.4001192,
+    "maxlon": -76.6032616
+   },
+   "geometry": [
+    {
+     "lat": 39.4000274,
+     "lon": -76.6036852
+    },
+    {
+     "lat": 39.3999979,
+     "lon": -76.6033789
+    },
+    {
+     "lat": 39.3999939,
+     "lon": -76.6033368
+    },
+    {
+     "lat": 39.3999866,
+     "lon": -76.6032616
+    },
+    {
+     "lat": 39.3997219,
+     "lon": -76.6033064
+    },
+    {
+     "lat": 39.3996701,
+     "lon": -76.6033152
+    },
+    {
+     "lat": 39.3996718,
+     "lon": -76.6033357
+    },
+    {
+     "lat": 39.3997578,
+     "lon": -76.6042383
+    },
+    {
+     "lat": 39.3997613,
+     "lon": -76.6042679
+    },
+    {
+     "lat": 39.3998826,
+     "lon": -76.6042497
+    },
+    {
+     "lat": 39.4000117,
+     "lon": -76.6042304
+    },
+    {
+     "lat": 39.4000807,
+     "lon": -76.6042201
+    },
+    {
+     "lat": 39.4000406,
+     "lon": -76.6038204
+    },
+    {
+     "lat": 39.4000788,
+     "lon": -76.6038103
+    },
+    {
+     "lat": 39.4001192,
+     "lon": -76.6037997
+    },
+    {
+     "lat": 39.4001187,
+     "lon": -76.6037752
+    },
+    {
+     "lat": 39.4001171,
+     "lon": -76.6037038
+    },
+    {
+     "lat": 39.4001158,
+     "lon": -76.6036488
+    },
+    {
+     "lat": 39.4000659,
+     "lon": -76.6036694
+    },
+    {
+     "lat": 39.4000274,
+     "lon": -76.6036852
+    }
+   ],
+   "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "building": "parking_garage",
+    "capacity": "887",
+    "fee": "yes",
+    "height": "27",
+    "maxheight": "7' 8\"",
+    "name": "Towson Commons Parking",
+    "operator": "Towne Park, LLC",
+    "parking": "multi-storey",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111721414,
+   "bounds": {
+    "minlat": 39.399983,
+    "minlon": -76.60832,
+    "maxlat": 39.4009637,
+    "maxlon": -76.6076087
+   },
+   "geometry": [
+    {
+     "lat": 39.4009637,
+     "lon": -76.6081761
+    },
+    {
+     "lat": 39.4000315,
+     "lon": -76.60832
+    },
+    {
+     "lat": 39.399983,
+     "lon": -76.6077462
+    },
+    {
+     "lat": 39.4002223,
+     "lon": -76.6077111
+    },
+    {
+     "lat": 39.4006639,
+     "lon": -76.6076455
+    },
+    {
+     "lat": 39.4006743,
+     "lon": -76.607644
+    },
+    {
+     "lat": 39.4009241,
+     "lon": -76.6076087
+    },
+    {
+     "lat": 39.4009637,
+     "lon": -76.6081761
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "401",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Bosley Avenue",
+    "building": "public",
+    "building:levels": "5",
+    "ele": "141",
+    "height": "34",
+    "name": "County Courts Building",
+    "roof:shape": "flat",
+    "wikidata": "Q4852837"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111740400,
+   "bounds": {
+    "minlat": 39.3987064,
+    "minlon": -76.6064118,
+    "maxlat": 39.3991192,
+    "maxlon": -76.6056265
+   },
+   "geometry": [
+    {
+     "lat": 39.3991192,
+     "lon": -76.6063675
+    },
+    {
+     "lat": 39.399068,
+     "lon": -76.6063752
+    },
+    {
+     "lat": 39.3990336,
+     "lon": -76.6063799
+    },
+    {
+     "lat": 39.3988212,
+     "lon": -76.6064118
+    },
+    {
+     "lat": 39.3988161,
+     "lon": -76.6063541
+    },
+    {
+     "lat": 39.3987673,
+     "lon": -76.6063612
+    },
+    {
+     "lat": 39.3987615,
+     "lon": -76.606295
+    },
+    {
+     "lat": 39.3987133,
+     "lon": -76.605748
+    },
+    {
+     "lat": 39.3987064,
+     "lon": -76.6056693
+    },
+    {
+     "lat": 39.3987546,
+     "lon": -76.6056622
+    },
+    {
+     "lat": 39.3989398,
+     "lon": -76.6056349
+    },
+    {
+     "lat": 39.3989967,
+     "lon": -76.6056265
+    },
+    {
+     "lat": 39.3990031,
+     "lon": -76.6056992
+    },
+    {
+     "lat": 39.3990596,
+     "lon": -76.6056909
+    },
+    {
+     "lat": 39.3990681,
+     "lon": -76.6057874
+    },
+    {
+     "lat": 39.3991064,
+     "lon": -76.606222
+    },
+    {
+     "lat": 39.3991144,
+     "lon": -76.6063143
+    },
+    {
+     "lat": 39.3991192,
+     "lon": -76.6063675
+    }
+   ],
+   "tags": {
+    "access": "yes",
+    "addr:city": "Towson",
+    "addr:housenumber": "100",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Susquehanna Avenue",
+    "amenity": "parking",
+    "building": "parking",
+    "building:levels": "9",
+    "fee": "yes",
+    "name": "BCRA - Washington Avenue Parking Garage",
+    "opening_hours": "24/7",
+    "operator": "Baltimore County Revenue Authority",
+    "park_ride": "no",
+    "parking": "multi-storey",
+    "short_name": "Washington Ave Garage",
+    "website": "https://www.baltimorecountymd.gov/Agencies/executive/towson_map.html"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111740401,
+   "bounds": {
+    "minlat": 39.3991376,
+    "minlon": -76.6064033,
+    "maxlat": 39.399616,
+    "maxlon": -76.605892
+   },
+   "geometry": [
+    {
+     "lat": 39.399616,
+     "lon": -76.6063356
+    },
+    {
+     "lat": 39.399178,
+     "lon": -76.6064033
+    },
+    {
+     "lat": 39.3991376,
+     "lon": -76.6059598
+    },
+    {
+     "lat": 39.3995732,
+     "lon": -76.605892
+    },
+    {
+     "lat": 39.399616,
+     "lon": -76.6063356
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "105",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "building": "yes",
+    "building:levels": "4",
+    "height": "21",
+    "internet_access": "wlan",
+    "name": "The Jefferson Building",
+    "office": "government",
+    "operator": "Baltimore County"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111740402,
+   "bounds": {
+    "minlat": 39.3991001,
+    "minlon": -76.6052593,
+    "maxlat": 39.3995126,
+    "maxlon": -76.6047355
+   },
+   "geometry": [
+    {
+     "lat": 39.3995126,
+     "lon": -76.6051959
+    },
+    {
+     "lat": 39.3994847,
+     "lon": -76.6052006
+    },
+    {
+     "lat": 39.3993567,
+     "lon": -76.6052219
+    },
+    {
+     "lat": 39.3991325,
+     "lon": -76.6052593
+    },
+    {
+     "lat": 39.3991001,
+     "lon": -76.6049342
+    },
+    {
+     "lat": 39.3991908,
+     "lon": -76.604919
+    },
+    {
+     "lat": 39.3991773,
+     "lon": -76.6047838
+    },
+    {
+     "lat": 39.3994667,
+     "lon": -76.6047355
+    },
+    {
+     "lat": 39.3995098,
+     "lon": -76.6051676
+    },
+    {
+     "lat": 39.3995126,
+     "lon": -76.6051959
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "307",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "building": "university",
+    "building:levels": "2",
+    "fee": "no",
+    "internet_access": "yes",
+    "name": "StarTUp at the Armory",
+    "office": "coworking",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-16:00",
+    "operator": "Towson University",
+    "roof:shape": "flat",
+    "website": "https://www.towson.edu/startup/",
+    "wikidata": "Q7830314"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111740403,
+   "bounds": {
+    "minlat": 39.4009106,
+    "minlon": -76.6055896,
+    "maxlat": 39.4012036,
+    "maxlon": -76.6053213
+   },
+   "geometry": [
+    {
+     "lat": 39.4012036,
+     "lon": -76.6054894
+    },
+    {
+     "lat": 39.401036,
+     "lon": -76.6055179
+    },
+    {
+     "lat": 39.4010414,
+     "lon": -76.6055717
+    },
+    {
+     "lat": 39.4009359,
+     "lon": -76.6055896
+    },
+    {
+     "lat": 39.4009106,
+     "lon": -76.6053407
+    },
+    {
+     "lat": 39.4010188,
+     "lon": -76.6053223
+    },
+    {
+     "lat": 39.4010216,
+     "lon": -76.6053494
+    },
+    {
+     "lat": 39.4011865,
+     "lon": -76.6053213
+    },
+    {
+     "lat": 39.4012036,
+     "lon": -76.6054894
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "100",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Pennsylvania Avenue",
+    "building": "office",
+    "building:levels": "4",
+    "name": "Campbell Building",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111740404,
+   "bounds": {
+    "minlat": 39.398804,
+    "minlon": -76.6073151,
+    "maxlat": 39.3992114,
+    "maxlon": -76.606488
+   },
+   "geometry": [
+    {
+     "lat": 39.3992114,
+     "lon": -76.6072628
+    },
+    {
+     "lat": 39.3989091,
+     "lon": -76.6073151
+    },
+    {
+     "lat": 39.3988722,
+     "lon": -76.6072781
+    },
+    {
+     "lat": 39.3988365,
+     "lon": -76.6069261
+    },
+    {
+     "lat": 39.398804,
+     "lon": -76.6066052
+    },
+    {
+     "lat": 39.398852,
+     "lon": -76.6065969
+    },
+    {
+     "lat": 39.3988445,
+     "lon": -76.6065459
+    },
+    {
+     "lat": 39.3991397,
+     "lon": -76.606488
+    },
+    {
+     "lat": 39.3992114,
+     "lon": -76.6072628
+    }
+   ],
+   "tags": {
+    "access": "yes",
+    "addr:city": "Towson",
+    "addr:housenumber": "110",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Susquehanna Avenue",
+    "amenity": "parking",
+    "building": "parking",
+    "building:levels": "10",
+    "fee": "yes",
+    "height": "33",
+    "name": "BCRA - Baltimore Avenue Parking Garage",
+    "opening_hours": "24/7",
+    "operator": "Baltimore County Revenue Authority",
+    "parking": "multi-storey",
+    "short_name": "Baltimore Ave Garage",
+    "website": "https://www.baltimorecountymd.gov/Agencies/executive/towson_map.html"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111740408,
+   "bounds": {
+    "minlat": 39.3983197,
+    "minlon": -76.6073698,
+    "maxlat": 39.3986673,
+    "maxlon": -76.6067767
+   },
+   "geometry": [
+    {
+     "lat": 39.3986282,
+     "lon": -76.6073392
+    },
+    {
+     "lat": 39.3984357,
+     "lon": -76.6073698
+    },
+    {
+     "lat": 39.3984312,
+     "lon": -76.6073223
+    },
+    {
+     "lat": 39.3983964,
+     "lon": -76.6073278
+    },
+    {
+     "lat": 39.3983332,
+     "lon": -76.6073379
+    },
+    {
+     "lat": 39.3983197,
+     "lon": -76.6071963
+    },
+    {
+     "lat": 39.3983841,
+     "lon": -76.6071861
+    },
+    {
+     "lat": 39.3984151,
+     "lon": -76.6071804
+    },
+    {
+     "lat": 39.3984117,
+     "lon": -76.6071471
+    },
+    {
+     "lat": 39.3984786,
+     "lon": -76.6071359
+    },
+    {
+     "lat": 39.3985016,
+     "lon": -76.6071337
+    },
+    {
+     "lat": 39.3984699,
+     "lon": -76.6068003
+    },
+    {
+     "lat": 39.3986181,
+     "lon": -76.6067767
+    },
+    {
+     "lat": 39.3986673,
+     "lon": -76.6072932
+    },
+    {
+     "lat": 39.3986245,
+     "lon": -76.6073
+    },
+    {
+     "lat": 39.3986282,
+     "lon": -76.6073392
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "115",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Susquehanna Avenue",
+    "amenity": "police",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Baltimore County Police Precinct 6 - Towson",
+    "operator": "Baltimore County Police Department",
+    "phone": "+1 410 887 2361",
+    "short_name": "BCoPD Precinct 6 - Towson",
+    "website": "https://www.baltimorecountymd.gov/Agencies/police/pc06"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111740410,
+   "bounds": {
+    "minlat": 39.3992502,
+    "minlon": -76.6072758,
+    "maxlat": 39.3997097,
+    "maxlon": -76.6064748
+   },
+   "geometry": [
+    {
+     "lat": 39.3997097,
+     "lon": -76.6072108
+    },
+    {
+     "lat": 39.3993242,
+     "lon": -76.6072758
+    },
+    {
+     "lat": 39.3992502,
+     "lon": -76.6065396
+    },
+    {
+     "lat": 39.3996347,
+     "lon": -76.6064748
+    },
+    {
+     "lat": 39.3996472,
+     "lon": -76.6065991
+    },
+    {
+     "lat": 39.3996193,
+     "lon": -76.6066038
+    },
+    {
+     "lat": 39.399641,
+     "lon": -76.6068199
+    },
+    {
+     "lat": 39.3996684,
+     "lon": -76.6070934
+    },
+    {
+     "lat": 39.399697,
+     "lon": -76.6070841
+    },
+    {
+     "lat": 39.3997011,
+     "lon": -76.6071246
+    },
+    {
+     "lat": 39.3997097,
+     "lon": -76.6072108
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "111",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "amenity": "public_building",
+    "building": "yes",
+    "building:levels": "3",
+    "height": "16",
+    "name": "Baltimore County Office Building",
+    "office": "government",
+    "operator": "Baltimore County",
+    "short_name": "County Office Building"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111740414,
+   "bounds": {
+    "minlat": 39.4013514,
+    "minlon": -76.6056459,
+    "maxlat": 39.4017536,
+    "maxlon": -76.605239
+   },
+   "geometry": [
+    {
+     "lat": 39.4017536,
+     "lon": -76.6055962
+    },
+    {
+     "lat": 39.4017205,
+     "lon": -76.605239
+    },
+    {
+     "lat": 39.4013514,
+     "lon": -76.6052963
+    },
+    {
+     "lat": 39.4013761,
+     "lon": -76.6055635
+    },
+    {
+     "lat": 39.4014258,
+     "lon": -76.6055557
+    },
+    {
+     "lat": 39.4014342,
+     "lon": -76.6056459
+    },
+    {
+     "lat": 39.4015548,
+     "lon": -76.6056271
+    },
+    {
+     "lat": 39.4017536,
+     "lon": -76.6055962
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "502",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "building": "office",
+    "building:levels": "8",
+    "name": "Nottingham Centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111740416,
+   "bounds": {
+    "minlat": 39.4009213,
+    "minlon": -76.6060755,
+    "maxlat": 39.4012089,
+    "maxlon": -76.6055907
+   },
+   "geometry": [
+    {
+     "lat": 39.4012089,
+     "lon": -76.6060376
+    },
+    {
+     "lat": 39.4009698,
+     "lon": -76.6060755
+    },
+    {
+     "lat": 39.4009213,
+     "lon": -76.6056361
+    },
+    {
+     "lat": 39.4011643,
+     "lon": -76.6055907
+    },
+    {
+     "lat": 39.4012089,
+     "lon": -76.6060376
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "102",
+    "addr:postcode": "21204",
+    "addr:street": "West Pennsylvania Avenue",
+    "building": "office",
+    "building:levels": "7",
+    "name": "The Royston Building",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111757191,
+   "bounds": {
+    "minlat": 39.3985376,
+    "minlon": -76.6027745,
+    "maxlat": 39.3992726,
+    "maxlon": -76.6020212
+   },
+   "geometry": [
+    {
+     "lat": 39.3992726,
+     "lon": -76.6025847
+    },
+    {
+     "lat": 39.3985895,
+     "lon": -76.6027745
+    },
+    {
+     "lat": 39.3985608,
+     "lon": -76.6027652
+    },
+    {
+     "lat": 39.3985448,
+     "lon": -76.6027352
+    },
+    {
+     "lat": 39.3985376,
+     "lon": -76.6026935
+    },
+    {
+     "lat": 39.3985519,
+     "lon": -76.6026542
+    },
+    {
+     "lat": 39.3985769,
+     "lon": -76.6026264
+    },
+    {
+     "lat": 39.3985895,
+     "lon": -76.60227
+    },
+    {
+     "lat": 39.3985768,
+     "lon": -76.6022508
+    },
+    {
+     "lat": 39.3985749,
+     "lon": -76.6022322
+    },
+    {
+     "lat": 39.3985728,
+     "lon": -76.602195
+    },
+    {
+     "lat": 39.3985825,
+     "lon": -76.6021701
+    },
+    {
+     "lat": 39.398609,
+     "lon": -76.6021527
+    },
+    {
+     "lat": 39.3986364,
+     "lon": -76.6021535
+    },
+    {
+     "lat": 39.3986608,
+     "lon": -76.6021656
+    },
+    {
+     "lat": 39.3986734,
+     "lon": -76.6021924
+    },
+    {
+     "lat": 39.3987053,
+     "lon": -76.6021729
+    },
+    {
+     "lat": 39.3986909,
+     "lon": -76.6020821
+    },
+    {
+     "lat": 39.3987442,
+     "lon": -76.6020837
+    },
+    {
+     "lat": 39.3988464,
+     "lon": -76.602046
+    },
+    {
+     "lat": 39.3989116,
+     "lon": -76.6020318
+    },
+    {
+     "lat": 39.3989498,
+     "lon": -76.6020212
+    },
+    {
+     "lat": 39.3989598,
+     "lon": -76.6020967
+    },
+    {
+     "lat": 39.3989429,
+     "lon": -76.602121
+    },
+    {
+     "lat": 39.3989304,
+     "lon": -76.6021454
+    },
+    {
+     "lat": 39.3989247,
+     "lon": -76.6021843
+    },
+    {
+     "lat": 39.3989291,
+     "lon": -76.6022354
+    },
+    {
+     "lat": 39.398946,
+     "lon": -76.6022824
+    },
+    {
+     "lat": 39.3989692,
+     "lon": -76.6023198
+    },
+    {
+     "lat": 39.398988,
+     "lon": -76.6023368
+    },
+    {
+     "lat": 39.3990024,
+     "lon": -76.6023425
+    },
+    {
+     "lat": 39.3990043,
+     "lon": -76.6023173
+    },
+    {
+     "lat": 39.3990125,
+     "lon": -76.6022987
+    },
+    {
+     "lat": 39.3990275,
+     "lon": -76.6022816
+    },
+    {
+     "lat": 39.3990463,
+     "lon": -76.6022703
+    },
+    {
+     "lat": 39.3990683,
+     "lon": -76.6022711
+    },
+    {
+     "lat": 39.3990858,
+     "lon": -76.602276
+    },
+    {
+     "lat": 39.3991027,
+     "lon": -76.6022979
+    },
+    {
+     "lat": 39.3991134,
+     "lon": -76.6023133
+    },
+    {
+     "lat": 39.3991378,
+     "lon": -76.6022808
+    },
+    {
+     "lat": 39.3991535,
+     "lon": -76.6022476
+    },
+    {
+     "lat": 39.3991585,
+     "lon": -76.6022127
+    },
+    {
+     "lat": 39.3991548,
+     "lon": -76.6021713
+    },
+    {
+     "lat": 39.3992037,
+     "lon": -76.602164
+    },
+    {
+     "lat": 39.3992726,
+     "lon": -76.6025847
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "320",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "amenity": "library",
+    "building": "library",
+    "ele": "133",
+    "gnis:feature_id": "1952190",
+    "name": "Towson Library",
+    "opening_hours": "Mo-Th 09:00-20:00; Fr,Sa 09:00-17:00; Su off",
+    "operator": "Baltimore County Public Library",
+    "phone": "+1 410 887 6166",
+    "website": "http://bcplonline.org/hours-locations/towson",
+    "wikidata": "Q4852845"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111757198,
+   "bounds": {
+    "minlat": 39.3986306,
+    "minlon": -76.6018835,
+    "maxlat": 39.3992047,
+    "maxlon": -76.6009369
+   },
+   "geometry": [
+    {
+     "lat": 39.3992047,
+     "lon": -76.601652
+    },
+    {
+     "lat": 39.3991367,
+     "lon": -76.6017724
+    },
+    {
+     "lat": 39.3990455,
+     "lon": -76.6017863
+    },
+    {
+     "lat": 39.3990151,
+     "lon": -76.6018557
+    },
+    {
+     "lat": 39.3988851,
+     "lon": -76.6018695
+    },
+    {
+     "lat": 39.3988219,
+     "lon": -76.6018788
+    },
+    {
+     "lat": 39.398754,
+     "lon": -76.6018835
+    },
+    {
+     "lat": 39.3987236,
+     "lon": -76.6018511
+    },
+    {
+     "lat": 39.3986521,
+     "lon": -76.6018488
+    },
+    {
+     "lat": 39.3986413,
+     "lon": -76.6018233
+    },
+    {
+     "lat": 39.3986393,
+     "lon": -76.6017318
+    },
+    {
+     "lat": 39.3986306,
+     "lon": -76.6013327
+    },
+    {
+     "lat": 39.3986592,
+     "lon": -76.6012817
+    },
+    {
+     "lat": 39.3986558,
+     "lon": -76.601236
+    },
+    {
+     "lat": 39.3986502,
+     "lon": -76.6011597
+    },
+    {
+     "lat": 39.3986467,
+     "lon": -76.6011128
+    },
+    {
+     "lat": 39.3986789,
+     "lon": -76.6010179
+    },
+    {
+     "lat": 39.3991313,
+     "lon": -76.6009369
+    },
+    {
+     "lat": 39.3991459,
+     "lon": -76.6010794
+    },
+    {
+     "lat": 39.3992047,
+     "lon": -76.601652
+    }
+   ],
+   "tags": {
+    "access": "yes",
+    "addr:city": "Towson",
+    "addr:housenumber": "115",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "East Towsontown Boulevard",
+    "amenity": "parking",
+    "building": "parking",
+    "fee": "yes",
+    "name": "Baltimore County Library Parking Garage",
+    "operator": "Baltimore County Revenue Authority",
+    "parking": "multi-storey",
+    "short_name": "Baltimore County Library Garage",
+    "website": "https://www.baltimorecountymd.gov/Agencies/executive/towson_map.html"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111758017,
+   "bounds": {
+    "minlat": 39.3987185,
+    "minlon": -76.6009161,
+    "maxlat": 39.3990897,
+    "maxlon": -76.6003423
+   },
+   "geometry": [
+    {
+     "lat": 39.3990897,
+     "lon": -76.6008596
+    },
+    {
+     "lat": 39.3990376,
+     "lon": -76.6003423
+    },
+    {
+     "lat": 39.3988159,
+     "lon": -76.6003793
+    },
+    {
+     "lat": 39.3988176,
+     "lon": -76.6004162
+    },
+    {
+     "lat": 39.398784,
+     "lon": -76.6004249
+    },
+    {
+     "lat": 39.3987515,
+     "lon": -76.6004697
+    },
+    {
+     "lat": 39.3987286,
+     "lon": -76.6005401
+    },
+    {
+     "lat": 39.3987185,
+     "lon": -76.6006749
+    },
+    {
+     "lat": 39.398737,
+     "lon": -76.6009161
+    },
+    {
+     "lat": 39.3990897,
+     "lon": -76.6008596
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "120",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Chesapeake Avenue",
+    "amenity": "courthouse",
+    "building": "yes",
+    "name": "Baltimore County District Court - Towson",
+    "phone": "+1-410-512-2000",
+    "short_name": "District Court - Towson",
+    "website": "http://www.courts.state.md.us/district/directories/courtmap.html#baltimorecounty"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111758018,
+   "bounds": {
+    "minlat": 39.3992872,
+    "minlon": -76.6006836,
+    "maxlat": 39.399899,
+    "maxlon": -76.6001455
+   },
+   "geometry": [
+    {
+     "lat": 39.399899,
+     "lon": -76.6005685
+    },
+    {
+     "lat": 39.399831,
+     "lon": -76.6001455
+    },
+    {
+     "lat": 39.3992872,
+     "lon": -76.6002918
+    },
+    {
+     "lat": 39.3993501,
+     "lon": -76.6006836
+    },
+    {
+     "lat": 39.3995176,
+     "lon": -76.6006385
+    },
+    {
+     "lat": 39.3994883,
+     "lon": -76.6004564
+    },
+    {
+     "lat": 39.3996935,
+     "lon": -76.6004012
+    },
+    {
+     "lat": 39.3997278,
+     "lon": -76.6006146
+    },
+    {
+     "lat": 39.399899,
+     "lon": -76.6005685
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "409",
+    "addr:postcode": "21286",
+    "addr:street": "Virginia Avenue",
+    "building": "apartments",
+    "building:levels": "4",
+    "name": "Trinity House Apartments"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111759080,
+   "bounds": {
+    "minlat": 39.4010155,
+    "minlon": -76.5971011,
+    "maxlat": 39.4014227,
+    "maxlon": -76.5965868
+   },
+   "geometry": [
+    {
+     "lat": 39.4014227,
+     "lon": -76.5970002
+    },
+    {
+     "lat": 39.4013881,
+     "lon": -76.5968297
+    },
+    {
+     "lat": 39.4013543,
+     "lon": -76.5968412
+    },
+    {
+     "lat": 39.4013357,
+     "lon": -76.5967495
+    },
+    {
+     "lat": 39.4013122,
+     "lon": -76.5967575
+    },
+    {
+     "lat": 39.4012775,
+     "lon": -76.5965868
+    },
+    {
+     "lat": 39.4010155,
+     "lon": -76.5966759
+    },
+    {
+     "lat": 39.4010851,
+     "lon": -76.597019
+    },
+    {
+     "lat": 39.4011079,
+     "lon": -76.5970112
+    },
+    {
+     "lat": 39.4011262,
+     "lon": -76.5971011
+    },
+    {
+     "lat": 39.4014227,
+     "lon": -76.5970002
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "515",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Fairmount Avenue",
+    "building": "yes",
+    "name": "Fairmount Place"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111759083,
+   "bounds": {
+    "minlat": 39.4015279,
+    "minlon": -76.5972342,
+    "maxlat": 39.4017115,
+    "maxlon": -76.597006
+   },
+   "geometry": [
+    {
+     "lat": 39.4016812,
+     "lon": -76.597006
+    },
+    {
+     "lat": 39.4015279,
+     "lon": -76.5970502
+    },
+    {
+     "lat": 39.4015637,
+     "lon": -76.5972342
+    },
+    {
+     "lat": 39.4017115,
+     "lon": -76.5971886
+    },
+    {
+     "lat": 39.4016812,
+     "lon": -76.597006
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "313",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "brand": "APlus",
+    "brand:wikidata": "Q4646934",
+    "building": "yes",
+    "name": "APlus",
+    "shop": "convenience"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111759084,
+   "bounds": {
+    "minlat": 39.4003091,
+    "minlon": -76.5996098,
+    "maxlat": 39.4006265,
+    "maxlon": -76.5991925
+   },
+   "geometry": [
+    {
+     "lat": 39.4003729,
+     "lon": -76.5996098
+    },
+    {
+     "lat": 39.4006013,
+     "lon": -76.5995772
+    },
+    {
+     "lat": 39.4006214,
+     "lon": -76.599549
+    },
+    {
+     "lat": 39.4006265,
+     "lon": -76.5995207
+    },
+    {
+     "lat": 39.4006248,
+     "lon": -76.5993751
+    },
+    {
+     "lat": 39.4005005,
+     "lon": -76.599386
+    },
+    {
+     "lat": 39.4005056,
+     "lon": -76.5994599
+    },
+    {
+     "lat": 39.4004736,
+     "lon": -76.5994642
+    },
+    {
+     "lat": 39.4004417,
+     "lon": -76.5991925
+    },
+    {
+     "lat": 39.4003729,
+     "lon": -76.5991969
+    },
+    {
+     "lat": 39.4003309,
+     "lon": -76.5992034
+    },
+    {
+     "lat": 39.4003091,
+     "lon": -76.5992338
+    },
+    {
+     "lat": 39.4003342,
+     "lon": -76.5994838
+    },
+    {
+     "lat": 39.4003846,
+     "lon": -76.5994773
+    },
+    {
+     "lat": 39.4003863,
+     "lon": -76.5995077
+    },
+    {
+     "lat": 39.4003628,
+     "lon": -76.5995099
+    },
+    {
+     "lat": 39.4003729,
+     "lon": -76.5996098
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "500",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Virginia Avenue",
+    "building": "yes",
+    "building:levels": "15",
+    "name": "Virginia Towers"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111759087,
+   "bounds": {
+    "minlat": 39.4013881,
+    "minlon": -76.5968995,
+    "maxlat": 39.4018009,
+    "maxlon": -76.5964501
+   },
+   "geometry": [
+    {
+     "lat": 39.4018009,
+     "lon": -76.5967725
+    },
+    {
+     "lat": 39.4016572,
+     "lon": -76.5968183
+    },
+    {
+     "lat": 39.4016639,
+     "lon": -76.5968525
+    },
+    {
+     "lat": 39.4015333,
+     "lon": -76.5968995
+    },
+    {
+     "lat": 39.4015271,
+     "lon": -76.5968661
+    },
+    {
+     "lat": 39.4014615,
+     "lon": -76.5968879
+    },
+    {
+     "lat": 39.4013881,
+     "lon": -76.5965449
+    },
+    {
+     "lat": 39.4016683,
+     "lon": -76.5964501
+    },
+    {
+     "lat": 39.4017451,
+     "lon": -76.5965106
+    },
+    {
+     "lat": 39.4018009,
+     "lon": -76.5967725
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "555",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Fairmount Avenue",
+    "building": "office",
+    "building:levels": "6",
+    "name": "RCM&D Building"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111759344,
+   "bounds": {
+    "minlat": 39.4006142,
+    "minlon": -76.5980291,
+    "maxlat": 39.4010751,
+    "maxlon": -76.5972618
+   },
+   "geometry": [
+    {
+     "lat": 39.4010751,
+     "lon": -76.5979311
+    },
+    {
+     "lat": 39.4007981,
+     "lon": -76.5980291
+    },
+    {
+     "lat": 39.4007873,
+     "lon": -76.5979787
+    },
+    {
+     "lat": 39.400744,
+     "lon": -76.5979927
+    },
+    {
+     "lat": 39.4006142,
+     "lon": -76.5973626
+    },
+    {
+     "lat": 39.4008955,
+     "lon": -76.5972618
+    },
+    {
+     "lat": 39.4009041,
+     "lon": -76.5973038
+    },
+    {
+     "lat": 39.4009561,
+     "lon": -76.5972926
+    },
+    {
+     "lat": 39.4010751,
+     "lon": -76.5979311
+    }
+   ],
+   "tags": {
+    "access": "private",
+    "amenity": "parking",
+    "building": "parking",
+    "name": "Fairmount Place Parking",
+    "operator:type": "private",
+    "parking": "multi-storey"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111760356,
+   "bounds": {
+    "minlat": 39.3980812,
+    "minlon": -76.6055028,
+    "maxlat": 39.3984565,
+    "maxlon": -76.6051252
+   },
+   "geometry": [
+    {
+     "lat": 39.3984565,
+     "lon": -76.6054405
+    },
+    {
+     "lat": 39.3981113,
+     "lon": -76.6055028
+    },
+    {
+     "lat": 39.3980812,
+     "lon": -76.6052123
+    },
+    {
+     "lat": 39.3981952,
+     "lon": -76.6052014
+    },
+    {
+     "lat": 39.3982156,
+     "lon": -76.6051768
+    },
+    {
+     "lat": 39.3982637,
+     "lon": -76.6051728
+    },
+    {
+     "lat": 39.3984253,
+     "lon": -76.6051252
+    },
+    {
+     "lat": 39.3984565,
+     "lon": -76.6054405
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housename": "The Susquehanna",
+    "addr:housenumber": "29",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Susquehanna Avenue",
+    "building": "office",
+    "building:levels": "8",
+    "height": "33",
+    "name": "The Susquehanna",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111760357,
+   "bounds": {
+    "minlat": 39.3981148,
+    "minlon": -76.6049911,
+    "maxlat": 39.3984439,
+    "maxlon": -76.6046867
+   },
+   "geometry": [
+    {
+     "lat": 39.3984439,
+     "lon": -76.6049378
+    },
+    {
+     "lat": 39.39812,
+     "lon": -76.6049911
+    },
+    {
+     "lat": 39.3981148,
+     "lon": -76.6048569
+    },
+    {
+     "lat": 39.3981944,
+     "lon": -76.6047225
+    },
+    {
+     "lat": 39.3984193,
+     "lon": -76.6046867
+    },
+    {
+     "lat": 39.3984439,
+     "lon": -76.6049378
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "23",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Susquehanna Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Baltimore County Employees Federal Credit Union",
+    "opening_hours": "Th 08:00-18:00; Mo-We,Fr 08:00-16:00; Sa,Su off",
+    "short_name": "BCEFCU"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111760771,
+   "bounds": {
+    "minlat": 39.3989646,
+    "minlon": -76.6035938,
+    "maxlat": 39.3993877,
+    "maxlon": -76.6033486
+   },
+   "geometry": [
+    {
+     "lat": 39.399366,
+     "lon": -76.6033486
+    },
+    {
+     "lat": 39.3993877,
+     "lon": -76.6035235
+    },
+    {
+     "lat": 39.3991825,
+     "lon": -76.6035591
+    },
+    {
+     "lat": 39.3991623,
+     "lon": -76.6035627
+    },
+    {
+     "lat": 39.3991399,
+     "lon": -76.6035666
+    },
+    {
+     "lat": 39.3989852,
+     "lon": -76.6035938
+    },
+    {
+     "lat": 39.3989646,
+     "lon": -76.6034042
+    },
+    {
+     "lat": 39.3991774,
+     "lon": -76.6033714
+    },
+    {
+     "lat": 39.399366,
+     "lon": -76.6033486
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "7",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "7 West Bistro Grill",
+    "phone": "+1 410-337-9378"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111760778,
+   "bounds": {
+    "minlat": 39.3991774,
+    "minlon": -76.6033714,
+    "maxlat": 39.399366,
+    "maxlon": -76.6032536
+   },
+   "geometry": [
+    {
+     "lat": 39.3991774,
+     "lon": -76.6032805
+    },
+    {
+     "lat": 39.3992307,
+     "lon": -76.6032725
+    },
+    {
+     "lat": 39.3993568,
+     "lon": -76.6032536
+    },
+    {
+     "lat": 39.399366,
+     "lon": -76.6033486
+    },
+    {
+     "lat": 39.3991774,
+     "lon": -76.6033714
+    },
+    {
+     "lat": 39.3991774,
+     "lon": -76.6032805
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "5",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "amenity": "studio",
+    "building": "yes",
+    "name": "The Music Space",
+    "studio": "audio"
+   }
+  },
+  {
+   "type": "way",
+   "id": 111763744,
+   "bounds": {
+    "minlat": 39.4016516,
+    "minlon": -76.6073342,
+    "maxlat": 39.4019516,
+    "maxlon": -76.6071353
+   },
+   "geometry": [
+    {
+     "lat": 39.4019427,
+     "lon": -76.6071353
+    },
+    {
+     "lat": 39.4019516,
+     "lon": -76.6072386
+    },
+    {
+     "lat": 39.4018319,
+     "lon": -76.6072539
+    },
+    {
+     "lat": 39.4018393,
+     "lon": -76.6073227
+    },
+    {
+     "lat": 39.4017816,
+     "lon": -76.6073342
+    },
+    {
+     "lat": 39.4017742,
+     "lon": -76.6072615
+    },
+    {
+     "lat": 39.401659,
+     "lon": -76.6072883
+    },
+    {
+     "lat": 39.4016516,
+     "lon": -76.6071812
+    },
+    {
+     "lat": 39.4019427,
+     "lon": -76.6071353
+    }
+   ],
+   "tags": {
+    "building": "yes",
+    "name": "Fusco Financial Associates",
+    "office": "financial"
+   }
+  },
+  {
+   "type": "way",
+   "id": 112260653,
+   "bounds": {
+    "minlat": 39.3999942,
+    "minlon": -76.605217,
+    "maxlat": 39.400162,
+    "maxlon": -76.6049439
+   },
+   "geometry": [
+    {
+     "lat": 39.400162,
+     "lon": -76.6051966
+    },
+    {
+     "lat": 39.4000152,
+     "lon": -76.605217
+    },
+    {
+     "lat": 39.3999942,
+     "lon": -76.6049643
+    },
+    {
+     "lat": 39.4001411,
+     "lon": -76.6049439
+    },
+    {
+     "lat": 39.400162,
+     "lon": -76.6051966
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "405",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "amenity": "bank",
+    "brand": "M&T Bank",
+    "brand:wikidata": "Q3272257",
+    "building": "yes",
+    "building:levels": "3",
+    "name": "M&T Bank",
+    "website": "https://locations.mtb.com/md/towson/bank-branches-and-atms-towson-md-6487.html"
+   }
+  },
+  {
+   "type": "way",
+   "id": 118259835,
+   "bounds": {
+    "minlat": 39.4058952,
+    "minlon": -76.5977323,
+    "maxlat": 39.4067745,
+    "maxlon": -76.5961681
+   },
+   "geometry": [
+    {
+     "lat": 39.4066708,
+     "lon": -76.5977084
+    },
+    {
+     "lat": 39.4066618,
+     "lon": -76.5976871
+    },
+    {
+     "lat": 39.4065978,
+     "lon": -76.5977323
+    },
+    {
+     "lat": 39.406588,
+     "lon": -76.5977091
+    },
+    {
+     "lat": 39.4065686,
+     "lon": -76.5977228
+    },
+    {
+     "lat": 39.4064178,
+     "lon": -76.597356
+    },
+    {
+     "lat": 39.4063323,
+     "lon": -76.5974115
+    },
+    {
+     "lat": 39.4061895,
+     "lon": -76.597079
+    },
+    {
+     "lat": 39.4061162,
+     "lon": -76.5969033
+    },
+    {
+     "lat": 39.4060524,
+     "lon": -76.5967606
+    },
+    {
+     "lat": 39.4059162,
+     "lon": -76.5965488
+    },
+    {
+     "lat": 39.4058952,
+     "lon": -76.5965157
+    },
+    {
+     "lat": 39.4061967,
+     "lon": -76.5961681
+    },
+    {
+     "lat": 39.4063266,
+     "lon": -76.5963738
+    },
+    {
+     "lat": 39.4061844,
+     "lon": -76.5965431
+    },
+    {
+     "lat": 39.4063345,
+     "lon": -76.5968985
+    },
+    {
+     "lat": 39.406321,
+     "lon": -76.5969072
+    },
+    {
+     "lat": 39.4063241,
+     "lon": -76.5969179
+    },
+    {
+     "lat": 39.4063153,
+     "lon": -76.5969199
+    },
+    {
+     "lat": 39.4063184,
+     "lon": -76.5969307
+    },
+    {
+     "lat": 39.4063075,
+     "lon": -76.5969421
+    },
+    {
+     "lat": 39.4063179,
+     "lon": -76.5969608
+    },
+    {
+     "lat": 39.4063339,
+     "lon": -76.5969474
+    },
+    {
+     "lat": 39.4064086,
+     "lon": -76.5971204
+    },
+    {
+     "lat": 39.4064267,
+     "lon": -76.5971111
+    },
+    {
+     "lat": 39.4064339,
+     "lon": -76.5971285
+    },
+    {
+     "lat": 39.4065148,
+     "lon": -76.5970769
+    },
+    {
+     "lat": 39.4065407,
+     "lon": -76.5971372
+    },
+    {
+     "lat": 39.4066251,
+     "lon": -76.5970722
+    },
+    {
+     "lat": 39.4066582,
+     "lon": -76.5971435
+    },
+    {
+     "lat": 39.4066404,
+     "lon": -76.597157
+    },
+    {
+     "lat": 39.4066538,
+     "lon": -76.5971948
+    },
+    {
+     "lat": 39.4066358,
+     "lon": -76.597208
+    },
+    {
+     "lat": 39.40665,
+     "lon": -76.5972433
+    },
+    {
+     "lat": 39.4066316,
+     "lon": -76.597258
+    },
+    {
+     "lat": 39.4067745,
+     "lon": -76.597635
+    },
+    {
+     "lat": 39.4066708,
+     "lon": -76.5977084
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "800",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Southerly Road",
+    "building": "yes",
+    "name": "Edenwald"
+   }
+  },
+  {
+   "type": "way",
+   "id": 118259837,
+   "bounds": {
+    "minlat": 39.4056458,
+    "minlon": -76.5988383,
+    "maxlat": 39.4064026,
+    "maxlon": -76.5980379
+   },
+   "geometry": [
+    {
+     "lat": 39.4064026,
+     "lon": -76.5985654
+    },
+    {
+     "lat": 39.4060417,
+     "lon": -76.5988383
+    },
+    {
+     "lat": 39.4059326,
+     "lon": -76.5985921
+    },
+    {
+     "lat": 39.405956,
+     "lon": -76.5985736
+    },
+    {
+     "lat": 39.4059041,
+     "lon": -76.5984527
+    },
+    {
+     "lat": 39.4057587,
+     "lon": -76.5985568
+    },
+    {
+     "lat": 39.4056458,
+     "lon": -76.5983016
+    },
+    {
+     "lat": 39.4060105,
+     "lon": -76.5980379
+    },
+    {
+     "lat": 39.4061169,
+     "lon": -76.5982831
+    },
+    {
+     "lat": 39.4060935,
+     "lon": -76.5982982
+    },
+    {
+     "lat": 39.4061519,
+     "lon": -76.5984225
+    },
+    {
+     "lat": 39.4062946,
+     "lon": -76.598315
+    },
+    {
+     "lat": 39.4064026,
+     "lon": -76.5985654
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housename": "Dulaney Center I",
+    "addr:housenumber": "849",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Fairmount Avenue",
+    "building": "office",
+    "building:levels": "5",
+    "name": "Dulaney Center I"
+   }
+  },
+  {
+   "type": "way",
+   "id": 118260759,
+   "bounds": {
+    "minlat": 39.4045924,
+    "minlon": -76.6013914,
+    "maxlat": 39.4057829,
+    "maxlon": -76.6001358
+   },
+   "geometry": [
+    {
+     "lat": 39.4056993,
+     "lon": -76.601136
+    },
+    {
+     "lat": 39.4056922,
+     "lon": -76.6010922
+    },
+    {
+     "lat": 39.4057384,
+     "lon": -76.6010048
+    },
+    {
+     "lat": 39.4057829,
+     "lon": -76.6010025
+    },
+    {
+     "lat": 39.4057011,
+     "lon": -76.6003053
+    },
+    {
+     "lat": 39.4056938,
+     "lon": -76.6002878
+    },
+    {
+     "lat": 39.4056305,
+     "lon": -76.6001358
+    },
+    {
+     "lat": 39.405614,
+     "lon": -76.6002646
+    },
+    {
+     "lat": 39.4049756,
+     "lon": -76.6007849
+    },
+    {
+     "lat": 39.404952,
+     "lon": -76.6007583
+    },
+    {
+     "lat": 39.4049521,
+     "lon": -76.6007888
+    },
+    {
+     "lat": 39.4049512,
+     "lon": -76.6008841
+    },
+    {
+     "lat": 39.4049511,
+     "lon": -76.6009015
+    },
+    {
+     "lat": 39.4049262,
+     "lon": -76.6009471
+    },
+    {
+     "lat": 39.4046588,
+     "lon": -76.6009994
+    },
+    {
+     "lat": 39.4046257,
+     "lon": -76.6010584
+    },
+    {
+     "lat": 39.4045924,
+     "lon": -76.6010722
+    },
+    {
+     "lat": 39.4046173,
+     "lon": -76.6013768
+    },
+    {
+     "lat": 39.4046432,
+     "lon": -76.6013914
+    },
+    {
+     "lat": 39.4050486,
+     "lon": -76.6013108
+    },
+    {
+     "lat": 39.4050389,
+     "lon": -76.6012486
+    },
+    {
+     "lat": 39.4054877,
+     "lon": -76.6011682
+    },
+    {
+     "lat": 39.4056993,
+     "lon": -76.601136
+    }
+   ],
+   "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "building": "yes",
+    "fee": "no",
+    "name": "Parking Deck A",
+    "parking": "multi-storey"
+   }
+  },
+  {
+   "type": "way",
+   "id": 118260760,
+   "bounds": {
+    "minlat": 39.4041859,
+    "minlon": -76.602089,
+    "maxlat": 39.4043332,
+    "maxlon": -76.6019103
+   },
+   "geometry": [
+    {
+     "lat": 39.4043332,
+     "lon": -76.6020789
+    },
+    {
+     "lat": 39.4042919,
+     "lon": -76.6019103
+    },
+    {
+     "lat": 39.4042592,
+     "lon": -76.6019232
+    },
+    {
+     "lat": 39.404267,
+     "lon": -76.601949
+    },
+    {
+     "lat": 39.404225,
+     "lon": -76.6019618
+    },
+    {
+     "lat": 39.4041859,
+     "lon": -76.6019738
+    },
+    {
+     "lat": 39.4042058,
+     "lon": -76.6020549
+    },
+    {
+     "lat": 39.4042437,
+     "lon": -76.6020429
+    },
+    {
+     "lat": 39.4042848,
+     "lon": -76.60203
+    },
+    {
+     "lat": 39.4042983,
+     "lon": -76.602089
+    },
+    {
+     "lat": 39.4043332,
+     "lon": -76.6020789
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "714",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Dulaney Valley Road",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "retail",
+    "building:colour": "tan",
+    "building:levels": "1",
+    "disused:amenity": "bank",
+    "name": "Bank of America",
+    "note": "This Bank of America building still bears the BOA logo and a BOA ATM. The inside however is closed to the public as of November 1, 2013",
+    "roof:levels": "0",
+    "roof:shape": "flat",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 144929137,
+   "bounds": {
+    "minlat": 39.4016866,
+    "minlon": -76.5996011,
+    "maxlat": 39.4018379,
+    "maxlon": -76.5992564
+   },
+   "geometry": [
+    {
+     "lat": 39.4017419,
+     "lon": -76.5995913
+    },
+    {
+     "lat": 39.4018083,
+     "lon": -76.5996011
+    },
+    {
+     "lat": 39.4018145,
+     "lon": -76.5995318
+    },
+    {
+     "lat": 39.4018219,
+     "lon": -76.5994477
+    },
+    {
+     "lat": 39.4018333,
+     "lon": -76.5993183
+    },
+    {
+     "lat": 39.4018379,
+     "lon": -76.5992665
+    },
+    {
+     "lat": 39.4017695,
+     "lon": -76.5992564
+    },
+    {
+     "lat": 39.4017647,
+     "lon": -76.5993099
+    },
+    {
+     "lat": 39.401763,
+     "lon": -76.5993295
+    },
+    {
+     "lat": 39.401724,
+     "lon": -76.5993237
+    },
+    {
+     "lat": 39.4016907,
+     "lon": -76.5993187
+    },
+    {
+     "lat": 39.4016866,
+     "lon": -76.5993853
+    },
+    {
+     "lat": 39.4017212,
+     "lon": -76.5993904
+    },
+    {
+     "lat": 39.4017591,
+     "lon": -76.5993961
+    },
+    {
+     "lat": 39.4017551,
+     "lon": -76.5994421
+    },
+    {
+     "lat": 39.4017475,
+     "lon": -76.5995276
+    },
+    {
+     "lat": 39.4017419,
+     "lon": -76.5995913
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "201",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "amenity": "fuel",
+    "brand": "Exxon",
+    "brand:wikidata": "Q109675651",
+    "building": "roof",
+    "check_date": "2024-09-04",
+    "name": "Exxon",
+    "self_service": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 147347181,
+   "bounds": {
+    "minlat": 39.400437,
+    "minlon": -76.6016304,
+    "maxlat": 39.4006621,
+    "maxlon": -76.6013615
+   },
+   "geometry": [
+    {
+     "lat": 39.4004535,
+     "lon": -76.6016304
+    },
+    {
+     "lat": 39.4004815,
+     "lon": -76.6016291
+    },
+    {
+     "lat": 39.4006504,
+     "lon": -76.6015879
+    },
+    {
+     "lat": 39.4006621,
+     "lon": -76.6013813
+    },
+    {
+     "lat": 39.400437,
+     "lon": -76.6013615
+    },
+    {
+     "lat": 39.4004535,
+     "lon": -76.6016304
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "6",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Pennsylvania Avenue",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "sushi",
+    "name": "Sushi Hana",
+    "phone": "+1 410-823-0372",
+    "website": "https://www.sushihanatowsonmd.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 149694620,
+   "bounds": {
+    "minlat": 39.4040043,
+    "minlon": -76.6073715,
+    "maxlat": 39.4043646,
+    "maxlon": -76.6065654
+   },
+   "geometry": [
+    {
+     "lat": 39.4041597,
+     "lon": -76.6073715
+    },
+    {
+     "lat": 39.4041312,
+     "lon": -76.6069451
+    },
+    {
+     "lat": 39.4040206,
+     "lon": -76.6069575
+    },
+    {
+     "lat": 39.4040126,
+     "lon": -76.6068387
+    },
+    {
+     "lat": 39.4040607,
+     "lon": -76.6068333
+    },
+    {
+     "lat": 39.4040564,
+     "lon": -76.606769
+    },
+    {
+     "lat": 39.4040131,
+     "lon": -76.6067738
+    },
+    {
+     "lat": 39.4040043,
+     "lon": -76.6066418
+    },
+    {
+     "lat": 39.4041822,
+     "lon": -76.6066219
+    },
+    {
+     "lat": 39.4041793,
+     "lon": -76.6065785
+    },
+    {
+     "lat": 39.404296,
+     "lon": -76.6065654
+    },
+    {
+     "lat": 39.4043088,
+     "lon": -76.6067569
+    },
+    {
+     "lat": 39.4042424,
+     "lon": -76.6067644
+    },
+    {
+     "lat": 39.4042464,
+     "lon": -76.6068249
+    },
+    {
+     "lat": 39.404329,
+     "lon": -76.6068157
+    },
+    {
+     "lat": 39.4043646,
+     "lon": -76.6073486
+    },
+    {
+     "lat": 39.4041597,
+     "lon": -76.6073715
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "200",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Ware Avenue",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "diocese": "Baltimore",
+    "ele": "152",
+    "gnis:feature_id": "592533",
+    "name": "Church of the Immaculate Conception",
+    "phone": "+1 410-427-4700",
+    "religion": "christian",
+    "website": "https://www.theimmaculate.org/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 156310395,
+   "bounds": {
+    "minlat": 39.4032513,
+    "minlon": -76.597872,
+    "maxlat": 39.4041075,
+    "maxlon": -76.5969762
+   },
+   "geometry": [
+    {
+     "lat": 39.4041075,
+     "lon": -76.5974006
+    },
+    {
+     "lat": 39.4036782,
+     "lon": -76.597872
+    },
+    {
+     "lat": 39.4034429,
+     "lon": -76.5978455
+    },
+    {
+     "lat": 39.4032969,
+     "lon": -76.5978291
+    },
+    {
+     "lat": 39.4032513,
+     "lon": -76.5977755
+    },
+    {
+     "lat": 39.4032762,
+     "lon": -76.5973785
+    },
+    {
+     "lat": 39.4036368,
+     "lon": -76.5969762
+    },
+    {
+     "lat": 39.4038648,
+     "lon": -76.5970084
+    },
+    {
+     "lat": 39.4041075,
+     "lon": -76.5974006
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "700",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Fairmount Avenue",
+    "branch": "Towson Town Center",
+    "brand": "Nordstrom",
+    "brand:wikidata": "Q174310",
+    "building": "retail",
+    "check_date": "2026-03-28",
+    "name": "Nordstrom",
+    "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-21:00; Su 11:00-18:00",
+    "phone": "+1 410-296-2111",
+    "ref": "622",
+    "shop": "department_store",
+    "website": "https://www.nordstrom.com/store-details/nordstrom-towson-town-center"
+   }
+  },
+  {
+   "type": "way",
+   "id": 156310396,
+   "bounds": {
+    "minlat": 39.403413,
+    "minlon": -76.6007849,
+    "maxlat": 39.4056305,
+    "maxlon": -76.5974006
+   },
+   "geometry": [
+    {
+     "lat": 39.403413,
+     "lon": -76.6007849
+    },
+    {
+     "lat": 39.4034582,
+     "lon": -76.6001594
+    },
+    {
+     "lat": 39.4035249,
+     "lon": -76.5992349
+    },
+    {
+     "lat": 39.4035871,
+     "lon": -76.59924
+    },
+    {
+     "lat": 39.40364,
+     "lon": -76.5984455
+    },
+    {
+     "lat": 39.4036782,
+     "lon": -76.597872
+    },
+    {
+     "lat": 39.4041075,
+     "lon": -76.5974006
+    },
+    {
+     "lat": 39.4045238,
+     "lon": -76.5981832
+    },
+    {
+     "lat": 39.4045943,
+     "lon": -76.5983173
+    },
+    {
+     "lat": 39.4046813,
+     "lon": -76.5983388
+    },
+    {
+     "lat": 39.4047133,
+     "lon": -76.5984044
+    },
+    {
+     "lat": 39.4048024,
+     "lon": -76.598587
+    },
+    {
+     "lat": 39.4050804,
+     "lon": -76.5991569
+    },
+    {
+     "lat": 39.4050585,
+     "lon": -76.5991797
+    },
+    {
+     "lat": 39.4051716,
+     "lon": -76.5994163
+    },
+    {
+     "lat": 39.4052616,
+     "lon": -76.5993419
+    },
+    {
+     "lat": 39.4054689,
+     "lon": -76.5997795
+    },
+    {
+     "lat": 39.4051976,
+     "lon": -76.6000083
+    },
+    {
+     "lat": 39.405249,
+     "lon": -76.6000874
+    },
+    {
+     "lat": 39.4055271,
+     "lon": -76.5998679
+    },
+    {
+     "lat": 39.4055518,
+     "lon": -76.5999105
+    },
+    {
+     "lat": 39.4055269,
+     "lon": -76.5999427
+    },
+    {
+     "lat": 39.4056305,
+     "lon": -76.6001358
+    },
+    {
+     "lat": 39.405614,
+     "lon": -76.6002646
+    },
+    {
+     "lat": 39.4049756,
+     "lon": -76.6007849
+    },
+    {
+     "lat": 39.404952,
+     "lon": -76.6007583
+    },
+    {
+     "lat": 39.4048057,
+     "lon": -76.6004631
+    },
+    {
+     "lat": 39.4047269,
+     "lon": -76.6005221
+    },
+    {
+     "lat": 39.4046565,
+     "lon": -76.6004094
+    },
+    {
+     "lat": 39.4043373,
+     "lon": -76.599755
+    },
+    {
+     "lat": 39.4042033,
+     "lon": -76.5998919
+    },
+    {
+     "lat": 39.4041798,
+     "lon": -76.5999159
+    },
+    {
+     "lat": 39.4041591,
+     "lon": -76.600203
+    },
+    {
+     "lat": 39.4041262,
+     "lon": -76.6006603
+    },
+    {
+     "lat": 39.403413,
+     "lon": -76.6007849
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "825",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Dulaney Valley Road",
+    "building": "retail",
+    "building:levels": "4",
+    "name": "Towson Town Center",
+    "roof:levels": "0",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 157585526,
+   "bounds": {
+    "minlat": 39.3997018,
+    "minlon": -76.6047264,
+    "maxlat": 39.39986,
+    "maxlon": -76.6045806
+   },
+   "geometry": [
+    {
+     "lat": 39.3997079,
+     "lon": -76.6047264
+    },
+    {
+     "lat": 39.3997018,
+     "lon": -76.6046583
+    },
+    {
+     "lat": 39.399721,
+     "lon": -76.6046481
+    },
+    {
+     "lat": 39.3997168,
+     "lon": -76.6046013
+    },
+    {
+     "lat": 39.3998491,
+     "lon": -76.6045806
+    },
+    {
+     "lat": 39.39986,
+     "lon": -76.6047037
+    },
+    {
+     "lat": 39.3997079,
+     "lon": -76.6047264
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "44",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "building": "retail",
+    "name": "Jenifer Building"
+   }
+  },
+  {
+   "type": "way",
+   "id": 158016414,
+   "bounds": {
+    "minlat": 39.4016037,
+    "minlon": -76.5994315,
+    "maxlat": 39.4016955,
+    "maxlon": -76.5992319
+   },
+   "geometry": [
+    {
+     "lat": 39.4016837,
+     "lon": -76.5994315
+    },
+    {
+     "lat": 39.4016866,
+     "lon": -76.5993853
+    },
+    {
+     "lat": 39.4016907,
+     "lon": -76.5993187
+    },
+    {
+     "lat": 39.4016955,
+     "lon": -76.5992402
+    },
+    {
+     "lat": 39.4016156,
+     "lon": -76.5992319
+    },
+    {
+     "lat": 39.4016037,
+     "lon": -76.5994232
+    },
+    {
+     "lat": 39.4016837,
+     "lon": -76.5994315
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "201",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "brand": "Tiger Mart",
+    "brand:wikidata": "Q57643977",
+    "building": "retail",
+    "check_date": "2024-09-04",
+    "name": "Tiger Mart",
+    "shop": "convenience"
+   }
+  },
+  {
+   "type": "way",
+   "id": 158848730,
+   "bounds": {
+    "minlat": 39.4016456,
+    "minlon": -76.5976832,
+    "maxlat": 39.4018291,
+    "maxlon": -76.5974426
+   },
+   "geometry": [
+    {
+     "lat": 39.4016743,
+     "lon": -76.5976832
+    },
+    {
+     "lat": 39.4018291,
+     "lon": -76.5976312
+    },
+    {
+     "lat": 39.4018032,
+     "lon": -76.5975021
+    },
+    {
+     "lat": 39.4017939,
+     "lon": -76.5975053
+    },
+    {
+     "lat": 39.4017903,
+     "lon": -76.5974872
+    },
+    {
+     "lat": 39.4017736,
+     "lon": -76.5974928
+    },
+    {
+     "lat": 39.4017635,
+     "lon": -76.5974426
+    },
+    {
+     "lat": 39.401701,
+     "lon": -76.5974636
+    },
+    {
+     "lat": 39.4017119,
+     "lon": -76.5975183
+    },
+    {
+     "lat": 39.4016456,
+     "lon": -76.5975406
+    },
+    {
+     "lat": 39.4016743,
+     "lon": -76.5976832
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "307",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "building": "retail",
+    "check_date": "2024-09-04",
+    "craft": "jeweller",
+    "name": "Nelson Coleman"
+   }
+  },
+  {
+   "type": "way",
+   "id": 159259681,
+   "bounds": {
+    "minlat": 39.4006192,
+    "minlon": -76.60264,
+    "maxlat": 39.4007862,
+    "maxlon": -76.6025006
+   },
+   "geometry": [
+    {
+     "lat": 39.400627,
+     "lon": -76.60264
+    },
+    {
+     "lat": 39.4007862,
+     "lon": -76.602623
+    },
+    {
+     "lat": 39.4007784,
+     "lon": -76.6025006
+    },
+    {
+     "lat": 39.4006192,
+     "lon": -76.6025176
+    },
+    {
+     "lat": 39.400627,
+     "lon": -76.60264
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "503",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "building": "retail",
+    "building:colour": "#ffe0a0",
+    "building:levels": "2",
+    "name": "Wagner Building",
+    "roof:levels": "0"
+   }
+  },
+  {
+   "type": "way",
+   "id": 160010011,
+   "bounds": {
+    "minlat": 39.4007348,
+    "minlon": -76.6033184,
+    "maxlat": 39.4009726,
+    "maxlon": -76.6030587
+   },
+   "geometry": [
+    {
+     "lat": 39.4007527,
+     "lon": -76.6033184
+    },
+    {
+     "lat": 39.4009726,
+     "lon": -76.6032898
+    },
+    {
+     "lat": 39.4009535,
+     "lon": -76.6030587
+    },
+    {
+     "lat": 39.4007348,
+     "lon": -76.6030883
+    },
+    {
+     "lat": 39.4007527,
+     "lon": -76.6033184
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "4",
+    "addr:postcode": "21204",
+    "addr:street": "West Pennsylvania Avenue",
+    "amenity": "social_centre",
+    "brand": "Benevolent and Protective Order of Elks",
+    "brand:wikidata": "Q2895789",
+    "building": "yes",
+    "building:colour": "white",
+    "building:levels": "2",
+    "check_date": "2023-09-14",
+    "name": "Towson Elks Lodge",
+    "official_name": "Benevolent and Protective Order of Elks",
+    "roof:colour": "black",
+    "roof:shape": "gambrel",
+    "short_name": "BPOE"
+   }
+  },
+  {
+   "type": "way",
+   "id": 160856508,
+   "bounds": {
+    "minlat": 39.3993615,
+    "minlon": -76.6058193,
+    "maxlat": 39.3996069,
+    "maxlon": -76.6055139
+   },
+   "geometry": [
+    {
+     "lat": 39.3993726,
+     "lon": -76.6057631
+    },
+    {
+     "lat": 39.3994228,
+     "lon": -76.6057569
+    },
+    {
+     "lat": 39.3994274,
+     "lon": -76.6058193
+    },
+    {
+     "lat": 39.3996069,
+     "lon": -76.6057971
+    },
+    {
+     "lat": 39.3995784,
+     "lon": -76.6055139
+    },
+    {
+     "lat": 39.3994151,
+     "lon": -76.6055369
+    },
+    {
+     "lat": 39.3994205,
+     "lon": -76.6056053
+    },
+    {
+     "lat": 39.3993615,
+     "lon": -76.6056126
+    },
+    {
+     "lat": 39.3993726,
+     "lon": -76.6057631
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "101",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "amenity": "post_office",
+    "building": "yes",
+    "building:levels": "2",
+    "check_date": "2026-06-14",
+    "height": "17",
+    "name": "Towson Post Office",
+    "opening_hours": "Mo-Fr 09:00-13:00,14:00-17:00; Sa,Su,PH off",
+    "operator": "United States Postal Service",
+    "operator:short": "USPS",
+    "operator:type": "public",
+    "operator:website": "https://www.usps.com",
+    "operator:wikidata": "Q668687",
+    "operator:wikipedia": "en:United States Postal Service",
+    "short_name": "USPS",
+    "website": "https://tools.usps.com/locations/details/1434663",
+    "wikidata": "Q7891075"
+   }
+  },
+  {
+   "type": "way",
+   "id": 160866113,
+   "bounds": {
+    "minlat": 39.3979427,
+    "minlon": -76.6065116,
+    "maxlat": 39.3985569,
+    "maxlon": -76.6057345
+   },
+   "geometry": [
+    {
+     "lat": 39.3985569,
+     "lon": -76.6064324
+    },
+    {
+     "lat": 39.398549,
+     "lon": -76.6063311
+    },
+    {
+     "lat": 39.3985199,
+     "lon": -76.6059555
+    },
+    {
+     "lat": 39.3985111,
+     "lon": -76.6058417
+    },
+    {
+     "lat": 39.3984641,
+     "lon": -76.6057964
+    },
+    {
+     "lat": 39.3984304,
+     "lon": -76.605764
+    },
+    {
+     "lat": 39.3983999,
+     "lon": -76.6057345
+    },
+    {
+     "lat": 39.3982943,
+     "lon": -76.6057499
+    },
+    {
+     "lat": 39.3980126,
+     "lon": -76.6057911
+    },
+    {
+     "lat": 39.3979427,
+     "lon": -76.6058013
+    },
+    {
+     "lat": 39.3979544,
+     "lon": -76.6059202
+    },
+    {
+     "lat": 39.3979627,
+     "lon": -76.6060047
+    },
+    {
+     "lat": 39.3979724,
+     "lon": -76.6061024
+    },
+    {
+     "lat": 39.3980047,
+     "lon": -76.6064305
+    },
+    {
+     "lat": 39.3980124,
+     "lon": -76.6065116
+    },
+    {
+     "lat": 39.3980673,
+     "lon": -76.6065029
+    },
+    {
+     "lat": 39.3983265,
+     "lon": -76.6064656
+    },
+    {
+     "lat": 39.3983982,
+     "lon": -76.6064552
+    },
+    {
+     "lat": 39.3984633,
+     "lon": -76.6064459
+    },
+    {
+     "lat": 39.3985569,
+     "lon": -76.6064324
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housename": "Palisades of Towson",
+    "addr:housenumber": "212",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "building": "apartments",
+    "building:levels": "17",
+    "name": "The Palisades of Towson",
+    "roof:shape": "flat",
+    "website": "www.palisadestowson.com"
+   }
+  },
+  {
+   "type": "way",
+   "id": 162804589,
+   "bounds": {
+    "minlat": 39.399681,
+    "minlon": -76.5973372,
+    "maxlat": 39.3998621,
+    "maxlon": -76.5972175
+   },
+   "geometry": [
+    {
+     "lat": 39.399728,
+     "lon": -76.5973372
+    },
+    {
+     "lat": 39.3998621,
+     "lon": -76.597316
+    },
+    {
+     "lat": 39.3998551,
+     "lon": -76.5972416
+    },
+    {
+     "lat": 39.399753,
+     "lon": -76.5972577
+    },
+    {
+     "lat": 39.3997492,
+     "lon": -76.5972175
+    },
+    {
+     "lat": 39.399681,
+     "lon": -76.5972283
+    },
+    {
+     "lat": 39.3996904,
+     "lon": -76.5973276
+    },
+    {
+     "lat": 39.3997265,
+     "lon": -76.5973219
+    },
+    {
+     "lat": 39.399728,
+     "lon": -76.5973372
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "318",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Pennsylvania Avenue",
+    "building": "yes",
+    "name": "W A Gambrill Inc Plumbing and Heating",
+    "website": "wagambrill.com"
+   }
+  },
+  {
+   "type": "way",
+   "id": 162804593,
+   "bounds": {
+    "minlat": 39.4011751,
+    "minlon": -76.5960855,
+    "maxlat": 39.4012539,
+    "maxlon": -76.5959648
+   },
+   "geometry": [
+    {
+     "lat": 39.4012539,
+     "lon": -76.5960681
+    },
+    {
+     "lat": 39.4011928,
+     "lon": -76.5960855
+    },
+    {
+     "lat": 39.4011751,
+     "lon": -76.5959823
+    },
+    {
+     "lat": 39.4012362,
+     "lon": -76.5959648
+    },
+    {
+     "lat": 39.4012539,
+     "lon": -76.5960681
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "516",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Fairmount Avenue",
+    "building": "yes",
+    "name": "Coyle Studios"
+   }
+  },
+  {
+   "type": "way",
+   "id": 163933570,
+   "bounds": {
+    "minlat": 39.4051711,
+    "minlon": -76.6059898,
+    "maxlat": 39.4054052,
+    "maxlon": -76.6056917
+   },
+   "geometry": [
+    {
+     "lat": 39.4053224,
+     "lon": -76.6059898
+    },
+    {
+     "lat": 39.4054052,
+     "lon": -76.6058058
+    },
+    {
+     "lat": 39.4052539,
+     "lon": -76.6056917
+    },
+    {
+     "lat": 39.4051711,
+     "lon": -76.6058757
+    },
+    {
+     "lat": 39.4053224,
+     "lon": -76.6059898
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "718",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "diner",
+    "name": "Towson Diner",
+    "phone": "+1 410-321-0407",
+    "website": "https://www.towsondiner.net/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 163933571,
+   "bounds": {
+    "minlat": 39.4056456,
+    "minlon": -76.6055076,
+    "maxlat": 39.4060684,
+    "maxlon": -76.6047895
+   },
+   "geometry": [
+    {
+     "lat": 39.4060684,
+     "lon": -76.6049058
+    },
+    {
+     "lat": 39.4058031,
+     "lon": -76.6055076
+    },
+    {
+     "lat": 39.4056456,
+     "lon": -76.6053913
+    },
+    {
+     "lat": 39.4059109,
+     "lon": -76.6047895
+    },
+    {
+     "lat": 39.4060684,
+     "lon": -76.6049058
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "725",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "brand": "Honda",
+    "building": "yes",
+    "name": "Heritage Honda",
+    "shop": "car"
+   }
+  },
+  {
+   "type": "way",
+   "id": 163933619,
+   "bounds": {
+    "minlat": 39.4058624,
+    "minlon": -76.6036009,
+    "maxlat": 39.4063273,
+    "maxlon": -76.6026837
+   },
+   "geometry": [
+    {
+     "lat": 39.4063273,
+     "lon": -76.6028966
+    },
+    {
+     "lat": 39.4060024,
+     "lon": -76.6036009
+    },
+    {
+     "lat": 39.4058624,
+     "lon": -76.6034928
+    },
+    {
+     "lat": 39.4060955,
+     "lon": -76.6029876
+    },
+    {
+     "lat": 39.40596,
+     "lon": -76.6028829
+    },
+    {
+     "lat": 39.4060518,
+     "lon": -76.6026837
+    },
+    {
+     "lat": 39.4063273,
+     "lon": -76.6028966
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "31",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Lambourne Road",
+    "building": "apartments",
+    "name": "The Valleys of Towson"
+   }
+  },
+  {
+   "type": "way",
+   "id": 163971232,
+   "bounds": {
+    "minlat": 39.4035229,
+    "minlon": -76.6048414,
+    "maxlat": 39.4040163,
+    "maxlon": -76.6043302
+   },
+   "geometry": [
+    {
+     "lat": 39.4035229,
+     "lon": -76.6045281
+    },
+    {
+     "lat": 39.4039239,
+     "lon": -76.6048414
+    },
+    {
+     "lat": 39.4040163,
+     "lon": -76.6046435
+    },
+    {
+     "lat": 39.4036153,
+     "lon": -76.6043302
+    },
+    {
+     "lat": 39.4035229,
+     "lon": -76.6045281
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "704",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "alt_name": "National Tire and Battery",
+    "brand": "NTB",
+    "brand:wikidata": "Q6978944",
+    "building": "yes",
+    "name": "NTB",
+    "shop": "car_repair",
+    "website": "https://www.ntb.com/store/md/towson/704-york-rd-21204/4273"
+   }
+  },
+  {
+   "type": "way",
+   "id": 163971237,
+   "bounds": {
+    "minlat": 39.4022816,
+    "minlon": -76.603408,
+    "maxlat": 39.4023935,
+    "maxlon": -76.603245
+   },
+   "geometry": [
+    {
+     "lat": 39.4022816,
+     "lon": -76.6033641
+    },
+    {
+     "lat": 39.4023397,
+     "lon": -76.603245
+    },
+    {
+     "lat": 39.4023935,
+     "lon": -76.603289
+    },
+    {
+     "lat": 39.4023353,
+     "lon": -76.603408
+    },
+    {
+     "lat": 39.4022816,
+     "lon": -76.6033641
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "617",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "building": "yes",
+    "name": "M'Joudelle"
+   }
+  },
+  {
+   "type": "way",
+   "id": 168610781,
+   "bounds": {
+    "minlat": 39.402026,
+    "minlon": -76.6027711,
+    "maxlat": 39.4022971,
+    "maxlon": -76.6023668
+   },
+   "geometry": [
+    {
+     "lat": 39.4022389,
+     "lon": -76.6024236
+    },
+    {
+     "lat": 39.4022279,
+     "lon": -76.6024529
+    },
+    {
+     "lat": 39.4022971,
+     "lon": -76.6024963
+    },
+    {
+     "lat": 39.4021941,
+     "lon": -76.6027711
+    },
+    {
+     "lat": 39.4021209,
+     "lon": -76.6027252
+    },
+    {
+     "lat": 39.4021127,
+     "lon": -76.6027472
+    },
+    {
+     "lat": 39.402026,
+     "lon": -76.6026929
+    },
+    {
+     "lat": 39.4021483,
+     "lon": -76.6023668
+    },
+    {
+     "lat": 39.4022389,
+     "lon": -76.6024236
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "610",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "amenity": "bank",
+    "building": "yes",
+    "name": "Fidelity Investments"
+   }
+  },
+  {
+   "type": "way",
+   "id": 172863905,
+   "bounds": {
+    "minlat": 39.4025169,
+    "minlon": -76.6094491,
+    "maxlat": 39.4027719,
+    "maxlon": -76.6091092
+   },
+   "geometry": [
+    {
+     "lat": 39.4025473,
+     "lon": -76.6094491
+    },
+    {
+     "lat": 39.4027719,
+     "lon": -76.6094126
+    },
+    {
+     "lat": 39.4027533,
+     "lon": -76.6092214
+    },
+    {
+     "lat": 39.4026904,
+     "lon": -76.6092316
+    },
+    {
+     "lat": 39.4026844,
+     "lon": -76.6091698
+    },
+    {
+     "lat": 39.4026785,
+     "lon": -76.6091092
+    },
+    {
+     "lat": 39.4025169,
+     "lon": -76.6091355
+    },
+    {
+     "lat": 39.4025473,
+     "lon": -76.6094491
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "308",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Allegheny Avenue",
+    "building": "government",
+    "name": "Baltimore County Office of Human Resources"
+   }
+  },
+  {
+   "type": "way",
+   "id": 176527660,
+   "bounds": {
+    "minlat": 39.4008577,
+    "minlon": -76.6044973,
+    "maxlat": 39.4011404,
+    "maxlon": -76.6043483
+   },
+   "geometry": [
+    {
+     "lat": 39.4008679,
+     "lon": -76.6044973
+    },
+    {
+     "lat": 39.4011404,
+     "lon": -76.6044528
+    },
+    {
+     "lat": 39.4011303,
+     "lon": -76.6043483
+    },
+    {
+     "lat": 39.4008577,
+     "lon": -76.6043928
+    },
+    {
+     "lat": 39.4008679,
+     "lon": -76.6044973
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housename": "Union News Building",
+    "addr:housenumber": "26",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Pennsylvania Avenue",
+    "building": "office",
+    "building:colour": "brown",
+    "building:levels": "2",
+    "check_date:opening_hours": "2023-07-10",
+    "name": "Union News Building",
+    "roof:levels": "0",
+    "roof:shape": "flat",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 177060886,
+   "bounds": {
+    "minlat": 39.4014179,
+    "minlon": -76.5995689,
+    "maxlat": 39.4015543,
+    "maxlon": -76.5993435
+   },
+   "geometry": [
+    {
+     "lat": 39.4015543,
+     "lon": -76.5993616
+    },
+    {
+     "lat": 39.401437,
+     "lon": -76.5993435
+    },
+    {
+     "lat": 39.4014179,
+     "lon": -76.5995508
+    },
+    {
+     "lat": 39.4015352,
+     "lon": -76.5995689
+    },
+    {
+     "lat": 39.4015543,
+     "lon": -76.5993616
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "518",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Virginia Avenue",
+    "building": "yes",
+    "heritage": "6",
+    "heritage:operator": "Baltimore County",
+    "heritage:start_date": "3/20/1968",
+    "historic": "building",
+    "name": "Chew House",
+    "ref:baco": "206",
+    "source:historic": "Frances Offutt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 187817605,
+   "bounds": {
+    "minlat": 39.400024,
+    "minlon": -76.6005117,
+    "maxlat": 39.4001463,
+    "maxlon": -76.6003195
+   },
+   "geometry": [
+    {
+     "lat": 39.4001463,
+     "lon": -76.6004934
+    },
+    {
+     "lat": 39.400128,
+     "lon": -76.6003195
+    },
+    {
+     "lat": 39.400024,
+     "lon": -76.6003378
+    },
+    {
+     "lat": 39.4000423,
+     "lon": -76.6005117
+    },
+    {
+     "lat": 39.4001463,
+     "lon": -76.6004934
+    }
+   ],
+   "tags": {
+    "building": "yes",
+    "check_date": "2023-04-06",
+    "name": "Towsontowne Garage",
+    "shop": "car_repair"
+   }
+  },
+  {
+   "type": "way",
+   "id": 194927916,
+   "bounds": {
+    "minlat": 39.4031767,
+    "minlon": -76.6093494,
+    "maxlat": 39.4039303,
+    "maxlon": -76.6089092
+   },
+   "geometry": [
+    {
+     "lat": 39.4039303,
+     "lon": -76.6092593
+    },
+    {
+     "lat": 39.4039127,
+     "lon": -76.6090197
+    },
+    {
+     "lat": 39.403645,
+     "lon": -76.6090525
+    },
+    {
+     "lat": 39.4036345,
+     "lon": -76.6089092
+    },
+    {
+     "lat": 39.4034406,
+     "lon": -76.608933
+    },
+    {
+     "lat": 39.4034503,
+     "lon": -76.6090654
+    },
+    {
+     "lat": 39.4032622,
+     "lon": -76.6090884
+    },
+    {
+     "lat": 39.4031767,
+     "lon": -76.6090989
+    },
+    {
+     "lat": 39.403195,
+     "lon": -76.6093494
+    },
+    {
+     "lat": 39.4039303,
+     "lon": -76.6092593
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "611",
+    "addr:postcode": "21204",
+    "addr:street": "Central Avenue",
+    "amenity": "community_centre",
+    "building": "yes",
+    "community_centre:for": "senior",
+    "ele": "148",
+    "gnis:feature_id": "592619",
+    "name": "BYKOTA Senior Center",
+    "operator": "Baltimore County Department of Aging",
+    "phone": "+1 410 887 3094",
+    "website": "https://www.baltimorecountymd.gov/Agencies/aging/centers/bykota.html"
+   }
+  },
+  {
+   "type": "way",
+   "id": 206672659,
+   "bounds": {
+    "minlat": 39.402121,
+    "minlon": -76.6060714,
+    "maxlat": 39.4024826,
+    "maxlon": -76.6057607
+   },
+   "geometry": [
+    {
+     "lat": 39.4021371,
+     "lon": -76.6060563
+    },
+    {
+     "lat": 39.4023252,
+     "lon": -76.6060269
+    },
+    {
+     "lat": 39.4023294,
+     "lon": -76.6060714
+    },
+    {
+     "lat": 39.4024408,
+     "lon": -76.606054
+    },
+    {
+     "lat": 39.4024339,
+     "lon": -76.6059804
+    },
+    {
+     "lat": 39.4024826,
+     "lon": -76.6059728
+    },
+    {
+     "lat": 39.4024705,
+     "lon": -76.6058421
+    },
+    {
+     "lat": 39.4024215,
+     "lon": -76.6058497
+    },
+    {
+     "lat": 39.4024132,
+     "lon": -76.6057607
+    },
+    {
+     "lat": 39.4022946,
+     "lon": -76.6057792
+    },
+    {
+     "lat": 39.4023017,
+     "lon": -76.6058557
+    },
+    {
+     "lat": 39.402121,
+     "lon": -76.6058839
+    },
+    {
+     "lat": 39.4021371,
+     "lon": -76.6060563
+    }
+   ],
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "ele": "145",
+    "gnis:feature_id": "592629",
+    "name": "Trinity Episcopal Church",
+    "religion": "christian"
+   }
+  },
+  {
+   "type": "way",
+   "id": 207619305,
+   "bounds": {
+    "minlat": 39.4010908,
+    "minlon": -76.606958,
+    "maxlat": 39.4013891,
+    "maxlon": -76.6065688
+   },
+   "geometry": [
+    {
+     "lat": 39.4011038,
+     "lon": -76.606949
+    },
+    {
+     "lat": 39.4012428,
+     "lon": -76.6069266
+    },
+    {
+     "lat": 39.4012459,
+     "lon": -76.606958
+    },
+    {
+     "lat": 39.4013672,
+     "lon": -76.6069384
+    },
+    {
+     "lat": 39.4013521,
+     "lon": -76.6067815
+    },
+    {
+     "lat": 39.4013891,
+     "lon": -76.6067753
+    },
+    {
+     "lat": 39.401372,
+     "lon": -76.6065688
+    },
+    {
+     "lat": 39.4012634,
+     "lon": -76.6065863
+    },
+    {
+     "lat": 39.4012792,
+     "lon": -76.6067501
+    },
+    {
+     "lat": 39.4012284,
+     "lon": -76.6067583
+    },
+    {
+     "lat": 39.4012316,
+     "lon": -76.6067919
+    },
+    {
+     "lat": 39.4010908,
+     "lon": -76.6068146
+    },
+    {
+     "lat": 39.4011038,
+     "lon": -76.606949
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "120",
+    "addr:postcode": "21204",
+    "addr:street": "West Pennsylvania Avenue",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "baptist",
+    "ele": "142",
+    "gnis:feature_id": "592480",
+    "name": "Calvary Baptist Church",
+    "religion": "christian",
+    "website": "https://calvarybaptist-towson.org/",
+    "wikidata": "Q7830315"
+   }
+  },
+  {
+   "type": "way",
+   "id": 211344000,
+   "bounds": {
+    "minlat": 39.4039631,
+    "minlon": -76.6042142,
+    "maxlat": 39.4041947,
+    "maxlon": -76.6039479
+   },
+   "geometry": [
+    {
+     "lat": 39.4040994,
+     "lon": -76.6042142
+    },
+    {
+     "lat": 39.4039631,
+     "lon": -76.6041226
+    },
+    {
+     "lat": 39.4040247,
+     "lon": -76.6039717
+    },
+    {
+     "lat": 39.4041112,
+     "lon": -76.6039479
+    },
+    {
+     "lat": 39.4041439,
+     "lon": -76.6039734
+    },
+    {
+     "lat": 39.4041521,
+     "lon": -76.6039588
+    },
+    {
+     "lat": 39.4041947,
+     "lon": -76.6039933
+    },
+    {
+     "lat": 39.4040994,
+     "lon": -76.6042142
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "705",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "building": "office",
+    "name": "Stoy Malone",
+    "source": "Bing",
+    "website": "https://stoycpa.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 219848469,
+   "bounds": {
+    "minlat": 39.4049039,
+    "minlon": -76.6057356,
+    "maxlat": 39.405084,
+    "maxlon": -76.6055151
+   },
+   "geometry": [
+    {
+     "lat": 39.4050259,
+     "lon": -76.6057356
+    },
+    {
+     "lat": 39.405084,
+     "lon": -76.6056079
+    },
+    {
+     "lat": 39.4049617,
+     "lon": -76.6055151
+    },
+    {
+     "lat": 39.4049039,
+     "lon": -76.605643
+    },
+    {
+     "lat": 39.4050259,
+     "lon": -76.6057356
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "716",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "amenity": "veterinary",
+    "building": "yes",
+    "name": "Towson Veterinary Hospital"
+   }
+  },
+  {
+   "type": "way",
+   "id": 227822803,
+   "bounds": {
+    "minlat": 39.3993473,
+    "minlon": -76.600005,
+    "maxlat": 39.3994126,
+    "maxlon": -76.5998779
+   },
+   "geometry": [
+    {
+     "lat": 39.39936,
+     "lon": -76.600005
+    },
+    {
+     "lat": 39.3994126,
+     "lon": -76.5999955
+    },
+    {
+     "lat": 39.3993999,
+     "lon": -76.5998779
+    },
+    {
+     "lat": 39.3993473,
+     "lon": -76.5998874
+    },
+    {
+     "lat": 39.39936,
+     "lon": -76.600005
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "406",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Virginia Avenue",
+    "building": "yes",
+    "heritage": "6",
+    "heritage:operator": "Baltimore County",
+    "heritage:start_date": "6/15/1979",
+    "historic": "house",
+    "name": "Jones House I",
+    "ref:baco": "1032",
+    "source:historic": "Merry Stinson",
+    "start_date": "1908"
+   }
+  },
+  {
+   "type": "way",
+   "id": 227822805,
+   "bounds": {
+    "minlat": 39.3992572,
+    "minlon": -76.5993821,
+    "maxlat": 39.399388,
+    "maxlon": -76.5991013
+   },
+   "geometry": [
+    {
+     "lat": 39.399388,
+     "lon": -76.5993126
+    },
+    {
+     "lat": 39.3993603,
+     "lon": -76.5991013
+    },
+    {
+     "lat": 39.3992828,
+     "lon": -76.5991183
+    },
+    {
+     "lat": 39.3992923,
+     "lon": -76.5991921
+    },
+    {
+     "lat": 39.3992572,
+     "lon": -76.5991993
+    },
+    {
+     "lat": 39.3992798,
+     "lon": -76.5993821
+    },
+    {
+     "lat": 39.3993136,
+     "lon": -76.5993751
+    },
+    {
+     "lat": 39.3993079,
+     "lon": -76.5993292
+    },
+    {
+     "lat": 39.399388,
+     "lon": -76.5993126
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:housenumber": "415",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Jefferson Avenue",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "ele": "134",
+    "gnis:feature_id": "592599",
+    "name": "Saint James Church",
+    "religion": "christian",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 227822806,
+   "bounds": {
+    "minlat": 39.3993958,
+    "minlon": -76.5999889,
+    "maxlat": 39.3994589,
+    "maxlon": -76.5998037
+   },
+   "geometry": [
+    {
+     "lat": 39.3994589,
+     "lon": -76.5999817
+    },
+    {
+     "lat": 39.3994425,
+     "lon": -76.5998037
+    },
+    {
+     "lat": 39.3993958,
+     "lon": -76.5998109
+    },
+    {
+     "lat": 39.3994121,
+     "lon": -76.5999889
+    },
+    {
+     "lat": 39.3994589,
+     "lon": -76.5999817
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "408",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Virginia Avenue",
+    "building": "yes",
+    "heritage": "6",
+    "heritage:operator": "Baltimore County",
+    "heritage:start_date": "6/15/1979",
+    "historic": "house",
+    "name": "Williams House",
+    "ref:baco": "1035",
+    "source": "Bing",
+    "source:historic": "Merry Stinson"
+   }
+  },
+  {
+   "type": "way",
+   "id": 227822809,
+   "bounds": {
+    "minlat": 39.3987712,
+    "minlon": -76.5995211,
+    "maxlat": 39.3988989,
+    "maxlon": -76.5992503
+   },
+   "geometry": [
+    {
+     "lat": 39.3987822,
+     "lon": -76.5995211
+    },
+    {
+     "lat": 39.3988989,
+     "lon": -76.5995129
+    },
+    {
+     "lat": 39.398888,
+     "lon": -76.5992503
+    },
+    {
+     "lat": 39.3987712,
+     "lon": -76.5992584
+    },
+    {
+     "lat": 39.3987822,
+     "lon": -76.5995211
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:housenumber": "401",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Jefferson Avenue",
+    "building": "yes",
+    "name": "Allstate",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 238477814,
+   "bounds": {
+    "minlat": 39.3992992,
+    "minlon": -76.598879,
+    "maxlat": 39.3994571,
+    "maxlon": -76.5987696
+   },
+   "geometry": [
+    {
+     "lat": 39.399309,
+     "lon": -76.598879
+    },
+    {
+     "lat": 39.3994571,
+     "lon": -76.5988479
+    },
+    {
+     "lat": 39.3994473,
+     "lon": -76.5987696
+    },
+    {
+     "lat": 39.3992992,
+     "lon": -76.5988007
+    },
+    {
+     "lat": 39.399309,
+     "lon": -76.598879
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "301",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Lennox Avenue",
+    "building": "house",
+    "heritage": "6",
+    "heritage:operator": "Baltimore County",
+    "heritage:start_date": "6/1977",
+    "historic": "house",
+    "name": "Wicks House Historic District (Aka Taylor House)",
+    "ref:baco": "1003",
+    "source:historic": "Merry Stinson"
+   }
+  },
+  {
+   "type": "way",
+   "id": 238477822,
+   "bounds": {
+    "minlat": 39.3988569,
+    "minlon": -76.59901,
+    "maxlat": 39.3990964,
+    "maxlon": -76.5987724
+   },
+   "geometry": [
+    {
+     "lat": 39.3990964,
+     "lon": -76.598976
+    },
+    {
+     "lat": 39.3990769,
+     "lon": -76.5987724
+    },
+    {
+     "lat": 39.3988569,
+     "lon": -76.5988076
+    },
+    {
+     "lat": 39.3988763,
+     "lon": -76.59901
+    },
+    {
+     "lat": 39.3989635,
+     "lon": -76.5989961
+    },
+    {
+     "lat": 39.3989596,
+     "lon": -76.5989561
+    },
+    {
+     "lat": 39.3990051,
+     "lon": -76.5989488
+    },
+    {
+     "lat": 39.399009,
+     "lon": -76.59899
+    },
+    {
+     "lat": 39.3990964,
+     "lon": -76.598976
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "300",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Lennox Avenue",
+    "building": "yes",
+    "heritage": "6",
+    "heritage:operator": "Baltimore County",
+    "heritage:start_date": "6/28/1993",
+    "historic": "school",
+    "name": "Carver School",
+    "operator": "Baltimore County",
+    "ref:baco": "1075",
+    "source": "survey",
+    "source:historic": "Barb Shepherd, Mht",
+    "start_date": "1939"
+   }
+  },
+  {
+   "type": "way",
+   "id": 238477823,
+   "bounds": {
+    "minlat": 39.3980744,
+    "minlon": -76.59907,
+    "maxlat": 39.39854,
+    "maxlon": -76.5981327
+   },
+   "geometry": [
+    {
+     "lat": 39.39854,
+     "lon": -76.5990165
+    },
+    {
+     "lat": 39.3984944,
+     "lon": -76.5984598
+    },
+    {
+     "lat": 39.3984771,
+     "lon": -76.5984622
+    },
+    {
+     "lat": 39.3984191,
+     "lon": -76.5984702
+    },
+    {
+     "lat": 39.3983649,
+     "lon": -76.5984776
+    },
+    {
+     "lat": 39.3983081,
+     "lon": -76.5984854
+    },
+    {
+     "lat": 39.398196,
+     "lon": -76.5985008
+    },
+    {
+     "lat": 39.3981658,
+     "lon": -76.5981327
+    },
+    {
+     "lat": 39.3980744,
+     "lon": -76.5981453
+    },
+    {
+     "lat": 39.3981502,
+     "lon": -76.59907
+    },
+    {
+     "lat": 39.39854,
+     "lon": -76.5990165
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "300",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Towsontown Boulevard",
+    "building": "commercial",
+    "government": "unemployment",
+    "name": "Maryland Department of Labor",
+    "office": "government"
+   }
+  },
+  {
+   "type": "way",
+   "id": 238477829,
+   "bounds": {
+    "minlat": 39.3992869,
+    "minlon": -76.598664,
+    "maxlat": 39.3994013,
+    "maxlon": -76.5985416
+   },
+   "geometry": [
+    {
+     "lat": 39.399299,
+     "lon": -76.598664
+    },
+    {
+     "lat": 39.3994013,
+     "lon": -76.5986438
+    },
+    {
+     "lat": 39.3993892,
+     "lon": -76.5985416
+    },
+    {
+     "lat": 39.3992869,
+     "lon": -76.5985618
+    },
+    {
+     "lat": 39.399299,
+     "lon": -76.598664
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "305",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "Lennox Avenue",
+    "building": "house",
+    "heritage": "6",
+    "heritage:operator": "Baltimore County",
+    "heritage:start_date": "6/1977",
+    "historic": "house",
+    "name": "Foote House",
+    "ref:baco": "1004",
+    "source": "survey",
+    "source:historic": "Merry Stinson"
+   }
+  },
+  {
+   "type": "way",
+   "id": 238478576,
+   "bounds": {
+    "minlat": 39.4009952,
+    "minlon": -76.6020875,
+    "maxlat": 39.401137,
+    "maxlon": -76.6016983
+   },
+   "geometry": [
+    {
+     "lat": 39.401066,
+     "lon": -76.6020875
+    },
+    {
+     "lat": 39.401137,
+     "lon": -76.6019496
+    },
+    {
+     "lat": 39.4010833,
+     "lon": -76.6016983
+    },
+    {
+     "lat": 39.4010605,
+     "lon": -76.6017055
+    },
+    {
+     "lat": 39.4009952,
+     "lon": -76.6017263
+    },
+    {
+     "lat": 39.401066,
+     "lon": -76.6020875
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "516",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "building": "retail",
+    "name": "Towson Tavern",
+    "postal_code": "21286"
+   }
+  },
+  {
+   "type": "way",
+   "id": 239211841,
+   "bounds": {
+    "minlat": 39.3993952,
+    "minlon": -76.6019729,
+    "maxlat": 39.3996549,
+    "maxlon": -76.6017343
+   },
+   "geometry": [
+    {
+     "lat": 39.3994183,
+     "lon": -76.6019729
+    },
+    {
+     "lat": 39.3996549,
+     "lon": -76.601925
+    },
+    {
+     "lat": 39.3996318,
+     "lon": -76.6017343
+    },
+    {
+     "lat": 39.3993952,
+     "lon": -76.6017823
+    },
+    {
+     "lat": 39.3994183,
+     "lon": -76.6019729
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "15",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Chesapeake Avenue",
+    "building": "retail",
+    "name": "The Cahill Building",
+    "source": "survey"
+   }
+  },
+  {
+   "type": "way",
+   "id": 239211843,
+   "bounds": {
+    "minlat": 39.3994142,
+    "minlon": -76.6021411,
+    "maxlat": 39.3995405,
+    "maxlon": -76.6020248
+   },
+   "geometry": [
+    {
+     "lat": 39.3995405,
+     "lon": -76.6021125
+    },
+    {
+     "lat": 39.3995273,
+     "lon": -76.6020248
+    },
+    {
+     "lat": 39.3994142,
+     "lon": -76.6020535
+    },
+    {
+     "lat": 39.3994275,
+     "lon": -76.6021411
+    },
+    {
+     "lat": 39.3995405,
+     "lon": -76.6021125
+    }
+   ],
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "11",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Chesapeake Avenue",
+    "building": "retail",
+    "name": "Hairway to Steven",
+    "shop": "hairdresser",
+    "source": "survey"
+   }
+  },
+  {
+   "type": "way",
+   "id": 239460318,
+   "bounds": {
+    "minlat": 39.3995856,
+    "minlon": -76.6011525,
+    "maxlat": 39.3996909,
+    "maxlon": -76.6009137
+   },
+   "geometry": [
+    {
+     "lat": 39.3996909,
+     "lon": -76.6011349
+    },
+    {
+     "lat": 39.3996595,
+     "lon": -76.6009137
+    },
+    {
+     "lat": 39.3995856,
+     "lon": -76.6009313
+    },
+    {
+     "lat": 39.3996169,
+     "lon": -76.6011525
+    },
+    {
+     "lat": 39.3996909,
+     "lon": -76.6011349
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "408",
+    "addr:postcode": "21286",
+    "addr:street": "Delaware Avenue",
+    "building": "yes",
+    "name": "J Friendly"
+   }
+  },
+  {
+   "type": "way",
+   "id": 266887209,
+   "bounds": {
+    "minlat": 39.3996903,
+    "minlon": -76.6046039,
+    "maxlat": 39.3998845,
+    "maxlon": -76.6044687
+   },
+   "geometry": [
+    {
+     "lat": 39.3997168,
+     "lon": -76.6046013
+    },
+    {
+     "lat": 39.3997008,
+     "lon": -76.6046039
+    },
+    {
+     "lat": 39.3996903,
+     "lon": -76.6044995
+    },
+    {
+     "lat": 39.3997323,
+     "lon": -76.6044925
+    },
+    {
+     "lat": 39.3998003,
+     "lon": -76.604481
+    },
+    {
+     "lat": 39.3998739,
+     "lon": -76.6044687
+    },
+    {
+     "lat": 39.3998845,
+     "lon": -76.6045746
+    },
+    {
+     "lat": 39.3998491,
+     "lon": -76.6045806
+    },
+    {
+     "lat": 39.3997168,
+     "lon": -76.6046013
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "42",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "building": "commercial",
+    "building:colour": "brown",
+    "building:levels": "2",
+    "name": "The Ashby Building",
+    "roof:levels": "0",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 266887210,
+   "bounds": {
+    "minlat": 39.3997431,
+    "minlon": -76.6044097,
+    "maxlat": 39.399827,
+    "maxlon": -76.6043569
+   },
+   "geometry": [
+    {
+     "lat": 39.399827,
+     "lon": -76.6043941
+    },
+    {
+     "lat": 39.3998165,
+     "lon": -76.6043962
+    },
+    {
+     "lat": 39.3997475,
+     "lon": -76.6044097
+    },
+    {
+     "lat": 39.3997431,
+     "lon": -76.6043725
+    },
+    {
+     "lat": 39.3998226,
+     "lon": -76.6043569
+    },
+    {
+     "lat": 39.399827,
+     "lon": -76.6043941
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "405",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "amenity": "bank",
+    "brand": "M&T Bank",
+    "brand:wikidata": "Q3272257",
+    "building": "commercial",
+    "heritage": "6",
+    "heritage:operator": "Baltimore County",
+    "heritage:start_date": "9/26/1978",
+    "name": "M&T Bank",
+    "ref:baco": "1442",
+    "source:historic": "Historic Towson, Inc.",
+    "start_date": "1914"
+   }
+  },
+  {
+   "type": "way",
+   "id": 277063436,
+   "bounds": {
+    "minlat": 39.402891,
+    "minlon": -76.6079697,
+    "maxlat": 39.4029841,
+    "maxlon": -76.6078357
+   },
+   "geometry": [
+    {
+     "lat": 39.4029023,
+     "lon": -76.6079697
+    },
+    {
+     "lat": 39.402891,
+     "lon": -76.6078485
+    },
+    {
+     "lat": 39.4029728,
+     "lon": -76.6078357
+    },
+    {
+     "lat": 39.4029841,
+     "lon": -76.607957
+    },
+    {
+     "lat": 39.4029023,
+     "lon": -76.6079697
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "607",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Bosley Avenue",
+    "building": "yes",
+    "name": "Hood & Hodges"
+   }
+  },
+  {
+   "type": "way",
+   "id": 277063442,
+   "bounds": {
+    "minlat": 39.4010823,
+    "minlon": -76.6082639,
+    "maxlat": 39.4013965,
+    "maxlon": -76.6074199
+   },
+   "geometry": [
+    {
+     "lat": 39.4013299,
+     "lon": -76.6074199
+    },
+    {
+     "lat": 39.4010823,
+     "lon": -76.6074507
+    },
+    {
+     "lat": 39.4011585,
+     "lon": -76.6082639
+    },
+    {
+     "lat": 39.4013965,
+     "lon": -76.6082269
+    },
+    {
+     "lat": 39.4013894,
+     "lon": -76.6081653
+    },
+    {
+     "lat": 39.4013679,
+     "lon": -76.6078973
+    },
+    {
+     "lat": 39.4013299,
+     "lon": -76.6074199
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "210",
+    "addr:postcode": "21204",
+    "addr:street": "West Pennsylvania Avenue",
+    "building": "yes",
+    "building:levels": "8",
+    "name": "Court Towers"
+   }
+  },
+  {
+   "type": "way",
+   "id": 277064724,
+   "bounds": {
+    "minlat": 39.4029979,
+    "minlon": -76.6079484,
+    "maxlat": 39.4031148,
+    "maxlon": -76.6078157
+   },
+   "geometry": [
+    {
+     "lat": 39.4030064,
+     "lon": -76.6079484
+    },
+    {
+     "lat": 39.4031148,
+     "lon": -76.6079354
+    },
+    {
+     "lat": 39.4031063,
+     "lon": -76.6078157
+    },
+    {
+     "lat": 39.4029979,
+     "lon": -76.6078287
+    },
+    {
+     "lat": 39.4030064,
+     "lon": -76.6079484
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "609",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Bosley Avenue",
+    "building": "yes",
+    "name": "Diversified Title Corporation"
+   }
+  },
+  {
+   "type": "way",
+   "id": 292245550,
+   "bounds": {
+    "minlat": 39.4003441,
+    "minlon": -76.6010729,
+    "maxlat": 39.401221,
+    "maxlon": -76.5998302
+   },
+   "geometry": [
+    {
+     "lat": 39.4010717,
+     "lon": -76.6009785
+    },
+    {
+     "lat": 39.4011235,
+     "lon": -76.6009703
+    },
+    {
+     "lat": 39.4011093,
+     "lon": -76.6008211
+    },
+    {
+     "lat": 39.4010909,
+     "lon": -76.6006131
+    },
+    {
+     "lat": 39.4012112,
+     "lon": -76.6005909
+    },
+    {
+     "lat": 39.401221,
+     "lon": -76.6005073
+    },
+    {
+     "lat": 39.4012183,
+     "lon": -76.6004215
+    },
+    {
+     "lat": 39.4012049,
+     "lon": -76.6003286
+    },
+    {
+     "lat": 39.4011726,
+     "lon": -76.6002473
+    },
+    {
+     "lat": 39.4010538,
+     "lon": -76.6002643
+    },
+    {
+     "lat": 39.4010153,
+     "lon": -76.5998302
+    },
+    {
+     "lat": 39.4009104,
+     "lon": -76.5998457
+    },
+    {
+     "lat": 39.4009131,
+     "lon": -76.5998765
+    },
+    {
+     "lat": 39.4007414,
+     "lon": -76.5999021
+    },
+    {
+     "lat": 39.4003655,
+     "lon": -76.5999616
+    },
+    {
+     "lat": 39.4003964,
+     "lon": -76.6002888
+    },
+    {
+     "lat": 39.4003441,
+     "lon": -76.6002971
+    },
+    {
+     "lat": 39.4003547,
+     "lon": -76.6004096
+    },
+    {
+     "lat": 39.4003934,
+     "lon": -76.6004034
+    },
+    {
+     "lat": 39.4004233,
+     "lon": -76.6007184
+    },
+    {
+     "lat": 39.4003848,
+     "lon": -76.6007245
+    },
+    {
+     "lat": 39.4003957,
+     "lon": -76.6008395
+    },
+    {
+     "lat": 39.4004373,
+     "lon": -76.6008329
+    },
+    {
+     "lat": 39.40046,
+     "lon": -76.6010729
+    },
+    {
+     "lat": 39.4006775,
+     "lon": -76.6010384
+    },
+    {
+     "lat": 39.4010717,
+     "lon": -76.6009785
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "111",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "amenity": "cinema",
+    "brand": "Cinemark",
+    "brand:wikidata": "Q707530",
+    "building": "commercial",
+    "name": "Cinemark Towson",
+    "note": "See Mapillary for latest detail: http://www.mapillary.com/map/im/1U8VzS3_yL23OCBSMh37dQ",
+    "roof:shape": "flat",
+    "wheelchair": "yes",
+    "wikidata": "Q42692521"
+   }
+  },
+  {
+   "type": "way",
+   "id": 293368367,
+   "bounds": {
+    "minlat": 39.3980945,
+    "minlon": -76.6023058,
+    "maxlat": 39.3981677,
+    "maxlon": -76.6021973
+   },
+   "geometry": [
+    {
+     "lat": 39.3981677,
+     "lon": -76.6023016
+    },
+    {
+     "lat": 39.3980984,
+     "lon": -76.6023058
+    },
+    {
+     "lat": 39.3980945,
+     "lon": -76.6022016
+    },
+    {
+     "lat": 39.3981639,
+     "lon": -76.6021973
+    },
+    {
+     "lat": 39.3981677,
+     "lon": -76.6023016
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "10",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "East Towsontown Boulevard",
+    "building": "yes",
+    "name": "Wilson Heritage",
+    "shop": "antiques"
+   }
+  },
+  {
+   "type": "way",
+   "id": 298239162,
+   "bounds": {
+    "minlat": 39.4028778,
+    "minlon": -76.6041084,
+    "maxlat": 39.4030955,
+    "maxlon": -76.6038188
+   },
+   "geometry": [
+    {
+     "lat": 39.4030955,
+     "lon": -76.6039207
+    },
+    {
+     "lat": 39.4029659,
+     "lon": -76.6038188
+    },
+    {
+     "lat": 39.4028778,
+     "lon": -76.6040065
+    },
+    {
+     "lat": 39.4030074,
+     "lon": -76.6041084
+    },
+    {
+     "lat": 39.4030955,
+     "lon": -76.6039207
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "627",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "amenity": "bank",
+    "brand": "Truist",
+    "brand:wikidata": "Q795486",
+    "building": "yes",
+    "name": "Truist"
+   }
+  },
+  {
+   "type": "way",
+   "id": 298707665,
+   "bounds": {
+    "minlat": 39.3992375,
+    "minlon": -76.6092058,
+    "maxlat": 39.3996948,
+    "maxlon": -76.6089759
+   },
+   "geometry": [
+    {
+     "lat": 39.399676,
+     "lon": -76.6089759
+    },
+    {
+     "lat": 39.399611,
+     "lon": -76.6089856
+    },
+    {
+     "lat": 39.3996136,
+     "lon": -76.6090148
+    },
+    {
+     "lat": 39.3995326,
+     "lon": -76.6090269
+    },
+    {
+     "lat": 39.399536,
+     "lon": -76.6090658
+    },
+    {
+     "lat": 39.3995117,
+     "lon": -76.6090694
+    },
+    {
+     "lat": 39.3995083,
+     "lon": -76.6090307
+    },
+    {
+     "lat": 39.3994064,
+     "lon": -76.6090459
+    },
+    {
+     "lat": 39.3994056,
+     "lon": -76.6090373
+    },
+    {
+     "lat": 39.3993565,
+     "lon": -76.6090446
+    },
+    {
+     "lat": 39.3993576,
+     "lon": -76.6090567
+    },
+    {
+     "lat": 39.3992375,
+     "lon": -76.6090745
+    },
+    {
+     "lat": 39.3992492,
+     "lon": -76.6092058
+    },
+    {
+     "lat": 39.3995209,
+     "lon": -76.6091654
+    },
+    {
+     "lat": 39.399516,
+     "lon": -76.6091099
+    },
+    {
+     "lat": 39.3995419,
+     "lon": -76.6091061
+    },
+    {
+     "lat": 39.3995461,
+     "lon": -76.6091535
+    },
+    {
+     "lat": 39.3995774,
+     "lon": -76.6091488
+    },
+    {
+     "lat": 39.3995746,
+     "lon": -76.6091181
+    },
+    {
+     "lat": 39.3996123,
+     "lon": -76.6091126
+    },
+    {
+     "lat": 39.3996174,
+     "lon": -76.6091703
+    },
+    {
+     "lat": 39.3996511,
+     "lon": -76.6091653
+    },
+    {
+     "lat": 39.3996537,
+     "lon": -76.6091941
+    },
+    {
+     "lat": 39.3996948,
+     "lon": -76.609188
+    },
+    {
+     "lat": 39.399676,
+     "lon": -76.6089759
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "301",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "amenity": "childcare",
+    "building": "yes",
+    "name": "Early Childhood learning Center YMCA"
+   }
+  },
+  {
+   "type": "way",
+   "id": 298707764,
+   "bounds": {
+    "minlat": 39.3991007,
+    "minlon": -76.6058968,
+    "maxlat": 39.3992694,
+    "maxlon": -76.6055734
+   },
+   "geometry": [
+    {
+     "lat": 39.3992263,
+     "lon": -76.6057606
+    },
+    {
+     "lat": 39.3992215,
+     "lon": -76.6057108
+    },
+    {
+     "lat": 39.399244,
+     "lon": -76.6057072
+    },
+    {
+     "lat": 39.3992323,
+     "lon": -76.6055858
+    },
+    {
+     "lat": 39.3992311,
+     "lon": -76.6055734
+    },
+    {
+     "lat": 39.3991007,
+     "lon": -76.6055943
+    },
+    {
+     "lat": 39.3991136,
+     "lon": -76.6057283
+    },
+    {
+     "lat": 39.3991356,
+     "lon": -76.6057247
+    },
+    {
+     "lat": 39.3991452,
+     "lon": -76.6058244
+    },
+    {
+     "lat": 39.399129,
+     "lon": -76.605827
+    },
+    {
+     "lat": 39.3991357,
+     "lon": -76.6058968
+    },
+    {
+     "lat": 39.3992694,
+     "lon": -76.6058753
+    },
+    {
+     "lat": 39.3992578,
+     "lon": -76.6057555
+    },
+    {
+     "lat": 39.3992263,
+     "lon": -76.6057606
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "308",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "building": "yes",
+    "building:colour": "brown",
+    "height": "12",
+    "heritage": "6",
+    "heritage:operator": "Baltimore County",
+    "heritage:start_date": "9/26/1978",
+    "historic": "building",
+    "name": "Old Towson Police Station",
+    "operator": "Baltimore County",
+    "ref:baco": "1439",
+    "source:historic": "Historic Towson, Inc.",
+    "start_date": "1927"
+   }
+  },
+  {
+   "type": "way",
+   "id": 359455998,
+   "bounds": {
+    "minlat": 39.3993051,
+    "minlon": -76.603698,
+    "maxlat": 39.3994063,
+    "maxlon": -76.6036295
+   },
+   "geometry": [
+    {
+     "lat": 39.3993051,
+     "lon": -76.6036459
+    },
+    {
+     "lat": 39.3993112,
+     "lon": -76.603698
+    },
+    {
+     "lat": 39.3994063,
+     "lon": -76.6036812
+    },
+    {
+     "lat": 39.3993996,
+     "lon": -76.6036295
+    },
+    {
+     "lat": 39.3993051,
+     "lon": -76.6036459
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "19",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Chesapeake Avenue",
+    "building": "commercial",
+    "building:colour": "white",
+    "building:levels": "2",
+    "name": "Christian Science Reading Room",
+    "roof:levels": "0",
+    "roof:shape": "skillion"
+   }
+  },
+  {
+   "type": "way",
+   "id": 540893906,
+   "bounds": {
+    "minlat": 39.402055,
+    "minlon": -76.6018721,
+    "maxlat": 39.4028882,
+    "maxlon": -76.6002154
+   },
+   "geometry": [
+    {
+     "lat": 39.402143,
+     "lon": -76.6018721
+    },
+    {
+     "lat": 39.4024276,
+     "lon": -76.6017969
+    },
+    {
+     "lat": 39.4025145,
+     "lon": -76.6017739
+    },
+    {
+     "lat": 39.4025093,
+     "lon": -76.6016701
+    },
+    {
+     "lat": 39.402502,
+     "lon": -76.6014792
+    },
+    {
+     "lat": 39.4024867,
+     "lon": -76.6013482
+    },
+    {
+     "lat": 39.4024831,
+     "lon": -76.6013168
+    },
+    {
+     "lat": 39.4024697,
+     "lon": -76.6010825
+    },
+    {
+     "lat": 39.4024515,
+     "lon": -76.6009045
+    },
+    {
+     "lat": 39.4024439,
+     "lon": -76.6007761
+    },
+    {
+     "lat": 39.4028882,
+     "lon": -76.6007039
+    },
+    {
+     "lat": 39.4028846,
+     "lon": -76.6004219
+    },
+    {
+     "lat": 39.4028331,
+     "lon": -76.6004094
+    },
+    {
+     "lat": 39.4028007,
+     "lon": -76.6003756
+    },
+    {
+     "lat": 39.4027783,
+     "lon": -76.6003193
+    },
+    {
+     "lat": 39.4027679,
+     "lon": -76.6002555
+    },
+    {
+     "lat": 39.4026288,
+     "lon": -76.600248
+    },
+    {
+     "lat": 39.4025158,
+     "lon": -76.6002419
+    },
+    {
+     "lat": 39.4024689,
+     "lon": -76.6002393
+    },
+    {
+     "lat": 39.4022409,
+     "lon": -76.6002154
+    },
+    {
+     "lat": 39.4021176,
+     "lon": -76.6003412
+    },
+    {
+     "lat": 39.4020995,
+     "lon": -76.6007781
+    },
+    {
+     "lat": 39.4020966,
+     "lon": -76.6008482
+    },
+    {
+     "lat": 39.402055,
+     "lon": -76.6018593
+    },
+    {
+     "lat": 39.402143,
+     "lon": -76.6018721
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "2",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "building": "apartments",
+    "building:levels": "6",
+    "name": "Avalon Towson",
+    "website": "https://www.avaloncommunities.com/maryland/towson-apartments/avalon-towson"
+   }
+  },
+  {
+   "type": "way",
+   "id": 675571950,
+   "bounds": {
+    "minlat": 39.3977405,
+    "minlon": -76.6072043,
+    "maxlat": 39.3982301,
+    "maxlon": -76.6068235
+   },
+   "geometry": [
+    {
+     "lat": 39.3981938,
+     "lon": -76.6068235
+    },
+    {
+     "lat": 39.3979143,
+     "lon": -76.6068721
+    },
+    {
+     "lat": 39.3977405,
+     "lon": -76.6069023
+    },
+    {
+     "lat": 39.3977719,
+     "lon": -76.6072043
+    },
+    {
+     "lat": 39.3979499,
+     "lon": -76.6071734
+    },
+    {
+     "lat": 39.398163,
+     "lon": -76.6071363
+    },
+    {
+     "lat": 39.398168,
+     "lon": -76.6071843
+    },
+    {
+     "lat": 39.3982301,
+     "lon": -76.6071735
+    },
+    {
+     "lat": 39.3981938,
+     "lon": -76.6068235
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "204",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Courtland Avenue",
+    "amenity": "fire_station",
+    "building": "public",
+    "building:colour": "brown",
+    "building:levels": "2",
+    "name": "Towson Fire Department Station 1",
+    "roof:levels": "0",
+    "roof:shape": "flat"
+   }
+  },
+  {
+   "type": "way",
+   "id": 854406465,
+   "bounds": {
+    "minlat": 39.4023659,
+    "minlon": -76.6046201,
+    "maxlat": 39.4028587,
+    "maxlon": -76.6035909
+   },
+   "geometry": [
+    {
+     "lat": 39.4025695,
+     "lon": -76.6045891
+    },
+    {
+     "lat": 39.4025733,
+     "lon": -76.6046068
+    },
+    {
+     "lat": 39.402584,
+     "lon": -76.6046172
+    },
+    {
+     "lat": 39.402598,
+     "lon": -76.6046201
+    },
+    {
+     "lat": 39.4026163,
+     "lon": -76.6046123
+    },
+    {
+     "lat": 39.4026513,
+     "lon": -76.6045711
+    },
+    {
+     "lat": 39.4026491,
+     "lon": -76.6045578
+    },
+    {
+     "lat": 39.4026574,
+     "lon": -76.6045521
+    },
+    {
+     "lat": 39.4026528,
+     "lon": -76.604532
+    },
+    {
+     "lat": 39.4026985,
+     "lon": -76.6044992
+    },
+    {
+     "lat": 39.4026935,
+     "lon": -76.6044826
+    },
+    {
+     "lat": 39.4027381,
+     "lon": -76.6044563
+    },
+    {
+     "lat": 39.4027331,
+     "lon": -76.6044451
+    },
+    {
+     "lat": 39.4027826,
+     "lon": -76.604415
+    },
+    {
+     "lat": 39.4027546,
+     "lon": -76.6043114
+    },
+    {
+     "lat": 39.4026697,
+     "lon": -76.6043513
+    },
+    {
+     "lat": 39.4026336,
+     "lon": -76.6042223
+    },
+    {
+     "lat": 39.4026262,
+     "lon": -76.6042257
+    },
+    {
+     "lat": 39.4025937,
+     "lon": -76.6041233
+    },
+    {
+     "lat": 39.4028587,
+     "lon": -76.6037542
+    },
+    {
+     "lat": 39.4028133,
+     "lon": -76.603698
+    },
+    {
+     "lat": 39.4028199,
+     "lon": -76.6036922
+    },
+    {
+     "lat": 39.4027682,
+     "lon": -76.6036325
+    },
+    {
+     "lat": 39.4027606,
+     "lon": -76.6036413
+    },
+    {
+     "lat": 39.4027148,
+     "lon": -76.6035909
+    },
+    {
+     "lat": 39.402492,
+     "lon": -76.6038791
+    },
+    {
+     "lat": 39.4024271,
+     "lon": -76.6039742
+    },
+    {
+     "lat": 39.4024188,
+     "lon": -76.6039721
+    },
+    {
+     "lat": 39.4023659,
+     "lon": -76.6040426
+    },
+    {
+     "lat": 39.4025105,
+     "lon": -76.6045108
+    },
+    {
+     "lat": 39.4025206,
+     "lon": -76.6045078
+    },
+    {
+     "lat": 39.4025474,
+     "lon": -76.6045966
+    },
+    {
+     "lat": 39.4025695,
+     "lon": -76.6045891
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "703",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "Washington Avenue",
+    "building": "residential",
+    "name": "Flats at 703",
+    "phone": "+1 443 652 4400",
+    "website": "https://www.liveflats703.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 856515080,
+   "bounds": {
+    "minlat": 39.3984612,
+    "minlon": -76.6031758,
+    "maxlat": 39.398516,
+    "maxlon": -76.6030783
+   },
+   "geometry": [
+    {
+     "lat": 39.3984975,
+     "lon": -76.6031758
+    },
+    {
+     "lat": 39.3985004,
+     "lon": -76.6031319
+    },
+    {
+     "lat": 39.3985017,
+     "lon": -76.6031125
+    },
+    {
+     "lat": 39.3985136,
+     "lon": -76.6031139
+    },
+    {
+     "lat": 39.398516,
+     "lon": -76.6030783
+    },
+    {
+     "lat": 39.3984828,
+     "lon": -76.6030869
+    },
+    {
+     "lat": 39.3984629,
+     "lon": -76.603092
+    },
+    {
+     "lat": 39.3984612,
+     "lon": -76.6031165
+    },
+    {
+     "lat": 39.3984714,
+     "lon": -76.6031176
+    },
+    {
+     "lat": 39.3984702,
+     "lon": -76.6031348
+    },
+    {
+     "lat": 39.3984677,
+     "lon": -76.6031725
+    },
+    {
+     "lat": 39.3984975,
+     "lon": -76.6031758
+    }
+   ],
+   "tags": {
+    "building": "yes",
+    "building:colour": "#cccccc",
+    "description": "Abutment supporting the now demolished Ma & Pa Railroad bridge over York Road.",
+    "heritage": "4",
+    "heritage:operator": "mihp",
+    "heritage:ref": "BA-1542",
+    "heritage:website": "https://mht.maryland.gov/secure/medusa/PDF/BaltimoreCounty/BA-1542.pdf",
+    "historic": "building",
+    "name": "Ma & Pa Railroad Abutment",
+    "ref:mihp": "BA-1542",
+    "start_date": "1901",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikipedia": "en:Towson, Maryland#\"Ma and Pa\" Railroad"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1063014357,
+   "bounds": {
+    "minlat": 39.39951,
+    "minlon": -76.6037997,
+    "maxlat": 39.4005032,
+    "maxlon": -76.6026074
+   },
+   "geometry": [
+    {
+     "lat": 39.3995585,
+     "lon": -76.6032206
+    },
+    {
+     "lat": 39.3995674,
+     "lon": -76.6032187
+    },
+    {
+     "lat": 39.3995681,
+     "lon": -76.6032343
+    },
+    {
+     "lat": 39.3995685,
+     "lon": -76.6032384
+    },
+    {
+     "lat": 39.4000724,
+     "lon": -76.6031527
+    },
+    {
+     "lat": 39.4000873,
+     "lon": -76.603323
+    },
+    {
+     "lat": 39.4000334,
+     "lon": -76.603331
+    },
+    {
+     "lat": 39.3999939,
+     "lon": -76.6033368
+    },
+    {
+     "lat": 39.3999979,
+     "lon": -76.6033789
+    },
+    {
+     "lat": 39.4000375,
+     "lon": -76.6033735
+    },
+    {
+     "lat": 39.4000911,
+     "lon": -76.6033661
+    },
+    {
+     "lat": 39.4001158,
+     "lon": -76.6036488
+    },
+    {
+     "lat": 39.4001171,
+     "lon": -76.6037038
+    },
+    {
+     "lat": 39.4001187,
+     "lon": -76.6037752
+    },
+    {
+     "lat": 39.4001192,
+     "lon": -76.6037997
+    },
+    {
+     "lat": 39.4003607,
+     "lon": -76.6037366
+    },
+    {
+     "lat": 39.4003582,
+     "lon": -76.6037122
+    },
+    {
+     "lat": 39.4003549,
+     "lon": -76.6036841
+    },
+    {
+     "lat": 39.4005032,
+     "lon": -76.6036441
+    },
+    {
+     "lat": 39.4005004,
+     "lon": -76.6036171
+    },
+    {
+     "lat": 39.400435,
+     "lon": -76.6029821
+    },
+    {
+     "lat": 39.4004165,
+     "lon": -76.6027919
+    },
+    {
+     "lat": 39.4003716,
+     "lon": -76.602798
+    },
+    {
+     "lat": 39.4003666,
+     "lon": -76.6027698
+    },
+    {
+     "lat": 39.4003603,
+     "lon": -76.6027518
+    },
+    {
+     "lat": 39.4003509,
+     "lon": -76.6027305
+    },
+    {
+     "lat": 39.4003429,
+     "lon": -76.6027156
+    },
+    {
+     "lat": 39.4003283,
+     "lon": -76.6026956
+    },
+    {
+     "lat": 39.4003122,
+     "lon": -76.6026852
+    },
+    {
+     "lat": 39.4002916,
+     "lon": -76.6026756
+    },
+    {
+     "lat": 39.4002732,
+     "lon": -76.6026695
+    },
+    {
+     "lat": 39.4002554,
+     "lon": -76.602669
+    },
+    {
+     "lat": 39.4002408,
+     "lon": -76.6026694
+    },
+    {
+     "lat": 39.4002304,
+     "lon": -76.6026125
+    },
+    {
+     "lat": 39.4002293,
+     "lon": -76.6026074
+    },
+    {
+     "lat": 39.400219,
+     "lon": -76.6026104
+    },
+    {
+     "lat": 39.4002199,
+     "lon": -76.6026153
+    },
+    {
+     "lat": 39.4001471,
+     "lon": -76.6026345
+    },
+    {
+     "lat": 39.4001462,
+     "lon": -76.6026292
+    },
+    {
+     "lat": 39.4001358,
+     "lon": -76.6026322
+    },
+    {
+     "lat": 39.4001367,
+     "lon": -76.6026373
+    },
+    {
+     "lat": 39.400076,
+     "lon": -76.6026533
+    },
+    {
+     "lat": 39.4000752,
+     "lon": -76.6026483
+    },
+    {
+     "lat": 39.4000649,
+     "lon": -76.6026513
+    },
+    {
+     "lat": 39.4000657,
+     "lon": -76.6026564
+    },
+    {
+     "lat": 39.3999901,
+     "lon": -76.6026782
+    },
+    {
+     "lat": 39.3999892,
+     "lon": -76.6026728
+    },
+    {
+     "lat": 39.3999788,
+     "lon": -76.6026758
+    },
+    {
+     "lat": 39.3999798,
+     "lon": -76.6026811
+    },
+    {
+     "lat": 39.399911,
+     "lon": -76.6027009
+    },
+    {
+     "lat": 39.3999101,
+     "lon": -76.602696
+    },
+    {
+     "lat": 39.3998998,
+     "lon": -76.6026989
+    },
+    {
+     "lat": 39.3999007,
+     "lon": -76.6027038
+    },
+    {
+     "lat": 39.3998294,
+     "lon": -76.6027243
+    },
+    {
+     "lat": 39.3998285,
+     "lon": -76.6027194
+    },
+    {
+     "lat": 39.3998182,
+     "lon": -76.6027224
+    },
+    {
+     "lat": 39.3998191,
+     "lon": -76.6027273
+    },
+    {
+     "lat": 39.3997486,
+     "lon": -76.6027475
+    },
+    {
+     "lat": 39.3997477,
+     "lon": -76.6027426
+    },
+    {
+     "lat": 39.3997374,
+     "lon": -76.6027455
+    },
+    {
+     "lat": 39.3997382,
+     "lon": -76.6027505
+    },
+    {
+     "lat": 39.3996615,
+     "lon": -76.6027725
+    },
+    {
+     "lat": 39.3996607,
+     "lon": -76.6027677
+    },
+    {
+     "lat": 39.3996503,
+     "lon": -76.6027707
+    },
+    {
+     "lat": 39.3996512,
+     "lon": -76.6027755
+    },
+    {
+     "lat": 39.3995829,
+     "lon": -76.6027951
+    },
+    {
+     "lat": 39.399582,
+     "lon": -76.6027902
+    },
+    {
+     "lat": 39.3995717,
+     "lon": -76.6027931
+    },
+    {
+     "lat": 39.3995726,
+     "lon": -76.6027981
+    },
+    {
+     "lat": 39.3995212,
+     "lon": -76.6028128
+    },
+    {
+     "lat": 39.3995204,
+     "lon": -76.6028079
+    },
+    {
+     "lat": 39.39951,
+     "lon": -76.6028109
+    },
+    {
+     "lat": 39.3995585,
+     "lon": -76.6032206
+    }
+   ],
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "1",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Pennsylvania Avenue",
+    "building": "commercial",
+    "name": "Towson Commons"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 2867204,
+   "bounds": {
+    "minlat": 39.4042891,
+    "minlon": -76.6051828,
+    "maxlat": 39.4059314,
+    "maxlon": -76.603292
+   },
+   "tags": {
+    "addr:city": "Towson",
+    "addr:country": "US",
+    "addr:housenumber": "707",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "York Road",
+    "building": "apartments",
+    "name": "Towson Promenade",
+    "type": "multipolygon"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 12712321,
+   "bounds": {
+    "minlat": 39.3985312,
+    "minlon": -76.6048175,
+    "maxlat": 39.3994942,
+    "maxlon": -76.6038526
+   },
+   "tags": {
+    "addr:city": "Towson",
+    "addr:housenumber": "22",
+    "addr:postcode": "21204",
+    "addr:state": "MD",
+    "addr:street": "West Susquehanna Avenue",
+    "building": "apartments",
+    "building:levels": "7",
+    "name": "Altus Apartments",
+    "roof:shape": "flat",
+    "type": "multipolygon",
+    "website": "https://www.altusapts.com/"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 14207806,
+   "bounds": {
+    "minlat": 39.4021518,
+    "minlon": -76.5973851,
+    "maxlat": 39.4030227,
+    "maxlon": -76.5962604
+   },
+   "tags": {
+    "addr:city": "Loch Raven",
+    "addr:country": "US",
+    "addr:housenumber": "300",
+    "addr:postcode": "21286",
+    "addr:state": "MD",
+    "addr:street": "East Joppa Road",
+    "building": "office",
+    "building:levels": "11",
+    "name": "Hampton Plaza",
+    "roof:levels": "1",
+    "roof:shape": "flat",
+    "type": "multipolygon"
+   }
+  }
+ ]
+}

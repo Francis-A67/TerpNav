@@ -1,0 +1,924 @@
+{
+  "about": "Where every Towson record comes from. Written by scripts/towson/build_data.py; do not edit by hand.",
+  "snapshots_fetched_at": "2026-11-15T20:16:44+00:00",
+  "official_codes": "https://www.towson.edu/maps/documents/campus-map.pdf",
+  "buildings": {
+    "CK": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45778622",
+      "openstreetmap_name": "Albert S Cook Library",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Cook Library (12 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "UU": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45779180",
+      "openstreetmap_name": "University Union",
+      "second_opinion": "Maryland iMAP TU Building Footprints: University Union (24 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/directories/offices.html"
+      ],
+      "to_verify": []
+    },
+    "LA": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/158085716",
+      "openstreetmap_name": "College of Liberal Arts Building",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Liberal Arts Building (3 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/cla/contact.html",
+        "https://www.towson.edu/directories/offices.html"
+      ],
+      "to_verify": []
+    },
+    "SC": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/717960359",
+      "openstreetmap_name": "Science Complex",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/facilities/construction/completed.html",
+        "https://www.towson.edu/directories/offices.html"
+      ],
+      "to_verify": []
+    },
+    "ST": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/158178117",
+      "openstreetmap_name": "Stephens Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Stephens Hall (12 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/campus/landmarks/stephens.html",
+        "https://www.towson.edu/cbe/contact.html"
+      ],
+      "to_verify": []
+    },
+    "HP": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45778916",
+      "openstreetmap_name": "Health Professions",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/news/articles/2024/celebrating-new-health-professions-building.html"
+      ],
+      "to_verify": []
+    },
+    "CA": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/163029153",
+      "openstreetmap_name": "Center for the Arts",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Center for the Arts (2 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/cofac/facilities.html"
+      ],
+      "to_verify": []
+    },
+    "HH": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45776826",
+      "openstreetmap_name": "Hawkins Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Hawkins Hall (5 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/coe/contact.html"
+      ],
+      "to_verify": []
+    },
+    "LH": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45776827",
+      "openstreetmap_name": "Lecture Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Lecture Hall (1 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/directories/offices.html"
+      ],
+      "to_verify": []
+    },
+    "LI": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159248443",
+      "openstreetmap_name": "Linthicum Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Linthicum Hall (8 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": [
+        "Current occupants. The College of Health Professions and Nursing moved to the Health Professions Building, and the offices directory lists nothing in Linthicum Hall."
+      ]
+    },
+    "LX": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "none yet",
+      "facts": [
+        "https://www.towson.edu/directories/offices.html"
+      ],
+      "to_verify": [
+        "Location: grid D8 on the campus map, not found in OpenStreetMap or the state GIS data. Take the coordinates from maps.towson.edu."
+      ]
+    },
+    "MC": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45778621",
+      "openstreetmap_name": "Media Center",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/cofac/facilities.html",
+        "https://www.towson.edu/cofac/departments/mediafilm/"
+      ],
+      "to_verify": []
+    },
+    "PY": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45776828",
+      "openstreetmap_name": "Psychology Building",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Psychology Building (3 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/directories/offices.html",
+        "https://www.towson.edu/cla/departments/psychology/contact.html"
+      ],
+      "to_verify": []
+    },
+    "SM": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159248442, way/1299534546",
+      "openstreetmap_name": "Smith Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Smith Hall (6 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/facilities/construction/smith-hall-renovation.html",
+        "https://www.towson.edu/news/articles/2026/whats-new-at-tu.html"
+      ],
+      "to_verify": [
+        "The code SM comes from the Registrar's schedule guide and is not printed on the campus map."
+      ]
+    },
+    "VB": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45779569",
+      "openstreetmap_name": "Van Bokkelen Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Van Bokkelen Hall (9 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/cofac/facilities.html"
+      ],
+      "to_verify": []
+    },
+    "YR": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45775526",
+      "openstreetmap_name": "7800 York Road",
+      "second_opinion": "Maryland iMAP TU Building Footprints: 7800 York Road (9 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/fcsm/departments/computerinfosci/contact.html",
+        "https://www.towson.edu/fcsm/departments/mathematics/contact.html",
+        "https://www.towson.edu/directories/offices.html"
+      ],
+      "to_verify": []
+    },
+    "Y2": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/119407362",
+      "openstreetmap_name": "7400 Building",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/iwb/location.html"
+      ],
+      "to_verify": []
+    },
+    "AD": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159248441",
+      "openstreetmap_name": "Administration Building",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Administration Building (6 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/directories/offices.html",
+        "https://www.towson.edu/iwb/centers/hearingbalance/"
+      ],
+      "to_verify": []
+    },
+    "ES": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159252024",
+      "openstreetmap_name": "Enrollment Services",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Enrollment Services (4 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "GS": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/35457696",
+      "openstreetmap_name": "General Services",
+      "second_opinion": "Maryland iMAP TU Building Footprints: General Services (10 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/directories/offices.html"
+      ],
+      "to_verify": []
+    },
+    "PS": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "Maryland iMAP TU Building Footprints: Public Safety",
+      "facts": [
+        "https://www.towson.edu/public-safety/police/"
+      ],
+      "to_verify": [
+        "The police page places University Police here, but the offices directory lists it in General Services, Room 109.",
+        "Coordinates come from the older state GIS layer only."
+      ]
+    },
+    "PP": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/158178108",
+      "openstreetmap_name": "Power Plant",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Power Plant (13 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "LS": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/165769304",
+      "openstreetmap_name": "Landscape Services",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Landscape Services (20 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "TX": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "none yet",
+      "facts": [
+        "https://www.towson.edu/transportation/shuttle/"
+      ],
+      "to_verify": [
+        "Location: grid F5 on the campus map, not found in OpenStreetMap or the state GIS data. Take the coordinates from maps.towson.edu."
+      ]
+    },
+    "AH": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/163033571",
+      "openstreetmap_name": "Auburn House",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/campus/landmarks/auburn.html"
+      ],
+      "to_verify": []
+    },
+    "AR": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/111740402",
+      "openstreetmap_name": "StarTUp at the Armory",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/news/2023/historic-armory-purchase.html",
+        "https://thetowerlight.com/towson-purchases-armory-for-8-6-million/"
+      ],
+      "to_verify": []
+    },
+    "WA": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/111721390",
+      "openstreetmap_name": "First Financial Building",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/directories/offices.html"
+      ],
+      "to_verify": []
+    },
+    "OP": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/75475528",
+      "openstreetmap_name": "Towson City Center",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": [
+        "Which Towson University offices are in the leased space."
+      ]
+    },
+    "WW": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap relation/3721674",
+      "openstreetmap_name": "Ward & West",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Ward West (5 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "CC": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/163034881",
+      "openstreetmap_name": "Child Care Center",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Child Care Center (23 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "PA": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/163033573",
+      "openstreetmap_name": "Auburn Pavilion",
+      "facts": [
+        "https://www.towson.edu/news/articles/2026/how-to-vote-at-towson-university.html"
+      ],
+      "to_verify": [
+        "Location: matched to the pavilion beside Auburn House (same map grid, G2), which OpenStreetMap calls Auburn Pavilion. Confirm on maps.towson.edu."
+      ]
+    },
+    "GD": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45774841",
+      "openstreetmap_name": "Glen Dining Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Glen Dining (3 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "ND": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/163034480",
+      "openstreetmap_name": "Newell Dining",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "WC": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159252018",
+      "openstreetmap_name": "West Village Commons",
+      "second_opinion": "Maryland iMAP TU Building Footprints: West Village Commons (24 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/dining.html"
+      ],
+      "to_verify": []
+    },
+    "BU": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/158099467",
+      "openstreetmap_name": "Burdick Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Burdick Hall (20 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/directories/offices.html"
+      ],
+      "to_verify": []
+    },
+    "TA": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/259864061",
+      "openstreetmap_name": "SECU Arena",
+      "second_opinion": "Maryland iMAP TU Building Footprints: SECU Arena (4 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/news/articles/2025/secu-arena-announcement.html"
+      ],
+      "to_verify": []
+    },
+    "US": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/165548995",
+      "openstreetmap_name": "Unitas Stadium",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Johnny Unitas Stadium (41 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "TC": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/109493689",
+      "openstreetmap_name": "Towson Center",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Towson Center (5 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/news/articles/2026/south-campus-kitchen-dining.html"
+      ],
+      "to_verify": []
+    },
+    "FH": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/163033575",
+      "openstreetmap_name": "Field House",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Field House (11 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "SP": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap relation/2205939",
+      "openstreetmap_name": "Schuerholz Park",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "SB": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/862912748",
+      "openstreetmap_name": "Tiger Softball Stadium",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "SF": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/235560509",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": [
+        "Location: matched to the unnamed soccer pitch west of the Field House (map grid D1). Confirm on maps.towson.edu."
+      ]
+    },
+    "TN": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/731544055, way/731544056, way/731544057, way/731544058, way/731544059, way/731544060, way/731544061, way/731544062, way/731544063, way/731544064",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": [
+        "Location: the center of the ten unnamed tennis courts on the south campus (map grid F0). Confirm on maps.towson.edu."
+      ]
+    },
+    "FF": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/119407281",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": [
+        "Location: matched to the only field hockey pitch on the south campus (map grid F0), which is unnamed in OpenStreetMap. Confirm on maps.towson.edu."
+      ]
+    },
+    "YF": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/161200847",
+      "openstreetmap_name": "John B. Yingling ’71 & Family Practice Field",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": []
+    },
+    "AT": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45774837",
+      "openstreetmap_name": "Tower A",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Glen Complex A Building (2 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "BT": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45774836",
+      "openstreetmap_name": "Tower B",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Glen Complex B Building (15 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "CT": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45774839",
+      "openstreetmap_name": "Tower C",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Glen Complex C Building (15 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "DT": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45774840",
+      "openstreetmap_name": "Tower D",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Glen Complex D Building (8 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "BA": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159252023",
+      "openstreetmap_name": "Barton House",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Barton House (2 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "DO": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159252011",
+      "openstreetmap_name": "Douglass House",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Douglass House (29 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "HA": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159252020",
+      "openstreetmap_name": "West Village 1",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Paca House (15 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/",
+        "https://thetowerlight.com/the-university-system-of-maryland-grants-tu-permission-to-name-west-village-12-after-its-first-black-graduates/"
+      ],
+      "to_verify": []
+    },
+    "TH": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159252025",
+      "openstreetmap_name": "Tubman House",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Tubman House (9 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "BH": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/717959551",
+      "openstreetmap_name": "West Village 2",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/",
+        "https://thetowerlight.com/the-university-system-of-maryland-grants-tu-permission-to-name-west-village-12-after-its-first-black-graduates/"
+      ],
+      "to_verify": []
+    },
+    "MA": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/717959550",
+      "openstreetmap_name": "Marshall Hall",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "MH": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/159252019",
+      "openstreetmap_name": "Millennium Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Millennium Hall (13 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "TR": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/163032777",
+      "openstreetmap_name": "Towson Run Apartments",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Towson Run Apartments (4 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "NE": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/163034481",
+      "openstreetmap_name": "Newell Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Newell Hall (24 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "RI": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/163034482",
+      "openstreetmap_name": "Richmond Hall",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "PR": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45776108",
+      "openstreetmap_name": "Prettyman Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Prettyman Hall (14 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "SH": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45776109",
+      "openstreetmap_name": "Scarborough Hall",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Scarborough Hall (10 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "RT": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/45775524",
+      "openstreetmap_name": "Residence Tower",
+      "second_opinion": "Maryland iMAP TU Building Footprints: Residence Tower (21 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    },
+    "TM": {
+      "name_and_code": "https://www.towson.edu/maps/documents/campus-map.pdf",
+      "coordinates": "OpenStreetMap way/158178112",
+      "openstreetmap_name": "10 West Burke Avenue",
+      "second_opinion": "Maryland iMAP TU Building Footprints: TU Marriott Conference Hotel (9 m away)",
+      "address": "OpenStreetMap address tags",
+      "facts": [
+        "https://www.towson.edu/studentlife/housing/campus/residence/"
+      ],
+      "to_verify": []
+    }
+  },
+  "parking": {
+    "union-garage": {
+      "coordinates": "OpenStreetMap way/35457700",
+      "openstreetmap_name": "Union Garage",
+      "after_hours_rule": "published",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+        "https://www.towson.edu/parking/visitors/guests.html",
+        "https://www.towson.edu/parking/enforcement/"
+      ],
+      "to_verify": []
+    },
+    "towsontown-garage": {
+      "coordinates": "OpenStreetMap way/35457699",
+      "openstreetmap_name": "Towsontown Garage",
+      "after_hours_rule": "published",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+        "https://www.towson.edu/parking/visitors/guests.html",
+        "https://www.towson.edu/parking/enforcement/"
+      ],
+      "to_verify": []
+    },
+    "glen-garage": {
+      "coordinates": "OpenStreetMap way/169235860",
+      "openstreetmap_name": "Glen Garage",
+      "after_hours_rule": "published",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+        "https://www.towson.edu/parking/visitors/guests.html",
+        "https://www.towson.edu/parking/enforcement/"
+      ],
+      "to_verify": []
+    },
+    "west-village-garage": {
+      "coordinates": "OpenStreetMap way/159252016",
+      "openstreetmap_name": "West Village Garage",
+      "after_hours_rule": "published",
+      "facts": [
+        "https://www.towson.edu/parking/",
+        "https://www.towson.edu/parking/visitors/guests.html",
+        "https://www.towson.edu/parking/enforcement/"
+      ],
+      "to_verify": []
+    },
+    "lot-1": {
+      "coordinates": "OpenStreetMap way/163604503",
+      "openstreetmap_name": "Lot 1",
+      "after_hours_rule": "unconfirmed",
+      "facts": [
+        "https://www.towson.edu/parking/visitors/guests.html",
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf"
+      ],
+      "to_verify": [
+        "Whether the lot is open without a permit after enforcement hours."
+      ]
+    },
+    "lot-2": {
+      "coordinates": "OpenStreetMap way/118262452",
+      "openstreetmap_name": "Lot 2",
+      "after_hours_rule": "never",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+        "https://www.towson.edu/parking/enforcement/"
+      ],
+      "to_verify": []
+    },
+    "lot-3": {
+      "coordinates": "OpenStreetMap way/172576056",
+      "openstreetmap_name": "Lot 3",
+      "after_hours_rule": "unconfirmed",
+      "facts": [
+        "https://www.towson.edu/parking/visitors/guests.html"
+      ],
+      "to_verify": [
+        "Whether the lot is open without a permit after enforcement hours."
+      ]
+    },
+    "lot-4": {
+      "coordinates": "OpenStreetMap way/118263057",
+      "openstreetmap_name": "Lot 4",
+      "after_hours_rule": "published",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+        "https://www.towson.edu/parking/visitors/guests.html",
+        "https://www.towson.edu/parking/events.html"
+      ],
+      "to_verify": []
+    },
+    "lot-5": {
+      "coordinates": "OpenStreetMap way/118263086",
+      "openstreetmap_name": "Lot 5",
+      "after_hours_rule": "published",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+        "https://www.towson.edu/parking/events.html"
+      ],
+      "to_verify": []
+    },
+    "lot-6": {
+      "coordinates": "OpenStreetMap way/165507821",
+      "openstreetmap_name": "Lot 6",
+      "after_hours_rule": "unconfirmed",
+      "facts": [
+        "https://www.towson.edu/parking/events.html",
+        "https://www.towson.edu/news/articles/2026/parking-questions.html"
+      ],
+      "to_verify": [
+        "Permit type and after-hours rule. The regulations list overflow lots as 4, 5, 7 and 8, while a January 2026 article counts Lot 6 as overflow."
+      ]
+    },
+    "lot-7": {
+      "coordinates": "OpenStreetMap way/259864062",
+      "openstreetmap_name": "Lot 7",
+      "after_hours_rule": "published",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+        "https://www.towson.edu/parking/visitors/guests.html",
+        "https://www.towson.edu/parking/events.html"
+      ],
+      "to_verify": []
+    },
+    "lot-8": {
+      "coordinates": "OpenStreetMap way/118263046",
+      "openstreetmap_name": "Lot 8",
+      "after_hours_rule": "published",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+        "https://www.towson.edu/parking/visitors/guests.html",
+        "https://www.towson.edu/parking/events.html"
+      ],
+      "to_verify": []
+    },
+    "lot-8a": {
+      "coordinates": "OpenStreetMap way/1416025013",
+      "openstreetmap_name": "Lot 8a",
+      "after_hours_rule": "unconfirmed",
+      "facts": [
+        "https://www.towson.edu/parking/permits/student/residential.html"
+      ],
+      "to_verify": [
+        "Permit type and after-hours rule."
+      ]
+    },
+    "lot-9": {
+      "coordinates": "OpenStreetMap way/118263001",
+      "openstreetmap_name": "Lot 9",
+      "after_hours_rule": "unconfirmed",
+      "facts": [
+        "https://www.towson.edu/parking/visitors/guests.html",
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf"
+      ],
+      "to_verify": [
+        "Whether the lot is open without a permit after enforcement hours."
+      ]
+    },
+    "lot-10": {
+      "coordinates": "OpenStreetMap way/118263088",
+      "openstreetmap_name": "Lot 10",
+      "after_hours_rule": "unconfirmed",
+      "facts": [
+        "https://www.towson.edu/news/articles/2026/parking-questions.html"
+      ],
+      "to_verify": [
+        "After-hours rule: faculty/staff areas follow the signs posted at each lot."
+      ]
+    },
+    "lot-11": {
+      "coordinates": "OpenStreetMap way/35457701",
+      "openstreetmap_name": "Lot 11",
+      "after_hours_rule": "unconfirmed",
+      "facts": [
+        "https://www.towson.edu/news/articles/2026/parking-questions.html"
+      ],
+      "to_verify": [
+        "Permit type and after-hours rule."
+      ]
+    },
+    "lot-12": {
+      "coordinates": "OpenStreetMap way/1416025020",
+      "openstreetmap_name": "Lot 12",
+      "after_hours_rule": "never",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf"
+      ],
+      "to_verify": []
+    },
+    "lot-13": {
+      "coordinates": "OpenStreetMap way/45778911, way/45778912",
+      "openstreetmap_name": "Lot 13",
+      "after_hours_rule": "never",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf"
+      ],
+      "to_verify": []
+    },
+    "lot-14": {
+      "coordinates": "OpenStreetMap way/45778915",
+      "openstreetmap_name": "Lot 14",
+      "after_hours_rule": "unconfirmed",
+      "facts": [
+        "https://www.towson.edu/parking/visitors/guests.html"
+      ],
+      "to_verify": [
+        "Whether the lot is open without a permit after enforcement hours."
+      ]
+    },
+    "lot-16": {
+      "coordinates": "OpenStreetMap way/1416025019",
+      "openstreetmap_name": "Lot 16",
+      "after_hours_rule": "unconfirmed",
+      "facts": [
+        "https://www.towson.edu/maps/documents/campus-map.pdf"
+      ],
+      "to_verify": [
+        "Permit type and after-hours rule."
+      ]
+    },
+    "lot-17": {
+      "coordinates": "OpenStreetMap way/1416025018",
+      "openstreetmap_name": "Lot 17",
+      "after_hours_rule": "never",
+      "facts": [
+        "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+        "https://www.towson.edu/parking/visitors/guests.html"
+      ],
+      "to_verify": []
+    }
+  }
+}
