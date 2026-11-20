@@ -122,6 +122,7 @@ class Command(BaseCommand):
                         'longitude': b.get('longitude'),
                         'hours': b.get('hours', ''),
                         'image_url': b.get('image_url', ''),
+                        'aliases': b.get('aliases', []),
                     },
                 )
                 if was_created:

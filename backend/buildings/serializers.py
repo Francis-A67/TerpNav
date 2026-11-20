@@ -9,7 +9,7 @@ class BuildingSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Building
-        fields = ['campus', 'acronym', 'full_name', 'type', 'department', 'description', 'address', 'latitude', 'longitude', 'hours', 'image_url']
+        fields = ['campus', 'acronym', 'full_name', 'type', 'department', 'description', 'address', 'latitude', 'longitude', 'hours', 'image_url', 'aliases']
 
 
 class ParkingLotSerializer(serializers.ModelSerializer):

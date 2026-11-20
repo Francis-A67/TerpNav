@@ -19,6 +19,12 @@ class Building(models.Model):
     longitude = models.FloatField(null=True, blank=True)
     hours = models.CharField(max_length=200, blank=True)
     image_url = models.URLField(max_length=500, blank=True)
+    # Other things people type to find this building: nicknames ("The Y"),
+    # former names ("Comcast Center") and the university's official building
+    # code when it differs from ours ("KEB"). Only search reads them. The database
+    # keeps the default too, so rows written by code that predates aliases
+    # still get an empty list.
+    aliases = models.JSONField(default=list, blank=True, db_default=[])
 
     class Meta:
         constraints = [

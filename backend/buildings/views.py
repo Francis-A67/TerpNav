@@ -51,11 +51,17 @@ class BuildingListView(APIView):
         # which shows the first few) always comes back in the same order.
         queryset = Building.objects.filter(campus=get_campus(request)).order_by('id')
         if search:
-            queryset = queryset.filter(
+            matches = (
                 Q(code__icontains=search) |
                 Q(name__icontains=search) |
                 Q(department__icontains=search)
             )
+            # Aliases are stored as a JSON list and matched as text, so a
+            # search for a bracket, a quote or a comma would match the list's
+            # own punctuation instead of an alias.
+            if not set(search) & set('[]",'):
+                matches |= Q(aliases__icontains=search)
+            queryset = queryset.filter(matches)
         serializer = BuildingSerializer(queryset, many=True)
         return Response(serializer.data)
 
