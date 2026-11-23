@@ -1,23 +1,32 @@
-function getSaved() {
-    const data = localStorage.getItem('savedBuildings')
-    if (!data) return []
-    try {
-        return JSON.parse(data)
-    } catch {
-        return []
-    }
+import { DEFAULT_CAMPUS } from '../campuses/index.js'
+
+// One list of saved acronyms per campus. UMD keeps the original key, so
+// buildings saved before other campuses existed are still there.
+function storageKey(campus) {
+  return campus.slug === DEFAULT_CAMPUS ? 'savedBuildings' : `savedBuildings:${campus.slug}`
 }
 
-function saveBuilding(acronym) {
-    const saved = getSaved()
-    saved.push(acronym)
-    localStorage.setItem('savedBuildings', JSON.stringify(saved))
+function getSaved(campus) {
+  const data = localStorage.getItem(storageKey(campus))
+  if (!data) return []
+  try {
+    const saved = JSON.parse(data)
+    return Array.isArray(saved) ? saved : []
+  } catch {
+    return []
+  }
 }
 
-function unsaveBuilding(acronym) {
-    const saved = getSaved()
-    const removed = saved.filter(a => a !== acronym)
-    localStorage.setItem('savedBuildings', JSON.stringify(removed))
+function saveBuilding(campus, acronym) {
+  const saved = getSaved(campus)
+  if (saved.includes(acronym)) return
+  saved.push(acronym)
+  localStorage.setItem(storageKey(campus), JSON.stringify(saved))
+}
+
+function unsaveBuilding(campus, acronym) {
+  const removed = getSaved(campus).filter(a => a !== acronym)
+  localStorage.setItem(storageKey(campus), JSON.stringify(removed))
 }
 
 export { getSaved, saveBuilding, unsaveBuilding }

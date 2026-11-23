@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { Link, useParams, useNavigate } from 'react-router-dom'
 import api, { getWithRetry } from '../api/axios'
+import { apiPath, campusPath } from '../campuses'
+import { useCampus } from '../campuses/CampusContext'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import LoadingNotice from '../components/LoadingNotice'
 import styles from './BuildingDetail.module.css'
 
-
-const GIS_CODE = /^B\d+$/
 
 // Esri World Imagery export (no API key). The dLat/dLon below span
 // about 220m x 110m at true aspect.
@@ -21,6 +21,7 @@ function aerialUrl(lat, lon) {
 export default function BuildingDetail() {
   const { acronym } = useParams()
   const navigate = useNavigate()
+  const campus = useCampus()
 
   const [building, setBuilding] = useState(null)
   const [notFound, setNotFound] = useState(false)
@@ -32,25 +33,25 @@ export default function BuildingDetail() {
   const [commentError, setCommentError] = useState('')
 
   useEffect(() => {
-    getWithRetry(`/api/buildings/${acronym}/`)
+    getWithRetry(apiPath(campus, `/api/buildings/${acronym}/`))
       .then(res => setBuilding(res.data))
       .catch(err => {
         if (err.response?.status === 404) setNotFound(true)
         else setLoadError(true)
       })
-  }, [acronym])
+  }, [acronym, campus])
 
   useEffect(() => {
-    getWithRetry(`/api/buildings/tips/${acronym}/`)
+    getWithRetry(apiPath(campus, `/api/buildings/tips/${acronym}/`))
       .then(res => setTips(res.data))
       .catch(() => {})
-  }, [acronym])
+  }, [acronym, campus])
 
   useEffect(() => {
-    getWithRetry(`/api/buildings/${acronym}/comments/`)
+    getWithRetry(apiPath(campus, `/api/buildings/${acronym}/comments/`))
       .then(res => setComments(res.data))
       .catch(() => {})
-  }, [acronym])
+  }, [acronym, campus])
 
   async function handleCommentSubmit(e) {
     e.preventDefault()
@@ -58,7 +59,10 @@ export default function BuildingDetail() {
     setSubmitting(true)
     setCommentError('')
     try {
-      const res = await api.post(`/api/buildings/${acronym}/comments/`, { text: commentText.trim() })
+      const res = await api.post(
+        apiPath(campus, `/api/buildings/${acronym}/comments/`),
+        { text: commentText.trim() },
+      )
       setComments(prev => [res.data, ...prev])
       setCommentText('')
     } catch (err) {
@@ -75,7 +79,7 @@ export default function BuildingDetail() {
   function handleDirections() {
     const dest = building.latitude != null && building.longitude != null
       ? `${building.latitude},${building.longitude}`
-      : building.address || building.full_name + ' College Park MD'
+      : building.address || `${building.full_name} ${campus.cityFallback}`
     window.open(`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(dest)}`, '_blank')
   }
 
@@ -83,7 +87,12 @@ export default function BuildingDetail() {
     return (
       <div className={styles.page}>
         <Navbar />
-        <div className={styles.body}>Building not found.</div>
+        <div className={styles.body}>
+          <div>Building not found.</div>
+          <Link className={styles.backLink} to={campusPath(campus, '/buildings')}>
+            See all {campus.shortName} buildings →
+          </Link>
+        </div>
       </div>
     )
   }
@@ -104,7 +113,8 @@ export default function BuildingDetail() {
     )
   }
 
-  const hasRealAcronym = !GIS_CODE.test(building.acronym)
+  const hasRealAcronym = campus.hasAcronym(building)
+  const hasLocation = building.latitude != null && building.longitude != null
 
   return (
     <div className={styles.page}>
@@ -158,23 +168,43 @@ export default function BuildingDetail() {
           {building.description && (
             <p className={styles.description}>{building.description}</p>
           )}
-          <div className={styles.detailRow}>
-            <span className={styles.detailKey}>Department</span>
-            <span className={styles.detailVal}>{building.department}</span>
-          </div>
-          <div className={styles.detailRow}>
-            <span className={styles.detailKey}>Address</span>
-            <span className={styles.detailVal}>{building.address}</span>
-          </div>
-          <div className={styles.detailRow}>
-            <span className={styles.detailKey}>Hours</span>
-            <span className={styles.detailVal}>{building.hours}</span>
-          </div>
+          {/* A row is only shown when there is a verified value to put in it. */}
+          {building.department && (
+            <div className={styles.detailRow}>
+              <span className={styles.detailKey}>Department</span>
+              <span className={styles.detailVal}>{building.department}</span>
+            </div>
+          )}
+          {building.address && (
+            <div className={styles.detailRow}>
+              <span className={styles.detailKey}>Address</span>
+              <span className={styles.detailVal}>{building.address}</span>
+            </div>
+          )}
+          {building.hours && (
+            <div className={styles.detailRow}>
+              <span className={styles.detailKey}>Hours</span>
+              <span className={styles.detailVal}>{building.hours}</span>
+            </div>
+          )}
         </div>
 
-        <button className={styles.dirBtn} onClick={handleDirections}>
-          Get directions from my location
-        </button>
+        {hasLocation || !campus.officialMap ? (
+          <button className={styles.dirBtn} onClick={handleDirections}>
+            Get directions from my location
+          </button>
+        ) : (
+          // Without a confirmed location a directions search could lead to
+          // the wrong place, so point to the official map instead.
+          <a
+            className={styles.backLink}
+            href={campus.officialMap}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Location not confirmed yet. Find it on the official campus map →
+          </a>
+        )}
 
         {buildingTips.length > 0 && (
           <div className={styles.card}>

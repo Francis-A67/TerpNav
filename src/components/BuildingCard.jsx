@@ -1,22 +1,23 @@
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import styles from './BuildingCard.module.css'
+import { campusPath } from '../campuses'
+import { useCampus } from '../campuses/CampusContext'
 import { getSaved, saveBuilding, unsaveBuilding } from '../utils/saved'
-
-const GIS_CODE = /^B\d+$/
 
 function BuildingCard({ building }) {
   const navigate = useNavigate()
-  const [isSaved, setSavedBuilding] = useState(getSaved().includes(building.acronym))
-  const hasRealAcronym = !GIS_CODE.test(building.acronym)
+  const campus = useCampus()
+  const [isSaved, setSavedBuilding] = useState(getSaved(campus).includes(building.acronym))
+  const hasRealAcronym = campus.hasAcronym(building)
 
   function handleSave(e) {
     e.stopPropagation()
     if (isSaved) {
-      unsaveBuilding(building.acronym)
+      unsaveBuilding(campus, building.acronym)
       setSavedBuilding(false)
     } else {
-      saveBuilding(building.acronym)
+      saveBuilding(campus, building.acronym)
       setSavedBuilding(true)
     }
   }
@@ -25,12 +26,12 @@ function BuildingCard({ building }) {
     e.stopPropagation()
     const dest = building.latitude != null && building.longitude != null
       ? `${building.latitude},${building.longitude}`
-      : building.address || building.full_name + ' College Park MD'
+      : building.address || `${building.full_name} ${campus.cityFallback}`
     window.open(`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(dest)}`, '_blank')
   }
 
   function handleClick() {
-    navigate(`/building/${building.acronym}`)
+    navigate(campusPath(campus, `/building/${building.acronym}`))
   }
 
   return (
@@ -44,7 +45,7 @@ function BuildingCard({ building }) {
       {hasRealAcronym && <div className={styles.name}>{building.full_name}</div>}
       <div className={styles.dept}>{building.department}</div>
       <div className={styles.footer}>
-        <div className={styles.address}>{building.address || 'College Park, MD 20742'}</div>
+        <div className={styles.address}>{building.address || campus.addressFallback}</div>
         <button className={styles.dirBtn} onClick={handleDirections}>
           Directions
         </button>

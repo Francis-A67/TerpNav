@@ -1,6 +1,10 @@
+import { DISCLAIMER } from '../campuses'
+import { useCampus } from '../campuses/CampusContext'
 import styles from './Footer.module.css'
 
 function Footer() {
+  const campus = useCampus()
+
   return (
     <footer className={styles.footer}>
       <div>
@@ -15,8 +19,18 @@ function Footer() {
       </div>
       <div>© {new Date().getFullYear()} Francis Ametewee · TerpNav</div>
       <div className={styles.sources}>
-        Building data: Maryland iMAP · Addresses © OpenStreetMap contributors · Photos via Wikimedia Commons
+        {campus.dataCredit}
+        {' · '}
+        <a
+          className={styles.sourceLink}
+          href='https://www.openstreetmap.org/copyright'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          OpenStreetMap license
+        </a>
       </div>
+      <div className={styles.sources}>{DISCLAIMER}</div>
     </footer>
   )
 }

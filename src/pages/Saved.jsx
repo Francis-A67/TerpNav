@@ -2,13 +2,15 @@ import Navbar from '../components/Navbar'
 import BuildingCard from '../components/BuildingCard'
 import Footer from '../components/Footer'
 import LoadingNotice from '../components/LoadingNotice'
+import { useCampus } from '../campuses/CampusContext'
 import { getSaved } from '../utils/saved'
 import useBuildings from '../hooks/useBuildings'
 import styles from './saved.module.css'
 
 export default function Saved() {
+  const campus = useCampus()
   const { buildings, loading, error, retry } = useBuildings()
-  const saved = getSaved()
+  const saved = getSaved(campus)
   const savedBuildings = buildings.filter(b => saved.includes(b.acronym))
 
   return (
