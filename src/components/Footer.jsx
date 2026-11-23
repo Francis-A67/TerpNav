@@ -1,5 +1,6 @@
 import { DISCLAIMER } from '../campuses'
 import { useCampus } from '../campuses/CampusContext'
+import { FEEDBACK_URL } from '../utils/links'
 import styles from './Footer.module.css'
 
 function Footer() {
@@ -10,7 +11,7 @@ function Footer() {
       <div>
         <a
           className={styles.feedback}
-          href='https://forms.gle/1bnDxDRXm9dTZzRf9'
+          href={FEEDBACK_URL}
           target='_blank'
           rel='noopener noreferrer'
         >

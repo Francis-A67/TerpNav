@@ -1,0 +1,18 @@
+/* The lines a search box shows when it has no exact answer. The page that
+   uses them decides the spacing around them. */
+
+.note {
+  font-size: 13px;
+  color: #666;
+}
+
+.hint {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #666;
+}
+
+.link {
+  color: var(--accent-text);
+  text-decoration: underline;
+}

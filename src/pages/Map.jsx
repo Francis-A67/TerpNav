@@ -15,6 +15,7 @@ import { useCampus } from '../campuses/CampusContext'
 import useGeolocation from '../hooks/useGeolocation'
 import useNow from '../hooks/useNow'
 import { DISCLAIMER } from '../campuses'
+import { buildingFields, findPlaces } from '../utils/search'
 import styles from './Map.module.css'
 
 delete L.Icon.Default.prototype._getIconUrl
@@ -100,13 +101,14 @@ export default function Map() {
   }, [campus])
 
   const q = query.trim().toLowerCase()
-  const shownBuildings = q
-    ? buildings.filter(b =>
-        b.acronym.toLowerCase().includes(q) ||
-        b.full_name.toLowerCase().includes(q) ||
-        b.department.toLowerCase().includes(q)
-      )
-    : buildings
+  // Same search as the building list, so a nickname or a misspelling that
+  // works there works on the map too.
+  const found = findPlaces(buildings, query, buildingFields(campus))
+  const shownBuildings = found.results
+  const count = shownBuildings.length
+  const buildingCount = found.approximate
+    ? `${count} close ${count === 1 ? 'match' : 'matches'}`
+    : `${count} ${count === 1 ? 'building' : 'buildings'}`
   const shownParking = q
     ? parking.filter(p =>
         p.name.toLowerCase().includes(q) || p.code.toLowerCase().includes(q)
@@ -138,7 +140,7 @@ export default function Map() {
           )}
           {q && (
             <div className={styles.searchCount}>
-              {shownBuildings.length} {shownBuildings.length === 1 ? 'building' : 'buildings'}
+              {buildingCount}
               {' · '}
               {shownParking.length} parking
             </div>
