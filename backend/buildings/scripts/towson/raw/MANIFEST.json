@@ -1,0 +1,51 @@
+{
+  "fetched_at": "2026-11-15T20:16:44+00:00",
+  "files": [
+    {
+      "file": "imap_tu_buildings.json",
+      "source": "https://mdgeodata.md.gov/imap/rest/services/Structure/MD_CampusFacilities/MapServer/4",
+      "records": 52,
+      "sha256": "0ed14fc86c15723da0d3215d17d2c824f87f68c6b510536ec249abea473b225f"
+    },
+    {
+      "file": "imap_tu_parking.json",
+      "source": "https://mdgeodata.md.gov/imap/rest/services/Structure/MD_CampusFacilities/MapServer/5",
+      "records": 21,
+      "sha256": "f6e3fcf7670b4ff6a9a2b118a72076bfe740faebb9cee43b9e9153ab1764671f"
+    },
+    {
+      "file": "imap_tu_boundary.json",
+      "source": "https://mdgeodata.md.gov/imap/rest/services/Structure/MD_CampusFacilities/MapServer/8",
+      "records": 8,
+      "sha256": "1338ba9012b96728096684463e2134935e562575d95fea6a5deafea03dbc0f10"
+    },
+    {
+      "file": "osm_buildings.json",
+      "source": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:90];nwr[building][name](39.382,-76.627,39.398,-76.602);out tags geom;",
+      "records": 120,
+      "sha256": "53119f4050f6c334f9721cd795d1b197a407cd20a69051f30ad7cce3d36559bd"
+    },
+    {
+      "file": "osm_buildings_uptown.json",
+      "source": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:90];nwr[building][name](39.398,-76.610,39.406,-76.596);out tags geom;",
+      "records": 108,
+      "sha256": "c4a1c230a02a3aca377b04a85d24d286bf6fec48dcef5d99db9cea70b6817f8d"
+    },
+    {
+      "file": "osm_parking.json",
+      "source": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:90];nwr[amenity=parking](39.382,-76.627,39.398,-76.602);out tags geom;",
+      "records": 75,
+      "sha256": "b9beafdce5e263d92367c4b75b77e6c55e7580820ab072f07771d2e53f3ecb6a"
+    },
+    {
+      "file": "osm_leisure.json",
+      "source": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:90];nwr[leisure](39.382,-76.627,39.398,-76.602);out tags geom;",
+      "records": 95,
+      "sha256": "aea1a272e8d7380e95c37418f8ad4f510fdfea459513f34222e0216210ab5ad7"
+    }
+  ]
+}

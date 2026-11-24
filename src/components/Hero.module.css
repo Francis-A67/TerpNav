@@ -1,8 +1,10 @@
 .hero {
   position: relative;
+  /* A campus can supply its own photo through --hero-image and
+     --hero-position (set by Hero.jsx); the defaults are the UMD photo. */
   background:
     linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.82)),
-    url('/hero-campus.jpg') center 35% / cover no-repeat;
+    var(--hero-image, url('/hero-campus.jpg')) var(--hero-position, center 35%) / cover no-repeat;
   border-bottom: 0.5px solid rgba(0,0,0,0.1);
   padding: 48px 32px 36px;
 }
@@ -18,6 +20,19 @@
 
 .heroCredit:hover {
   color: #666;
+  text-decoration: underline;
+}
+
+.switchHint {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.switchHint:hover {
   text-decoration: underline;
 }
 
@@ -57,8 +72,8 @@
 }
 
 .searchBtn {
-  background: #E03A3E;
-  color: white;
+  background: var(--accent);
+  color: var(--on-accent);
   border: none;
   border-radius: 8px;
   padding: 10px 24px;
@@ -68,7 +83,7 @@
 }
 
 .searchBtn:hover {
-  background: #B02E31;
+  background: var(--accent-hover);
 }
 
 @media (max-width: 768px) {

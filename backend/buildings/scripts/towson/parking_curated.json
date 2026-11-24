@@ -1,0 +1,270 @@
+[
+  {
+    "code": "union-garage",
+    "name": "Union Garage",
+    "kind": "garage",
+    "osm": "way/35457700",
+    "osm_name": "Union Garage",
+    "free_after_hours": true,
+    "after_hours_rule": "published",
+    "note": "Core (commuter) and faculty/staff permit parking during enforcement hours. Visitors pay with the ParkMobile app (zone 8001, $15 a day). From 11pm to 5am entry needs a TU OneCard with an active permit, at the after-hours entrance only.",
+    "sources": [
+      "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+      "https://www.towson.edu/parking/visitors/guests.html",
+      "https://www.towson.edu/parking/enforcement/"
+    ]
+  },
+  {
+    "code": "towsontown-garage",
+    "name": "Towsontown Garage",
+    "kind": "garage",
+    "osm": "way/35457699",
+    "osm_name": "Towsontown Garage",
+    "free_after_hours": true,
+    "after_hours_rule": "published",
+    "note": "Core (commuter) and faculty/staff permit parking during enforcement hours. Visitors pay with the ParkMobile app (zone 8001, $15 a day). From 11pm to 5am entry needs a TU OneCard with an active permit, at the after-hours entrance only.",
+    "sources": [
+      "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+      "https://www.towson.edu/parking/visitors/guests.html",
+      "https://www.towson.edu/parking/enforcement/"
+    ]
+  },
+  {
+    "code": "glen-garage",
+    "name": "Glen Garage",
+    "kind": "garage",
+    "osm": "way/169235860",
+    "osm_name": "Glen Garage",
+    "free_after_hours": true,
+    "after_hours_rule": "published",
+    "note": "Core (commuter) and faculty/staff permit parking during enforcement hours. Visitors pay with the ParkMobile app (zone 8001, $15 a day). From 11pm to 5am entry needs a TU OneCard with an active permit, at the after-hours entrance only.",
+    "sources": [
+      "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+      "https://www.towson.edu/parking/visitors/guests.html",
+      "https://www.towson.edu/parking/enforcement/"
+    ]
+  },
+  {
+    "code": "west-village-garage",
+    "name": "West Village Garage",
+    "kind": "garage",
+    "osm": "way/159252016",
+    "osm_name": "West Village Garage",
+    "free_after_hours": true,
+    "after_hours_rule": "published",
+    "note": "Levels 4 to 6 are for West Village resident permits at all times. Faculty/staff permits and visitors (ParkMobile zone 8002, $15 a day) use the other levels. From 11pm to 5am entry needs a TU OneCard with an active permit, at the after-hours entrance only.",
+    "sources": [
+      "https://www.towson.edu/parking/",
+      "https://www.towson.edu/parking/visitors/guests.html",
+      "https://www.towson.edu/parking/enforcement/"
+    ]
+  },
+  {
+    "code": "lot-1",
+    "name": "Lot 1",
+    "kind": "lot",
+    "osm": "way/163604503",
+    "osm_name": "Lot 1",
+    "free_after_hours": false,
+    "after_hours_rule": "unconfirmed",
+    "note": "Visitor lot at Enrollment Services. Pay with the ParkMobile app (zone 8006, $15 a day). Check the posted signs for evenings and weekends.",
+    "sources": ["https://www.towson.edu/parking/visitors/guests.html", "https://www.towson.edu/parking/forms/parking-guidelines.pdf"],
+    "to_verify": ["Whether the lot is open without a permit after enforcement hours."]
+  },
+  {
+    "code": "lot-2",
+    "name": "Lot 2",
+    "kind": "lot",
+    "osm": "way/118262452",
+    "osm_name": "Lot 2",
+    "free_after_hours": false,
+    "after_hours_rule": "never",
+    "note": "Millennium Hall permit holders only. Privately managed, and cars without that permit are towed.",
+    "sources": ["https://www.towson.edu/parking/forms/parking-guidelines.pdf", "https://www.towson.edu/parking/enforcement/"]
+  },
+  {
+    "code": "lot-3",
+    "name": "Lot 3",
+    "kind": "lot",
+    "osm": "way/172576056",
+    "osm_name": "Lot 3",
+    "free_after_hours": false,
+    "after_hours_rule": "unconfirmed",
+    "note": "Visitor parking near the Center for the Arts. Pay with the ParkMobile app (zone 8001, $15 a day). Check the posted signs for evenings and weekends.",
+    "sources": ["https://www.towson.edu/parking/visitors/guests.html"],
+    "to_verify": ["Whether the lot is open without a permit after enforcement hours."]
+  },
+  {
+    "code": "lot-4",
+    "name": "Lot 4",
+    "kind": "lot",
+    "osm": "way/118263057",
+    "osm_name": "Lot 4",
+    "free_after_hours": true,
+    "after_hours_rule": "published",
+    "note": "Stadium overflow lot: any TU permit during enforcement hours. Visitors pay with the ParkMobile app (zone 8003, $15 a day). May be restricted on game days. Staying overnight needs a $15 ParkMobile overnight permit.",
+    "sources": [
+      "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+      "https://www.towson.edu/parking/visitors/guests.html",
+      "https://www.towson.edu/parking/events.html"
+    ]
+  },
+  {
+    "code": "lot-5",
+    "name": "Lot 5",
+    "kind": "lot",
+    "osm": "way/118263086",
+    "osm_name": "Lot 5",
+    "free_after_hours": true,
+    "after_hours_rule": "published",
+    "note": "Stadium overflow lot: any TU permit during enforcement hours. May be restricted on game days. No overnight parking without an overnight permit.",
+    "sources": ["https://www.towson.edu/parking/forms/parking-guidelines.pdf", "https://www.towson.edu/parking/events.html"]
+  },
+  {
+    "code": "lot-6",
+    "name": "Lot 6",
+    "kind": "lot",
+    "osm": "way/165507821",
+    "osm_name": "Lot 6",
+    "free_after_hours": false,
+    "after_hours_rule": "unconfirmed",
+    "note": "Stadium lot. The permit type is not published, so check the posted signs. A game-day permit is required on football days.",
+    "sources": ["https://www.towson.edu/parking/events.html", "https://www.towson.edu/news/articles/2026/parking-questions.html"],
+    "to_verify": ["Permit type and after-hours rule. The regulations list overflow lots as 4, 5, 7 and 8, while a January 2026 article counts Lot 6 as overflow."]
+  },
+  {
+    "code": "lot-7",
+    "name": "Lot 7",
+    "kind": "lot",
+    "osm": "way/259864062",
+    "osm_name": "Lot 7",
+    "free_after_hours": true,
+    "after_hours_rule": "published",
+    "note": "Stadium overflow lot: any TU permit during enforcement hours, except the Landscape Services area. Visitors pay with ParkMobile (zone 8003, $15 a day). Football days need a game-day permit and the lot closes before kickoff. Overnight needs a $15 overnight permit.",
+    "sources": [
+      "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+      "https://www.towson.edu/parking/visitors/guests.html",
+      "https://www.towson.edu/parking/events.html"
+    ]
+  },
+  {
+    "code": "lot-8",
+    "name": "Lot 8",
+    "kind": "lot",
+    "osm": "way/118263046",
+    "osm_name": "Lot 8",
+    "free_after_hours": true,
+    "after_hours_rule": "published",
+    "note": "Stadium overflow lot (part of the lot is excluded; follow the signs): any TU permit during enforcement hours. Visitors pay with ParkMobile (zone 8003, $15 a day). Football days need a game-day permit and the lot closes before kickoff. Overnight needs a $15 overnight permit.",
+    "sources": [
+      "https://www.towson.edu/parking/forms/parking-guidelines.pdf",
+      "https://www.towson.edu/parking/visitors/guests.html",
+      "https://www.towson.edu/parking/events.html"
+    ]
+  },
+  {
+    "code": "lot-8a",
+    "name": "Lot 8a",
+    "kind": "lot",
+    "osm": "way/1416025013",
+    "osm_name": "Lot 8a",
+    "free_after_hours": false,
+    "after_hours_rule": "unconfirmed",
+    "note": "Stadium lot. The permit type is not published, so check the posted signs.",
+    "sources": ["https://www.towson.edu/parking/permits/student/residential.html"],
+    "to_verify": ["Permit type and after-hours rule."]
+  },
+  {
+    "code": "lot-9",
+    "name": "Lot 9",
+    "kind": "lot",
+    "osm": "way/118263001",
+    "osm_name": "Lot 9",
+    "free_after_hours": false,
+    "after_hours_rule": "unconfirmed",
+    "note": "Visitor lot at the Administration Building. Pay with the ParkMobile app (zone 8001, $15 a day). Check the posted signs for evenings and weekends.",
+    "sources": ["https://www.towson.edu/parking/visitors/guests.html", "https://www.towson.edu/parking/forms/parking-guidelines.pdf"],
+    "to_verify": ["Whether the lot is open without a permit after enforcement hours."]
+  },
+  {
+    "code": "lot-10",
+    "name": "Lot 10",
+    "kind": "lot",
+    "osm": "way/118263088",
+    "osm_name": "Lot 10",
+    "free_after_hours": false,
+    "after_hours_rule": "unconfirmed",
+    "note": "Faculty/staff permit lot behind the Administration Building. Check the posted signs for evenings and weekends.",
+    "sources": ["https://www.towson.edu/news/articles/2026/parking-questions.html"],
+    "to_verify": ["After-hours rule: faculty/staff areas follow the signs posted at each lot."]
+  },
+  {
+    "code": "lot-11",
+    "name": "Lot 11",
+    "kind": "lot",
+    "osm": "way/35457701",
+    "osm_name": "Lot 11",
+    "free_after_hours": false,
+    "after_hours_rule": "unconfirmed",
+    "note": "Near the Glen towers. The permit type is not published, so check the posted signs.",
+    "sources": ["https://www.towson.edu/news/articles/2026/parking-questions.html"],
+    "to_verify": ["Permit type and after-hours rule."]
+  },
+  {
+    "code": "lot-12",
+    "name": "Lot 12",
+    "kind": "lot",
+    "osm": "way/1416025020",
+    "osm_name": "Lot 12",
+    "free_after_hours": false,
+    "after_hours_rule": "never",
+    "note": "Public Safety vehicles and permits only.",
+    "sources": ["https://www.towson.edu/parking/forms/parking-guidelines.pdf"]
+  },
+  {
+    "code": "lot-13",
+    "name": "Lot 13",
+    "kind": "lot",
+    "osm": ["way/45778911", "way/45778912"],
+    "osm_name": "Lot 13",
+    "free_after_hours": false,
+    "after_hours_rule": "never",
+    "note": "General Services permits, plus a few visitor spaces for people with business in the General Services or Public Safety buildings.",
+    "sources": ["https://www.towson.edu/parking/forms/parking-guidelines.pdf"]
+  },
+  {
+    "code": "lot-14",
+    "name": "Lot 14",
+    "kind": "lot",
+    "osm": "way/45778915",
+    "osm_name": "Lot 14",
+    "free_after_hours": false,
+    "after_hours_rule": "unconfirmed",
+    "note": "Visitor parking at the Health Center. Pay with the ParkMobile app (zone 8005, $15 a day). Check the posted signs for evenings and weekends.",
+    "sources": ["https://www.towson.edu/parking/visitors/guests.html"],
+    "to_verify": ["Whether the lot is open without a permit after enforcement hours."]
+  },
+  {
+    "code": "lot-16",
+    "name": "Lot 16",
+    "kind": "lot",
+    "osm": "way/1416025019",
+    "osm_name": "Lot 16",
+    "free_after_hours": false,
+    "after_hours_rule": "unconfirmed",
+    "note": "The permit type is not published, so check the posted signs.",
+    "sources": ["https://www.towson.edu/maps/documents/campus-map.pdf"],
+    "to_verify": ["Permit type and after-hours rule."]
+  },
+  {
+    "code": "lot-17",
+    "name": "Lot 17",
+    "kind": "lot",
+    "osm": "way/1416025018",
+    "osm_name": "Lot 17",
+    "free_after_hours": false,
+    "after_hours_rule": "never",
+    "note": "Accessible parking (state plate or placard plus a TU permit) and department guests only.",
+    "sources": ["https://www.towson.edu/parking/forms/parking-guidelines.pdf", "https://www.towson.edu/parking/visitors/guests.html"]
+  }
+]

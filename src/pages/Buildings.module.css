@@ -57,9 +57,9 @@
 }
 
 .chipActive {
-  background: #FDEAEA;
-  color: #B02E31;
-  border-color: #F5A8AA;
+  background: var(--accent-light);
+  color: var(--accent-strong);
+  border-color: var(--accent-border);
   font-weight: 500;
 }
 
@@ -83,6 +83,13 @@
   font-size: 14px;
 }
 
+/* "No exact match" line between the chips and the cards. The negative margin
+   pulls the cards up so the line reads as their heading. */
+.note {
+  padding: 20px 32px 0;
+  margin-bottom: -12px;
+}
+
 @media (max-width: 768px) {
   .topBar {
     padding: 16px 20px;
@@ -90,6 +97,11 @@
 
   .filterBar {
     padding: 12px 20px;
+  }
+
+  .note {
+    padding: 16px 20px 0;
+    margin-bottom: -8px;
   }
 
   .grid {
@@ -106,6 +118,11 @@
   .filterBar {
     padding: 10px 16px;
     gap: 6px;
+  }
+
+  .note {
+    padding: 14px 16px 0;
+    margin-bottom: -6px;
   }
 
   .searchInput {

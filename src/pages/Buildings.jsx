@@ -4,9 +4,12 @@ import Navbar from '../components/Navbar'
 import BuildingCard from '../components/BuildingCard'
 import Footer from '../components/Footer'
 import LoadingNotice from '../components/LoadingNotice'
+import { CloseMatches, NoResults } from '../components/SearchHelp'
 import styles from './Buildings.module.css'
 import useBuildings from '../hooks/useBuildings'
+import { useCampus } from '../campuses/CampusContext'
 import { BUILDING_TYPES } from '../utils/buildingTypes'
+import { buildingFields, findPlaces } from '../utils/search'
 
 export default function Buildings() {
   const location = useLocation()
@@ -14,6 +17,7 @@ export default function Buildings() {
   const query = params.get('search') || ''
   const [searchTerm, setSearchTerm] = useState(query)
   const [selectedTypes, setSelectedTypes] = useState([])
+  const campus = useCampus()
   const { buildings, loading, error, retry } = useBuildings()
 
   function toggleType(type) {
@@ -22,13 +26,10 @@ export default function Buildings() {
     )
   }
 
-  const searchMatched = buildings.filter((building) => {
-    return (
-      building.acronym.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      building.full_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      building.department.toLowerCase().includes(searchTerm.toLowerCase())
-    )
-  })
+  // Best match first. An empty box returns every building in its usual order.
+  const { results: searchMatched, approximate } = findPlaces(
+    buildings, searchTerm, buildingFields(campus)
+  )
 
   // No types selected means no type constraint, so the All chip is a pure reset.
   const filtered = searchMatched.filter(
@@ -92,16 +93,23 @@ export default function Buildings() {
         <LoadingNotice error={error} onRetry={retry} />
       ) : filtered.length === 0 ? (
         <div className={styles.empty}>
-          {searchTerm
-            ? `No buildings found for "${searchTerm}"`
+          {searchMatched.length === 0
+            ? <NoResults query={searchTerm} />
             : 'No buildings match the selected types.'}
         </div>
       ) : (
-        <div className={styles.grid}>
-          {filtered.map((building) => (
-            <BuildingCard key={building.acronym} building={building} />
-          ))}
-        </div>
+        <>
+          {approximate && (
+            <div className={styles.note}>
+              <CloseMatches query={searchTerm} />
+            </div>
+          )}
+          <div className={styles.grid}>
+            {filtered.map((building) => (
+              <BuildingCard key={building.acronym} building={building} />
+            ))}
+          </div>
+        </>
       )}
       <Footer />
     </div>

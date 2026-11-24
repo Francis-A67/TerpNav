@@ -4,20 +4,20 @@
 }
 
 .header {
-  background: #E03A3E;
+  background: var(--accent);
   padding: 32px;
 }
 
 .acronym {
   font-size: 42px;
   font-weight: 500;
-  color: #ffffff;
+  color: var(--on-accent);
   margin-bottom: 4px;
 }
 
 .fullName {
   font-size: 16px;
-  color: #FDEAEA;
+  color: var(--on-accent-muted);
 }
 
 .body {
@@ -72,8 +72,8 @@
 
 .dirBtn {
   width: 100%;
-  background: #E03A3E;
-  color: white;
+  background: var(--accent);
+  color: var(--on-accent);
   border: none;
   border-radius: 10px;
   padding: 14px;
@@ -83,7 +83,7 @@
 }
 
 .dirBtn:hover {
-  background: #B02E31;
+  background: var(--accent-hover);
 }
 
 .tipCard {
@@ -108,12 +108,23 @@
 .backBtn {
   background: none;
   border: none;
-  color: #E03A3E;
+  color: var(--accent-text);
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
   padding: 0;
   margin-bottom: 8px;
+}
+
+.backLink {
+  color: var(--accent-strong);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.backLink:hover {
+  text-decoration: underline;
 }
 
 .notFound {
@@ -144,21 +155,21 @@
 }
 
 .commentInput:focus {
-  border-color: #E03A3E;
+  border-color: var(--accent-text);
 }
 
 .commentError {
   font-size: 12px;
-  color: #B02E31;
-  background: #FDEAEA;
+  color: var(--danger-text);
+  background: var(--danger-bg);
   border-radius: 6px;
   padding: 8px 12px;
 }
 
 .commentBtn {
   align-self: flex-end;
-  background: #E03A3E;
-  color: white;
+  background: var(--accent);
+  color: var(--on-accent);
   border: none;
   border-radius: 8px;
   padding: 8px 16px;
@@ -168,7 +179,7 @@
 }
 
 .commentBtn:hover:not(:disabled) {
-  background: #B02E31;
+  background: var(--accent-hover);
 }
 
 .commentBtn:disabled {

@@ -1,0 +1,11 @@
+{
+  "fetched_at": "2026-11-17T05:31:49+00:00",
+  "files": [
+    {
+      "file": "umdio_buildings.json",
+      "source": "https://api.umd.io/v1/map/buildings",
+      "records": 421,
+      "sha256": "a9302caa4f0fae01ddff09da5452e1a2c6054af23e814ad28d5e8ad56a03ab74"
+    }
+  ]
+}

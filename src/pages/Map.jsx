@@ -10,8 +10,12 @@ import Navbar from '../components/Navbar'
 import LoadingNotice from '../components/LoadingNotice'
 import useBuildings from '../hooks/useBuildings'
 import { getWithRetry } from '../api/axios'
-import { isFreePeriod } from '../utils/parking'
+import { apiPath, campusPath } from '../campuses'
+import { useCampus } from '../campuses/CampusContext'
 import useGeolocation from '../hooks/useGeolocation'
+import useNow from '../hooks/useNow'
+import { DISCLAIMER } from '../campuses'
+import { buildingFields, findPlaces } from '../utils/search'
 import styles from './Map.module.css'
 
 delete L.Icon.Default.prototype._getIconUrl
@@ -20,8 +24,6 @@ L.Icon.Default.mergeOptions({
   iconRetinaUrl: markerIcon2x,
   shadowUrl: markerShadow,
 })
-
-const UMD_CENTER = [38.9869, -76.9426]
 
 function parkingIcon(variantClass) {
   return L.divIcon({
@@ -33,10 +35,23 @@ function parkingIcon(variantClass) {
   })
 }
 
+// Keyed by the marker and tone names each campus uses in its parking statuses.
 const ICONS = {
   free: parkingIcon(styles.pFree),
   permit: parkingIcon(styles.pPermit),
   garage: parkingIcon(styles.pGarage),
+}
+
+const BADGES = {
+  free: styles.badgeFree,
+  permit: styles.badgePermit,
+  garage: styles.badgeGarage,
+}
+
+const DOTS = {
+  free: styles.dotFree,
+  permit: styles.dotPermit,
+  garage: styles.dotGarage,
 }
 
 const USER_ICON = L.divIcon({
@@ -60,6 +75,8 @@ function FlyToUser({ position, nonce }) {
 }
 
 export default function Map() {
+  const campus = useCampus()
+  const rules = campus.parking
   const { buildings: allBuildings, loading, error, retry } = useBuildings()
   const buildings = allBuildings.filter(b => b.latitude && b.longitude)
 
@@ -69,6 +86,8 @@ export default function Map() {
   const geo = useGeolocation({ watch: true })
   const [locateNonce, setLocateNonce] = useState(0)
   const [query, setQuery] = useState('')
+  // Re-read the clock every minute so the parking pins stay correct.
+  const now = useNow()
 
   function handleLocate() {
     geo.request()
@@ -76,21 +95,20 @@ export default function Map() {
   }
 
   useEffect(() => {
-    getWithRetry('/api/parking/')
+    getWithRetry(apiPath(campus, '/api/parking/'))
       .then(res => setParking(res.data))
       .catch(() => {})
-  }, [])
-
-  const freeNow = isFreePeriod()
+  }, [campus])
 
   const q = query.trim().toLowerCase()
-  const shownBuildings = q
-    ? buildings.filter(b =>
-        b.acronym.toLowerCase().includes(q) ||
-        b.full_name.toLowerCase().includes(q) ||
-        b.department.toLowerCase().includes(q)
-      )
-    : buildings
+  // Same search as the building list, so a nickname or a misspelling that
+  // works there works on the map too.
+  const found = findPlaces(buildings, query, buildingFields(campus))
+  const shownBuildings = found.results
+  const count = shownBuildings.length
+  const buildingCount = found.approximate
+    ? `${count} close ${count === 1 ? 'match' : 'matches'}`
+    : `${count} ${count === 1 ? 'building' : 'buildings'}`
   const shownParking = q
     ? parking.filter(p =>
         p.name.toLowerCase().includes(q) || p.code.toLowerCase().includes(q)
@@ -108,6 +126,7 @@ export default function Map() {
           <input
             className={styles.searchInput}
             placeholder="Search buildings or parking..."
+            aria-label="Search buildings or parking"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             autoComplete="off"
@@ -121,7 +140,7 @@ export default function Map() {
           )}
           {q && (
             <div className={styles.searchCount}>
-              {shownBuildings.length} {shownBuildings.length === 1 ? 'building' : 'buildings'}
+              {buildingCount}
               {' · '}
               {shownParking.length} parking
             </div>
@@ -150,13 +169,16 @@ export default function Map() {
           </label>
           {showParking && (
             <div className={styles.legend}>
-              <div><span className={`${styles.dot} ${styles.dotFree}`} /> Free now (after 4pm &amp; weekends)</div>
-              <div><span className={`${styles.dot} ${styles.dotPermit}`} /> Permit hours (Mon–Fri 7am–4pm)</div>
-              <div><span className={`${styles.dot} ${styles.dotGarage}`} /> Garage / restricted: see marker</div>
+              {rules.legend.map((item) => (
+                <div key={item.text}>
+                  <span className={`${styles.dot} ${DOTS[item.tone]}`} /> {item.text}
+                </div>
+              ))}
             </div>
           )}
+          <div className={styles.disclaimer}>{DISCLAIMER}</div>
         </div>
-        <MapContainer center={UMD_CENTER} zoom={15} className={styles.map}>
+        <MapContainer center={campus.map.center} zoom={campus.map.zoom} className={styles.map}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -179,27 +201,18 @@ export default function Map() {
               <Popup>
                 <strong>{b.acronym}</strong> · {b.full_name}
                 <br />
-                <Link to={`/building/${b.acronym}`}>View details →</Link>
+                <Link to={campusPath(campus, `/building/${b.acronym}`)}>View details →</Link>
               </Popup>
             </Marker>
           ))}
           {showParking && shownParking.map(p => {
-            const lotIsFree = p.kind !== 'garage' && p.free_after_hours && freeNow
-            const icon = p.kind === 'garage' ? ICONS.garage : lotIsFree ? ICONS.free : ICONS.permit
+            const status = rules.statuses[rules.lotStatus(p, now)]
             return (
-              <Marker key={p.code} position={[p.latitude, p.longitude]} icon={icon}>
+              <Marker key={p.code} position={[p.latitude, p.longitude]} icon={ICONS[status.marker]}>
                 <Popup>
                   <strong>{p.name}</strong>
                   <br />
-                  {p.kind === 'garage' ? (
-                    <span className={styles.badgeGarage}>Garage: paid parking</span>
-                  ) : !p.free_after_hours ? (
-                    <span className={styles.badgeGarage}>Restricted: see note</span>
-                  ) : lotIsFree ? (
-                    <span className={styles.badgeFree}>Likely FREE right now</span>
-                  ) : (
-                    <span className={styles.badgePermit}>Permit required now. Free after 4pm &amp; weekends</span>
-                  )}
+                  <span className={BADGES[status.tone]}>{status.mapLabel}</span>
                   <div className={styles.popupNote}>{p.note}</div>
                 </Popup>
               </Marker>

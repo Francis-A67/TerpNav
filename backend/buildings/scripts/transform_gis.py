@@ -22,6 +22,7 @@ INPUT = Path(__file__).parent / 'buildings.json'
 ADDRESSES = Path(__file__).parent / 'osm_addresses.json'  # gis_id -> street address, from OpenStreetMap
 INFO = Path(__file__).parent / 'building_info.json'       # gis_id -> department/description/hours
 IMAGES = Path(__file__).parent / 'building_images.json'   # gis_id -> Wikimedia Commons photo URL
+ALIASES = Path(__file__).parent / 'building_aliases.json'  # gis_id -> official building code, former names
 OUTPUT = Path(__file__).parent.parent / 'data' / 'buildings_gis.json'
 
 # Earth radius used by the Web Mercator projection
@@ -60,6 +61,11 @@ def main():
         with open(IMAGES, encoding='utf-8') as f:
             images = json.load(f)
 
+    aliases = {}
+    if ALIASES.exists():
+        with open(ALIASES, encoding='utf-8') as f:
+            aliases = json.load(f)
+
     features = data.get('features', [])
     buildings = []
 
@@ -80,7 +86,7 @@ def main():
 
         code = f'B{building_id}'
         extra = info.get(code, {})
-        buildings.append({
+        building = {
             'acronym': code,   # e.g. B164; GIS data has no acronyms
             'full_name': name,
             'type': classify(name, extra.get('department', '')),
@@ -91,12 +97,19 @@ def main():
             'longitude': lon,
             'hours': extra.get('hours', ''),
             'image_url': images.get(code, ''),
-        })
+        }
+        # Only the buildings that have aliases carry the key; sync treats a
+        # missing key as no aliases.
+        if code in aliases:
+            building['aliases'] = aliases[code]
+        buildings.append(building)
 
     buildings.sort(key=lambda b: b['full_name'])
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT, 'w', encoding='utf-8') as f:
+    # newline='\n' keeps the file identical whether this runs on Windows or
+    # on the Linux server.
+    with open(OUTPUT, 'w', encoding='utf-8', newline='\n') as f:
         json.dump(buildings, f, indent=2)
 
     print(f'Wrote {len(buildings)} buildings to {OUTPUT}')

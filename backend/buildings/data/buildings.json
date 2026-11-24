@@ -3,6 +3,9 @@
     "acronym": "IRB",
     "gis_id": "B432",
     "full_name": "Brendan Iribe Center for Computer Science & Engineering",
+    "aliases": [
+      "CS building"
+    ],
     "type": "Academic",
     "department": "Computer Science",
     "description": "Home of UMD's CS department, featuring modern research labs, collaborative study spaces, and the grand atrium. Named after Brendan Iribe, co-founder of Oculus VR.",
@@ -41,6 +44,9 @@
     "acronym": "McKK",
     "gis_id": "B035",
     "full_name": "McKeldin Library",
+    "aliases": [
+      "MCK"
+    ],
     "type": "Library",
     "department": "University Libraries",
     "description": "UMD's main research library with millions of volumes, quiet study floors, group rooms, and the McKeldin Terrace overlooking the fountain.",
@@ -54,6 +60,10 @@
     "acronym": "STAMP",
     "gis_id": "B163",
     "full_name": "Stamp Student Union",
+    "aliases": [
+      "SSU",
+      "Adele H. Stamp Student Union"
+    ],
     "type": "Student Life",
     "department": "Student Affairs",
     "description": "The student union. Houses dining, the university bookstore, student org offices, a game room, Adele's coffee, and the main ballroom used for events and concerts.",
@@ -140,6 +150,9 @@
     "acronym": "KIM",
     "gis_id": "B225",
     "full_name": "Jeong H. Kim Engineering Building",
+    "aliases": [
+      "KEB"
+    ],
     "type": "Academic",
     "department": "A. James Clark School of Engineering",
     "description": "The Clark School's flagship research building (2005) with a nanofabrication cleanroom and labs spanning many engineering departments. Home of the Clark School Dean's office.",
@@ -152,6 +165,10 @@
     "acronym": "CLARICE",
     "gis_id": "B386",
     "full_name": "Clarice Smith Performing Arts Center",
+    "aliases": [
+      "PAC",
+      "The Clarice"
+    ],
     "type": "Academic",
     "department": "School of Music",
     "description": "UMD's performing arts center with concert halls, recital studios, and theater spaces. Home of the School of Music, School of Theatre, Dance, and Performance Studies.",
@@ -165,6 +182,9 @@
     "acronym": "XFIN",
     "gis_id": "B360",
     "full_name": "Xfinity Center",
+    "aliases": [
+      "Comcast Center"
+    ],
     "type": "Athletics",
     "department": "Athletics",
     "description": "UMD's main arena seating 17,950. Home to Terp basketball and volleyball. Also hosts major concerts and campus-wide events like commencement.",
@@ -178,6 +198,10 @@
     "acronym": "ERC",
     "gis_id": "B068",
     "full_name": "Eppley Recreation Center",
+    "aliases": [
+      "CRC",
+      "gym"
+    ],
     "type": "Athletics",
     "department": "Recreation & Wellness",
     "description": "UMD's main student recreation facility. Features an aquatic center, weight room, basketball courts, racquetball courts, and group fitness studios.",
@@ -288,6 +312,9 @@
     "acronym": "RIGGS",
     "gis_id": "B407",
     "full_name": "Riggs Alumni Center",
+    "aliases": [
+      "Samuel Riggs IV Alumni Center"
+    ],
     "type": "Academic",
     "department": "Alumni Association",
     "description": "Home of the University of Maryland Alumni Association. An event and conference venue on campus used for receptions, ceremonies, and alumni gatherings.",
@@ -324,6 +351,9 @@
     "acronym": "LFR",
     "gis_id": "B038",
     "full_name": "Samuel J. LeFrak Hall",
+    "aliases": [
+      "LEF"
+    ],
     "type": "Academic",
     "department": "Criminology & Geographical Sciences",
     "description": "Home of the Department of Criminology and Criminal Justice and the Department of Geographical Sciences, with faculty offices, advising, and classrooms.",
@@ -361,6 +391,9 @@
     "acronym": "RCO",
     "gis_id": "B004",
     "full_name": "Ritchie Coliseum",
+    "aliases": [
+      "RIT"
+    ],
     "type": "Athletics",
     "department": "Athletics",
     "description": "Historic arena built in 1931, home to UMD's gymnastics and wrestling teams. One of the oldest athletic facilities on campus.",
@@ -374,6 +407,9 @@
     "acronym": "NYM",
     "gis_id": "B232",
     "full_name": "Nyumburu Cultural Center",
+    "aliases": [
+      "NCC"
+    ],
     "type": "Student Life",
     "department": "Student Affairs",
     "description": "Cultural and community center for Black students at UMD. Hosts performances, speakers, cultural celebrations, and student support programs. Nyumburu means 'freedom' in Swahili.",
@@ -387,6 +423,9 @@
     "acronym": "KGHT",
     "gis_id": "B417",
     "full_name": "Knight Hall",
+    "aliases": [
+      "KNI"
+    ],
     "type": "Academic",
     "department": "Philip Merrill College of Journalism",
     "description": "Home of the Philip Merrill College of Journalism, featuring a working newsroom, broadcast studios, and the Capital News Service bureau.",
@@ -411,6 +450,9 @@
     "acronym": "BSB",
     "gis_id": "B413",
     "full_name": "Bioscience Research Building",
+    "aliases": [
+      "BRB"
+    ],
     "type": "Academic",
     "department": "Biology",
     "description": "Life sciences research facility with laboratories for biological, biochemical, and molecular research programs.",
@@ -423,6 +465,10 @@
     "acronym": "MATH",
     "gis_id": "B084",
     "full_name": "William E. Kirwan Hall",
+    "aliases": [
+      "MTH",
+      "Mathematics Building"
+    ],
     "type": "Academic",
     "department": "Mathematics",
     "description": "Home of the Department of Mathematics, with classrooms, seminar rooms, and tutoring spaces. Renamed in 2017 for William “Brit” Kirwan, former UMD president and University System of Maryland chancellor.",
@@ -555,6 +601,9 @@
     "acronym": "MTB",
     "gis_id": "B052",
     "full_name": "Clarence M. Mitchell, Jr. Building",
+    "aliases": [
+      "Registrar"
+    ],
     "type": "Administrative",
     "department": "University Administration",
     "description": "Home of the Office of the Registrar and other student administrative services: transcripts, enrollment verification, and records. Named for civil rights leader Clarence M. Mitchell, Jr.",
@@ -567,6 +616,9 @@
     "acronym": "LEE",
     "gis_id": "B071",
     "full_name": "Lee Building",
+    "aliases": [
+      "Financial Aid"
+    ],
     "type": "Academic",
     "department": "Graduate School",
     "description": "Houses the Graduate School and the Office of Student Financial Aid, next to the Main Administration Building.",
@@ -689,6 +741,9 @@
     "acronym": "COLE",
     "gis_id": "B162",
     "full_name": "Jones-Hill House (Cole Field House)",
+    "aliases": [
+      "COL"
+    ],
     "type": "Athletics",
     "department": "Athletics",
     "description": "The historic Cole Field House arena, home of Terps basketball until 2002, renovated and renamed Jones-Hill House in 2021 for Billy Jones and Darryl Hill, the first Black men to play basketball and football in the ACC. Now home of Maryland football operations and the performance center.",
@@ -702,6 +757,9 @@
     "acronym": "SOUTH",
     "gis_id": "B026",
     "full_name": "South Campus Dining Hall",
+    "aliases": [
+      "SDH"
+    ],
     "type": "Dining",
     "department": "Dining Services",
     "description": "South campus's all-you-care-to-eat dining hall, serving residents of South Hill, South Campus Commons, and anyone on a dining plan.",
@@ -762,6 +820,9 @@
     "acronym": "Y",
     "gis_id": "B436",
     "full_name": "Yahentamitsi Dining Hall",
+    "aliases": [
+      "The Y"
+    ],
     "type": "Dining",
     "department": "Dining Services",
     "description": "North campus dining hall opened 2022, known to students as “The Y.” The name, from the Piscataway people on whose ancestral land the campus sits, means “a place to go to eat.”",
@@ -774,6 +835,9 @@
     "acronym": "TMH",
     "gis_id": "B433",
     "full_name": "Thurgood Marshall Hall",
+    "aliases": [
+      "School of Public Policy"
+    ],
     "type": "Academic",
     "department": "Public Policy",
     "description": "Home of the School of Public Policy, opened fall 2022. Named for U.S. Supreme Court Justice Thurgood Marshall, whose legal victories desegregated American universities, including this one.",
@@ -817,5 +881,38 @@
     "latitude": 38.987275,
     "longitude": -76.941917,
     "hours": "Mon–Fri 7am–10pm"
+  },
+  {
+    "acronym": "SECU",
+    "gis_id": "B364",
+    "full_name": "SECU Stadium",
+    "aliases": [
+      "football stadium",
+      "Maryland Stadium",
+      "Byrd Stadium",
+      "BRD"
+    ],
+    "type": "Athletics",
+    "department": "Athletics",
+    "description": "Home of Maryland football.",
+    "address": "90 Stadium Dr, College Park, MD 20742",
+    "latitude": 38.990339,
+    "longitude": -76.947518,
+    "hours": ""
+  },
+  {
+    "acronym": "B257",
+    "full_name": "Ellicott Community Center",
+    "aliases": [
+      "North Campus Market",
+      "The Diner"
+    ],
+    "type": "Dining",
+    "department": "Dining Services",
+    "description": "Home of North Campus Market, in the space that used to be the Diner.",
+    "address": "",
+    "latitude": 38.992427,
+    "longitude": -76.946509,
+    "hours": ""
   }
 ]

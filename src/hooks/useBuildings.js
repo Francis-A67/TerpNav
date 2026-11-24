@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react'
 import { getWithRetry } from '../api/axios'
+import { apiPath } from '../campuses'
+import { useCampus } from '../campuses/CampusContext'
 
-// Shared fetch for the buildings list: handles the slow free-tier wake-up
-// with loading/error state and a manual retry.
+// Shared fetch for the current campus's building list: handles the slow
+// free-tier wake-up with loading/error state and a manual retry.
 export default function useBuildings() {
+  const campus = useCampus()
   const [buildings, setBuildings] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
@@ -11,7 +14,7 @@ export default function useBuildings() {
 
   useEffect(() => {
     let cancelled = false
-    getWithRetry('/api/buildings/')
+    getWithRetry(apiPath(campus, '/api/buildings/'))
       .then(res => {
         if (!cancelled) setBuildings(res.data)
       })
@@ -24,7 +27,7 @@ export default function useBuildings() {
     return () => {
       cancelled = true
     }
-  }, [attempt])
+  }, [attempt, campus])
 
   function retry() {
     setLoading(true)

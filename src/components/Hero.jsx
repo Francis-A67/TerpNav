@@ -1,4 +1,6 @@
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { CAMPUSES, campusPath } from '../campuses'
+import { useCampus } from '../campuses/CampusContext'
 import styles from './Hero.module.css'
 
 function sanitize(input) {
@@ -8,11 +10,15 @@ function sanitize(input) {
 
 function Hero({ query, onQueryChange }) {
   const navigate = useNavigate()
+  const campus = useCampus()
+  const { hero } = campus
+  // A visitor from another campus who lands here should see they can switch.
+  const otherCampuses = Object.values(CAMPUSES).filter((other) => other.slug !== campus.slug)
 
   function handleSearch() {
     const clean = sanitize(query)
     if (clean) {
-      navigate(`/buildings?search=${encodeURIComponent(clean)}`)
+      navigate(campusPath(campus, `/buildings?search=${encodeURIComponent(clean)}`))
     }
   }
 
@@ -23,9 +29,15 @@ function Hero({ query, onQueryChange }) {
   }
 
   return (
-    <div className={styles.hero}>
+    <div
+      className={styles.hero}
+      style={{
+        '--hero-image': `url('${hero.image}')`,
+        '--hero-position': hero.imagePosition,
+      }}
+    >
       <h1 className={styles.title}>
-        Find any UMD building
+        {hero.title}
       </h1>
       <p className={styles.subtitle}>
         Search by acronym, department, or building name.
@@ -33,7 +45,8 @@ function Hero({ query, onQueryChange }) {
       <div className={styles.searchRow}>
         <input
           className={styles.searchInput}
-          placeholder='Search "IRB", "Iribe Center", or "Computer Science"...'
+          placeholder={hero.placeholder}
+          aria-label="Search buildings"
           value={query}
           onChange={(e) => onQueryChange(sanitize(e.target.value))}
           onKeyDown={handleKeyDown}
@@ -44,13 +57,18 @@ function Hero({ query, onQueryChange }) {
           Search
         </button>
       </div>
+      {otherCampuses.map((other) => (
+        <Link key={other.slug} className={styles.switchHint} to={campusPath(other)}>
+          At {other.shortName}? Switch to {other.name} →
+        </Link>
+      ))}
       <a
         className={styles.heroCredit}
-        href="https://commons.wikimedia.org/wiki/File:McKeldin_Library,_front_view,_mid-afternoon_light,_August_21,_2006.jpg"
+        href={hero.credit.href}
         target="_blank"
         rel="noopener noreferrer"
       >
-        Photo: McKeldin Library by Tomf688, Wikimedia Commons (CC BY-SA 2.5)
+        {hero.credit.text}
       </a>
     </div>
   )

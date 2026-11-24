@@ -57,7 +57,10 @@
     "latitude": 38.981578,
     "longitude": -76.941458,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "AGY"
+    ]
   },
   {
     "acronym": "B057",
@@ -93,7 +96,10 @@
     "latitude": 38.991632,
     "longitude": -76.939638,
     "hours": "Mon\u2013Fri 7am\u201310pm",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "ANS"
+    ]
   },
   {
     "acronym": "B008",
@@ -117,7 +123,10 @@
     "latitude": 38.985984,
     "longitude": -76.946737,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "ANA"
+    ]
   },
   {
     "acronym": "B399",
@@ -213,7 +222,12 @@
     "latitude": 38.991025,
     "longitude": -76.942475,
     "hours": "Mon\u2013Fri 7am\u201310pm",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "ATL",
+      "CSS",
+      "Computer and Space Sciences Building"
+    ]
   },
   {
     "acronym": "B795",
@@ -237,7 +251,10 @@
     "latitude": 38.982271,
     "longitude": -76.94217,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "BAL"
+    ]
   },
   {
     "acronym": "B099",
@@ -249,7 +266,10 @@
     "latitude": 38.992779,
     "longitude": -76.942634,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "BEL"
+    ]
   },
   {
     "acronym": "B143",
@@ -381,7 +401,10 @@
     "latitude": 38.982959,
     "longitude": -76.942289,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CAL"
+    ]
   },
   {
     "acronym": "B097",
@@ -393,7 +416,10 @@
     "latitude": 38.99221,
     "longitude": -76.943006,
     "hours": "Mon\u2013Fri 7am\u201310pm",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CCC"
+    ]
   },
   {
     "acronym": "B096",
@@ -405,7 +431,10 @@
     "latitude": 38.991716,
     "longitude": -76.943071,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CAM"
+    ]
   },
   {
     "acronym": "B070",
@@ -417,7 +446,10 @@
     "latitude": 38.983518,
     "longitude": -76.945748,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CAR"
+    ]
   },
   {
     "acronym": "B065",
@@ -429,7 +461,10 @@
     "latitude": 38.984008,
     "longitude": -76.945717,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CRL"
+    ]
   },
   {
     "acronym": "B110",
@@ -453,7 +488,10 @@
     "latitude": 38.982931,
     "longitude": -76.941652,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CEC"
+    ]
   },
   {
     "acronym": "B381",
@@ -489,7 +527,10 @@
     "latitude": 38.992239,
     "longitude": -76.942113,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CEN"
+    ]
   },
   {
     "acronym": "B025",
@@ -501,7 +542,10 @@
     "latitude": 38.981594,
     "longitude": -76.940507,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CHL"
+    ]
   },
   {
     "acronym": "B090",
@@ -549,7 +593,10 @@
     "latitude": 38.992796,
     "longitude": -76.943456,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CHS"
+    ]
   },
   {
     "acronym": "B059",
@@ -621,7 +668,10 @@
     "latitude": 38.986093,
     "longitude": -76.953804,
     "hours": "24/7",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "ICC"
+    ]
   },
   {
     "acronym": "B348",
@@ -789,7 +839,10 @@
     "latitude": 38.992228,
     "longitude": -76.943999,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "CBD"
+    ]
   },
   {
     "acronym": "B814",
@@ -825,7 +878,10 @@
     "latitude": 38.992277,
     "longitude": -76.950024,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "DEN"
+    ]
   },
   {
     "acronym": "B064",
@@ -837,7 +893,10 @@
     "latitude": 38.986777,
     "longitude": -76.946157,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "DOR"
+    ]
   },
   {
     "acronym": "B253",
@@ -849,7 +908,10 @@
     "latitude": 38.992992,
     "longitude": -76.950242,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "EAS"
+    ]
   },
   {
     "acronym": "B226",
@@ -885,7 +947,10 @@
     "latitude": 38.992499,
     "longitude": -76.94902,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "ELK"
+    ]
   },
   {
     "acronym": "B257",
@@ -909,7 +974,10 @@
     "latitude": 38.991809,
     "longitude": -76.946707,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "ELL"
+    ]
   },
   {
     "acronym": "B001",
@@ -945,7 +1013,10 @@
     "latitude": 38.990717,
     "longitude": -76.936927,
     "hours": "Mon\u2013Fri 7am\u20134pm (staff only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "EAB"
+    ]
   },
   {
     "acronym": "B089",
@@ -957,7 +1028,10 @@
     "latitude": 38.989326,
     "longitude": -76.937919,
     "hours": "Mon\u2013Fri 7am\u201310pm",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "EGL"
+    ]
   },
   {
     "acronym": "B344",
@@ -1041,7 +1115,10 @@
     "latitude": 38.98205,
     "longitude": -76.940763,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "FRD"
+    ]
   },
   {
     "acronym": "B031",
@@ -1053,7 +1130,10 @@
     "latitude": 38.983259,
     "longitude": -76.942653,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "GRT"
+    ]
   },
   {
     "acronym": "B299",
@@ -1089,7 +1169,10 @@
     "latitude": 38.991137,
     "longitude": -76.954635,
     "hours": "Varies by event and season",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "GLF"
+    ]
   },
   {
     "acronym": "B165",
@@ -1641,7 +1724,10 @@
     "latitude": 38.992415,
     "longitude": -76.947427,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "HAG"
+    ]
   },
   {
     "acronym": "B014",
@@ -1653,7 +1739,10 @@
     "latitude": 38.982522,
     "longitude": -76.940938,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "HRF"
+    ]
   },
   {
     "acronym": "B140",
@@ -1965,7 +2054,10 @@
     "latitude": 38.981956,
     "longitude": -76.941977,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "HOW"
+    ]
   },
   {
     "acronym": "B309",
@@ -1989,7 +2081,10 @@
     "latitude": 38.990961,
     "longitude": -76.94099,
     "hours": "Mon\u2013Fri 7am\u201310pm",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "IPT"
+    ]
   },
   {
     "acronym": "B045",
@@ -2001,7 +2096,10 @@
     "latitude": 38.989573,
     "longitude": -76.938311,
     "hours": "Mon\u2013Fri 8am\u20135pm",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "ITV"
+    ]
   },
   {
     "acronym": "B083",
@@ -2049,7 +2147,10 @@
     "latitude": 38.990885,
     "longitude": -76.943594,
     "hours": "Mon\u2013Fri 7am\u201310pm",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "JUL"
+    ]
   },
   {
     "acronym": "B388",
@@ -2073,7 +2174,10 @@
     "latitude": 38.983281,
     "longitude": -76.941823,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "KNT"
+    ]
   },
   {
     "acronym": "B225",
@@ -2121,7 +2225,10 @@
     "latitude": 38.992445,
     "longitude": -76.945915,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "LPA"
+    ]
   },
   {
     "acronym": "B796",
@@ -2649,7 +2756,10 @@
     "latitude": 38.98205,
     "longitude": -76.939423,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "MNT"
+    ]
   },
   {
     "acronym": "B040",
@@ -2913,7 +3023,10 @@
     "latitude": 38.984467,
     "longitude": -76.946279,
     "hours": "Mon\u2013Fri 8am\u20135pm",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "PKT"
+    ]
   },
   {
     "acronym": "B425",
@@ -2937,7 +3050,10 @@
     "latitude": 38.982616,
     "longitude": -76.941756,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "PGG"
+    ]
   },
   {
     "acronym": "B061",
@@ -2949,7 +3065,10 @@
     "latitude": 38.985222,
     "longitude": -76.946184,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "QAN"
+    ]
   },
   {
     "acronym": "B078",
@@ -3153,7 +3272,10 @@
     "latitude": 38.985018,
     "longitude": -76.945545,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "SOM"
+    ]
   },
   {
     "acronym": "B996",
@@ -3273,7 +3395,10 @@
     "latitude": 38.986992,
     "longitude": -76.945619,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "STM"
+    ]
   },
   {
     "acronym": "B218",
@@ -3333,7 +3458,10 @@
     "latitude": 38.983365,
     "longitude": -76.942275,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "TAL"
+    ]
   },
   {
     "acronym": "B043",
@@ -3597,7 +3725,10 @@
     "latitude": 38.981854,
     "longitude": -76.941327,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "WSH"
+    ]
   },
   {
     "acronym": "B297",
@@ -3621,7 +3752,10 @@
     "latitude": 38.983726,
     "longitude": -76.945824,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "WIC"
+    ]
   },
   {
     "acronym": "B084",
@@ -3645,7 +3779,10 @@
     "latitude": 38.989816,
     "longitude": -76.936827,
     "hours": "Mon\u2013Fri 8am\u20135pm",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "WTU"
+    ]
   },
   {
     "acronym": "B047",
@@ -3669,7 +3806,10 @@
     "latitude": 38.984679,
     "longitude": -76.945006,
     "hours": "24/7 (residents only)",
-    "image_url": ""
+    "image_url": "",
+    "aliases": [
+      "WOR"
+    ]
   },
   {
     "acronym": "B428",

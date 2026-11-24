@@ -11,7 +11,7 @@
 }
 
 .card:hover {
-  border-color: #E03A3E;
+  border-color: var(--accent);
 }
 
 .top {
@@ -24,14 +24,14 @@
 .acronym {
   font-size: 22px;
   font-weight: 500;
-  color: #E03A3E;
+  color: var(--accent-text);
   min-height: 32px;
 }
 
 .acronymName {
   font-size: 14px;
   font-weight: 600;
-  color: #E03A3E;
+  color: var(--accent-text);
   line-height: 1.3;
   min-height: 32px;
   display: -webkit-box;
@@ -86,9 +86,9 @@
 
 .dirBtn {
   font-size: 11px;
-  color: #B02E31;
+  color: var(--accent-strong);
   font-weight: 500;
-  background: #FDEAEA;
+  background: var(--accent-light);
   padding: 4px 10px;
   border-radius: 6px;
   border: none;
@@ -96,7 +96,7 @@
 }
 
 .dirBtn:hover {
-  background: #F5A8AA;
+  background: var(--accent-border);
 }
 
 .starBtn {

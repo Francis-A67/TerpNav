@@ -1,23 +1,26 @@
 import {useNavigate} from 'react-router-dom'
 import BuildingCard from './BuildingCard'
 import LoadingNotice from './LoadingNotice'
+import { CloseMatches, NoResults } from './SearchHelp'
 import styles from './BuildingsGrid.module.css'
 import useBuildings from '../hooks/useBuildings'
+import { campusPath } from '../campuses'
+import { useCampus } from '../campuses/CampusContext'
+import { buildingFields, findPlaces, normalize } from '../utils/search'
 
 function BuildingsGrid({ filter = '' }) {
   const navigate = useNavigate()
+  const campus = useCampus()
   const { buildings, loading, error, retry } = useBuildings()
 
-  const term = filter.trim().toLowerCase()
-  const isSearching = term.length > 0
+  // Punctuation alone ("??") is not a search.
+  const isSearching = normalize(filter) !== ''
+  const found = findPlaces(buildings, filter, buildingFields(campus))
 
   const shown = isSearching
-    ? buildings.filter(b =>
-        b.acronym.toLowerCase().includes(term) ||
-        b.full_name.toLowerCase().includes(term) ||
-        b.department.toLowerCase().includes(term)
-      )
-    : buildings.filter(b => !/^B\d+$/.test(b.acronym))
+    ? found.results
+    : buildings.filter(b => campus.hasAcronym(b))
+  const matchWord = found.approximate ? 'close match' : 'match'
 
   if (loading || error) {
     return (
@@ -27,21 +30,29 @@ function BuildingsGrid({ filter = '' }) {
     )
   }
 
+  const allBuildingsPath = isSearching
+    ? campusPath(campus, `/buildings?search=${encodeURIComponent(filter.trim())}`)
+    : campusPath(campus, '/buildings')
+
   return (
     <div className={styles.section}>
       <div className={styles.header}>
         <div className={styles.title}>
-          {isSearching ? `${shown.length} ${shown.length === 1 ? 'match' : 'matches'}` : 'Popular buildings'}
+          {isSearching ? `${shown.length} ${matchWord}${shown.length === 1 ? '' : 'es'}` : 'Popular buildings'}
         </div>
-        <button
-          className={styles.viewAll}
-          onClick={() => navigate(isSearching ? `/buildings?search=${encodeURIComponent(filter.trim())}` : '/buildings')}
-        >
+        <button className={styles.viewAll} onClick={() => navigate(allBuildingsPath)}>
           {isSearching ? 'See all results →' : 'View all buildings →'}
         </button>
       </div>
+      {isSearching && found.approximate && (
+        <div className={styles.note}>
+          <CloseMatches query={filter} />
+        </div>
+      )}
       {isSearching && shown.length === 0 ? (
-        <div className={styles.empty}>No buildings found for "{filter.trim()}"</div>
+        <div className={styles.empty}>
+          <NoResults query={filter} />
+        </div>
       ) : (
         <div className={styles.grid}>
           {shown.slice(0, 6).map((building) => (

@@ -17,7 +17,7 @@
 
 .viewAll {
   font-size: 13px;
-  color: #E03A3E;
+  color: var(--accent-text);
   cursor: pointer;
   background: none;
   border: none;
@@ -34,6 +34,11 @@
   text-align: center;
   font-size: 14px;
   color: #666;
+}
+
+/* "No exact match" line, tucked under the header above the cards. */
+.note {
+  margin: -8px 0 16px;
 }
 
 @media (max-width: 768px) {

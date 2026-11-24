@@ -26,6 +26,20 @@ DEBUG = env_bool('DEBUG', default=True)
 # Kill switch for anonymous comments (set COMMENTS_ENABLED=false to disable posting)
 COMMENTS_ENABLED = env_bool('COMMENTS_ENABLED', default=True)
 
+
+def env_list(name):
+    return [item.strip().lower() for item in os.environ.get(name, '').split(',') if item.strip()]
+
+
+# Turn posting off for some campuses only, e.g. COMMENTS_DISABLED_CAMPUSES=towson
+COMMENTS_DISABLED_CAMPUSES = env_list('COMMENTS_DISABLED_CAMPUSES')
+
+# Which campuses sync_buildings loads. Empty means all of them. Set it to
+# "umd" for the first deploy of the campus change: the previous version of the
+# code lists every row regardless of campus, so another campus's rows must not
+# reach the database while that version can still be serving.
+SYNC_CAMPUSES = env_list('SYNC_CAMPUSES')
+
 SECRET_KEY = os.environ.get('SECRET_KEY')
 if not SECRET_KEY:
     if DEBUG:

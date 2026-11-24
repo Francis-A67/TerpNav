@@ -11,6 +11,12 @@
   z-index: 100;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .left {
   display: flex;
   align-items: center;
@@ -29,7 +35,13 @@
 }
 
 .logo span {
-  color: #E03A3E;
+  color: var(--accent-text);
+}
+
+/* On Towson pages the accent text is black, so a gold marker stroke under
+   "Terp" keeps the logo two-toned. */
+:global([data-campus='towson']) .logo span {
+  background: linear-gradient(transparent 62%, var(--accent) 62%);
 }
 
 .logoSub {
@@ -53,7 +65,7 @@
 }
 
 .navLinkActive {
-  color: #E03A3E;
+  color: var(--accent-text);
   font-weight: 500;
 }
 
@@ -73,5 +85,24 @@
   .navLink {
     font-size: 13px;
   }
-}
 
+  /* The logo, the campus switcher and five links do not fit on one phone
+     row, so the links drop to a second row. */
+  .withSwitcher {
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    row-gap: 10px;
+  }
+
+  .withSwitcher .brand {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .withSwitcher .navLinks {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

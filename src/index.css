@@ -11,12 +11,22 @@ body {
 }
 
 :root {
-  --red: #E03A3E;
-  --red-light: #FDEAEA;
-  --red-dark: #B02E31;
-  --red-border: #F5A8AA;
-  --gold: #FFD200;
-  --gold-light: #FFF8D6;
+  /* Brand accent. Components use these instead of hex colors, so a campus
+     can restyle the whole app by overriding them under [data-campus]. */
+  --accent: #E03A3E;            /* fills: buttons, the building header band */
+  --accent-hover: #B02E31;      /* a fill while hovered */
+  --on-accent: #ffffff;         /* text on an accent fill */
+  --on-accent-muted: #FDEAEA;   /* secondary text on an accent fill */
+  --accent-text: #E03A3E;       /* accent used as text or outline on white */
+  --accent-strong: #B02E31;     /* accent text on the light tint */
+  --accent-light: #FDEAEA;      /* light tint behind chips and small buttons */
+  --accent-border: #F5A8AA;     /* border and hover shade of the light tint */
+  --accent-ring: rgba(224, 58, 62, 0.2);  /* loading spinner track */
+
+  /* Error messages stay red on every campus. */
+  --danger-text: #B02E31;
+  --danger-bg: #FDEAEA;
+
   --text-primary: #1a1a1a;
   --text-secondary: #666;
   --border: rgba(0,0,0,0.1);
@@ -24,10 +34,34 @@ body {
   --white: #ffffff;
 }
 
+/* Towson University: official gold and black. White text on gold is too
+   faint to read, so gold fills carry black text, and black stands in wherever
+   the accent is itself text or an outline. */
+[data-campus='towson'] {
+  --accent: #FFBB00;
+  --accent-hover: #E6A800;
+  --on-accent: #151500;
+  --on-accent-muted: #3C3C3C;
+  --accent-text: #151500;
+  --accent-strong: #151500;
+  --accent-light: #FFF4D1;
+  --accent-border: #FFDB70;
+  --accent-ring: rgba(255, 187, 0, 0.3);
+}
+
 input, button {
   font-family: inherit;
-  outline: none;
   border: none;
+}
+
+/* No ring on mouse clicks, a clear one for keyboard users. */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
 }
 
 button {
